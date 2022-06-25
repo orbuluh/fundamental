@@ -1,7 +1,17 @@
 # Greedy
 
+## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
+- [:bookmark:](non_decreasing_array.h)
+```txt
+Given an array nums with n integers, check if it could become non-decreasing
+    by modifying at most one element.
+
+Input: nums = [4,2,3]
+Output: true
+```
+
 ## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
-- [sol](course_schedule_iii.h)
+- [:bookmark:](course_schedule_iii.h)
 ```txt
 There are n different online courses numbered from 1 to n.
 You are given an array courses where
@@ -17,7 +27,7 @@ took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
 
 ## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
-- [sol](construct_target_array_w_multiple_sums.h)
+- [:bookmark:](construct_target_array_w_multiple_sums.h)
 ```txt
 You are given an array target of n integers.
 From a starting array arr consisting of n 1's, you may perform the following procedure :
