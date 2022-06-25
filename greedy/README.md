@@ -1,5 +1,6 @@
 # Greedy
-# [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
+
+## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
 - [sol](course_schedule_iii.h)
 ```txt
 There are n different online courses numbered from 1 to n.
@@ -15,8 +16,7 @@ took [1,2], timeUsed = 1 <= 2 is okay to take
 took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
 
-
-# [1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
+## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
 - [sol](construct_target_array_w_multiple_sums.h)
 ```txt
 You are given an array target of n integers.
