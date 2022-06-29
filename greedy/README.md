@@ -33,7 +33,6 @@ Output: true
 ```
 </details>
 
-
 ## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:bookmark:](course_schedule_iii.h)
 
 <details><summary markdown="span">Question</summary>
@@ -52,10 +51,6 @@ took [1,2], timeUsed = 1 <= 2 is okay to take
 took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
 </details>
-
-
-
-
 
 ## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:bookmark:](construct_target_array_w_multiple_sums.h)
 
