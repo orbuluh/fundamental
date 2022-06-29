@@ -1,7 +1,29 @@
 # Greedy
 
-## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
-- [:bookmark:](non_decreasing_array.h)
+## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:bookmark:](queue_reconstruct_by_height.h)
+<details><summary markdown="span">Question</summary>
+
+```txt
+You are given an array, which are the attributes of some people in a queue (not necessarily in order).
+- Each element ppl[i] = [hi, ki] represents
+  -> the ith person of height hi
+  -> how many people are in front of this person with height hj >= hi
+- Reconstruct and return the queue that is represented by the input array.
+
+Example:
+Input: [[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]
+Output: [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]]
+
+e.g. [4,0] -> height 4 with no one taller or equal in the front
+     [5,0] -> height 5 with no one taller or equal in the front
+     [2,2] -> height 2 with 2 people taller or equal in the front 
+     ....
+```
+</details>
+
+## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:bookmark:](non_decreasing_array.h)
+<details><summary markdown="span">Question</summary>
+
 ```txt
 Given an array nums with n integers, check if it could become non-decreasing
     by modifying at most one element.
@@ -9,9 +31,13 @@ Given an array nums with n integers, check if it could become non-decreasing
 Input: nums = [4,2,3]
 Output: true
 ```
+</details>
 
-## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
-- [:bookmark:](course_schedule_iii.h)
+
+## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:bookmark:](course_schedule_iii.h)
+
+<details><summary markdown="span">Question</summary>
+
 ```txt
 There are n different online courses numbered from 1 to n.
 You are given an array courses where
@@ -25,9 +51,16 @@ e.g. [[1,2],[2,3]]  --> ans = 2
 took [1,2], timeUsed = 1 <= 2 is okay to take
 took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
+</details>
 
-## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
-- [:bookmark:](construct_target_array_w_multiple_sums.h)
+
+
+
+
+## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:bookmark:](construct_target_array_w_multiple_sums.h)
+
+<details><summary markdown="span">Question</summary>
+
 ```txt
 You are given an array target of n integers.
 From a starting array arr consisting of n 1's, you may perform the following procedure :
@@ -45,3 +78,4 @@ Explanation: Start with arr = [1, 1, 1]
 [1, 3, 5], sum = 9 choose index 0
 [9, 3, 5] Done
 ```
+</details>
