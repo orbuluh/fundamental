@@ -5,3 +5,4 @@
 ## [Greedy](greedy/README.md)
 ## [Sliding window](sliding_window/README.md)
 ## [Math](math/README.md)
+## [Sorting](sorting/README.md)
