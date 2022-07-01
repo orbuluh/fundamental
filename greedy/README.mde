@@ -1,6 +1,6 @@
 # Greedy
 
-## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
+## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:white_check_mark:](queue_reconstruct_by_height.h)
 <details><summary markdown="span">Question</summary>
 
 ```txt
@@ -21,7 +21,7 @@ e.g. [4,0] -> height 4 with no one taller or equal in the front
 ```
 </details>
 
-## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
+## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:white_check_mark:](non_decreasing_array.h)
 <details><summary markdown="span">Question</summary>
 
 ```txt
@@ -33,7 +33,7 @@ Output: true
 ```
 </details>
 
-## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:dart:](course_schedule_iii.h)
+## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:white_check_mark:](course_schedule_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -52,7 +52,7 @@ took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
 </details>
 
-## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:dart:](construct_target_array_w_multiple_sums.h)
+## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:white_check_mark:](construct_target_array_w_multiple_sums.h)
 
 <details><summary markdown="span">Question</summary>
 
