@@ -1,5 +1,26 @@
 # Greedy
 
+## [:ok_hand: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
+- you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+- Given a list schedule of employees, which represents the working time for each employee.
+  - Each employee has a list of non-overlapping Intervals that are itself sorted.
+- Return the list of finite intervals representing common, positive-length free time for all employees, also in sorted order.
+
+Input: schedule = [[[1,2],[5,6]],
+                  [[1,3]],
+                  [[4,10]]]
+Output: [[3,4]]
+
+Explanation:
+- There are a total of three employees, and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
+- We discard any intervals that contain inf as they aren't finite.
+```
+</details>
+
+
 ## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
 <details><summary markdown="span">Question</summary>
 
