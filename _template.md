@@ -2,6 +2,6 @@
 
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 ```
 </details>
