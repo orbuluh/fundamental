@@ -3,7 +3,7 @@
 ## [:wink: 1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) [:dart:](maximum_unit_on_a_truck.h)
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 You are assigned to put some amount of boxes onto one truck.
 You are given a 2D array boxTypes, where
 - boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:

@@ -3,7 +3,7 @@
 ## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 You are given an array, which are the attributes of some people in a queue (not necessarily in order).
 - Each element ppl[i] = [hi, ki] represents
   -> the ith person of height hi
@@ -24,7 +24,7 @@ e.g. [4,0] -> height 4 with no one taller or equal in the front
 ## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 Given an array nums with n integers, check if it could become non-decreasing
     by modifying at most one element.
 
@@ -37,7 +37,7 @@ Output: true
 
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 There are n different online courses numbered from 1 to n.
 You are given an array courses where
 - courses[i] = [durationi, lastDayi] indicate that
@@ -56,7 +56,7 @@ took [2,3], timeUsed = 3 <= 3 is okay to take
 
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 You are given an array target of n integers.
 From a starting array arr consisting of n 1's, you may perform the following procedure :
 - let x be the sum of all elements currently in your array.

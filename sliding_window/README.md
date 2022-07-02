@@ -3,7 +3,7 @@
 ## [:bulb: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) [:dart:](max_pts_from_cards.h)
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 There are several cards arranged in a row, and each card has an associated number of points.
 The points are given in the integer array cardPoints.
 

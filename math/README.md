@@ -3,7 +3,7 @@
 ## [:bulb: 462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](minimum_moves_to_equal_array.h)
 <details><summary markdown="span">Question</summary>
 
-```txt
+```markdown
 Given an integer array nums of size n,
 return the minimum number of moves required to make all array elements equal.
 
