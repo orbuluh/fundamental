@@ -4,6 +4,7 @@
 
 ## [Basics](basics/README.md)
 ## [Binary search](binary_search/README.md)
+## [Dynamic programming](dp/README.md)
 ## [Greedy](greedy/README.md)
 ## [Sliding window](sliding_window/README.md)
 ## [Math](math/README.md)
