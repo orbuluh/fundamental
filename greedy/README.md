@@ -5,9 +5,11 @@
 <details><summary markdown="span">Question</summary>
 
 ```markdown
-- Given a list schedule of employees, which represents the working time for each employee.
+- Given a list schedule of employees,
+  which represents the working time for each employee.
   - Each employee has a list of non-overlapping Intervals that are itself sorted.
-- Return the list of finite intervals representing common, positive-length free time for all employees, also in sorted order.
+- Return the list of finite intervals representing common,
+  positive-length free time for all employees, also in sorted order.
 
 Input: schedule = [[[1,2],[5,6]],
                   [[1,3]],
@@ -15,8 +17,24 @@ Input: schedule = [[[1,2],[5,6]],
 Output: [[3,4]]
 
 Explanation:
-- There are a total of three employees, and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
+- There are a total of three employees,
+  and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
 - We discard any intervals that contain inf as they aren't finite.
+```
+</details>
+
+## [:bulb: 135. Candy](https://leetcode.com/problems/candy/) [:dart:](candy.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There are n children standing in a line.
+Each child is assigned a rating value given in the integer array ratings.
+
+You are giving candies to these children subjected to the following requirements:
+- Each child must have at least one candy.
+- Children with a higher rating get more candies than their neighbors.
+- Return the minimum number of candies you need
 ```
 </details>
 
