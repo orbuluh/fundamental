@@ -1,4 +1,5 @@
 # Sliding window
+- highly related to [Monotonic Queue](../monotonic_queue/README.md)
 
 ## [:bulb: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) [:dart:](max_pts_from_cards.h)
 <details><summary markdown="span">Question</summary>

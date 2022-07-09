@@ -7,6 +7,7 @@
 ## [Dynamic programming](dp/README.md)
 ## [Greedy](greedy/README.md)
 ## [Sliding window](sliding_window/README.md)
+## [Monotonic Queue](monotonic_queue/README.md)
 ## [Math](math/README.md)
 ## [Sorting](sorting/README.md)
 ## [Recursion](recursion/README.md)

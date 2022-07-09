@@ -11,6 +11,20 @@
 - If we are going to choose either siftdown or siftup, we choose to siftdown (e.g. sift top node down), as tree has fewer node at the top, and more node at the bottom.
 - [My notes :orange_book:](../srcs/heapify.jpeg) -> from [src](http://www.cs.umd.edu/~meesh/351/mount/lectures/lect14-heapsort-analysis-part.pdf)
 
+# Monotonic Queue
+- A **monotonic** queue: the elements from the front to the end is strictly either increasing or decreasing.
+  - -> monotonic increasing `[1, 2, 3, 4, 5]`
+  - -> monotonic increasing `[5, 4, 3, 2, 1]`
+- Take monotonic increasing for example ..
+- How to maintain it?
+  - Every time you insert a new value, just pop the value that is larger than the new value.
+  - For example: originally [1, 4, 5],
+    - If you are going to insert 3, then you pop 5 and 4 out, queue becomes [1, 3]
+    - If you are going to insert 6, then you pop nothing, queue becomes [1, 4, 5, 6]
+- What is this for? Check out [question set](../monotonic_queue/README.md)
+  - One example, for monotonic increasing queue, you will see that the front of the queue is always the minimum value.
+  - So in the case that you need to find a fixed size k sliding window minimum, you can use monotonic increasing queue.
+  - Vise versa, find a [fixed size k sliding window maximum](../monotonic_queue/README.md#bulb-239-sliding-window-maximumhttpsleetcodecomproblemssliding-window-maximum-dartslidingwindowmaximumh), you can use monotonic decreasing queue.
 
 # Dynamic programming
 - DP's goal is finding **overlapping sub-problems** that can be memorized.
