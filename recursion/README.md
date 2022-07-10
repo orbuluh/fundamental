@@ -8,12 +8,28 @@
 Given the root of a binary search tree and the lowest and highest boundaries as low and high,
 trim the tree so that all its elements lies in [low, high]
 
-    3               3
-    /\              /
-   0  4    ==>     2
-    \             /
-     2            1
-     /
+     3               3
+   0   4    ==>     2
+      2            1
      1
+```
+</details>
+
+## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary search tree, rearrange the tree in in-order to a linked list.
+
+        5                1
+    3       6      --->   2
+  2  4       8             3
+1           7  9            4
+                             5
+                              6
+                               7
+                                8
+                                 9
 ```
 </details>
