@@ -16,7 +16,7 @@ trim the tree so that all its elements lies in [low, high]
 </details>
 
 ## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
-
+- related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -31,5 +31,19 @@ Given the root of a binary search tree, rearrange the tree in in-order to a link
                                7
                                 8
                                  9
+```
+</details>
+
+## [:bulb::bulb: 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) [:dart:](convert_bst_to_dll.h)
+- concept similar to [897. Increasing Order Search Tree](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Convert a Binary Search Tree to a sorted Circular Doubly-Linked List in place.
+
+    4
+   2  5   -->     1 <-> 2 <-> 3 <-> 4 <-> 5
+  1 3             ^_______________________^
 ```
 </details>
