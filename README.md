@@ -6,6 +6,7 @@
 
 ## [Dynamic programming](dp/README.md)
 ## [Greedy](greedy/README.md)
+## [Divide and Conquer](d_and_d/README.md)
 
 ## [Binary search](binary_search/README.md)
 
