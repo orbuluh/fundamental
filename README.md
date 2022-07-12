@@ -3,11 +3,17 @@
 - A collection of enlightening question and beautiful algorithms!
 
 ## [Basics](basics/README.md)
-## [Binary search](binary_search/README.md)
+
 ## [Dynamic programming](dp/README.md)
 ## [Greedy](greedy/README.md)
+
+## [Binary search](binary_search/README.md)
+
 ## [Sliding window](sliding_window/README.md)
 ## [Monotonic Queue](monotonic_queue/README.md)
+
+## [Recursion](recursion/README.md)
+## [Backtracking](backtracking/README.md)
+
 ## [Math](math/README.md)
 ## [Sorting](sorting/README.md)
-## [Recursion](recursion/README.md)
