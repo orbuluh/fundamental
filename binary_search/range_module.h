@@ -36,7 +36,7 @@ public:
         if (idx(startIt) % 2 == 0) newRange.push_back(left);
         if (idx(endIt) % 2 == 0) newRange.push_back(right);
         ranges.erase(startIt, endIt);
-        ranges.insert(startIt, newRange.begin(), newRange.end());  
+        ranges.insert(startIt, newRange.begin(), newRange.end());
     }
 
     void removeRange(int left, int right) {

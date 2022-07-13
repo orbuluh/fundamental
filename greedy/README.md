@@ -1,5 +1,23 @@
 # Greedy
 
+## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [:dart:](merge_interval.h)
+- Related:
+  - [759. Employee Free Time](#okhand-759-employee-free-timehttpsleetcodecomproblemsemployee-free-time-dartemployeefreetimeh)
+  - [715. Range Module](../binary_search/README.md#bulb-715-range-modulehttpsleetcodecomproblemsrange-module-dartrangemoduleh-notebooksrcs715addrangepng-notebooksrcs715removerangepng)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of intervals where intervals[i] = [starti, endi]
+- merge all overlapping intervals,
+- and return an array of the **non-overlapping** intervals that cover all the
+  intervals in the input.
+
+Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
+Output: [[1,6],[8,10],[15,18]]
+Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
+```
+</details>
+
 ## [:ok_hand: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
 - you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
 <details><summary markdown="span">Question</summary>
