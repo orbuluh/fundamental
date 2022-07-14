@@ -34,6 +34,26 @@ Given the root of a binary search tree, rearrange the tree in in-order to a link
 ```
 </details>
 
+## [:bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) [:dart:](btree_from_pre_and_in.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two integer arrays preorder and inorder where
+- preorder is the preorder traversal of a binary tree and
+- inorder is the inorder traversal of the same tree,
+construct and return the binary tree.
+
+Input: preorder = [3,9,8,6,20,15,7], inorder = [8,9,6,3,15,20,7]
+Output: [3,9,20,8,6,15,7]
+
+     3
+  9      20
+8  6    15  7
+```
+</details>
+
+
 ## [:bulb::bulb: 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) [:dart:](convert_bst_to_dll.h)
 - concept similar to [897. Increasing Order Search Tree](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
 
