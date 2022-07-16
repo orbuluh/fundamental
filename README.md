@@ -18,3 +18,5 @@
 
 ## [Math](math/README.md)
 ## [Sorting](sorting/README.md)
+
+## [Misc](misc/README.md)
