@@ -13,6 +13,7 @@
 ## [Sliding window](sliding_window/README.md)
 ## [Monotonic Queue](monotonic_queue/README.md)
 
+## [Tree](tree/README.md)
 ## [Recursion](recursion/README.md)
 ## [Backtracking](backtracking/README.md)
 
