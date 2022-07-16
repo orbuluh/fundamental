@@ -2,6 +2,25 @@
 
 # DFS + memorization
 - DP but likely with a more sparse access needed to whole dp matrix
+
+## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
+- DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There is an m x n grid with a ball.
+- The ball is initially at the position [`startRow`, `startColumn`].
+- You are allowed to move the ball to one of the four adjacent cells in the grid
+  - (possibly out of the grid crossing the grid boundary).
+- You can apply at most `maxMove` moves to the ball.
+
+Given the five integers `m`, `n`, `maxMove`, `startRow`, `startColumn`
+return the number of paths to move the ball out of the grid boundary.
+
+Since the answer can be very large, return it modulo 10^9 + 7.
+```
+</details>
+
 ## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
 
 <details><summary markdown="span">Question</summary>
