@@ -1,5 +1,16 @@
 # Divide and Conquer
 
+## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of k linked-lists lists,
+each linked-list is sorted in ascending order.
+
+Merge all the linked-lists into one sorted linked-list and return it.
+```
+</details>
+
 ## [:bulb::bulb: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
 - Beautiful!
 <details><summary markdown="span">Question</summary>
