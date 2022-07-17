@@ -53,6 +53,25 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 
 # Really tricky dp recursion
 
+## [:exploding_head: 629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [:dart:](k_inverse_pairs_arr.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+- For an integer array nums
+- an inverse pair is
+  - a pair of integers [i, j]
+  - where 0 <= i < j < nums.length
+  - and nums[i] > nums[j].
+
+- Given two integers n and k, return
+  - the number of different arrays
+    consist of numbers from 1 to n
+    such that there are exactly k inverse pairs.
+
+- Since the answer can be huge, return it modulo 10^9 + 7.
+</details>
+
+
 ## [:exploding_head: :exploding_head: 376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) [:dart:](wiggle_subseq.h)
 <details><summary markdown="span">Question</summary>
 
