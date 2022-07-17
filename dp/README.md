@@ -1,4 +1,4 @@
-# Dynamic programming [:notebook:](../basics/README.md#dynamic-programming)
+# Dynamic programming [:notebook:](../basics/algorithms.md#dynamic-programming)
 
 # DFS + memorization
 - DP but likely with a more sparse access needed to whole dp matrix
