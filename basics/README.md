@@ -11,6 +11,12 @@
 - If we are going to choose either siftdown or siftup, we choose to siftdown (e.g. sift top node down), as tree has fewer node at the top, and more node at the bottom.
 - [My notes :orange_book:](../srcs/heapify.jpeg) -> from [src](http://www.cs.umd.edu/~meesh/351/mount/lectures/lect14-heapsort-analysis-part.pdf)
 
+# tree like DS are sorted by keys `map`, `set`, `multimap`, `multiset`
+- Key is ascending sorted by default - e.g. comparator is `std::less<T>` by default.
+  - To make it descending, could do something like `std::map<int, int, std::greater<int>> m;`;
+- If the keys are constant-pointers-to-characters, the map is sorted by the key pointers, and not by the key string literals.
+- If the keys are `std::string`, it is lexicographically sorted.
+
 # Monotonic Queue
 - A **monotonic** queue: the elements from the front to the end is strictly either increasing or decreasing.
   - -> monotonic increasing `[1, 2, 3, 4, 5]`
