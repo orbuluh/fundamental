@@ -6,6 +6,7 @@
 - **Heapify is O(n)**
 - insert is O(log(n))
 - HeapSort is O(nlog(n))
+
 ### more about [:link: `heapify`](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity)
 - [:link: siftUp/siftDown animation](https://youtu.be/5iBUTMWGtIQ)
 - siftDown and siftUp are themselves O(log(n))
@@ -18,6 +19,11 @@
   - To make it descending, could do something like `std::map<int, int, std::greater<int>> m;`;
 - If the keys are constant-pointers-to-characters, the map is sorted by the key pointers, and not by the key string literals.
 - If the keys are `std::string`, it is lexicographically sorted.
+
+# Segment tree
+- check [:notebook:](segment_tree.md)
+
+
 
 # Monotonic Queue
 - A **monotonic** queue: the elements from the front to the end is strictly either increasing or decreasing.

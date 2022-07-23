@@ -1,6 +1,10 @@
 # :shinto_shrine: Fundamentals :shinto_shrine:
 - :frog: :thinking: :exploding_head: :bulb: :star_struck: :sunrise:
-- A collection of enlightening question and beautiful algorithms!
+
+- Quote from [HTDP](https://htdp.org/)
+> * ... many elements of the general design recipe apply to the design of algorithms ... The key to designing algorithms is the “generation” step, which often means **dividing up the problem. And figuring out a novel way of dividing a problem requires insight.**
+> * ... programmers must thoroughly understand the underlying ideas so that they can code up algorithms and have the program **communicate with future readers.** The best way to get acquainted with the idea is to **study a wide range of examples and to develop a sense for the kinds of generative recursions that may show up in the real world.**
+
 
 ## [Basics](basics/README.md)
 
