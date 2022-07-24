@@ -1,48 +1,67 @@
 class Solution {
-public:
     /*
-     left = 2
-     right = 4
-     P = pre, C = cur, T = tmp
+    Idea: We know how to reverse the whole linked list. So why don't we just
+    identify the L-R list, reverse them, and reconnect back to the original
+    list?
 
-        X  1  2  3  4  5
-init    P  C
- i=0       P  C             (move left - 1 times to find noRevTail)
-move1         P  C
- j=0           <-P  C  T
- j=1              <-P  C  T  (break right - left = 2 links, e.g. j = 0 -> 1)
+    L = 2, R = 4
+
+    we want to reverse L to R
+
+         L         R
+    A -> B -> C -> D -> E
+         2         4
+
+    say cur=A, need to advance L - 1 = 1 time to make cur equal to L
+
+    When we reach L, the pre is the "fixed head", and its next is supposed to
+    concatenate to the head of reverse array (R), we need to store it.
+    - fixedHead = A = pre
+    Also at this point, the final reversed tail is the cur, also store it.
+    - reverseTail = B = cur
+
+    The reverse is doing cur -> pre reversing.
+    So we move once s.t. cur is at L + 1 (C), as we want to start from
+    C -> B reverse, and overall we we want to do reverse for R - L = 2 time
+    to reverse the whole L->R partial list.
+
+    After reversing twice, we will be:
+
+         L         R
+    A -> B -> C -> D -> E
+        pre<-Cur            |
+             pre<-cur       | reverse R - L times
+                  pre  cur  | then after the R-L loop, pre at D, cur at E
+
+    e.g. cur is now the "fixedTail"
+    - fixedTail = E = cur
+    and pre is basically the reversedHead
+
+    So reconnect back the partial list back
+    reverseTail->next = fixedTail = cur  (B -> E)
+    fixedHead->next = A->next = reversedHead = pre  (A -> D)
     */
+  public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         ListNode dummy;
-        dummy.next = head;
         auto pre = &dummy;
+        dummy.next = head;
         for (int i = 0; i < left - 1; ++i) {
             pre = pre->next;
         }
+        auto fixedHead = pre;
+        pre = pre->next; // move once in preparation to reverse cur->pre
         auto cur = pre->next;
-        auto nonRevTail = pre; // nonRevTail point to node (1)
-        auto revTail = cur; // (2) becomes the tail of reversed part
-        // move once so pre point to the left node (2)
-        // and cur point to the next node (3)
-        // as it's the starting point we want to reverse the link
-        pre = pre->next;
-        cur = cur->next;
+        auto reversedTail = pre;
         ListNode* tmp = nullptr;
-        auto reverse = [&]() {  // the algo of reverse linked list
+        for (int i = 0; i < right - left; ++i) {
             tmp = cur->next;
             cur->next = pre;
             pre = cur;
             cur = tmp;
-        };
-        // then we know that we need to break right - left = 4 - 2 = 2 links
-        // (by observing the question graph), so iterate right - left times
-        for (int j = 0; j < right - left; ++j) {
-            reverse();
         }
-        // after moving twice, pre point to the last reversed node (4)
-        // cur point to the nonRevHead node (5)
-        nonRevTail->next = pre;
-        revTail->next = cur;
+        reversedTail->next = cur;
+        fixedHead->next = pre;
         return dummy.next;
     }
 };

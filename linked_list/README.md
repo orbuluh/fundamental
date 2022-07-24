@@ -9,7 +9,7 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 ```
 </details>
 
-## [:ok_hand: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
+## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
 - partial reverse basically ...
 <details><summary markdown="span">Question</summary>
 
