@@ -19,6 +19,7 @@ You are given a 2D array boxTypes, where
 # Merge sort
 
 ## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
+- check [segment tree solution here :dart:](../range_sum/cnt_smaller_num_after_self_segmenttree.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown

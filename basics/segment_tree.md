@@ -34,3 +34,7 @@
   - **Case 3**: query range **(partial or full) overlap with** node range: `return min(left, right)`
 
 ![](../srcs/segment_tree_query.png)
+
+
+## Question collection
+- :point_right: [:notebook:](../range_sum/README.md#segment-tree)
