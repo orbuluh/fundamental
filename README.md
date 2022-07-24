@@ -18,12 +18,14 @@
 ## [Monotonic Queue](monotonic_queue/README.md)
 
 ## [Range Sum](range_sum/README.md)
+## [Sorting](sorting/README.md)
 
 ## [Tree](tree/README.md)
 ## [Recursion](recursion/README.md)
 ## [Backtracking](backtracking/README.md)
 
-## [Math](math/README.md)
-## [Sorting](sorting/README.md)
+## [Graph](graph/README.md)
 
+
+## [Math](math/README.md)
 ## [Misc](misc/README.md)
