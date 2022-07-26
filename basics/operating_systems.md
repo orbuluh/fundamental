@@ -109,6 +109,32 @@ The process is realized as a data structure.
 - This introduces a new level of parallel activity to be managed by the hardware and software.
 
 
+# Process and memory management
+- The OS must prevent independent processes from interfering with each other’s memory, both data and instructions.
+- In the same time, sometimes sharing of memory is desirable.
+- So OS must allow portions of memory to be accessible in various ways by various users.
+
+# Virtual memory and Pages
+- Typically, operating systems meet these requirements with virtual memory.
+- Because processes vary in size, if the processor switches among a number of processes, it is difficult to pack them compactly into main memory.
+- Paging systems were introduced, which **allow processes to be comprised of a number of fixed-size blocks**, called **pages**.
+- A program references a word by means of a virtual address consisting of **a page number and an offset within the page**.
+- Each page of a process may be located anywhere in main memory.
+- The paging system provides for a dynamic mapping between the **virtual address used in the program and a real address , or physical address, in main memory.**
+
+## Not all pages of a process need to simultaneously reside in main memory
+- All the pages of a process are maintained on disk. (Pages of all programs plus the OS are on disk, so as files.)
+- When a process is executing, some (or all) of its pages are in main memory.
+- If reference is made to a page that is not in main memory, the memory management hardware detects this and, in coordination with the OS, arranges for the missing page to be loaded.
+
+## From user's perspective, a process is handled by a "virtual processor"
+- The virtual processor has access to a virtual memory.
+- Programming language instructions can reference program and data locations in the virtual memory area.
+- Process isolation can be achieved by giving each process a unique, non-overlapping virtual memory.
+- Memory sharing can be achieved by overlapping portions of two virtual memory spaces.
+- Files are maintained in a long-term store. Files and portions of files may be copied into the virtual memory for manipulation by programs.
+
+
 # TODO:
 - and concurrency issues.
 - locks and mutexes and semaphores and monitors and how they work.
