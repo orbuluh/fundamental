@@ -1,5 +1,7 @@
 # Tree
-- more focus on insight of tree. For question that is more about beautiful recursion - check [../recursion/README.md]
+- more focus on insight of tree.
+- For question that is more about beautiful recursion - check [notes :notebook:](../recursion/README.md)
+- For segment tree - check [notes :notebook:](../range_sum/README.md#segment-tree)
 
 ## [:ok_hand: 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [:dart:](de_serialize_binary_tree.h)
 
