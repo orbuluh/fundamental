@@ -41,3 +41,21 @@ Implement the RangeModule class:
 - (final ranges: [10 14)[16, 20])
 ```
 </details>
+
+
+## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+say nums is a sorted (increasing) integer array.
+Before being passed to your function,
+nums is rotated at an unknown pivot index k.
+
+Given the array nums after the rotation and an integer target,
+return true if target is in nums, or false if it is not in nums.
+
+Input: nums = [2,5,6,0,0,1,2], target = 0
+Output: true
+```
+</details>
