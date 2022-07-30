@@ -1,5 +1,24 @@
 # Backtracking
 
+## [:bulb: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Find next permutation of an array.
+
+Input: nums = [1,2,3]
+Output: [1,3,2]
+
+Input: nums = [3,2,1]
+Output: [1,2,3]
+
+Input: nums = [1,1,5]
+Output: [1,5,1]
+```
+</details>
+
+
 ## [:bulb: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
 - might be harder to not get TLE than you originally think!
 <details><summary markdown="span">Question</summary>
