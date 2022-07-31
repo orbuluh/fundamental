@@ -19,6 +19,7 @@
 
 ## [Range Query](range_query/README.md)
 - [Segment tree](range_query/segment_tree/README.md)
+- [Binary indexed tree](range_query/binary_indexed_tree/README.md)
 ## [Sorting](sorting/README.md)
 
 ## [Tree](tree/README.md)
