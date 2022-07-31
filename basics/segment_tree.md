@@ -35,6 +35,15 @@
 
 ![](../srcs/segment_tree_query.png)
 
+## Size of segment tree node array: $O(4n)$
+- Say full range is n, which means leaf nodes is at least n
+- Say N is the min of pow of 2 that >= n, e.g. N = $2^{\lceil log_2{n} \rceil}$
+- Since segment tree is a complete tree, the hight of tree should be $h = \lceil log_2{N} \rceil + 1$
+- The maximum number of nodes in a complete binary tree is $2^(h) - 1$
+- So the size needed equal to $2^{log_2{N} + 1} - 1$ = $2 * 2^{log_2{N}} - 1$ = $2 * N - 1$
+- As $N <= 2 * n$, size needed will be $2 * 2 * n - 1$ = $O(4*n)$
+
+
 
 ## Question collection
-- :point_right: [:notebook:](../range_sum/README.md#segment-tree)
+- :point_right: [:notebook:](../segment_tree/README.md)

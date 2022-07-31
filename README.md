@@ -21,6 +21,8 @@
 ## [Sorting](sorting/README.md)
 
 ## [Tree](tree/README.md)
+## [Segment tree](segment_tree/README.md)
+
 ## [Recursion](recursion/README.md)
 ## [Backtracking](backtracking/README.md)
 
