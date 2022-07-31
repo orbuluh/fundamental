@@ -17,11 +17,11 @@
 ## [Sliding window](sliding_window/README.md)
 ## [Monotonic Queue](monotonic_queue/README.md)
 
-## [Range Sum](range_sum/README.md)
+## [Range Query](range_query/README.md)
+- [Segment tree](range_query/segment_tree/README.md)
 ## [Sorting](sorting/README.md)
 
 ## [Tree](tree/README.md)
-## [Segment tree](segment_tree/README.md)
 
 ## [Recursion](recursion/README.md)
 ## [Backtracking](backtracking/README.md)
