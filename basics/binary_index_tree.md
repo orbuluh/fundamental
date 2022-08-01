@@ -4,17 +4,17 @@
   - [Chandan Mittal](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)
   - [WilliamFiset YT](https://youtu.be/BHPez138yX8)
   - [Malomalomalomalo's blog](https://codeforces.com/blog/entry/57292)
+  - [Algorithms Live! YT](https://youtu.be/kPaJfAUwViY)
 
 ## Basic idea
-- For a given array of size N, we can maintain an array BIT[] such that, at any index we can store sum of some numbers of the given array.
+- For a given array of size N, we can maintain an array BIT[] such that, at any index we can store sum of **some numbers** of the given array.
 - BITs take advantage of the fact that **ranges can be broken down into other ranges, and combined quickly**.
 - Basically, if we can precalculate the range query for a certain subset of ranges, we can quickly combine them to answer any [1,x] range query.
 
 ## The "binary indexed"
-- The clever way of utilizing the array index to represent "range"
+- The clever way of utilizing the array index to represent "range" in BIT is through arranging on least significant bit (LSB)
 - For index i,
-  - the least significant bit (LSB) of i represents the length of the range
-  - Specifically: the index is responsible for LSB(i) range below itself
+  - the LSB(i) represents the length of the range, e.g. how much it responsible below and includes i
   - This is the critical part to form the range query, check [session below](#query-the-tree)
   - (check [graph below](#overall-structure))
 - (We exclude zero as its binary representation doesn't have any ones. So LSB pattern above doesn't apply.)
@@ -65,9 +65,14 @@
 ![](../srcs/binary_index_tree.png)
 
 ## Construct the tree
-- When you update a range includes [i, j] (inclusive), you will need to update range that includes [i, j] as well.
+- From the graph, you will see a number is actually covered by multiple ranges
+  - For example: elements 7 is included by BIT[7] (0111), BIT[8] (1000), BIT[16] (10000)
+- So think it in another direction - when you update element 7, you should have updated all the ranges including 7
 - But how? When you update BST[i], you can find the next affected range BST[j] through
   - `j = i + LSB(i)`
+- For example:
+  - BIT[7] with LSB(7) = 1, so next affected one is 7 + 1 = 8
+  - BIT[8] with LSB(8) = 8, so next affected one is 8 + 8 = 16
 ```cpp
 void update(int x, int valDelta) {
     for (; x <= n; x += (x & -x)) { // keep adding LSB(x) till exceed
@@ -80,7 +85,10 @@ void update(int x, int valDelta) {
 ## Query the tree
 - Recall that BST[i] is responsible for range i and LSB(i) range below i.
   - For example, BST[10] has LSB(10) = 2, so BST[10] take care of range [9, 10]
-- Say we want to query Range(1, x), then the algorithm would basically be:
+- So think this in another way - if you want to find the non-overlapping range `j`,
+  you can actually find it through `j = i - LSB(i)`
+
+- Say we want to query Range(1, x), then the algorithm is:
 ```cpp
 int query(int x) // returns the sum of first x elements in given array a[]
 {
