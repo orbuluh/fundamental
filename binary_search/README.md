@@ -14,6 +14,51 @@ You must write an algorithm with O(log n) runtime complexity.
 </details>
 
 
+## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+say nums is a sorted (increasing) integer array.
+Before being passed to your function,
+nums is rotated at an unknown pivot index k.
+
+Given the array nums after the rotation and an integer target,
+return true if target is in nums, or false if it is not in nums.
+
+Input: nums = [2,5,6,0,0,1,2], target = 0
+Output: true
+```
+</details>
+
+
+# Interval related questions
+
+## [:ok_hand: 729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) [:dart:](my_calendar_i.h)
+- you can also consider to use `std::set::upper_bound` or `std::map::upper_bound` as they are ordered.
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are implementing a program to use as your calendar.
+We can add a new event if adding the event will not cause a double booking.
+
+A double booking happens when two events have some non-empty intersection
+
+- The event can be represented as a pair of integers start and end
+  that represents a booking on the half-open interval [start, end)
+- the range of real numbers x such that start <= x < end.
+
+Input
+["MyCalendar", "book", "book", "book"]
+[[], [10, 20], [15, 25], [20, 30]]
+
+Output
+[null, true, false, true]
+```
+</details>
+
+
 ## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h) [:notebook:](../srcs/715.addRange.png) [:notebook:](../srcs/715.removeRange.png)
 <details><summary markdown="span">Question</summary>
 - Similar question: [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/), can use the same method. But have a faster solution in [:dart:](../greedy/employee_free_time.h)
@@ -39,23 +84,5 @@ Implement the RangeModule class:
 - OUTPUT:
     - null, null, null, true, false, true]
 - (final ranges: [10 14)[16, 20])
-```
-</details>
-
-
-## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-say nums is a sorted (increasing) integer array.
-Before being passed to your function,
-nums is rotated at an unknown pivot index k.
-
-Given the array nums after the rotation and an integer target,
-return true if target is in nums, or false if it is not in nums.
-
-Input: nums = [2,5,6,0,0,1,2], target = 0
-Output: true
 ```
 </details>
