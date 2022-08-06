@@ -3,6 +3,30 @@
 # DFS + memorization
 - DP but likely with a more sparse access needed to whole dp matrix
 
+## [:ok_hand: 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) [:dart:](combination_sum_iv.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of distinct integers nums and a target integer target,
+return the number of possible permutations that add up to target.
+
+Input: nums = [1,2,3], target = 4
+Output: 7
+
+Explanation:
+The possible combination ways are:
+(1, 1, 1, 1)
+(1, 1, 2)
+(1, 2, 1)
+(1, 3)
+(2, 1, 1)
+(2, 2)
+(3, 1)
+# Note that different sequences are counted as different combinations.
+```
+</details>
+
 ## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
 - DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
 <details><summary markdown="span">Question</summary>
