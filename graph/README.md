@@ -27,3 +27,6 @@ A graph is **bipartite** if
 - Return true if and only if it is bipartite.
 ```
 </details>
+
+# Dijkstra
+- [778. Swim in Rising Water](../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
