@@ -1,4 +1,4 @@
-# Backtracking
+# Backtracking [:notebook:](../basics/algorithms.md#backtracking-vs-dfs)
 
 ## [:bulb: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
 
