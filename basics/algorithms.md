@@ -44,3 +44,6 @@
 - Backtracking is DFS for implicit tree, while DFS is backtracking without pruning. [src](https://stackoverflow.com/a/17891070/4924135)
   - When the search space of a problem is visited by backtracking, the implicit tree gets traversed and pruned in the middle of it.
   - Yet for DFS, the tree/graph it deals with is explicitly constructed and unacceptable cases have already been thrown, i.e. pruned, away before any search is done.
+
+# Graph
+- check [:notebook:](graph.md)

@@ -1,4 +1,4 @@
-# Graph
+# Graph [:notebook:](../basics/algorithms.md#dynamic-programming)
 
 # Bipartite
 
