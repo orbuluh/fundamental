@@ -1,5 +1,30 @@
 # Divide and Conquer
 
+## [:ok_hand: 823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) [:dart:](btree_with_factors.h)
+- easier version (but same concept) with [894](#bulbbulb-894-all-possible-full-binary-trees-dart)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of unique integers, `arr`,
+where each integer `arr[i]` is strictly greater than 1.
+
+- We make a binary tree using these integers,
+and each number may be used for **any number of times.**
+
+- Each non-leaf node's value should be equal to the product of the values of its children.
+
+- Return the number of binary trees we can make.
+- The answer may be too large so return the answer modulo 10^9 + 7.
+
+Input: arr = [2,4,5,10]
+Output: 7
+
+Explanation:
+- We can make these trees:
+- [2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2].
+```
+</details>
+
 ## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
 <details><summary markdown="span">Question</summary>
 
@@ -12,6 +37,7 @@ Merge all the linked-lists into one sorted linked-list and return it.
 </details>
 
 ## [:bulb::bulb: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
+- Check [823](#ok_hand-823-binary-trees-with-factors-dart) as well for an easier but similar question
 - Beautiful!
 <details><summary markdown="span">Question</summary>
 
