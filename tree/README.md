@@ -3,6 +3,18 @@
 - For question that is more about beautiful recursion - check [notes :notebook:](../recursion/README.md)
 - For segment tree - check [notes :notebook:](../range_query/segment_tree/README.md)
 
+
+## [:ok_hand: 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [:dart:](lca_of_bst.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a binary search tree (BST),
+find the lowest common ancestor (LCA) node of two given nodes in the BST.
+```
+</details>
+
+
 ## [:ok_hand: 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [:dart:](de_serialize_binary_tree.h)
 
 <details><summary markdown="span">Question</summary>
