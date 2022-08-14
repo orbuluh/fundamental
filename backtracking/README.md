@@ -70,3 +70,40 @@ You cannot reach point (1, 0) until time 2.
 Then you can reach bottom right
 ```
 </details>
+
+
+# Back tracking the BFS path
+
+## [:bulb::bulb: 126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [:dart:](word_ladder_ii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A transformation sequence from word `beginWord` to word `endWord`
+using a dictionary `wordList` is a sequence of words:
+    `beginWord -> s1 -> s2 -> ... -> sk`
+
+such that:
+- Every adjacent pair of words differs by **a single letter**.
+- Every `si` for `1 <= i <= k` is in wordList.
+- Note that `beginWord` does not need to be in `wordList`.
+- `sk == endWord`
+
+- Given two words, `beginWord` and `endWord`, and a dictionary `wordList`,
+return all the shortest transformation sequences from `beginWord` to `endWord`,
+or an empty list if no such sequence exists.
+
+- Each sequence should be returned as a list of the words `[beginWord, s1, s2, ..., sk]`.
+
+Input: `beginWord` = "hit",
+       `endWord`   = "cog",
+       `wordList` = ["hot","dot","dog","lot","log","cog"]
+
+Output: [["hit","hot","dot","dog","cog"],
+         ["hit","hot","lot","log","cog"]]
+
+Explanation: There are 2 shortest transformation sequences:
+- "hit" -> "hot" -> "dot" -> "dog" -> "cog"
+- "hit" -> "hot" -> "lot" -> "log" -> "cog"
+
+</details>
