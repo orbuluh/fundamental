@@ -41,6 +41,30 @@ Explanation:
 ```
 </details>
 
+## [:bulb: 659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an integer array nums that is sorted in non-decreasing order.
+
+- Determine if it is possible to split nums into one or more subsequences
+  such that both of the following conditions are true:
+  - Each subsequence is a consecutive increasing sequence
+  - All subsequences have a length of 3 or more.
+
+- Return true if you can split nums according to the above conditions, or false otherwise.
+
+Input: nums = [1,2,3,3,4,5]
+Output: true
+Explanation: [1, 2, 3], [3, 4, 5]
+Input: nums = [1,2,3,3,4,4,5,5]
+Output: true
+Explanation: [1, 2, 3, 4, 5], [3, 4, 5]
+```
+</details>
+
+
 ## [:bulb: 135. Candy](https://leetcode.com/problems/candy/) [:dart:](candy.h)
 
 <details><summary markdown="span">Question</summary>
