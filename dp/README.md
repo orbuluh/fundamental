@@ -45,6 +45,42 @@ Since the answer can be very large, return it modulo 10^9 + 7.
 ```
 </details>
 
+## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+- A car travels from a starting position to a destination `target`
+
+- There are gas stations along the way.
+- The gas stations are represented as an array stations where
+  - stations[i] = [position_i, fuel_i]
+  - indicates that the ith gas station is position_i miles east of the starting
+    position and has fuel_i liters of gas.
+
+- The car has infinite tank of gas, which initially has `startFuel` in it.
+- It uses one unit of gas per one mile that it drives.
+- When the car reaches a gas station, it may stop and refuel, transferring all
+  the gas from the station into the car.
+
+- Return the minimum number of refueling stops the car must make in order to
+ reach its destination. If it cannot reach the destination, return -1.
+- Note that if the car reaches a gas station with 0 fuel left, the car can still
+  refuel there.
+- If the car reaches the destination with 0 fuel left, it is still considered to
+  have arrived.
+
+Input: target = 100, startFuel = 10, stations = [[10,60],[20,30],[30,30],[60,40]]
+Output: 2
+start with 10
+drive to position 10, expending 10, refuel 60
+drive from position 10 to position 60, 10 gas remains, then add the fuel 40
+then we can arrive the target 100. We made 2 stops in total.
+
+```
+</details>
+
+
 ## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
 
 <details><summary markdown="span">Question</summary>
