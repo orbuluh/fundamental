@@ -46,6 +46,7 @@ Since the answer can be very large, return it modulo 10^9 + 7.
 </details>
 
 ## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
+- The better greedy solution -> [:dart:](../greedy/min_of_refueling_stops_greedy.h)
 
 <details><summary markdown="span">Question</summary>
 

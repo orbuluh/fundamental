@@ -131,6 +131,9 @@ e.g. [4,0] -> height 4 with no one taller or equal in the front
 ```
 </details>
 
+## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops_greedy.h)
+- Question statement/other solution [:point_right: here](../dp/README.md#bulb-871-minimum-number-of-refueling-stopshttpsleetcodecomproblemsminimum-number-of-refueling-stops-dartminofrefuelingstopsh)
+
 ## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
 <details><summary markdown="span">Question</summary>
 
