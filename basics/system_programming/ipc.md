@@ -1,6 +1,11 @@
 # Inter process communication
 - from [C++ System Programming Cookbook](https://www.amazon.com/System-Programming-Cookbook-system-level-programming/dp/1838646558)
 
+- Below four forms of IPC are the ones originally developed on the Unix System V and then reimplemented in the more modern POSIX standard, which Linux supports.
+- There are cases where the processes are **not** on the same machine, and in those cases, we need to use other mechanisms such as **sockets**.
+  - A socket has wider applicability as it puts in communication processes, regardless of the position on the network.
+  - This generality comes at a cost: they are slower than the mechanisms
+
 ## Pipe
 - The first IPC mechanism in the list is a pipe.
 - A pipe **requires a relation between two processes (parent-child, for example) for it to work.**
@@ -10,6 +15,10 @@
   - In order to achieve a full-duplex communication type between two processes, two pipes must be used.
   - For the same reason that two processes must have a relationship in order to be able to use a pipe, a pipe **cannot** be used as a communication mechanism between **processes on two different machines**.
   - The **Linux kernel is involved** in the communication as the data is copied to the kernel, which is then further copied to the receiver process.
+- For the vast majority of use cases, **pipes are intended to be used with small amounts of data**, but there might be scenarios where a larger amount is needed.
+  - The standard POSIX says that a write of less than `pipe_BUF` bytes must be atomic.
+  - It furthermore dictates that `pipe_BUF` must be at least 512 bytes (on Linux, it is 4 KB); otherwise, you have to take care of the synchronization at the user level by using mechanisms such as semaphores and mutexes.
+- [code example](demo/pipe.h)
 
 ## FIFO
 - The second IPC mechanism in the table is the FIFO (or named pipe).
@@ -36,3 +45,4 @@
 - This comes with a cost, in the sense that the processes using shared memory should use **a form of synchronization** (for example, mutexes or semaphores), as the man page suggests (man `shm_overview`).
 - Processes must be running on the **same machine** to use the same shared memory, and it is identified with a key, likewise for message queues.
 - As **the shared memory resides in the kernel space**, data is copied from the kernel space to the processes that read and delete it.
+
