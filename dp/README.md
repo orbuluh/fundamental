@@ -127,6 +127,25 @@ Output: 23
 ```
 </details>
 
+## [:bulb: 363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) [:dart:](max_sum_of_rectangle_le_k.h)
+- if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums,
+find the contiguous subarray (containing at least one number)
+which has the largest sum and return its sum.
+
+A subarray is a **contiguous** part of an array.
+Input: nums = [5,4,-1,7,8]
+Output: 23
+```
+</details>
+
+
+
+
 # Common sequence
 
 ## [:bulb: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_common_subseq.h)
