@@ -45,6 +45,10 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 ```
 </details>
 
+## [:bulb: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
+- Problem description, optimal solution check -> [here](../binary_search/README.md#bulbbulb-410-split-array-largest-sumhttpsleetcodecomproblemssplit-array-largest-sum-dartsplitarrlargestsumbsh)
+- Would be nice to practice backtrack on this problem...
+
 ## [:bulb: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](matchsticks_to_square.h)
 
 <details><summary markdown="span">Question</summary>

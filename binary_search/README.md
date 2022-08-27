@@ -56,6 +56,24 @@ Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15],
 ```
 </details>
 
+## [:exploding_head: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bs.h)
+- (Although much slower ...) Try doing backtrack for this one! --> [check code here](../backtracking/split_arr_largest_sum_bt.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array nums which consists of non-negative integers and an integer m,
+you can split the array into m non-empty continuous subarrays.
+
+Write an algorithm to **minimize** the **largest sum among these m subarrays**.
+
+Input: nums = [7,2,5,10,8], m = 2
+Output: 18
+- The best way is to split it into [7,2,5] and [10,8],
+- where the largest sum among the two subarrays is only 18.
+```
+</details>
+
+
 
 # Interval related questions
 
