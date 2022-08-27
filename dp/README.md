@@ -111,6 +111,22 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 ```
 </details>
 
+# Sub-array (contiguous, Kadane's Algorithm)
+
+## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [:dart:](max_subarray.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums,
+find the contiguous subarray (containing at least one number)
+which has the largest sum and return its sum.
+
+A subarray is a **contiguous** part of an array.
+Input: nums = [5,4,-1,7,8]
+Output: 23
+```
+</details>
+
 # Common sequence
 
 ## [:bulb: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_common_subseq.h)
