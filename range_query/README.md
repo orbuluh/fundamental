@@ -2,6 +2,9 @@
 
 ## [:ok_hand: 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [:dart:](range_sum_equal_to_k.h)
 - The basic question, but has certain details...
+- Check [363. Max Sum of Rectangle No Larger Than K](../dp/README.md#bulb-363-max-sum-of-rectangle-no-larger-than-khttpsleetcodecomproblemsmax-sum-of-rectangle-no-larger-than-k-dartmaxsumofrectanglelekh)
+
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
