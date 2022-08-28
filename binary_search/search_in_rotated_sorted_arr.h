@@ -1,49 +1,57 @@
 /*
-Idea: Rotation makes array to two ascending parts.
-if we find nums[i] < nums[j], we must know that between
-i and j are on the same part. And if target is in such
-part, then nums[i] < target < nums[j] must meet.
-We can then behave accordingly.
 
-Those duplicated test case really fail you several times...
-Consider case like this:
+All numbers are distinct. The rotation makes 2 ascending part, where
+elements in first part > elements in second part
+so should be something like the partial of:
 
-[1 1 2 1 1 1 1 1]
-[1 1 1 1 1 1 2 1]
+Observation:
+1. Within the same part, it's monotonically increasing
+2. If nums[mid] < nums[l], we know that mid and l must be in different part
+   and because there are only 2 parts, we know that mid to r must be in the
+   second part.
+3. If nums[mid] >= nums[l], we know that mid and l must be in same part and
+   it's the first part.
+4. Once we are sure what's the portion that is monotonically increasing, we
+   can decide - if target is in that part?
+   for 2. because [mid, r] is monotonically increasing, if target is in
+   between, then target must be within the range, and we can safely move
+   l to mid + 1 (as we've confirmed mid is not target)
+   for 3. because [l, mid] is monotonically increasing, if target is in
+   between, then target must be within the range, and we can safely move
+   r to mid - 1 (as we've confirmed mid is not target)
 */
+
 class Solution {
-  public:
-    bool search(vector<int>& nums, int target) {
-        int l = 0;
-        int r = nums.size() - 1;
-        while (l < r) {
-            auto mid = l + (r - l) / 2;
-            if (nums[mid] == target) {
-                return true;
-            }
-            if (nums[mid] > nums[l]) { // ascending [l:mid+1] part
-                if (nums[l] <= target && target < nums[mid]) {
-                    // if target is in the ascending part
-                    r = mid - 1;
-                } else { // otherwise, target in the right part
-                    l = mid + 1;
-                }
-            } else if (nums[mid] < nums[l]) { // ascending [mid r+1] part
-                // note, if mid < l, rotation must happen <= mid, so mid to
-                // r (inclusive) must be ascending.
-                if (nums[mid] < target && target <= nums[r]) {
-                    // if target is in the ascending part
-                    l = mid + 1;
-                } else {
-                    r = mid - 1;
-                }
-            } else { // not sure rotation point nor target
-                // but as nums[mid] == nums[l] and not equal to target
-                // we can always move left
-                l++;
-            }
+ public:
+  int search(vector<int>& nums, int target) {
+    int l = 0;
+    int r = nums.size() - 1;
+    while (l < r) {  // mid can never equal to r, but could equal to l
+      int mid = l + (r - l) / 2;
+
+      if (nums[mid] == target) return mid;
+
+      if (nums[mid] < nums[l]) {  // mid can't equal to r, but could equal to l
+        // mid to r must be in second part, and they are ascending
+        // question is, is target in the second part?
+        if (target > nums[mid] &&
+            target <= nums[r]) {  // target must be in second part
+          l = mid + 1;
+        } else {
+          r = mid - 1;
         }
-        // mid is bias to l, so eventually we converge to l
-        return nums[l] == target;
+      } else {
+        // l to mid must be the first part, and they are ascending
+        // question is, is target in the first part?
+        if (target >= nums[l] &&
+            target < nums[mid]) {  // target must be in first part
+          r = mid - 1;
+        } else {
+          l = mid + 1;
+        }
+      }
     }
+    // we bias to l, mid eventually equal to l
+    return nums[l] == target ? l : -1;
+  }
 };
