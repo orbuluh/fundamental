@@ -1,4 +1,4 @@
-# Backtracking [:notebook:](../basics/algorithms.md#backtracking)
+# Backtracking [:notebook:](../notes/algorithms.md#backtracking)
 
 ## [:bulb: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
 

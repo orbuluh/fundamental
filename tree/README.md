@@ -37,7 +37,7 @@ Serialize and deserialize a binary tree.
 </details>
 
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) [:dart:](vertical_order_traversal.h)
-- tips: [Tree like DS are sorted by keys!](../basics/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
+- tips: [Tree like DS are sorted by keys!](../notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
 
 <details><summary markdown="span">Question</summary>
 

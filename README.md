@@ -6,7 +6,7 @@
 > * ... programmers must thoroughly understand the underlying ideas so that they can code up algorithms and have the program **communicate with future readers.** The best way to get acquainted with the idea is to **study a wide range of examples and to develop a sense for the kinds of generative recursions that may show up in the real world.**
 
 
-## [Basics](basics/README.md)
+## [Basics](notes/README.md)
 
 ## [Dynamic programming](dp/README.md)
 ## [Greedy](greedy/README.md)

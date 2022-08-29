@@ -1,4 +1,4 @@
-# Monotonic Queue [:notebook:](../basics/README.md#monotonic-queue)
+# Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
 - Subtopic of [Sliding window](../sliding_window/README.md)
 
 ## [:bulb: 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) [:dart:](sliding_window_maximum.h)

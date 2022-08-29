@@ -1,5 +1,5 @@
 # Binary search
-- [Notes :notebook:](../basics/algorithms.md#binary-search)
+- [Notes :notebook:](../notes/algorithms.md#binary-search)
 
 ## [:bulb: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
 <details><summary markdown="span">Question</summary>

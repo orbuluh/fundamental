@@ -1,5 +1,5 @@
 # Segment tree
-- check introduction notes of segment tree [:notebook:](../../basics/segment_tree.md)
+- check introduction notes of segment tree [:notebook:](../../notes/segment_tree.md)
 
 ## [:ok_hand: 307. Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/) [:dart:](range_sum_query_mutable_segmenttree.h)
 - check [binary indexed tree solution here :dart:](../binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)

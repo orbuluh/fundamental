@@ -1,7 +1,7 @@
 # Algorithm notes
 
 # Binary search
-- normally, use `std::binary_search`, `std::lower_bound`, `std::upper_bound` - check [notes :notebook:](https://github.com/orbuluh/cpp/blob/main/basics/binary_search.md)
+- normally, use `std::binary_search`, `std::lower_bound`, `std::upper_bound` - check [notes :notebook:](https://github.com/orbuluh/cpp/blob/main/notes/binary_search.md)
 - From the above 3 std functions, you can see there is 3 cases:
   - (1) `std::binary_search` - whether target exist
   - (2) `std::lower_bound` - what's the first occurrence of value >= target - e.g. **first occurrence** of target
