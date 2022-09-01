@@ -25,3 +25,14 @@ return:
 1 -> 4 -> 3 -> 2 -> 5
 ```
 </details>
+
+## [:bulb: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [:dart:](palindrome_linked_list.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+
+Input: head = [1,2,2,1]
+Output: true
+```
+</details>
