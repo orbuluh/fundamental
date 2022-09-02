@@ -1,5 +1,16 @@
 # Bitwise
 
+## Size of integers in C++
+- from [stackoverflow](https://stackoverflow.com/questions/18353168/why-long-int-has-same-size-as-int-does-this-modifier-works-at-all)
+- All that the standard requires is that:
+  - `sizeof(char) == 1`
+  - `sizeof(char) <= sizeof(short) <= sizeof(int) <= sizeof(long) <= sizeof(long long)`
+  - (and that the corresponding unsigned types have the same size as the signed types).
+- On 16 bit platforms, it is usual for both `short` and `int` to be 16 bits;
+- on 32 bit platforms, `int` and `long` are **almost always the same size.**
+- On modern 64 bit platforms (with byte addressing), the rational solution would be to **make all four types have different sizes** (although one could argue that according to the standard, int should be 64 bits, which would mean that `int`, `long` and `long long` all had the same size).
+- MS choose to make `long` 32 bits even on a 64-bit system is that the existing Windows API, for historical reasons use a mixture of `int` and `long` for similar things, and the expectation is that this is s 32-bit value (some of this goes back to times when Windows was a 16-bit system). So **to make the conversion of old code to the new 64-bit architecture, they choose to keep `long` at 32 bits**, so that applications mixing `int` and `long` in various places would still compile.
+
 ## Two's complement
 - [video](https://youtu.be/4qH4unVtJkE)
 - Consider only 4 bits, the form will be like:
