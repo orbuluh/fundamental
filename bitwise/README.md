@@ -10,3 +10,16 @@
 Given two integers a and b, return the sum of the two integers without using the operators + and -.
 ```
 </details>
+
+# xor: `a^a = 0; b^0 = b; b^a^a = b`
+
+## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) [:dart:](missing_num.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+
+Input: nums = [3,0,1]
+Output: 2
+```
+</details>
