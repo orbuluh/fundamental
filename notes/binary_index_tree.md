@@ -31,32 +31,7 @@
 - Generalize: at BIT[i] stores the cumulative sum from the index [i - lsb(i) + 1, i]  (both inclusive).
 
 ### Trick to isolate the least significant bit: `x & (-x)`
-
-<details><summary markdown="span">Proof</summary>
-
-- Say `x = a1b` (in binary) is the number whose least significant bit we want to isolate.
-  - `a` is some binary sequence of any length of 1’s and 0’s and
-  - `b` is some sequence of any length but of **0’s only**.
-  - That tiny intermediate 1 bit sitting between **a** and **b** to be the least significant bit
-- Then
-```
--x = 2’s complement of x = (a1b)’ + 1
-   = a’0b’ + 1
-   = a’0(0...0)’ + 1
-   = a’0(1...1) + 1
-   = a’1(0...0)
-   = a’1b
-```
-- Then
-```
-        a  1 b     ->  X
-&       a' 1 b     -> -X
------------------
-=  (0...0) 1 (0...0)   ---> e.g. we get the LSB through X & (-x)
-```
-
-</details>
-
+- [Check :notebook:](bitwise.md#trick-to-isolate-the-least-significant-bit-x---x)
 
 ## Overall structure
 - Space Complexity: O(N) for declaring another array of size N
