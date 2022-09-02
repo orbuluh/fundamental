@@ -1,4 +1,5 @@
 # Bitwise
+- [Bit hacks](http://graphics.stanford.edu/~seander/bithacks.html)
 
 ## Size of integers in C++
 - from [stackoverflow](https://stackoverflow.com/questions/18353168/why-long-int-has-same-size-as-int-does-this-modifier-works-at-all)
@@ -12,6 +13,8 @@
 - MS choose to make `long` 32 bits even on a 64-bit system is that the existing Windows API, for historical reasons use a mixture of `int` and `long` for similar things, and the expectation is that this is s 32-bit value (some of this goes back to times when Windows was a 16-bit system). So **to make the conversion of old code to the new 64-bit architecture, they choose to keep `long` at 32 bits**, so that applications mixing `int` and `long` in various places would still compile.
 
 ## Two's complement
+<details><summary markdown="span">Details</summary>
+
 - [video](https://youtu.be/4qH4unVtJkE)
 - Consider only 4 bits, the form will be like:
 ```txt
@@ -39,9 +42,12 @@
   - positive -> negative requires a inverse than add one, e.g. -p = (~p) + 1
   - there is -8 above but no 8
 
+</details>
 
+## Reset the last set bit: `x & (x - 1)`
+- I think the way to think about it is that for any number x, say, x = 4 (0100), x - 1 will always set all the LSB's below the lowest set bit and clear the lowest set bit (e.g. 4 - 1 = 3 = 0011.
 
-## Trick to isolate the least significant bit: `x & (-x)`
+## Isolate the least significant bit: `x & (-x)`
 
 <details><summary markdown="span">Proof</summary>
 

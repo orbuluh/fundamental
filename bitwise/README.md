@@ -36,8 +36,6 @@ Output: [0,1,1,2,1,2]
 ```
 </details>
 
-
-
 # xor: `a^a = 0; b^0 = b; b^a^a = b`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) [:dart:](missing_num.h)
@@ -50,3 +48,16 @@ Input: nums = [3,0,1]
 Output: 2
 ```
 </details>
+
+# Reset the last set bit: `x & (x - 1)`
+
+## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) [:dart:](number_of_setbit.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Write a function that takes an unsigned integer and
+returns the number of '1' bits it has (also known as the Hamming weight).
+```
+</details>
+
+
