@@ -11,6 +11,19 @@ Given two integers a and b, return the sum of the two integers without using the
 ```
 </details>
 
+# basic operations
+## [:ok_hand: 190. Reverse Bits](https://leetcode.com/problems/missing-number/) [:dart:](reverse_bits.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Reverse bits of a given 32 bits unsigned integer.
+
+Input:            n = 00000010100101000001111010011100
+Output:    964176192 (00111001011110000010100101000000)
+```
+</details>
+
+
 # xor: `a^a = 0; b^0 = b; b^a^a = b`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) [:dart:](missing_num.h)
