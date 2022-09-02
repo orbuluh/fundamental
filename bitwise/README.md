@@ -23,6 +23,20 @@ Output:    964176192 (00111001011110000010100101000000)
 ```
 </details>
 
+## [:ok_hand: 338. Counting Bits](https://leetcode.com/problems/counting-bits/) [:dart:](counting_bits.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer n, return an array ans of length n + 1 such that
+for each i (0 <= i <= n),
+ans[i] is the number of 1's in the binary representation of i.
+
+Input: n = 5
+Output: [0,1,1,2,1,2]
+```
+</details>
+
+
 
 # xor: `a^a = 0; b^0 = b; b^a^a = b`
 
