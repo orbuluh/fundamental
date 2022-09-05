@@ -46,6 +46,15 @@
 
 ## Reset the last set bit: `x & (x - 1)`
 - I think the way to think about it is that for any number x, say, x = 4 (0100), x - 1 will always set all the LSB's below the lowest set bit and clear the lowest set bit (e.g. 4 - 1 = 3 = 0011.
+- quicker way to count bits set with this trick... (only needs set_bit of iteration instead of scan the full 32 bits)
+```cpp
+unsigned int v = someinput_val; // count the number of bits set in v
+unsigned int cnt = 0; // c accumulates the total bits set in v
+for (; v; cnt++)
+{
+  v &= v - 1; // clear the least significant bit set
+}
+```
 
 ## Isolate the least significant bit: `x & (-x)`
 
@@ -73,6 +82,10 @@
 ```
 
 </details>
+
+## Detect if two integers have opposite signs: `f = (X ^ Y) < 0`
+- quicker than `f = x * y < 0`
+
 
 ## Common mask
 - `0x5` == `0101`
