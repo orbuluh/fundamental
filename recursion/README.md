@@ -18,6 +18,25 @@ trim the tree so that all its elements lies in [low, high]
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) [:dart:](bt_prunning.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree with node value either 0 or 1,
+return the same tree where every subtree (of the given tree) not containing a 1
+has been removed.
+
+
+     1               1
+       0    ==>        0
+      0  1               1
+     0
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [:dart:](lca_of_btree.h)
 
 <details><summary markdown="span">Question</summary>
