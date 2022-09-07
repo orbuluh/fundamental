@@ -31,6 +31,14 @@
     - It should not matter where you come from. If you reach state with specific set of parameters, the result is the same.
   - The main difference between DP and divide and conquer is that DP tries out multiple choices of smaller subproblems, subproblems generally recur across different recursive calls; In most divide-and-conquer algorithms, all the subproblems are distinct and there’s no point in caching their solutions.
 - Another way to think about DP is: **Suppose someone handed us an optimal solution to us. What must it look like?**
+- [Nice video](https://youtu.be/aPQY__2H3tE) with its five steps of solving DP:
+```markdown
+1. Visualize subproblems (should be a acyclic graph)
+2. Find appropriate subproblems
+3. Find relationships among subproblems
+4. Generalize the relationships
+5. Implementing by solving subproblems in order.
+```
 
 # Backtracking
 - 3 main components
