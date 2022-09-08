@@ -11,6 +11,8 @@ Given two integers a and b, return the sum of the two integers without using the
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 # basic operations
 ## [:ok_hand: 190. Reverse Bits](https://leetcode.com/problems/missing-number/) [:dart:](reverse_bits.h)
 <details><summary markdown="span">Question</summary>
@@ -22,6 +24,8 @@ Input:            n = 00000010100101000001111010011100
 Output:    964176192 (00111001011110000010100101000000)
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:ok_hand: 338. Counting Bits](https://leetcode.com/problems/counting-bits/) [:dart:](counting_bits.h)
 <details><summary markdown="span">Question</summary>
@@ -36,6 +40,8 @@ Output: [0,1,1,2,1,2]
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 # xor: `a^a = 0; b^0 = b; b^a^a = b`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) [:dart:](missing_num.h)
@@ -49,6 +55,8 @@ Output: 2
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 # Reset the last set bit: `x & (x - 1)`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) [:dart:](number_of_setbit.h)
@@ -60,4 +68,4 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 ```
 </details>
 
-
+------------------------------------------------------------------------------

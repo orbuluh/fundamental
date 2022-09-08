@@ -13,6 +13,7 @@ You must write an algorithm with O(log n) runtime complexity.
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 ## [:bulb: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [:dart:](search_in_rotated_sorted_arr.h)
 
@@ -30,6 +31,8 @@ return the index of target if it is in nums, or -1 if it is not in nums.
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr_ii.h)
 
 <details><summary markdown="span">Question</summary>
@@ -46,6 +49,8 @@ Input: nums = [2,5,6,0,0,1,2], target = 0
 Output: true
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [:dart:](kth_small_ele_in_sorted_matrix.h)
 
@@ -72,6 +77,8 @@ Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15],
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:exploding_head: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bs.h)
 - (Although much slower ...) Try doing backtrack for this one! --> [check code here](../backtracking/split_arr_largest_sum_bt.h)
 <details><summary markdown="span">Question</summary>
@@ -89,7 +96,7 @@ Output: 18
 ```
 </details>
 
-
+------------------------------------------------------------------------------
 
 # Interval related questions
 
@@ -117,6 +124,7 @@ Output
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 ## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h) [:notebook:](../srcs/715.addRange.png) [:notebook:](../srcs/715.removeRange.png)
 <details><summary markdown="span">Question</summary>
@@ -145,3 +153,5 @@ Implement the RangeModule class:
 - (final ranges: [10 14)[16, 20])
 ```
 </details>
+
+------------------------------------------------------------------------------

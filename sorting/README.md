@@ -16,6 +16,8 @@ You are given a 2D array boxTypes, where
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 # Merge sort
 
 ## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
@@ -35,3 +37,4 @@ To the right of 2 there is only 1 smaller element (1).
 To the right of 6 there is 1 smaller element (1).
 To the right of 1 there is 0 smaller element.
 ```
+------------------------------------------------------------------------------

@@ -25,6 +25,8 @@ Explanation:
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
 <details><summary markdown="span">Question</summary>
 
@@ -35,6 +37,8 @@ each linked-list is sorted in ascending order.
 Merge all the linked-lists into one sorted linked-list and return it.
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
 - Check [823](#ok_hand-823-binary-trees-with-factors-dart) as well for an easier but similar question
@@ -50,3 +54,5 @@ Given an integer n, return a list of all possible full binary trees with n nodes
 - A full binary tree is a binary tree where each node has exactly 0 or 2 children.
 ```
 </details>
+
+------------------------------------------------------------------------------

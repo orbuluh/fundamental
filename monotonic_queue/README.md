@@ -28,6 +28,8 @@ Window position                Max
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/) [:dart:](jump_game_vi.h)
 - a dp problem but the core is actually monotonic Queue.
 - core is the same as [239. Sliding Window Maximum](#bulb-239-sliding-window-maximum-dart)
@@ -50,3 +52,5 @@ Output: 7
 Explanation: You can choose your jumps with [1,-1,4,3] (^ above). The sum is 7.
 ```
 </details>
+
+------------------------------------------------------------------------------

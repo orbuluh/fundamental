@@ -27,6 +27,8 @@ The possible combination ways are:
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
 - DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
 <details><summary markdown="span">Question</summary>
@@ -44,6 +46,8 @@ return the number of paths to move the ball out of the grid boundary.
 Since the answer can be very large, return it modulo 10^9 + 7.
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
 - The better greedy solution -> [:dart:](../greedy/min_of_refueling_stops_greedy.h)
@@ -81,6 +85,7 @@ then we can arrive the target 100. We made 2 stops in total.
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 ## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
 
@@ -111,6 +116,8 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 # Sub-array (contiguous, Kadane's Algorithm)
 
 ## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [:dart:](max_subarray.h)
@@ -126,6 +133,8 @@ Input: nums = [5,4,-1,7,8]
 Output: 23
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) [:dart:](max_sum_of_rectangle_le_k.h)
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
@@ -144,8 +153,7 @@ Output: 23
 ```
 </details>
 
-
-
+------------------------------------------------------------------------------
 
 # Common sequence
 
@@ -165,7 +173,7 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 ```
 </details>
 
-
+------------------------------------------------------------------------------
 
 # Situation analyze
 
@@ -194,6 +202,8 @@ Explanation: All possible strings are:
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:exploding_head::exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) [:dart:](race_car.h)
 <details><summary markdown="span">Question</summary>
 
@@ -220,6 +230,7 @@ Explanation:
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 # Really tricky dp recursion
 
@@ -242,6 +253,7 @@ Explanation:
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 ## [:exploding_head: :exploding_head: 376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) [:dart:](wiggle_subseq.h)
 <details><summary markdown="span">Question</summary>
@@ -263,3 +275,5 @@ Explanation:
 - Return the length of the **longest** wiggle subsequence of nums.
 ```
 </details>
+
+------------------------------------------------------------------------------

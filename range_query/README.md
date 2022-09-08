@@ -17,6 +17,8 @@ Output: 2
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 # Segment tree related
 - check [:notebook:](segment_tree/README.md)
 

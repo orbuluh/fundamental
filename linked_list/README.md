@@ -9,6 +9,8 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
 - partial reverse basically ...
 <details><summary markdown="span">Question</summary>
@@ -26,6 +28,8 @@ return:
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [:dart:](palindrome_linked_list.h)
 <details><summary markdown="span">Question</summary>
 
@@ -36,3 +40,5 @@ Input: head = [1,2,2,1]
 Output: true
 ```
 </details>
+
+------------------------------------------------------------------------------

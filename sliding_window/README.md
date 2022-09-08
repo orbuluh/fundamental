@@ -26,6 +26,8 @@ Explanation:
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) [:dart:](substr_with_concat_of_all.h)
 <details><summary markdown="span">Question</summary>
 
@@ -45,5 +47,4 @@ Output: [0,1,2,3]
 ```
 </details>
 
-
-
+------------------------------------------------------------------------------
