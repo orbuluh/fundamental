@@ -18,6 +18,32 @@ You are given a 2D array boxTypes, where
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
+- [optimal sol :dart:](count_weaker_char_o_n_sol.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a 2D integer array properties where
+    properties[i] = [attack_i, defense_i]
+represents the properties of the ith character in the game.
+
+A character is said to be weak if any other character has both attack and
+defense levels strictly greater than this character's attack and defense levels.
+
+Return the number of weak characters.
+
+Input: properties = [[5,5],[6,3],[3,6]]
+Output: 0
+
+Input: properties = [[1,5],[10,4],[4,3]]
+Output: 1
+Explanation: [4, 3] < [10, 4]
+
+```
+</details>
+
+------------------------------------------------------------------------------
+
 # Merge sort
 
 ## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
