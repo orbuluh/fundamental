@@ -42,6 +42,8 @@ Serialize and deserialize a binary tree.
 
 ------------------------------------------------------------------------------
 
+# Tree traversal
+
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) [:dart:](vertical_order_traversal.h)
 - tips: [Tree like DS are sorted by keys!](../notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
 
@@ -54,6 +56,17 @@ Given the root of a binary tree, calculate the vertical order traversal of the b
     1     4     --> 2, 3' are actually at the same column as root 3.
   0   2  3'  7
   --> Output should be: [[0],[1],[3,2,3],[4],[7]]
+```
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) [:dart:](inorder_morris.h)
+- check notes on morris: [:point_right: here](../notes/algorithms.md#morris-traversal)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, return the inorder traversal of its nodes' values.
 ```
 </details>
 
