@@ -26,6 +26,26 @@ Explanation: transactions = [buy, sell, cool-down, buy, sell]
 </details>
 
 ------------------------------------------------------------------------------
+## [:thinking: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [:dart:](buy_sell_stock_iv.h)
+- although understand the solution, looping in k still feel unintuitive...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+- You are given an integer array prices where prices[i] is the price of a given
+  stock on the ith day, and an integer k.
+- Find the maximum profit you can achieve. You may complete at most k transactions.
+- Note: You may not engage in multiple transactions simultaneously
+  (i.e., you must sell the stock before you buy again).
+
+Input: k = 2, prices = [3,2,6,5,0,3]
+Output: 7
+Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.
+             Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
+```
+</details>
+
+------------------------------------------------------------------------------
 
 # DFS + memorization
 - DP but likely with a more sparse access needed to whole dp matrix
