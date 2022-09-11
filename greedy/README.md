@@ -18,6 +18,8 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
 - you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
 <details><summary markdown="span">Question</summary>
@@ -41,6 +43,8 @@ Explanation:
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
 
 <details><summary markdown="span">Question</summary>
@@ -63,6 +67,8 @@ Output: true
 Explanation: [1, 2, 3, 4, 5], [3, 4, 5]
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 936. Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) [:dart:](stamping_the_seq.h)
 
@@ -94,6 +100,8 @@ If we cannot obtain target from s within `10 * target.length` turns, return an e
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 135. Candy](https://leetcode.com/problems/candy/) [:dart:](candy.h)
 
 <details><summary markdown="span">Question</summary>
@@ -109,6 +117,7 @@ You are giving candies to these children subjected to the following requirements
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 ## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
 <details><summary markdown="span">Question</summary>
@@ -131,8 +140,42 @@ e.g. [4,0] -> height 4 with no one taller or equal in the front
 ```
 </details>
 
+------------------------------------------------------------------------------
+
+## [:bulb: 1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team) [:dart:](max_perf_of_a_team.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given two integers n and k and two integer arrays speed and efficiency
+both of length n. There are n engineers numbered from 1 to n.
+- speed[i] and efficiency[i] represent the speed and efficiency of the ith
+  engineer respectively.
+
+- Choose at most k different engineers out of the n engineers to form a team
+  with the maximum performance.
+
+- The performance of a team is the sum of their engineers' speeds multiplied by
+  the minimum efficiency among their engineers.
+
+- Return the maximum performance of this team.
+- Since the answer can be a huge number, return it modulo 10^9 + 7.
+
+Input: n = 6, speed = [2,10,3,1,5,8], efficiency = [5,4,3,9,7,2], k = 3
+Output: 68
+
+Explanation:
+This is the same example as the first but k = 3. We can select engineer 1,
+engineer 2 and engineer 5 to get the maximum performance of the team. That is,
+performance = (2 + 10 + 5) * min(5, 4, 7) = 68.
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops_greedy.h)
 - Question statement/other solution [:point_right: here](../dp/README.md#bulb-871-minimum-number-of-refueling-stopshttpsleetcodecomproblemsminimum-number-of-refueling-stops-dartminofrefuelingstopsh)
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
 <details><summary markdown="span">Question</summary>
@@ -145,6 +188,8 @@ Input: nums = [4,2,3]
 Output: true
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:dart:](course_schedule_iii.h)
 
@@ -164,6 +209,8 @@ took [1,2], timeUsed = 1 <= 2 is okay to take
 took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
 </details>
+
+------------------------------------------------------------------------------
 
 ## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:dart:](construct_target_array_w_multiple_sums.h)
 
@@ -187,3 +234,5 @@ Explanation: Start with arr = [1, 1, 1]
 [9, 3, 5] Done
 ```
 </details>
+
+------------------------------------------------------------------------------

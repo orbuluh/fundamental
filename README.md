@@ -113,6 +113,8 @@ Quote from [HTDP](https://htdp.org/)
 
 ### [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
 
+### [:bulb: 1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team) [:dart:](max_perf_of_a_team.h)
+
 ### [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops_greedy.h)
 
 ### [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
@@ -206,4 +208,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 73
+> # Total: 74
