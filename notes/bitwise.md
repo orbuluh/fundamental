@@ -44,7 +44,7 @@
 
 </details>
 
-## Reset the last set bit: `x & (x - 1)`
+## Reset the last/rightmost set bit: `x & (x - 1)`
 - I think the way to think about it is that for any number x, say, x = 4 (0100), x - 1 will always set all the LSB's below the lowest set bit and clear the lowest set bit (e.g. 4 - 1 = 3 = 0011.
 - quicker way to count bits set with this trick... (only needs set_bit of iteration instead of scan the full 32 bits)
 ```cpp
@@ -55,6 +55,11 @@ for (; v; cnt++)
   v &= v - 1; // clear the least significant bit set
 }
 ```
+
+## Get the last/rightmost set bit: `x - (x & (x - 1))`
+- `y = x & (x - 1)` remove the last set bit of `x`
+- so `x - y` return a number with the rightmost set bit
+- if you need the position - `log2(x - y)`
 
 ## Isolate the least significant bit: `x & (-x)`
 
