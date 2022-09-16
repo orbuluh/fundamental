@@ -77,6 +77,37 @@ The possible combination ways are:
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
+- bottom up solution is much faster, but hard to wrap up my head... -> check [here](max_score_from_mul_ops_bottom_up.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given two integer arrays
+- nums of size n
+- multipliers of size m
+- where n >= m.
+
+You begin with a score of 0.
+You want to perform exactly m operations.
+
+On the ith operation (1-indexed), you will:
+- Choose one integer x from either the start or the end of the array nums.
+- Add multipliers[i] * x to your score.
+- Remove x from the array nums.
+- Return the maximum score after performing m operations.
+
+Input: nums = [1,2,3], multipliers = [3,2,1]
+Output: 14
+Explanation: An optimal solution is as follows:
+- Choose from the end, [1,2,3], adding 3 * 3 = 9 to the score.
+- Choose from the end, [1,2], adding 2 * 2 = 4 to the score.
+- Choose from the end, [1], adding 1 * 1 = 1 to the score.
+The total score is 9 + 4 + 1 = 14.
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
 - DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
 <details><summary markdown="span">Question</summary>
