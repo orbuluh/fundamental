@@ -57,5 +57,9 @@
 - [implementation](../tree/inorder_morris.h)
 - ![](../srcs/morris_inorder.png)
 
+# KMP (for pattern matching)
+- check [:notebook:](kmp.md)
+
 # Graph
 - check [:notebook:](graph.md)
+
