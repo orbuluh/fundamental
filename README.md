@@ -87,8 +87,6 @@ Quote from [HTDP](https://htdp.org/)
 
 ### [:bulb: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_common_subseq.h)
 
-### [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) [:dart:](max_len_of_repeated_subarray.h)
-
 ### [:ok_hand: 1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) [:dart:](count_vowels_permutation.h)
 
 ### [:exploding_head::exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) [:dart:](race_car.h)
@@ -194,6 +192,11 @@ Quote from [HTDP](https://htdp.org/)
 ### [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
 
 ### [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
+
+
+# [substr_matching](substr_matching/README.md)
+
+### [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) [:dart:](max_len_of_repeated_subarray.h)
 
 
 # [tree](tree/README.md)

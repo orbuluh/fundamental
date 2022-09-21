@@ -93,6 +93,6 @@ we make j = lps[i - 1] = lps[3] = 0
 and because S[7] != S[0], lps[7] isn't update and has value 0
 ```
 
-# question set
-- [:point_right: here](../dp/README.md#kmp)
-- implementation example check [:point_right: here](../dp/max_len_of_repeated_subarray.h)
+# Question set
+- [:point_right: here](../substr_matching/README.md)
+- implementation example check [:point_right: here](../substr_matching/max_len_of_repeated_subarray.h)

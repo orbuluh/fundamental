@@ -57,8 +57,9 @@
 - [implementation](../tree/inorder_morris.h)
 - ![](../srcs/morris_inorder.png)
 
-# KMP (for pattern matching)
-- check [:notebook:](kmp.md)
+# Substring matching
+- [KMP :notebook:](kmp.md)
+- [Rolling hash :notebook:](rolling_hash.md)
 
 # Graph
 - check [:notebook:](graph.md)

@@ -254,30 +254,6 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 
 ------------------------------------------------------------------------------
 
-# KMP
-- check [KMP notes :point_right: here](../notes/kmp.md)
-
-## [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) [:dart:](max_len_of_repeated_subarray.h)
-- dp solution with worse complexity than KMP [:point_right: here](max.)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays.
-
-Example 1:
-Input: nums1 = [1,2,3,2,1], nums2 = [3,2,1,4,7]
-Output: 3
-Explanation: The repeated subarray with maximum length is [3,2,1].
-
-Example 2:
-Input: nums1 = [0,0,0,0,0], nums2 = [0,0,0,0,0]
-Output: 5
-```
-</details>
-
-------------------------------------------------------------------------------
-
 # Situation analyze
 
 ## [:ok_hand: 1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) [:dart:](count_vowels_permutation.h)
