@@ -55,6 +55,8 @@ Quote from [HTDP](https://htdp.org/)
 
 ### [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) [:dart:](number_of_setbit.h)
 
+### [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) [:dart:](concat_consecutive_binary_nums.h)
+
 
 # [d_and_d](d_and_d/README.md)
 
@@ -215,4 +217,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 76
+> # Total: 77

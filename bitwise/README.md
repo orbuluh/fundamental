@@ -69,3 +69,20 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 </details>
 
 ------------------------------------------------------------------------------
+
+# Detect power of 2: `(x & (x - 1) == 0)`
+
+## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) [:dart:](concat_consecutive_binary_nums.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+- Given an integer n, return the decimal value of the binary string formed by concatenating the binary representations of 1 to n in order, modulo 10^9 + 7.
+
+Input: n = 3
+Output: 27
+Explanation: In binary, 1, 2, and 3 corresponds to "1", "10", and "11".
+After concatenating them, we have "11011", which corresponds to the decimal value 27.
+```
+</details>
+
+------------------------------------------------------------------------------

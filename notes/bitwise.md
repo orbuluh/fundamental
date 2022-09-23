@@ -56,6 +56,9 @@ for (; v; cnt++)
 }
 ```
 
+## Detect is power of 2: `(x & (x - 1)) == 0`
+- power of 2 only have one set bit, reset last setbit equal to 0 means it's power of 2!
+
 ## Get the last/rightmost set bit: `x - (x & (x - 1))`
 - `y = x & (x - 1)` remove the last set bit of `x`
 - so `x - y` return a number with the rightmost set bit
