@@ -73,8 +73,9 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 # Detect power of 2: `(x & (x - 1) == 0)`
 
 ## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) [:dart:](concat_consecutive_binary_nums.h)
-<details><summary markdown="span">Question</summary>
+- [(A * B) % C = ((A % C) * (B % C)) % C](../notes/math.md#modular-multiplication-property)
 
+<details><summary markdown="span">Question</summary>
 ```markdown
 - Given an integer n, return the decimal value of the binary string formed by concatenating the binary representations of 1 to n in order, modulo 10^9 + 7.
 

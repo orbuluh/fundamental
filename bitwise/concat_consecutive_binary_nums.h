@@ -1,3 +1,6 @@
+/*
+Modular multiplication: (A * B) % C = ((A % C) * (B % C))% C
+*/
 class Solution {
  public:
   static constexpr int mod = 1'000'000'007;
