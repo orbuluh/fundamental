@@ -126,7 +126,9 @@ Output
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h) [:notebook:](../srcs/715.addRange.png) [:notebook:](../srcs/715.removeRange.png)
+## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
+- [:notebook:](../srcs/715.addRange.png) [:notebook:](../srcs/715.removeRange.png)
+
 <details><summary markdown="span">Question</summary>
 - Similar question: [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/), can use the same method. But have a faster solution in [:dart:](../greedy/employee_free_time.h)
 

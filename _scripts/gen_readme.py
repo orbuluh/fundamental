@@ -11,20 +11,32 @@ template = environment.get_template("readme.jinja")
 
 context = {}
 content_dump = defaultdict(list)
-count = 0
+cnt_per_chapter = {}
+total_count = 0
 
 for file in glob.glob(f"{scriptDir}/../**/README.md"):
     folder = file.split("/")[-2]
+    if folder == "notes": continue
     with open(file, "r") as f:
+        count = 0
         for line in f:
             m = re.search("^#.*:.*https://leetcode.com/.*.h\)", line)
             if m:
-                content_dump[folder] += [line.strip()]
+                title = re.search("\[(.*\d+?\..*?)\]", line).group(1)
+                content_dump[folder] += [title]
                 count += 1
+            else:
+                # subsection, force it to header 2
+                m = re.search("^#.*?\s(.*)", line)
+                if m:
+                    content_dump[folder] += [f"## {m.group(1)}"]
+        cnt_per_chapter[folder] = count
+        total_count += count
 
 context = {
     "content_dump": content_dump,
-    "count": count,
+    "cnt_per_chapter": cnt_per_chapter,
+    "total_count": total_count,
 }
 filename = f"{scriptDir}/../README.md"
 with open(filename, mode="w", encoding="utf-8") as fo:

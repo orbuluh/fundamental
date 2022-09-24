@@ -5,13 +5,22 @@ Quote from [HTDP](https://htdp.org/)
 * ... many elements of the general design recipe apply to the design of algorithms ... The key to designing algorithms is the “generation” step, which often means **dividing up the problem. And figuring out a novel way of dividing a problem requires insight.**
 * ... programmers must thoroughly understand the underlying ideas so that they can code up algorithms and have the program **communicate with future readers.** The best way to get acquainted with the idea is to **study a wide range of examples and to develop a sense for the kinds of generative recursions that may show up in the real world.**
 
-{% for file, file_content in content_dump.items()|sort(attribute='0')%}
-# [{{file}}]({{file}}/README.md)
-{% for content in file_content %}
-#{{ content }}
+# [Notes :book:](notes/README.md)
+
+---
+
+{% for folder, contents in content_dump.items()|sort(attribute='0')%}
+# [{{folder}}]({{folder}}/README.md)
+{% for content in contents %}
+{% if '##' in content %}
+{{ content }}
+{% else %}
+- {{ content }}
+{% endif %}
 {% endfor %}
+(...count: {{cnt_per_chapter[folder]}})
 {% endfor %}
 
 <br/><br/>
 ---
-> # Total: {{ count }}
+> # Total: {{ total_count }}
