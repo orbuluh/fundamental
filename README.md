@@ -542,7 +542,19 @@ Quote from [HTDP](https://htdp.org/)
 
 (...count: 5)
 
+# [union_find](union_find/README.md)
+
+
+## Union find [:notebook:](../notes/union_find.md)
+
+
+
+- :ok_hand: 990. Satisfiability of Equality Equations
+
+
+(...count: 1)
+
 
 <br/><br/>
 ---
-> # Total: 77
+> # Total: 78
