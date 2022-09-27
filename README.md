@@ -297,6 +297,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 763. Partition Labels
+
+
+
 - :bulb: 659. Split Array into Consecutive Subsequences
 
 
@@ -332,7 +336,7 @@ Quote from [HTDP](https://htdp.org/)
 - :exploding_head: 1354. Construct Target Array With Multiple Sums
 
 
-(...count: 11)
+(...count: 12)
 
 # [linked_list](linked_list/README.md)
 
@@ -561,4 +565,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 79
+> # Total: 80

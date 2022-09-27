@@ -44,8 +44,30 @@ Explanation:
 </details>
 
 ------------------------------------------------------------------------------
+## [:bulb: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
 
-## [:bulb: 659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a string s. We want to partition the string into as many parts as possible so that each letter appears in at most one part.
+
+- Note that the partition is done so that after concatenating all the parts in order, the resultant string should be s.
+- Return a list of integers representing the size of these parts.
+
+Input: s = "ababcbacadefegdehijhklij"
+Output: [9,7,8]
+
+Explanation:
+The partition is "ababcbaca", "defegde", "hijhklij".
+
+Input: s = "eccbbbbdec"
+Output: [10]
+```
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/partition-labels/) [:dart:](partition_labels.h)
 
 <details><summary markdown="span">Question</summary>
 
