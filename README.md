@@ -349,6 +349,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 19. Remove Nth Node From End of List
+
+
+
 - :bulb: 92. Reverse Linked List II
 
 
@@ -356,7 +360,7 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 234. Palindrome Linked List
 
 
-(...count: 3)
+(...count: 4)
 
 # [math](math/README.md)
 
@@ -565,4 +569,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 80
+> # Total: 81

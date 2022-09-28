@@ -11,6 +11,17 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [:dart:](remove_n_th_node_from_end.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a linked list, remove the nth node from the end of the list and return its head.
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
 - partial reverse basically ...
 <details><summary markdown="span">Question</summary>
