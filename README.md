@@ -301,6 +301,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 316. Remove Duplicate Letters
+
+
+
 - :bulb: 659. Split Array into Consecutive Subsequences
 
 
@@ -336,7 +340,7 @@ Quote from [HTDP](https://htdp.org/)
 - :exploding_head: 1354. Construct Target Array With Multiple Sums
 
 
-(...count: 12)
+(...count: 13)
 
 # [linked_list](linked_list/README.md)
 
@@ -569,4 +573,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 81
+> # Total: 82
