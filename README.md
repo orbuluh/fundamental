@@ -393,6 +393,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :exploding_head: 856. Score of Parentheses
+
+
+
 ## Brainteaser
 
 
@@ -400,7 +404,7 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 458. Poor Pigs
 
 
-(...count: 3)
+(...count: 4)
 
 # [monotonic_queue](monotonic_queue/README.md)
 
@@ -573,4 +577,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 82
+> # Total: 83
