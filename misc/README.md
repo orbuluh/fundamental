@@ -45,6 +45,8 @@ Explanation:
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) [:dart:](score_of_parentheses.h)
+- the more intuitive way to do this ... though also not as easy as you think ... [stack solution](score_of_parentheses_stack_sol.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
