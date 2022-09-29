@@ -53,3 +53,25 @@ Output: true
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:bulb: 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) [:dart:](add_2_nums_ii.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given two non-empty linked lists representing two non-negative integers.
+The most significant digit comes first and each of their nodes contains a single digit.
+Add the two numbers and return the sum as a linked list.
+
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Please do it without reversing the linked list
+
+Input: l1 = [7,2,4,3], l2 = [5,6,4]
+Output: [7,8,0,7]
+
+Input: l1 = [9], l2 = [1]
+Output: [1,0]
+
+```
+</details>
+
+------------------------------------------------------------------------------

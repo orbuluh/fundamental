@@ -351,7 +351,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [linked_list](linked_list/README.md)
-- [count: 4]
+- [count: 5]
 
 
 ## Linked list
@@ -371,6 +371,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 234. Palindrome Linked List
+
+
+
+- :bulb: 445. Add Two Numbers II
 
 
 
@@ -585,4 +589,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 85
+> # Total: 86
