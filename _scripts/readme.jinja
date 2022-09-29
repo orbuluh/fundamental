@@ -11,6 +11,7 @@ Quote from [HTDP](https://htdp.org/)
 
 {% for folder, contents in content_dump.items()|sort(attribute='0')%}
 # [{{folder}}]({{folder}}/README.md)
+- [count: {{cnt_per_chapter[folder]}}]
 {% for content in contents %}
 {% if '##' in content %}
 {{ content }}
@@ -18,7 +19,6 @@ Quote from [HTDP](https://htdp.org/)
 - {{ content }}
 {% endif %}
 {% endfor %}
-(...count: {{cnt_per_chapter[folder]}})
 {% endfor %}
 
 <br/><br/>

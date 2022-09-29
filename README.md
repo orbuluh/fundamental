@@ -11,6 +11,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [2_ptrs](2_ptrs/README.md)
+- [count: 2]
 
 
 ## 2 pointers
@@ -24,9 +25,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb::bulb: 838. Push Dominoes
 
 
-(...count: 2)
 
 # [backtracking](backtracking/README.md)
+- [count: 6]
 
 
 ## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
@@ -60,9 +61,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb::bulb: 126. Word Ladder II
 
 
-(...count: 6)
 
 # [binary_search](binary_search/README.md)
+- [count: 8]
 
 
 ## Binary search
@@ -104,9 +105,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 715. Range Module
 
 
-(...count: 8)
 
 # [bitwise](bitwise/README.md)
+- [count: 6]
 
 
 ## Bitwise
@@ -156,9 +157,9 @@ Quote from [HTDP](https://htdp.org/)
 - :ok_hand: 1680. Concatenation of Consecutive Binary Numbers
 
 
-(...count: 6)
 
 # [d_and_d](d_and_d/README.md)
+- [count: 3]
 
 
 ## Divide and Conquer
@@ -176,9 +177,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb::bulb: 894. All Possible Full Binary Trees
 
 
-(...count: 3)
 
 # [dp](dp/README.md)
+- [count: 15]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -268,9 +269,9 @@ Quote from [HTDP](https://htdp.org/)
 - :exploding_head: :exploding_head: 376. Wiggle Subsequence
 
 
-(...count: 15)
 
 # [graph](graph/README.md)
+- [count: 1]
 
 
 ## Graph [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -288,9 +289,9 @@ Quote from [HTDP](https://htdp.org/)
 ## Dijkstra
 
 
-(...count: 1)
 
 # [greedy](greedy/README.md)
+- [count: 13]
 
 
 ## Greedy
@@ -348,9 +349,9 @@ Quote from [HTDP](https://htdp.org/)
 - :exploding_head: 1354. Construct Target Array With Multiple Sums
 
 
-(...count: 13)
 
 # [linked_list](linked_list/README.md)
+- [count: 4]
 
 
 ## Linked list
@@ -372,9 +373,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 234. Palindrome Linked List
 
 
-(...count: 4)
 
 # [math](math/README.md)
+- [count: 1]
 
 
 ## Math
@@ -384,9 +385,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 462. Minimum Moves to Equal Array Elements II
 
 
-(...count: 1)
 
 # [misc](misc/README.md)
+- [count: 4]
 
 
 ## Misc, some great idea
@@ -412,9 +413,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 458. Poor Pigs
 
 
-(...count: 4)
 
 # [monotonic_queue](monotonic_queue/README.md)
+- [count: 2]
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
@@ -428,9 +429,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 1696. Jump Game VI
 
 
-(...count: 2)
 
 # [range_query](range_query/README.md)
+- [count: 1]
 
 
 ## Range Sum
@@ -448,9 +449,9 @@ Quote from [HTDP](https://htdp.org/)
 ## Binary indexed tree related
 
 
-(...count: 1)
 
 # [recursion](recursion/README.md)
+- [count: 7]
 
 
 ## Recursion
@@ -484,9 +485,9 @@ Quote from [HTDP](https://htdp.org/)
 - :exploding_head: 114. Flatten Binary Tree to Linked List
 
 
-(...count: 7)
 
 # [sliding_window](sliding_window/README.md)
+- [count: 2]
 
 
 ## Sliding window
@@ -500,9 +501,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb::bulb: 30. Substring with Concatenation of All Words
 
 
-(...count: 2)
 
 # [sorting](sorting/README.md)
+- [count: 3]
 
 
 ## Sorting
@@ -524,9 +525,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 315. Count of Smaller Numbers After Self
 
 
-(...count: 3)
 
 # [substr_matching](substr_matching/README.md)
+- [count: 1]
 
 
 ## Substring matching algorithm
@@ -536,9 +537,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 718. Maximum Length of Repeated Subarray
 
 
-(...count: 1)
 
 # [tree](tree/README.md)
+- [count: 5]
 
 
 ## Tree
@@ -568,9 +569,9 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 94. Binary Tree Inorder Traversal with Iterative
 
 
-(...count: 5)
 
 # [union_find](union_find/README.md)
+- [count: 1]
 
 
 ## Union find [:notebook:](../notes/union_find.md)
@@ -580,7 +581,6 @@ Quote from [HTDP](https://htdp.org/)
 - :ok_hand: 990. Satisfiability of Equality Equations
 
 
-(...count: 1)
 
 
 <br/><br/>
