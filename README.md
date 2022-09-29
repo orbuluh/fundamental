@@ -233,6 +233,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :exploding_head: 2272. Substring With Largest Variance
+
+
+
 ## Common sequence
 
 
@@ -264,7 +268,7 @@ Quote from [HTDP](https://htdp.org/)
 - :exploding_head: :exploding_head: 376. Wiggle Subsequence
 
 
-(...count: 14)
+(...count: 15)
 
 # [graph](graph/README.md)
 
@@ -581,4 +585,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 84
+> # Total: 85
