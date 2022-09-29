@@ -52,6 +52,34 @@ Output: true
 
 ------------------------------------------------------------------------------
 
+## [:bulb::bulb: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) [:dart:](find_k_closest.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a sorted integer array arr, two integers k and x,
+return the k closest integers to x in the array. (x might not in the array)
+
+The result should also be sorted in ascending order.
+
+An integer a is closer to x than an integer b if:
+
+- |a - x| < |b - x|, or
+- |a - x| == |b - x| and a < b
+
+Input: arr = [1,2,3,4,5], k = 4, x = 3
+Output: [1,2,3,4]
+
+Input: arr = [1,2,3,4,5], k = 4, x = -1
+Output: [1,2,3,4]
+
+Input: arr = [1,1,1,10,10,10], k = 1, x = 9
+Output: [10]
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [:dart:](kth_small_ele_in_sorted_matrix.h)
 
 <details><summary markdown="span">Question</summary>

@@ -81,6 +81,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb::bulb: 658. Find K Closest Elements
+
+
+
 - :bulb::bulb: 378. Kth Smallest Element in a Sorted Matrix
 
 
@@ -100,7 +104,7 @@ Quote from [HTDP](https://htdp.org/)
 - :bulb: 715. Range Module
 
 
-(...count: 7)
+(...count: 8)
 
 # [bitwise](bitwise/README.md)
 
@@ -577,4 +581,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 83
+> # Total: 84
