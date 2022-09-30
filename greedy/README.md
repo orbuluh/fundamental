@@ -2,6 +2,7 @@
 
 ## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [:dart:](merge_interval.h)
 - Related:
+  - [57. Insert Interval](#bulb-57-insert-intervalhttpsleetcodecomproblemsinsert-interval-dartinsertintervalh)
   - [759. Employee Free Time](#okhand-759-employee-free-timehttpsleetcodecomproblemsemployee-free-time-dartemployeefreetimeh)
   - [715. Range Module](../binary_search/README.md#bulb-715-range-modulehttpsleetcodecomproblemsrange-module-dartrangemoduleh-notebooksrcs715addrangepng-notebooksrcs715removerangepng)
 <details><summary markdown="span">Question</summary>
@@ -44,6 +45,38 @@ Explanation:
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:bulb: 57. Insert Interval](https://leetcode.com/problems/insert-interval/) [:dart:](insert_interval.h)
+- you complicate it to be a bisect question but in reality you don't need to...
+- and BF solution is actually harder than you think if you are not doing it correctly...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of non-overlapping intervals intervals where
+- intervals[i] = [starti, endi] represent
+- the start and the end of the ith interval
+- and intervals is sorted in ascending order by starti.
+
+You are also given an interval newInterval = [start, end]
+that represents the start and end of another interval.
+
+Insert newInterval into intervals such that intervals is 
+- **still sorted in ascending order by starti** and
+- intervals still **does not have any overlapping intervals** (merge overlapping intervals if necessary).
+
+Return intervals after the insertion.
+
+Input: intervals = [[1,3],[6,9]], newInterval = [2,5]
+Output: [[1,5],[6,9]]
+
+Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+Output: [[1,2],[3,10],[12,16]]
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
 
 <details><summary markdown="span">Question</summary>

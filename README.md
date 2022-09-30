@@ -291,7 +291,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [greedy](greedy/README.md)
-- [count: 14]
+- [count: 15]
 
 
 ## Greedy
@@ -303,6 +303,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 759. Employee Free Time
+
+
+
+- :bulb: 57. Insert Interval
 
 
 
@@ -593,4 +597,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 87
+> # Total: 88
