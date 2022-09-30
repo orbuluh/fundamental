@@ -276,3 +276,34 @@ Explanation: Start with arr = [1, 1, 1]
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:exploding_head::exploding_head: 218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) [:dart:](the_sky_line.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A city's skyline is the outer contour of the silhouette formed by
+all thebuildings in that city when viewed from a distance.
+
+Given the locations and heights of all the buildings,
+return the skyline formed by these buildings collectively.
+
+The geometric information of each building is given in the array buildings
+- where buildings[i] = [lefti, righti, heighti]:
+  - lefti is the x coordinate of the left edge of the ith building.
+  - righti is the x coordinate of the right edge of the ith building.
+  - heighti is the height of the ith building.
+
+
+The skyline should be represented as a list of "key points" sorted by their
+x-coordinate in the form [[x1,y1],[x2,y2],...]. Each key point is the left
+endpoint of some horizontal segment in the skyline except the last point in the
+list, which always has a y-coordinate 0 and is used to mark the skyline's
+termination where the rightmost building ends.
+
+Any ground between the leftmost and rightmost buildings should be part of the
+skyline's contour.
+```
+</details>
+
+------------------------------------------------------------------------------
