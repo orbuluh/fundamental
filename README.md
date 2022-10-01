@@ -179,7 +179,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [dp](dp/README.md)
-- [count: 15]
+- [count: 16]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -251,6 +251,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 1220. Count Vowels Permutation
+
+
+
+- :bulb: 91. Decode Ways
 
 
 
@@ -597,4 +601,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 88
+> # Total: 89
