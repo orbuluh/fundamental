@@ -179,10 +179,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [dp](dp/README.md)
-- [count: 16]
+- [count: 17]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
+
+
+
+## Knapsack?
+
+
+
+- :ok_hand: 1155. Number of Dice Rolls With Target Sum
 
 
 
@@ -601,4 +609,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 89
+> # Total: 90

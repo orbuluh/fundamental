@@ -1,5 +1,33 @@
 # Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
 
+
+# Knapsack?
+## [:ok_hand: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+
+You have n dice and each die has k faces numbered from 1 to k.
+
+Given three integers n, k, and target, return the number of possible ways
+(out of the kn total ways) to roll the dice so the sum of the face-up numbers
+equals target.
+
+Since the answer may be too large, return it modulo 10^9 + 7.
+
+Example:
+
+Input: n = 2, k = 6, target = 7
+Output: 6
+Explanation: You throw two dice, each with 6 faces.
+There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
+```
+</details>
+
+------------------------------------------------------------------------------
+
+
 # State transition
 
 ## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) [:dart:](buy_sell_stock_with_cooldown.h)
