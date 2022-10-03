@@ -303,7 +303,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [greedy](greedy/README.md)
-- [count: 15]
+- [count: 16]
 
 
 ## Greedy
@@ -339,6 +339,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 135. Candy
+
+
+
+- :bulb: 1578. Minimum Time to Make Rope Colorful
 
 
 
@@ -609,4 +613,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 90
+> # Total: 91

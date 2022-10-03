@@ -192,6 +192,34 @@ You are giving candies to these children subjected to the following requirements
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) [:dart:](min_time_to_make_rope_colorful.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Alice has n balloons arranged on a rope.
+You are given a 0-indexed string colors where
+- colors[i] is the color of the ith balloon.
+
+Alice does not want two consecutive balloons to be of the same color.
+- She can remove some balloons from the rope to make it colorful.
+- You are given a 0-indexed integer array cost where cost[i] is the time (in seconds) that she needs to remove the ith balloon from the rope.
+
+Return the minimum time to make the rope colorful.
+
+Input: colors = "aabaa", neededTime = [1,2,3,4,1]
+Output: 2
+Explanation:
+
+Remove the ballons at indices 0 and 4.
+Each ballon takes 1 second to remove.
+There are no longer two consecutive balloons of the same color.
+Total time = 1 + 1 = 2.
+
+```
+</details>
+------------------------------------------------------------------------------
+
 ## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
 <details><summary markdown="span">Question</summary>
 
