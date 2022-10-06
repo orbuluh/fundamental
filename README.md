@@ -403,7 +403,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [math](math/README.md)
-- [count: 1]
+- [count: 2]
 
 
 ## Math
@@ -411,6 +411,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 462. Minimum Moves to Equal Array Elements II
+
+
+
+## Geometry
+
+
+
+- :bulb: 1610. Maximum Number of Visible Points
 
 
 
@@ -613,4 +621,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 91
+> # Total: 92
