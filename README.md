@@ -606,6 +606,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+# [trie](trie/README.md)
+- [count: 1]
+
+
+## Trie
+
+
+
+- :exploding_head: 336. Palindrome Pairs
+
+
+
 # [union_find](union_find/README.md)
 - [count: 1]
 
@@ -621,4 +633,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 92
+> # Total: 93
