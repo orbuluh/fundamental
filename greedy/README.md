@@ -77,6 +77,35 @@ Output: [[1,2],[3,10],[12,16]]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/) [:dart:](my_calendar_iii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of non-overlapping intervals intervals where
+- intervals[i] = [starti, endi] represent
+- the start and the end of the ith interval
+- and intervals is sorted in ascending order by starti.
+
+You are also given an interval newInterval = [start, end]
+that represents the start and end of another interval.
+
+Insert newInterval into intervals such that intervals is 
+- **still sorted in ascending order by starti** and
+- intervals still **does not have any overlapping intervals** (merge overlapping intervals if necessary).
+
+Return intervals after the insertion.
+
+Input: intervals = [[1,3],[6,9]], newInterval = [2,5]
+Output: [[1,5],[6,9]]
+
+Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+Output: [[1,2],[3,10],[12,16]]
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
 
 <details><summary markdown="span">Question</summary>
@@ -218,6 +247,7 @@ Total time = 1 + 1 = 2.
 
 ```
 </details>
+
 ------------------------------------------------------------------------------
 
 ## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
