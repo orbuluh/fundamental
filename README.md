@@ -11,10 +11,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [2_ptrs](2_ptrs/README.md)
-- [count: 2]
+- [count: 3]
 
 
 ## 2 pointers
+
+
+
+- :bulb: 16. 3Sum Closest
 
 
 
@@ -637,4 +641,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 94
+> # Total: 95

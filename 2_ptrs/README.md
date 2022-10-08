@@ -1,5 +1,23 @@
 # 2 pointers
 
+## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) [:dart:](3sum_closest.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums of length n and an integer target,
+find three integers in nums such that the sum is closest to target.
+
+Return the sum of the three integers.
+You may assume that each input would have exactly one solution.
+
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [:dart:](container_with_most_water.h)
 <details><summary markdown="span">Question</summary>
 
