@@ -11,6 +11,20 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 61. Rotate List](https://leetcode.com/problems/rotate-list/) [:dart:](rotate_list.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a linked list, rotate the list to the right by k places.
+
+Input: head = [1,2,3,4,5], k = 2
+Output: [4,5,1,2,3]
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [:dart:](remove_n_th_node_from_end.h)
 
 <details><summary markdown="span">Question</summary>

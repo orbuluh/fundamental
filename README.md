@@ -383,7 +383,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [linked_list](linked_list/README.md)
-- [count: 5]
+- [count: 6]
 
 
 ## Linked list
@@ -391,6 +391,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 206. Reverse Linked List
+
+
+
+- :bulb: 61. Rotate List
 
 
 
@@ -641,4 +645,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 95
+> # Total: 96
