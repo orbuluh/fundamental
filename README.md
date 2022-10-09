@@ -463,7 +463,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [monotonic_queue](monotonic_queue/README.md)
-- [count: 2]
+- [count: 3]
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
@@ -475,6 +475,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1696. Jump Game VI
+
+
+
+- :bulb: 853. Car Fleet
 
 
 
@@ -657,4 +661,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 98
+> # Total: 99
