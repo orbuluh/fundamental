@@ -20,10 +20,14 @@
 - If the keys are constant-pointers-to-characters, the map is sorted by the key pointers, and not by the key string literals.
 - If the keys are `std::string`, it is lexicographically sorted.
 
+# BST
+- binary search tree is a binary tree in which every node fits a specific ordering property:
+  - `all left descendents <= n < all right descendents`. This must be true for each node `n`.
+  - (or) `all left descendents < n <= all right descendents`
+- Note that this **inequality must be true for all of a node's descendents, not just its immediate children**
+
 # Segment tree
 - check [:notebook:](segment_tree.md)
-
-
 
 # Monotonic Queue
 - A **monotonic** queue: the elements from the front to the end is strictly either increasing or decreasing.

@@ -587,7 +587,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [tree](tree/README.md)
-- [count: 5]
+- [count: 6]
 
 
 ## Tree
@@ -618,6 +618,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## BST
+
+
+
+- :ok_hand: 173. Binary Search Tree Iterator
+
+
+
 # [trie](trie/README.md)
 - [count: 1]
 
@@ -645,4 +653,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 96
+> # Total: 97
