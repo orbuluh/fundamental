@@ -76,6 +76,7 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 - check [notes :notebook:](../notes/data_structures.md#bst)
 
 ## [:ok_hand: 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) [:dart:](bst_iterator.h)
+- check [653 below](#💡-653-two-sum-iv---input-is-a-bst-🎯) as a variant of this one
 
 <details><summary markdown="span">Question</summary>
 
@@ -99,3 +100,14 @@ in-order traversal of a binary search tree (BST):
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) [:dart:](two_sum_iv_with_bst.h)
+- could have just used easier hashmap recursive way ... but just for fun and for a better memory complexity, there is a way to do this with bst iterator basically
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.
+```
+</details>
+
+------------------------------------------------------------------------------

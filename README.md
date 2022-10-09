@@ -587,7 +587,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [tree](tree/README.md)
-- [count: 6]
+- [count: 7]
 
 
 ## Tree
@@ -626,6 +626,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 653. Two Sum IV - Input is a BST
+
+
+
 # [trie](trie/README.md)
 - [count: 1]
 
@@ -653,4 +657,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 97
+> # Total: 98
