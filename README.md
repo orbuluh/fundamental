@@ -463,7 +463,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [monotonic_queue](monotonic_queue/README.md)
-- [count: 3]
+- [count: 4]
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
@@ -479,6 +479,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 853. Car Fleet
+
+
+
+- :exploding_head: 1776. Car Fleet II
 
 
 
@@ -661,4 +665,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 99
+> # Total: 100
