@@ -435,7 +435,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [misc](misc/README.md)
-- [count: 4]
+- [count: 5]
 
 
 ## Misc, some great idea
@@ -443,6 +443,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 916. Word Subsets
+
+
+
+- :ok_hand: 334. Increasing Triplet Subsequence
 
 
 
@@ -665,4 +669,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 100
+> # Total: 101

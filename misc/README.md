@@ -19,6 +19,22 @@ You are given two string arrays words1 and words2.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) [:dart:](inc_triplet_subseq.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums
+return true if there exists a triple of indices (i, j, k) such that
+- i < j < k and
+- nums[i] < nums[j] < nums[k].
+
+If no such indices exists, return false.
+```
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) [:dart:](remove_adj_dups_ii.h)
 <details><summary markdown="span">Question</summary>
 
