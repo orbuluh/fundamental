@@ -32,3 +32,29 @@ A graph is **bipartite** if
 
 # Dijkstra
 - [778. Swim in Rising Water](../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
+
+
+# Model as graph
+
+## [:exploding_head: 1153. String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/) [:dart:](string_to_another_string.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two strings str1 and str2 of the same length, determine whether you can
+transform str1 into str2 by doing zero or more conversions.
+
+In one conversion you can convert **all occurrences** of one character in str1
+to any other lowercase English character.
+
+Return true if and only if you can transform str1 into str2.
+
+Input: str1 = "aabcc", str2 = "ccdee"
+Output: true
+Explanation: Convert 'c' to 'e' then 'b' to 'd' then 'a' to 'c'.
+Note that the order of conversions matter. Example, if you convert a to c first,
+str1 will becomes ccbcc, so eventually when you do c-> conversion, it would have
+gives eebee, and str1 will never equal to str2.
+```
+</details>
+
+------------------------------------------------------------------------------
