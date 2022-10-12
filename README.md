@@ -435,7 +435,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [misc](misc/README.md)
-- [count: 5]
+- [count: 6]
 
 
 ## Misc, some great idea
@@ -447,6 +447,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 334. Increasing Triplet Subsequence
+
+
+
+- :bulb: 833. Find And Replace in String
 
 
 
@@ -669,4 +673,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 101
+> # Total: 102
