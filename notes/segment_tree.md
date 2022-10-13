@@ -36,12 +36,12 @@
 ## How to query
 - Return value is based on the query of the range.
 - The main idea is that each siblings are having mutual exclusive range. So it's about how to traverse the tree and composite the full range.
-  - **Case 1**: query range **completely covered** by the node range: `return node value`
-  - **Case 2**: query range **out side of** node range: return a value represents out of bound.
+  - **Case 1**: node range is **completely covered** by the query range: `return node value` (as you don't need to go down further)
+  - **Case 2**: node range is **out side of** query range: return a value that can represents a do nothing as the context of the query.
     - For example:
-      - `return INT_MIN` if finding max
+      - `return INT_MIN` if finding max.
       - `return 0` if finding range sum.
-  - **Case 3**: query range **(partial or full) overlap with** node range: return a value represents within the range
+  - **Case 3**: node range **(partial or full) overlap with** query range: return a value represents query within the range
     - `return min(left, right)` if finding range max
     - `return sum(left, right)` if finding range sum
 - Check [this question](../segment_tree/range_sum_query_mutable_segmenttree.h)
