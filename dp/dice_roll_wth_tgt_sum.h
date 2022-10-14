@@ -5,10 +5,10 @@ class Solution {
   dp_2[t] records #ways to use 2 dice for a target value t
 
   --> dp_2[t]
-       = tp_1[t - 1]   ...(new dice use val 1, previous dice form t - 1)
-       + tp_1[t - 2]   ...(new dice use val 2, previous dice form t - 1)
+       = dp_1[t - 1]   ...(new dice use val 1, previous dice form t - 1)
+       + dp_1[t - 2]   ...(new dice use val 2, previous dice form t - 1)
        ...
-       + tp_1[0]       ...(new dice use val t, previous dice form 0)
+       + dp_1[0]       ...(new dice use val t, previous dice form 0)
 
   --> base case, dp_0[t] is just 0 for everything,
       except that dp_0[0] is 1
