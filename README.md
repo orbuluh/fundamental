@@ -183,7 +183,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [dp](dp/README.md)
-- [count: 17]
+- [count: 18]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -207,6 +207,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :thinking: 188. Best Time to Buy and Sell Stock IV
+
+
+
+- :bulb: 1335. Minimum Difficulty of a Job Schedule
 
 
 
@@ -681,4 +685,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 103
+> # Total: 104
