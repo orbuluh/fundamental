@@ -183,7 +183,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [dp](dp/README.md)
-- [count: 18]
+- [count: 19]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -235,6 +235,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1473. Paint House III
+
+
+
+- :exploding_head::exploding_head: 1531. String Compression II
 
 
 
@@ -685,4 +689,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 104
+> # Total: 105
