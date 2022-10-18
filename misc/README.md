@@ -34,6 +34,28 @@ If no such indices exists, return false.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) [:dart:](group_shifted_strings.h)
+- asked in peer mock, how to hash the input is actually easy but you complicated it...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+We can shift a string by shifting each of its letters to its successive letter.
+- For example, "abc" can be shifted to be "bcd" and "za" could shift to "ab"
+
+We can keep shifting the string to form a sequence.
+- For example, we can keep shifting "abc" to form the sequence: "abc" -> "bcd" -> ... -> "xyz".
+
+Given an array of strings strings, group all strings[i] that belong to the same shifting sequence.
+You may return the answer in any order.
+
+Input: strings = ["abc","bcd","acef","xyz","az","ba","a","z"]
+Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) [:dart:](find_and_replace_in_string.h)
 <details><summary markdown="span">Question</summary>
 

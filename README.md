@@ -455,7 +455,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [misc](misc/README.md)
-- [count: 6]
+- [count: 7]
 
 
 ## Misc, some great idea
@@ -467,6 +467,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 334. Increasing Triplet Subsequence
+
+
+
+- :ok_hand: 249. Group Shifted Strings
 
 
 
@@ -693,4 +697,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 106
+> # Total: 107
