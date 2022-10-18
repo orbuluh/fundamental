@@ -67,10 +67,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [binary_search](binary_search/README.md)
-- [count: 8]
+- [count: 9]
 
 
 ## Binary search
+
+
+
+- :ok_hand: 74. Search a 2D Matrix
 
 
 
@@ -689,4 +693,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 105
+> # Total: 106
