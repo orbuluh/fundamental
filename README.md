@@ -539,10 +539,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [recursion](recursion/README.md)
-- [count: 7]
+- [count: 8]
 
 
 ## Recursion
+
+
+
+- :ok_hand: 38. Count and Say
 
 
 
@@ -697,4 +701,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 107
+> # Total: 108
