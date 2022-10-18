@@ -14,12 +14,19 @@
   - And because (1) could have multiple result, the implementation is easy to get wrong!
 - So how to do it in binary insert way? - check [here :dart:](../binary_search/first_and_last_pos_of_tgt_in_arr.h)
 ## Key 1: we want to make sure we don't go into infinite loop. How?
-  - when you do `while (l < r)` ... and if ...
-    - mid bias to `l`, e.g. `mid = l + (r - l) / 2`, then moving `r = mid` is guaranteed to be okay as `mid` can't equal to `r`
-    - mid bias to `r`, e.g. `mid = l + (r - l + 1) / 2`, then moving `l = mid` is guaranteed to be okay as `mid` can't equal to `l`
-  - when do we need to bias to `l`? When we try to find the first occurrence (case 2)
-  - when do we need to bias to `r`? When we try to find the last occurrence (case 2)
-## Key 2: what to return?
+- when you do `while (l < r)` ... and if ...
+  - mid bias to `l`, e.g. `mid = l + (r - l) / 2`, then moving `r = mid` is guaranteed to be okay as `mid` can't equal to `r`
+  - mid bias to `r`, e.g. `mid = l + (r - l + 1) / 2`, then moving `l = mid` is guaranteed to be okay as `mid` can't equal to `l`
+## Key 2: when to bias what?
+- when do we need to bias to `l`? When we try to find the first occurrence (case 2)
+  - Why? when we try to find the first occurrence, we want to always decrease `r` when `value >= target`.
+  - And because it's first occurrence, mid itself could equal to target. So we basically want to make r = mid when `value >= target`
+  - To ensure `r = mid` won't be an infinite loop, we have to "left bias" so mid will always not equal to `r`
+- when do we need to bias to `r`? When we try to find the last occurrence (case 3)
+  - Why? the same, we want to increase `l` when `value <= target`.
+  - And because `l` itself could be result, we want to make `l = mid` when `value <= target`
+  - To ensure `l = mid` won't be an infinite loop, we have to "right bias" so mid will always not equal to `l`
+## Key 3: what to return?
   - when we bias to `l`, `mid` will eventually equal to `l` when loop break, which is the value we want to return.
   - vise-versa, when bias to `r`, we want to return `r`
 
