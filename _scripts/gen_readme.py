@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import glob
+from pathlib import Path
 import re
 from collections import defaultdict
 from jinja2 import Environment, FileSystemLoader
@@ -14,9 +14,10 @@ content_dump = defaultdict(list)
 cnt_per_chapter = {}
 total_count = 0
 
-for file in glob.glob(f"{scriptDir}/../**/README.md"):
+for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
+    file = posix_file_path.as_posix()
     folder = file.split("/")[-2]
-    if folder == "notes": continue
+    if folder == "notes" or folder == "..": continue
     with open(file, "r") as f:
         count = 0
         for line in f:

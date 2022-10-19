@@ -10,8 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 ---
 
 
-# [2_ptrs](2_ptrs/README.md)
-- [count: 3]
+# [2_ptrs](2_ptrs/README.md) - [count: 3]
 
 
 ## 2 pointers
@@ -30,8 +29,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [backtracking](backtracking/README.md)
-- [count: 6]
+# [backtracking](backtracking/README.md) - [count: 6]
 
 
 ## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
@@ -66,8 +64,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [binary_search](binary_search/README.md)
-- [count: 9]
+# [binary_indexed_tree](binary_indexed_tree/README.md) - [count: 1]
+
+
+## Binary Indexed Tree
+
+
+
+- :ok_hand: 307. Range Sum Query - Mutable
+
+
+
+# [binary_search](binary_search/README.md) - [count: 9]
 
 
 ## Binary search
@@ -114,8 +122,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [bitwise](bitwise/README.md)
-- [count: 6]
+# [bitwise](bitwise/README.md) - [count: 6]
 
 
 ## Bitwise
@@ -166,8 +173,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [d_and_d](d_and_d/README.md)
-- [count: 3]
+# [d_and_d](d_and_d/README.md) - [count: 3]
 
 
 ## Divide and Conquer
@@ -186,8 +192,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [dp](dp/README.md)
-- [count: 19]
+# [dp](dp/README.md) - [count: 19]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -298,8 +303,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [ds_design](ds_design/README.md)
-- [count: 2]
+# [ds_design](ds_design/README.md) - [count: 2]
 
 
 ## Data structure design
@@ -314,8 +318,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [graph](graph/README.md)
-- [count: 2]
+# [graph](graph/README.md) - [count: 2]
 
 
 ## Graph [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -342,8 +345,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [greedy](greedy/README.md)
-- [count: 17]
+# [greedy](greedy/README.md) - [count: 17]
 
 
 ## Greedy
@@ -418,8 +420,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [linked_list](linked_list/README.md)
-- [count: 6]
+# [linked_list](linked_list/README.md) - [count: 6]
 
 
 ## Linked list
@@ -450,8 +451,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [math](math/README.md)
-- [count: 2]
+# [math](math/README.md) - [count: 2]
 
 
 ## Math
@@ -470,8 +470,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [misc](misc/README.md)
-- [count: 7]
+# [misc](misc/README.md) - [count: 7]
 
 
 ## Misc, some great idea
@@ -510,8 +509,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [monotonic_queue](monotonic_queue/README.md)
-- [count: 4]
+# [monotonic_queue](monotonic_queue/README.md) - [count: 4]
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
@@ -534,8 +532,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [range_query](range_query/README.md)
-- [count: 1]
+# [range_query](range_query/README.md) - [count: 1]
 
 
 ## Range Sum
@@ -554,8 +551,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [recursion](recursion/README.md)
-- [count: 8]
+# [recursion](recursion/README.md) - [count: 8]
 
 
 ## Recursion
@@ -594,8 +590,22 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [sliding_window](sliding_window/README.md)
-- [count: 2]
+# [segment_tree](segment_tree/README.md) - [count: 2]
+
+
+## Segment tree
+
+
+
+- :ok_hand: 307. Range Sum Query - Mutable
+
+
+
+- :exploding_head: 315. Count of Smaller Numbers After Self
+
+
+
+# [sliding_window](sliding_window/README.md) - [count: 2]
 
 
 ## Sliding window
@@ -610,8 +620,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [sorting](sorting/README.md)
-- [count: 3]
+# [sorting](sorting/README.md) - [count: 3]
 
 
 ## Sorting
@@ -634,8 +643,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [substr_matching](substr_matching/README.md)
-- [count: 1]
+# [substr_matching](substr_matching/README.md) - [count: 1]
 
 
 ## Substring matching algorithm
@@ -646,8 +654,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [tree](tree/README.md)
-- [count: 7]
+# [tree](tree/README.md) - [count: 7]
 
 
 ## Tree
@@ -690,8 +697,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [trie](trie/README.md)
-- [count: 1]
+# [trie](trie/README.md) - [count: 1]
 
 
 ## Trie
@@ -702,8 +708,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [union_find](union_find/README.md)
-- [count: 1]
+# [union_find](union_find/README.md) - [count: 1]
 
 
 ## Union find [:notebook:](../notes/union_find.md)
@@ -717,4 +722,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 110
+> # Total: 113
