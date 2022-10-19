@@ -2,6 +2,7 @@
 - Original taking notes from watching [YT video](https://youtu.be/-dUiRtJ8ot0)
 
 ## Use case - A query about an range
+
 ### Example: query maximum within range
 - Say you have an array of integers. User will query with a range [l, r]
 - You need to return the maximum between [l, r]
@@ -14,11 +15,13 @@
 - say root node idx is `i`
   - left node idx is `2 * i + 1`
   - right node idx is `2 * i + 2`
-- root node represents range within [L, R]
+- A node stores value based on the query context.
+- Say a node represents range within [L, R]
   - M = L + (R - L) / 2
   - left node represents range within [L, M]
   - right node represents range within [M+1, R]
-- Overall - leaf node will basically represents the original input, which has a range of l == r
+- Leaf node basically represents the original input, which has a range of l == r
+- Root node represents the full range
 
 ![](../srcs/segment_tree_basic_structure.png)
 
@@ -52,7 +55,7 @@
 - Say full range is n, which means leaf nodes is at least n
 - Say N is the min of pow of 2 that >= n, e.g. N = $2^{\lceil log_2{n} \rceil}$
 - Since segment tree is a complete tree, the hight of tree should be $h = \lceil log_2{N} \rceil + 1$
-- The maximum number of nodes in a complete binary tree is $2^(h) - 1$
+- The maximum number of nodes in a complete binary tree is $2^{h} - 1$
 - So the size needed equal to $2^{log_2{N} + 1} - 1$ = $2 * 2^{log_2{N}} - 1$ = $2 * N - 1$
 - As $N <= 2 * n$, size needed will be $2 * 2 * n - 1$ = $O(4*n)$
 

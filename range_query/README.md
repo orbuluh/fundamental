@@ -23,6 +23,7 @@ Output: 2
 - Suitable when the range is constrained!
 
 ## [:bulb: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted.h)
+- the segment tree implementation check [here](segment_tree//amt_of_new_area_painted_segment_tree.h)
 
 <details><summary markdown="span">Question</summary>
 

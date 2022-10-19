@@ -22,7 +22,14 @@ Given an integer array nums, handle multiple queries of the following types:
 ```
 </details>
 
+------------------------------------------------------------------------------
 
+## [:bulb: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted_segment_tree.h)
+- Other solution, problem statement [here](../README.md#💡-2158-amount-of-new-area-painted-each-day-🎯)
+
+------------------------------------------------------------------------------
 
 ## [:exploding_head: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_segmenttree.h)
 - Other solution, problem statement [here](../sorting/README.md#bulb-315-count-of-smaller-numbers-after-selfhttpsleetcodecomproblemscount-of-smaller-numbers-after-self-dartcntsmallernumafterselfmergesorth)
+
+------------------------------------------------------------------------------

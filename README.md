@@ -598,7 +598,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [segment_tree](segment_tree/README.md) - [count: 2]
+# [segment_tree](segment_tree/README.md) - [count: 3]
 
 
 ## Segment tree
@@ -606,6 +606,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 307. Range Sum Query - Mutable
+
+
+
+- :bulb: 2158. Amount of New Area Painted Each Day
 
 
 
@@ -730,4 +734,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 114
+> # Total: 115
