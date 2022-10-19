@@ -532,7 +532,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [range_query](range_query/README.md) - [count: 1]
+# [range_query](range_query/README.md) - [count: 2]
 
 
 ## Range Sum
@@ -540,6 +540,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 560. Subarray Sum Equals K
+
+
+
+## The jump line method
+
+
+
+- :bulb: 2158. Amount of New Area Painted Each Day
 
 
 
@@ -722,4 +730,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 113
+> # Total: 114
