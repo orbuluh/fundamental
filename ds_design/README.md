@@ -1,11 +1,25 @@
 # Data structure design
-- more focus on insight of tree.
-- For question that is more about beautiful recursion - check [notes :notebook:](../recursion/README.md)
-- For segment tree - check [notes :notebook:](../range_query/segment_tree/README.md)
+
+## [:ok_hand: 692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) [:dart:](top_k_freq_words.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of strings words and an integer k, return the k most frequent strings.
+
+Return the answer sorted by the frequency from highest to lowest.
+Sort the words with the same frequency by their lexicographical order.
+
+Input: words = ["the","day","is","sunny","the","the","the","sunny","is","is"], k = 4
+Output: ["the","is","sunny","day"]
+Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
+             with the number of occurrence being 4, 3, 2 and 1 respectively.
+```
+</details>
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) [:dart:](lru_cache.h)
+## [:bulb::bulb: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) [:dart:](lru_cache.h)
 
 <details><summary markdown="span">Question</summary>
 

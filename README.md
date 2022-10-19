@@ -299,14 +299,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [ds_design](ds_design/README.md)
-- [count: 1]
+- [count: 2]
 
 
 ## Data structure design
 
 
 
-- :bulb: 146. LRU Cache
+- :ok_hand: 692. Top K Frequent Words
+
+
+
+- :bulb::bulb: 146. LRU Cache
 
 
 
@@ -713,4 +717,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 109
+> # Total: 110
