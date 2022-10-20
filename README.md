@@ -29,7 +29,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [backtracking](backtracking/README.md) - [count: 6]
+# [backtracking](backtracking/README.md) - [count: 7]
 
 
 ## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
@@ -49,6 +49,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 778. Swim in Rising Water
+
+
+
+- :bulb: 489. Robot Room Cleaner
 
 
 
@@ -742,4 +746,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 116
+> # Total: 117

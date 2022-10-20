@@ -18,6 +18,7 @@ Output: [1,5,1]
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 ## [:bulb: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
 - might be harder to not get TLE than you originally think!
@@ -45,9 +46,13 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 ```
 </details>
 
+------------------------------------------------------------------------------
+
 ## [:bulb: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
 - Problem description, optimal solution check -> [here](../binary_search/README.md#bulbbulb-410-split-array-largest-sumhttpsleetcodecomproblemssplit-array-largest-sum-dartsplitarrlargestsumbsh)
 - Would be nice to practice backtrack on this problem...
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](matchsticks_to_square.h)
 
@@ -74,6 +79,60 @@ You cannot reach point (1, 0) until time 2.
 Then you can reach bottom right
 ```
 </details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) [:dart:](robot_room_cleaner.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are controlling a robot that is located somewhere in a room.
+The room is modeled as an m x n binary grid where
+- 0 represents a wall and 1 represents an empty slot.
+
+The robot starts at an unknown location in the room that is guaranteed to be
+empty, and you do not have access to the grid, but you can only move the robot using
+the given API Robot.
+
+You are tasked to use the robot to clean the entire room (i.e., clean every
+empty cell in the room). The robot with the four given APIs can
+- move forward,
+- turn left
+- turn right. Each turn is 90 degrees.
+
+When the robot tries to move into a wall cell, its bumper sensor detects the
+obstacle, and it stays on the current cell.
+
+Design an algorithm to clean the entire room using the following APIs:
+
+interface Robot {
+  // returns true if next cell is open and robot moves into the cell.
+  // returns false if next cell is obstacle and robot stays on the current cell.
+  boolean move();
+
+  // Robot will stay on the same cell after calling turnLeft/turnRight.
+  // Each turn will be 90 degrees.
+  void turnLeft();
+  void turnRight();
+
+  // Clean the current cell.
+  void clean();
+}
+
+
+- Note that the initial direction of the robot will be facing up. You can
+assume all four edges of the grid are all surrounded by a wall.
+
+Custom testing:
+- The input is only given to initialize the room and the robot's position
+internally. You must solve this problem "blindfolded". In other words, you must
+control the robot using only the four mentioned APIs without knowing the room
+layout and the initial robot's position.
+```
+</details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) [:dart:](pac_atl_water_flow.h)
 
@@ -121,6 +180,7 @@ Note that there are other possible paths for these cells to flow to the Pacific 
 ```
 </details>
 
+------------------------------------------------------------------------------
 
 # Back tracking the BFS path
 
