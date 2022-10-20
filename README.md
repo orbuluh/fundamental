@@ -470,10 +470,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [misc](misc/README.md) - [count: 7]
+# [misc](misc/README.md) - [count: 8]
 
 
-## Misc, some great idea
+## Misc, some great algo to do something
 
 
 
@@ -498,6 +498,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 856. Score of Parentheses
+
+
+
+## Nice implementation idea
+
+
+
+- :ok_hand: 12. Integer to Roman
 
 
 
@@ -734,4 +742,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 115
+> # Total: 116
