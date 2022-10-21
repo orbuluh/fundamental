@@ -322,7 +322,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [graph](graph/README.md) - [count: 2]
+# [graph](graph/README.md) - [count: 3]
 
 
 ## Graph [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -342,6 +342,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Model as graph
+
+
+
+- :bulb: 2115. Find All Possible Recipes from Given Supplies
 
 
 
@@ -746,4 +750,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 117
+> # Total: 118
