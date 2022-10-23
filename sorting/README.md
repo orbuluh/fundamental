@@ -63,9 +63,31 @@ To the right of 2 there is only 1 smaller element (1).
 To the right of 6 there is 1 smaller element (1).
 To the right of 1 there is 0 smaller element.
 ```
+</details>
+
 ------------------------------------------------------------------------------
 
 # Circular sort
 
 ## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) [:dart:](set_mismatch_circular_sort.h)
 - Other solution, problem statement [here](../bitwise/README.md#👌-645-set-mismatch-🎯)
+
+------------------------------------------------------------------------------
+
+# Quick select
+
+## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [:dart:](kth_largest_in_an_array.h)
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums and an integer k, return the kth largest element in the array.
+
+Note that it is the kth largest element in the sorted order, not the kth distinct element.
+
+You must solve it in O(n) time complexity.
+
+Input: nums = [3,2,1,5,6,4], k = 2
+Output: 5
+```
+</details>
+

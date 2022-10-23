@@ -652,7 +652,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [sorting](sorting/README.md) - [count: 4]
+# [sorting](sorting/README.md) - [count: 5]
 
 
 ## Sorting
@@ -680,6 +680,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 645. Set Mismatch
+
+
+
+## Quick select
+
+
+
+- :bulb: 215. Kth Largest Element in an Array
 
 
 
@@ -762,4 +770,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 120
+> # Total: 121
