@@ -126,7 +126,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [bitwise](bitwise/README.md) - [count: 6]
+# [bitwise](bitwise/README.md) - [count: 7]
 
 
 ## Bitwise
@@ -158,6 +158,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 268. Missing Number
+
+
+
+- :ok_hand: 645. Set Mismatch
 
 
 
@@ -648,7 +652,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [sorting](sorting/README.md) - [count: 3]
+# [sorting](sorting/README.md) - [count: 4]
 
 
 ## Sorting
@@ -668,6 +672,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 315. Count of Smaller Numbers After Self
+
+
+
+## Circular sort
+
+
+
+- :ok_hand: 645. Set Mismatch
 
 
 
@@ -750,4 +762,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 118
+> # Total: 120

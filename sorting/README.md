@@ -64,3 +64,8 @@ To the right of 6 there is 1 smaller element (1).
 To the right of 1 there is 0 smaller element.
 ```
 ------------------------------------------------------------------------------
+
+# Circular sort
+
+## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) [:dart:](set_mismatch_circular_sort.h)
+- Other solution, problem statement [here](../bitwise/README.md#👌-645-set-mismatch-🎯)
