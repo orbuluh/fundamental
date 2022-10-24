@@ -83,7 +83,7 @@ Output:           "LL.RR.LLRRLL.."
 
 # Substring window algorithm
 
-- The below question are all using the same "template" of substring window
+- All the below questions using the same "template" of substring window
 - The idea is that you keep a window containing valid substring with 2 ptrs
   - you keep expand the right pointer till you find the first window
   - then you try to make the window invalid again through shrinking the left pointer
@@ -106,6 +106,26 @@ Note: A substring is a contiguous sequence of characters within the string.
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
 Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) [:dart:](longest_substr_with_at_most_2_uniq.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a string s, return the length of the longest substring that contains at most two distinct characters.
+
+Input: s = "eceba"
+Output: 3
+Explanation: The substring is "ece" which its length is 3.
+
+Input: s = "ccaabbb"
+Output: 5
+Explanation: The substring is "aabbb" which its length is 5.
 ```
 
 </details>
