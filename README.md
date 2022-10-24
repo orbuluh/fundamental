@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 ---
 
 
-# [2_ptrs](2_ptrs/README.md) - [count: 3]
+# [2_ptrs](2_ptrs/README.md) - [count: 4]
 
 
 ## 2 pointers
@@ -26,6 +26,22 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb::bulb: 838. Push Dominoes
+
+
+
+## Circular sort
+
+
+
+## Quick select
+
+
+
+## Substring window algorithm
+
+
+
+- :bulb: 76. Minimum Window Substring
 
 
 
@@ -702,6 +718,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## Sliding window of Substring
+
+
+
 # [tree](tree/README.md) - [count: 7]
 
 
@@ -770,4 +790,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 121
+> # Total: 122

@@ -1,6 +1,7 @@
 # 2 pointers
 
 ## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) [:dart:](3sum_closest.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -14,11 +15,13 @@ Input: nums = [-1,2,1,-4], target = 1
 Output: 2
 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [:dart:](container_with_most_water.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -35,11 +38,13 @@ Output: 49
 [1,8,6,2,5,4,8,3,7]
    ^_____________^  yields 7 * 7 = 49, which is the maxArea
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) [:dart:](push_dominoes.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -59,6 +64,50 @@ Input: dominoes = ".L.R...LR..L.."
 Output:           "LL.RR.LLRRLL.."
 
 ```
+
+</details>
+
+------------------------------------------------------------------------------
+
+# Circular sort
+
+- check [here](../sorting/README.md#circular-sort)
+
+------------------------------------------------------------------------------
+
+# Quick select
+
+- check [here](../sorting/README.md#quick-select)
+
+------------------------------------------------------------------------------
+
+# Substring window algorithm
+
+- The below question are all using the same "template" of substring window
+- The idea is that you keep a window containing valid substring with 2 ptrs
+  - you keep expand the right pointer till you find the first window
+  - then you try to make the window invalid again through shrinking the left pointer
+
+## [:bulb: 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) [:dart:](min_window_substr.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two strings s and t of lengths m and n respectively,
+return the minimum window substring of s such that every character in t
+(including duplicates) is included in the window.
+
+If there is no such substring, return the empty string "".
+
+The testcases will be generated such that the answer is unique.
+
+Note: A substring is a contiguous sequence of characters within the string.
+
+Input: s = "ADOBECODEBANC", t = "ABC"
+Output: "BANC"
+Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from string t.
+```
+
 </details>
 
 ------------------------------------------------------------------------------
