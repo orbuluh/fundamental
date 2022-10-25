@@ -456,10 +456,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [linked_list](linked_list/README.md) - [count: 6]
+# [linked_list](linked_list/README.md) - [count: 7]
 
 
 ## Linked list
+
+
+
+- :ok_hand: 141. Linked List Cycle
 
 
 
@@ -798,4 +802,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 124
+> # Total: 125

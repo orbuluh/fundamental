@@ -1,5 +1,17 @@
 # Linked list
 
+## [:ok_hand: 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [:dart:](reversed_linked_list.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) [:dart:](reversed_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
@@ -7,6 +19,7 @@
 ```markdown
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -21,6 +34,7 @@ Given the head of a linked list, rotate the list to the right by k places.
 Input: head = [1,2,3,4,5], k = 2
 Output: [4,5,1,2,3]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -32,12 +46,15 @@ Output: [4,5,1,2,3]
 ```markdown
 Given the head of a linked list, remove the nth node from the end of the list and return its head.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
+
 - partial reverse basically ...
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -51,11 +68,13 @@ and return the reversed list.
 return:
 1 -> 4 -> 3 -> 2 -> 5
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [:dart:](palindrome_linked_list.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -64,11 +83,13 @@ Given the head of a singly linked list, return true if it is a palindrome or fal
 Input: head = [1,2,2,1]
 Output: true
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) [:dart:](add_2_nums_ii.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -86,6 +107,7 @@ Input: l1 = [9], l2 = [1]
 Output: [1,0]
 
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
