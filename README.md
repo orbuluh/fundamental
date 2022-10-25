@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 ---
 
 
-# [2_ptrs](2_ptrs/README.md) - [count: 5]
+# [2_ptrs](2_ptrs/README.md) - [count: 6]
 
 
 ## 2 pointers
@@ -46,6 +46,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 159. Longest Substring with At Most Two Distinct Characters
+
+
+
+- :bulb: 438. Find All Anagrams in a String
 
 
 
@@ -794,4 +798,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 123
+> # Total: 124

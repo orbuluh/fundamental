@@ -131,3 +131,26 @@ Explanation: The substring is "aabbb" which its length is 5.
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:bulb: 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [:dart:](find_all_anagram.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Input: s = "cbaebabacd", p = "abc"
+Output: [0,6]
+
+Explanation:
+- The substring with start index = 0 is "cba", which is an anagram of "abc".
+- The substring with start index = 6 is "bac", which is an anagram of "abc".
+
+Input: s = "abab", p = "ab"
+Output: [0,1,2]
+- The substring with start index = 0 is "ab", which is an anagram of "ab".
+- The substring with start index = 1 is "ba", which is an anagram of "ab".
+- The substring with start index = 2 is "ab", which is an anagram of "ab".
+```
+
+</details>
+
+------------------------------------------------------------------------------
