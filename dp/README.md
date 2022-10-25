@@ -1,7 +1,13 @@
 # Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
 
+# 0/1 Knapsack
 
-# Knapsack?
+- "to use or not to use" and the relation to previous state
+- basically of backtracking like dp should be able to modeled as this - as
+  making current state the same as previous is like "not to use" current item.
+  and making current state = delta + previous state of (not use current item) is
+  like the effect of "use" current item.
+
 ## [:ok_hand: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
 
 <details><summary markdown="span">Question</summary>
@@ -23,10 +29,35 @@ Output: 6
 Explanation: You throw two dice, each with 6 faces.
 There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) [:dart:](ones_and_zeros.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of binary strings strs and two integers m and n.
+
+Return the size of the largest subset of strs such that
+- there are at most m 0's and n 1's in the subset.
+
+A set x is a subset of a set y if all elements of x are also elements of y.
+
+Input: strs = ["10","0001","111001","1","0"], m = 5, n = 3
+Output: 4
+Explanation:
+
+The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so the answer is 4.
+- Other valid but smaller subsets include {"0001", "1"} and {"10", "1", "0"}.
+- {"111001"} is an invalid subset because it contains 4 1's, greater than the maximum of 3.
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 # State transition
 
@@ -51,10 +82,13 @@ Input: prices = [1,2,3,0,2]
 Output: 3
 Explanation: transactions = [buy, sell, cool-down, buy, sell]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
+
 ## [:thinking: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [:dart:](buy_sell_stock_iv.h)
+
 - although understand the solution, looping in k still feel unintuitive...
 
 <details><summary markdown="span">Question</summary>
@@ -71,9 +105,11 @@ Output: 7
 Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.
              Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
+
 ## [:bulb: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) [:dart:](min_difficulty_of_job_schedule.h)
 
 <details><summary markdown="span">Question</summary>
@@ -104,11 +140,13 @@ Explanation: If you finish a job per day you will still have a free day.
 you cannot find a schedule for the given jobs.
 
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 # DFS + memorization
+
 - DP but likely with a more sparse access needed to whole dp matrix
 
 ## [:ok_hand: 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) [:dart:](combination_sum_iv.h)
@@ -134,12 +172,15 @@ The possible combination ways are:
 
 - Note that different sequences are counted as different combinations.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
+
 - bottom up solution is much faster, but hard to wrap up my head... -> check [here](max_score_from_mul_ops_bottom_up.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -165,12 +206,15 @@ Explanation: An optimal solution is as follows:
 - Choose from the end, [1], adding 1 * 1 = 1 to the score.
 The total score is 9 + 4 + 1 = 14.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
+
 - DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -185,11 +229,13 @@ return the number of paths to move the ball out of the grid boundary.
 
 Since the answer can be very large, return it modulo 10^9 + 7.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
+
 - The better greedy solution -> [:dart:](../greedy/min_of_refueling_stops_greedy.h)
 
 <details><summary markdown="span">Question</summary>
@@ -223,6 +269,7 @@ drive from position 10 to position 60, 10 gas remains, then add the fuel 40
 then we can arrive the target 100. We made 2 stops in total.
 
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -254,6 +301,7 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 - This array contains target = 3 neighborhoods, [{1}, {2,2}, {1,1}].
 - Cost of paint all houses (1 + 1 + 1 + 1 + 5) = 9.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -286,6 +334,7 @@ Output: 4
 - Therefore, the optimal way is to delete 'b' and 'd', then the compressed
 version of s will be "a3c3" of length 4.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -293,6 +342,7 @@ version of s will be "a3c3" of length 4.
 # Sub-array (contiguous, Kadane's Algorithm)
 
 ## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [:dart:](max_subarray.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -304,11 +354,13 @@ A subarray is a **contiguous** part of an array.
 Input: nums = [5,4,-1,7,8]
 Output: 23
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) [:dart:](max_sum_of_rectangle_le_k.h)
+
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
 - Easier preliminary question of this one: [560. Subarray Sum Equals K](../range_query/README.md#okhand-560-subarray-sum-equals-khttpsleetcodecomproblemssubarray-sum-equals-k-dartrangesumequaltokh)
 
@@ -323,11 +375,13 @@ A subarray is a **contiguous** part of an array.
 Input: nums = [5,4,-1,7,8]
 Output: 23
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) [:dart:](substring_w_largest_variance.h)
+
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
 
 <details><summary markdown="span">Question</summary>
@@ -349,6 +403,7 @@ Output: 0
 Explanation:
 No letter occurs more than once in s, so the variance of every substring is 0
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -356,6 +411,7 @@ No letter occurs more than once in s, so the variance of every substring is 0
 # Common sequence
 
 ## [:bulb: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_common_subseq.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -369,6 +425,7 @@ Input: nums = [10,9,2,5,3,7,101,18]
 Output: 4
 Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -376,6 +433,7 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 # Situation analyze
 
 ## [:ok_hand: 1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) [:dart:](count_vowels_permutation.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -398,10 +456,13 @@ Explanation: All possible strings are:
 "io",
 "iu", "ou"
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
+
 ## [:bulb: 91. Decode Ways](https://leetcode.com/problems/decode-ways/) [:dart:](decode_ways.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -424,11 +485,13 @@ For example, "11106" can be mapped into:
 
 Given a string s containing only digits, return the number of ways to decode it.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head::exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) [:dart:](race_car.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -452,6 +515,7 @@ Explanation:
 - Your position goes from 0 --> 1 --> 3 --> 7 -->  7 -->  6
 - Your speed goes from    1 --> 1 --> 2 --> 4 --> -1 --> -2
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -459,6 +523,7 @@ Explanation:
 # Really tricky dp recursion
 
 ## [:exploding_head: 629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [:dart:](k_inverse_pairs_arr.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -475,11 +540,13 @@ Explanation:
 
 - Since the answer can be huge, return it modulo 10^9 + 7.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: :exploding_head: 376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) [:dart:](wiggle_subseq.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -498,6 +565,7 @@ Explanation:
 - Given an integer array nums
 - Return the length of the **longest** wiggle subsequence of nums.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
