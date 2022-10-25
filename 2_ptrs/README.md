@@ -87,6 +87,8 @@ Output:           "LL.RR.LLRRLL.."
 - The idea is that you keep a window containing valid substring with 2 ptrs
   - you keep expand the right pointer till you find the first window
   - then you try to make the window invalid again through shrinking the left pointer
+- TODOs: 3. Longest Substring Without Repeating Characters
+- TODOs: 30. Substring with Concatenation of All Words
 
 ## [:bulb: 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) [:dart:](min_window_substr.h)
 
