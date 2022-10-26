@@ -1,4 +1,6 @@
-# Range Sum
+# Range Query
+
+# Prefix sum
 
 ## [:ok_hand: 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [:dart:](range_sum_equal_to_k.h)
 - The basic question, but has certain details...
@@ -14,6 +16,27 @@ return the total number of subarrays whose sum equals to k.
 Input: nums = [1,2,3], k = 3
 Output: 2
 - e.g. [1, 2], [3]
+```
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) [:dart:](continuous_subarray_sum.h)
+- Actually a twist of prefix sum ... quite clever..
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums and an integer k, return true if nums has a
+continuous subarray of size at least two whose elements sum up to a multiple of
+k, or false otherwise.
+
+
+Input: nums = [23,2,6,4,7], k = 6
+Output: true
+
+Explanation: [23, 2, 6, 4, 7] is an continuous subarray of size 5 whose elements sum up to 42.
+42 is a multiple of 6 because 42 = 7 * 6 and 7 is an integer.
 ```
 </details>
 

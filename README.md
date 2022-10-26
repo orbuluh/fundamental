@@ -584,14 +584,22 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [range_query](range_query/README.md) - [count: 2]
+# [range_query](range_query/README.md) - [count: 3]
 
 
-## Range Sum
+## Range Query
+
+
+
+## Prefix sum
 
 
 
 - :ok_hand: 560. Subarray Sum Equals K
+
+
+
+- :bulb: 523. Continuous Subarray Sum
 
 
 
@@ -806,4 +814,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 126
+> # Total: 127
