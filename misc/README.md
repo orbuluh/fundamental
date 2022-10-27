@@ -193,6 +193,29 @@ Given an integer, convert it to a roman numeral.
 
 # Hard indices manipulation
 
+## [:bulb: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) [:dart:](rotate_image.h)
+
+- TODO: dig in optimal solution [here](rotate_image_optimal.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an n x n 2D matrix representing an image,
+rotate the image by 90 degrees (clockwise).
+
+You have to rotate the image in-place, which means you have to modify the input
+2D matrix directly.
+
+DO NOT allocate another 2D matrix and do the rotation.
+
+Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+Output: [[7,4,1],[8,5,2],[9,6,3]]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 835. Image Overlap](https://leetcode.com/problems/image-overlap/) [:dart:](image_overlap.h)
 
 <details><summary markdown="span">Question</summary>
