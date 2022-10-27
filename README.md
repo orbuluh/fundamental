@@ -514,7 +514,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [misc](misc/README.md) - [count: 8]
+# [misc](misc/README.md) - [count: 9]
 
 
 ## Misc, some great algo to do something
@@ -550,6 +550,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 12. Integer to Roman
+
+
+
+## Hard indices manipulation
+
+
+
+- :bulb::bulb: 835. Image Overlap
 
 
 
@@ -814,4 +822,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 127
+> # Total: 128

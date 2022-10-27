@@ -1,6 +1,7 @@
 # Misc, some great algo to do something
 
 ## [:ok_hand: 916. Word Subsets](https://leetcode.com/problems/word-subsets/) [:dart:](word_subsets.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -15,11 +16,13 @@ You are given two string arrays words1 and words2.
 - Return an array of all the universal strings in words1.
   You may return the answer in any order.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:ok_hand: 334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) [:dart:](inc_triplet_subseq.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -30,11 +33,13 @@ return true if there exists a triple of indices (i, j, k) such that
 
 If no such indices exists, return false.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:ok_hand: 249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) [:dart:](group_shifted_strings.h)
+
 - asked in peer mock, how to hash the input is actually easy but you complicated it...
 
 <details><summary markdown="span">Question</summary>
@@ -52,11 +57,13 @@ You may return the answer in any order.
 Input: strings = ["abc","bcd","acef","xyz","az","ba","a","z"]
 Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) [:dart:](find_and_replace_in_string.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -113,11 +120,13 @@ Explanation:
 - Then delete "bbb", get "dddaa"
 - Finally delete "ddd", get "aa"
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) [:dart:](score_of_parentheses.h)
+
 - the more intuitive way to do this ... though also not as easy as you think ... [stack solution](score_of_parentheses_stack_sol.h)
 
 <details><summary markdown="span">Question</summary>
@@ -137,11 +146,13 @@ Output: 2
 Input: s = "()()"
 Output: 2
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 # Nice implementation idea
+
 ## [:ok_hand: 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) [:dart:](integer_to_roman.h)
 
 <details><summary markdown="span">Question</summary>
@@ -175,11 +186,49 @@ There are six instances where subtraction is used:
 
 Given an integer, convert it to a roman numeral.
 ```
+
 </details>
+
+------------------------------------------------------------------------------
+
+# Hard indices manipulation
+
+## [:bulb::bulb: 835. Image Overlap](https://leetcode.com/problems/image-overlap/) [:dart:](image_overlap.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given two images, img1 and img2,
+- represented as binary, square matrices of size n x n.
+- A binary matrix has only 0s and 1s as values.
+
+We translate one image however we choose by
+- sliding all the 1 bits left, right, up, and/or down any number of units.
+
+We then place it on top of the other image.
+
+We can then calculate the overlap by counting the number of positions that have
+a 1 in both images.
+
+Note also that a translation does not include any kind of rotation.
+
+Any 1 bits that are translated outside of the matrix borders are erased.
+Return the largest possible overlap.
+
+Input: img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]
+Output: 3
+Explanation: making a right shift then down shift of img1 - it becomes
+[[0,0,0],[0,1,1],[0,0,1]], which has 3 overlap with img2
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 # Brainteaser
 
 ## [:bulb: 458. Poor Pigs](https://leetcode.com/problems/poor-pigs) [:dart:](pool_pigs.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -207,3 +256,5 @@ Output: 2
 Input: buckets = 4, minutesToDie = 15, minutesToTest = 30
 Output: 2
 ```
+
+------------------------------------------------------------------------------
