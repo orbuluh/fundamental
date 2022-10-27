@@ -514,7 +514,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [misc](misc/README.md) - [count: 10]
+# [misc](misc/README.md) - [count: 11]
 
 
 ## Misc, some great algo to do something
@@ -530,6 +530,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 249. Group Shifted Strings
+
+
+
+- :bulb: 189. Rotate Array
 
 
 
@@ -826,4 +830,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 129
+> # Total: 130

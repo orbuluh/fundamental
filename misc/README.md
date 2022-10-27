@@ -62,6 +62,22 @@ Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) [:dart:](rotate_array.h)
+<details><summary markdown="span">Question</summary>
+
+- "How to rotate 1" is actually interesting than you think ... give it a try!
+
+```markdown
+Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) [:dart:](find_and_replace_in_string.h)
 
 <details><summary markdown="span">Question</summary>
