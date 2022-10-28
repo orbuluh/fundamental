@@ -57,6 +57,8 @@ Explanation: You can choose your jumps with [1,-1,4,3] (^ above). The sum is 7.
 
 ## [:bulb: 853. Car Fleet](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet.h)
 
+<details><summary markdown="span">Question</summary>
+
 ```markdown
 There are n cars going to the same destination along a one-lane road.
 The destination is target miles away.
@@ -95,6 +97,8 @@ Note that no other cars meet these fleets before the destination, so the answer 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 1776. Car Fleet II](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet2.h)
+
+<details><summary markdown="span">Question</summary>
 
 ```markdown
 There are n cars traveling at different speeds in the same direction along a
