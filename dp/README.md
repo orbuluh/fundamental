@@ -2,11 +2,13 @@
 
 # 0/1 knapsack like recursion structure
 
+```markdown
 - "to use or not to use" and the relation to previous state
 - basically of backtracking like dp should be able to modeled as this - as
   making current state the same as previous is like "not to use" current item.
   and making current state = delta + previous state of (not use current item) is
   like the effect of "use" current item.
+```
 
 ## [:bulb: 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) [:dart:](ones_and_zeros.h)
 
@@ -35,7 +37,18 @@ The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so 
 
 # Unbounded knapsack like recursion structure
 
-## [:ok_hand: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
+```markdown
+- There are fixed set of options and we have unlimited ways to choose each option.
+  So it's not the 0/1 "to use or not to use" an option like structure.
+- The key is if you make the subproblem being a small set of option, and build up
+  more options upon the less one, the subproblem should be independent without
+  double counting
+- so overall, how you traverse the dp, which dimension to do first matters a lot
+  here. Just give below question a try, with switching the looping ordering.
+```
+
+## [:bulb: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
+- the core idea is basically the same as [518. Coin Change II](#💡-518-coin-change-ii-🎯)
 
 <details><summary markdown="span">Question</summary>
 
@@ -60,6 +73,40 @@ There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:bulb: 518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) [:dart:](coin_change_ii.h)
+- the core idea is basically the same as [1155. Number of Dice Rolls With Target Sum](#👌-1155-number-of-dice-rolls-with-target-sum-🎯)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+
+You are given an integer array coins representing coins of different
+denominations and an integer amount representing a total amount of money.
+
+Return the number of combinations that make up that amount.
+
+If that amount of money cannot be made up by any combination of the coins, return 0.
+- You may assume that you have an infinite number of each kind of coin.
+- The answer is guaranteed to fit into a signed 32-bit integer.
+
+Example:
+
+Input: amount = 5, coins = [1,2,5]
+Output: 4
+
+Explanation: there are four ways to make up the amount:
+5=5
+5=2+2+1
+5=2+1+1+1
+5=1+1+1+1+1
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 
 # State transition
 

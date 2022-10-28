@@ -224,22 +224,30 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [dp](dp/README.md) - [count: 20]
+# [dp](dp/README.md) - [count: 21]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
 
 
 
-## 0/1 Knapsack
-
-
-
-- :ok_hand: 1155. Number of Dice Rolls With Target Sum
+## 0/1 knapsack like recursion structure
 
 
 
 - :bulb: 474. Ones and Zeroes
+
+
+
+## Unbounded knapsack like recursion structure
+
+
+
+- :bulb: 1155. Number of Dice Rolls With Target Sum
+
+
+
+- :bulb: 518. Coin Change II
 
 
 
@@ -830,4 +838,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 130
+> # Total: 131
