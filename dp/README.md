@@ -1,12 +1,39 @@
 # Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
 
-# 0/1 Knapsack
+# 0/1 knapsack like recursion structure
 
 - "to use or not to use" and the relation to previous state
 - basically of backtracking like dp should be able to modeled as this - as
   making current state the same as previous is like "not to use" current item.
   and making current state = delta + previous state of (not use current item) is
   like the effect of "use" current item.
+
+## [:bulb: 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) [:dart:](ones_and_zeros.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of binary strings strs and two integers m and n.
+
+Return the size of the largest subset of strs such that
+- there are at most m 0's and n 1's in the subset.
+
+A set x is a subset of a set y if all elements of x are also elements of y.
+
+Input: strs = ["10","0001","111001","1","0"], m = 5, n = 3
+Output: 4
+Explanation:
+
+The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so the answer is 4.
+- Other valid but smaller subsets include {"0001", "1"} and {"10", "1", "0"}.
+- {"111001"} is an invalid subset because it contains 4 1's, greater than the maximum of 3.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+# Unbounded knapsack like recursion structure
 
 ## [:ok_hand: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
 
@@ -28,31 +55,6 @@ Input: n = 2, k = 6, target = 7
 Output: 6
 Explanation: You throw two dice, each with 6 faces.
 There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
-```
-
-</details>
-
-------------------------------------------------------------------------------
-
-## [:bulb: 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) [:dart:](ones_and_zeros.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-You are given an array of binary strings strs and two integers m and n.
-
-Return the size of the largest subset of strs such that
-- there are at most m 0's and n 1's in the subset.
-
-A set x is a subset of a set y if all elements of x are also elements of y.
-
-Input: strs = ["10","0001","111001","1","0"], m = 5, n = 3
-Output: 4
-Explanation:
-
-The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so the answer is 4.
-- Other valid but smaller subsets include {"0001", "1"} and {"10", "1", "0"}.
-- {"111001"} is an invalid subset because it contains 4 1's, greater than the maximum of 3.
 ```
 
 </details>
