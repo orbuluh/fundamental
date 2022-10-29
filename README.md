@@ -224,7 +224,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [dp](dp/README.md) - [count: 21]
+# [dp](dp/README.md) - [count: 22]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -236,6 +236,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 474. Ones and Zeroes
+
+
+
+- :bulb: 115. Distinct Subsequences
 
 
 
@@ -838,4 +842,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 131
+> # Total: 132

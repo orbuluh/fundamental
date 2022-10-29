@@ -35,6 +35,38 @@ The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so 
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) [:dart:](distinct_subsequences.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two strings s and t, return the number of distinct subsequences of s which
+equals t.
+
+A string's subsequence is a new string formed from the original string by
+deleting some (can be none) of the characters without disturbing the remaining
+characters' relative positions.
+
+(i.e., "ACE" is a subsequence of "ABCDE" while "AEC" is not).
+
+The test cases are generated so that the answer fits on a 32-bit signed integer.
+
+Input: s = "rabbbit", t = "rabbit"
+Output: 3
+
+Explanation:
+rabbbit
+^^^^ ^^
+rabbbit
+^^^ ^^^
+rabbbit
+^^ ^^^^
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 # Unbounded knapsack like recursion structure
 
 ```markdown
