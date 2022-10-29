@@ -35,6 +35,27 @@ The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so 
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) [:dart:](partition_equal_subset_sum.h)
+
+- Really nice question that can be reduced to the classic 0/1 knapsack problem!
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+
+Given a non-empty array nums containing only positive integers,
+find if the array can be partitioned into two subsets such that the sum of
+elements in both subsets is equal.
+
+Input: nums = [1,5,11,5]
+Output: true
+Explanation: The array can be partitioned as [1, 5, 5] and [11].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) [:dart:](distinct_subsequences.h)
 
 <details><summary markdown="span">Question</summary>
@@ -80,6 +101,7 @@ rabbbit
 ```
 
 ## [:bulb: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
+
 - the core idea is basically the same as [518. Coin Change II](#💡-518-coin-change-ii-🎯)
 
 <details><summary markdown="span">Question</summary>
@@ -107,6 +129,7 @@ There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
 ------------------------------------------------------------------------------
 
 ## [:bulb: 518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) [:dart:](coin_change_ii.h)
+
 - the core idea is basically the same as [1155. Number of Dice Rolls With Target Sum](#👌-1155-number-of-dice-rolls-with-target-sum-🎯)
 
 <details><summary markdown="span">Question</summary>

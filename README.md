@@ -224,7 +224,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [dp](dp/README.md) - [count: 22]
+# [dp](dp/README.md) - [count: 23]
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -236,6 +236,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 474. Ones and Zeroes
+
+
+
+- :bulb: 416. Partition Equal Subset Sum
 
 
 
@@ -842,4 +846,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 132
+> # Total: 133
