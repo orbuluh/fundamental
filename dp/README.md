@@ -138,8 +138,6 @@ Explanation: there are four ways to make up the amount:
 
 ------------------------------------------------------------------------------
 
-
-
 # State transition
 
 ## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) [:dart:](buy_sell_stock_with_cooldown.h)
