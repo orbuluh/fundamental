@@ -511,7 +511,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [math](math/README.md) - [count: 2]
+# [math](math/README.md) - [count: 3]
 
 
 ## Math
@@ -519,6 +519,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 462. Minimum Moves to Equal Array Elements II
+
+
+
+- :bulb: 1359. Count All Valid Pickup and Delivery Options
 
 
 
@@ -846,4 +850,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 133
+> # Total: 134
