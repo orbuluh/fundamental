@@ -405,7 +405,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [greedy](greedy/README.md) - [count: 17]
+# [greedy](greedy/README.md) - [count: 18]
 
 
 ## Greedy
@@ -469,6 +469,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 630. Course Schedule III
+
+
+
+- :bulb: 2136. Earliest Possible Day of Full Bloom
 
 
 
@@ -854,4 +858,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 135
+> # Total: 136
