@@ -1,16 +1,67 @@
 # :shinto_shrine: Fundamentals :shinto_shrine:
+
+## [Notes for algo/DS deep-dive :book:](notes/README.md)
+
 :frog: :thinking: :exploding_head: :bulb: :star_struck: :sunrise:
 
 Quote from [HTDP](https://htdp.org/)
-* ... many elements of the general design recipe apply to the design of algorithms ... The key to designing algorithms is the “generation” step, which often means **dividing up the problem. And figuring out a novel way of dividing a problem requires insight.**
-* ... programmers must thoroughly understand the underlying ideas so that they can code up algorithms and have the program **communicate with future readers.** The best way to get acquainted with the idea is to **study a wide range of examples and to develop a sense for the kinds of generative recursions that may show up in the real world.**
+> * ... many elements of the general design recipe apply to the design of algorithms ... The key to designing algorithms is the “generation” step, which often means **dividing up the problem. And figuring out a novel way of dividing a problem requires insight.**
+> * ... programmers must thoroughly understand the underlying ideas so that they can code up algorithms and have the program **communicate with future readers.** The best way to get acquainted with the idea is to **study a wide range of examples and to develop a sense for the kinds of generative recursions that may show up in the real world.**
 
-# [Notes :book:](notes/README.md)
+<br/>
+
+# Problems listed: 136
+
+- [2_ptrs](2_ptrs/README.md): 6
+
+- [backtracking](backtracking/README.md): 8
+
+- [binary_indexed_tree](binary_indexed_tree/README.md): 1
+
+- [binary_search](binary_search/README.md): 9
+
+- [bitwise](bitwise/README.md): 7
+
+- [d_and_d](d_and_d/README.md): 3
+
+- [dp](dp/README.md): 23
+
+- [ds_design](ds_design/README.md): 2
+
+- [graph](graph/README.md): 3
+
+- [greedy](greedy/README.md): 18
+
+- [linked_list](linked_list/README.md): 7
+
+- [math](math/README.md): 3
+
+- [misc](misc/README.md): 11
+
+- [monotonic_queue](monotonic_queue/README.md): 4
+
+- [range_query](range_query/README.md): 3
+
+- [recursion](recursion/README.md): 8
+
+- [segment_tree](segment_tree/README.md): 3
+
+- [sliding_window](sliding_window/README.md): 2
+
+- [sorting](sorting/README.md): 5
+
+- [substr_matching](substr_matching/README.md): 1
+
+- [tree](tree/README.md): 7
+
+- [trie](trie/README.md): 1
+
+- [union_find](union_find/README.md): 1
 
 ---
 
 
-# [2_ptrs](2_ptrs/README.md) - [count: 6]
+# [2_ptrs](2_ptrs/README.md)
 
 
 ## 2 pointers
@@ -53,7 +104,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [backtracking](backtracking/README.md) - [count: 8]
+# [backtracking](backtracking/README.md)
 
 
 ## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
@@ -96,7 +147,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [binary_indexed_tree](binary_indexed_tree/README.md) - [count: 1]
+# [binary_indexed_tree](binary_indexed_tree/README.md)
 
 
 ## Binary Indexed Tree
@@ -107,7 +158,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [binary_search](binary_search/README.md) - [count: 9]
+# [binary_search](binary_search/README.md)
 
 
 ## Binary search
@@ -154,7 +205,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [bitwise](bitwise/README.md) - [count: 7]
+# [bitwise](bitwise/README.md)
 
 
 ## Bitwise
@@ -209,7 +260,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [d_and_d](d_and_d/README.md) - [count: 3]
+# [d_and_d](d_and_d/README.md)
 
 
 ## Divide and Conquer
@@ -228,7 +279,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [dp](dp/README.md) - [count: 23]
+# [dp](dp/README.md)
 
 
 ## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -359,7 +410,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [ds_design](ds_design/README.md) - [count: 2]
+# [ds_design](ds_design/README.md)
 
 
 ## Data structure design
@@ -374,7 +425,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [graph](graph/README.md) - [count: 3]
+# [graph](graph/README.md)
 
 
 ## Graph [:notebook:](../notes/algorithms.md#dynamic-programming)
@@ -405,7 +456,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [greedy](greedy/README.md) - [count: 18]
+# [greedy](greedy/README.md)
 
 
 ## Greedy
@@ -484,7 +535,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [linked_list](linked_list/README.md) - [count: 7]
+# [linked_list](linked_list/README.md)
 
 
 ## Linked list
@@ -519,7 +570,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [math](math/README.md) - [count: 3]
+# [math](math/README.md)
 
 
 ## Math
@@ -542,7 +593,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [misc](misc/README.md) - [count: 11]
+# [misc](misc/README.md)
 
 
 ## Misc, some great algo to do something
@@ -605,7 +656,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [monotonic_queue](monotonic_queue/README.md) - [count: 4]
+# [monotonic_queue](monotonic_queue/README.md)
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
@@ -628,7 +679,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [range_query](range_query/README.md) - [count: 3]
+# [range_query](range_query/README.md)
 
 
 ## Range Query
@@ -663,7 +714,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [recursion](recursion/README.md) - [count: 8]
+# [recursion](recursion/README.md)
 
 
 ## Recursion
@@ -702,7 +753,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [segment_tree](segment_tree/README.md) - [count: 3]
+# [segment_tree](segment_tree/README.md)
 
 
 ## Segment tree
@@ -721,7 +772,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [sliding_window](sliding_window/README.md) - [count: 2]
+# [sliding_window](sliding_window/README.md)
 
 
 ## Sliding window
@@ -736,7 +787,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [sorting](sorting/README.md) - [count: 5]
+# [sorting](sorting/README.md)
 
 
 ## Sorting
@@ -775,7 +826,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [substr_matching](substr_matching/README.md) - [count: 1]
+# [substr_matching](substr_matching/README.md)
 
 
 ## Substring matching algorithm
@@ -790,7 +841,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [tree](tree/README.md) - [count: 7]
+# [tree](tree/README.md)
 
 
 ## Tree
@@ -833,7 +884,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [trie](trie/README.md) - [count: 1]
+# [trie](trie/README.md)
 
 
 ## Trie
@@ -844,7 +895,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [union_find](union_find/README.md) - [count: 1]
+# [union_find](union_find/README.md)
 
 
 ## Union find [:notebook:](../notes/union_find.md)
@@ -854,8 +905,3 @@ Quote from [HTDP](https://htdp.org/)
 - :ok_hand: 990. Satisfiability of Equality Equations
 
 
-
-
-<br/><br/>
----
-> # Total: 136
