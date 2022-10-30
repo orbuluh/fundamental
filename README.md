@@ -53,7 +53,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [backtracking](backtracking/README.md) - [count: 7]
+# [backtracking](backtracking/README.md) - [count: 8]
 
 
 ## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
@@ -81,6 +81,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 417. Pacific Atlantic Water Flow
+
+
+
+- :bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination
 
 
 
@@ -850,4 +854,4 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/><br/>
 ---
-> # Total: 134
+> # Total: 135
