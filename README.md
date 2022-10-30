@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 136
+# Problems listed: 138
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -24,7 +24,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [d_and_d](d_and_d/README.md): 3
 
-- [dp](dp/README.md): 23
+- [dp](dp/README.md): 25
 
 - [ds_design](ds_design/README.md): 2
 
@@ -294,6 +294,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb::bulb: 494. Target Sum
+
+
+
 - :bulb: 416. Partition Equal Subset Sum
 
 
@@ -339,6 +343,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1770. Maximum Score from Performing Multiplication Operations
+
+
+
+- :bulb: 494. Target Sum
 
 
 

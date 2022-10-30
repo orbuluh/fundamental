@@ -35,6 +35,13 @@ The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so 
 
 ------------------------------------------------------------------------------
 
+## [:bulb::bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_bottom_up.h)
+
+- check [below for full description](#bulb-494-target-sum-dart) ... overall dfs solution is much more straightforward
+- bottom up solution is much faster and is basically a 0/1 knapsack, but need a conversion for the problem
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) [:dart:](partition_equal_subset_sum.h)
 
 - Really nice question that can be reduced to the classic 0/1 knapsack problem!
@@ -250,7 +257,10 @@ you cannot find a schedule for the given jobs.
 
 # DFS + memorization
 
+```markdown
 - DP but likely with a more sparse access needed to whole dp matrix
+- or problem that likely you can convert to some bottom-up ... but just hard to think of
+```
 
 ## [:ok_hand: 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) [:dart:](combination_sum_iv.h)
 
@@ -308,6 +318,39 @@ Explanation: An optimal solution is as follows:
 - Choose from the end, [1,2], adding 2 * 2 = 4 to the score.
 - Choose from the end, [1], adding 1 * 1 = 1 to the score.
 The total score is 9 + 4 + 1 = 14.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_dfs.h)
+
+- bottom up solution is much faster and is basically a 0/1 knapsack, but need a [:exploding_head: conversion of the problem... -> check here](target_sum_bottom_up.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an integer array nums and an integer target.
+
+You want to build an expression out of nums by adding one of the symbols '+' and
+'-' before each integer in nums and then concatenate all the integers.
+
+For example, if `nums = [2, 1]`, you can add a '+' before 2 and a '-' before 1
+and concatenate them to build the expression "+2-1".
+
+Return the number of different expressions that you can build, which evaluates
+to target.
+
+Input: nums = [1,1,1,1,1], target = 3
+Output: 5
+
+Explanation: There are 5 ways to assign symbols to make the sum of nums be target 3.
+-1 + 1 + 1 + 1 + 1 = 3
++1 - 1 + 1 + 1 + 1 = 3
++1 + 1 - 1 + 1 + 1 = 3
++1 + 1 + 1 - 1 + 1 = 3
++1 + 1 + 1 + 1 - 1 = 3
 ```
 
 </details>
