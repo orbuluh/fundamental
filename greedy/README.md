@@ -1,10 +1,12 @@
 # Greedy
 
 ## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [:dart:](merge_interval.h)
+
 - Related:
   - [57. Insert Interval](#bulb-57-insert-intervalhttpsleetcodecomproblemsinsert-interval-dartinsertintervalh)
   - [759. Employee Free Time](#okhand-759-employee-free-timehttpsleetcodecomproblemsemployee-free-time-dartemployeefreetimeh)
   - [715. Range Module](../binary_search/README.md#bulb-715-range-modulehttpsleetcodecomproblemsrange-module-dartrangemoduleh-notebooksrcs715addrangepng-notebooksrcs715removerangepng)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -17,12 +19,15 @@ Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
 Output: [[1,6],[8,10],[15,18]]
 Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:ok_hand: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
+
 - you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -42,11 +47,13 @@ Explanation:
   and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
 - We discard any intervals that contain inf as they aren't finite.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 57. Insert Interval](https://leetcode.com/problems/insert-interval/) [:dart:](insert_interval.h)
+
 - you complicate it to be a bisect question but in reality you don't need to...
 - and BF solution is actually harder than you think if you are not doing it correctly...
 
@@ -73,6 +80,7 @@ Output: [[1,5],[6,9]]
 Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
 Output: [[1,2],[3,10],[12,16]]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -102,6 +110,7 @@ Output: [[1,5],[6,9]]
 Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
 Output: [[1,2],[3,10],[12,16]]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -125,9 +134,11 @@ The partition is "ababcbaca", "defegde", "hijhklij".
 Input: s = "eccbbbbdec"
 Output: [10]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
+
 ## [:bulb: 316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) [:dart:](remove_duplicate_letters.h)
 
 <details><summary markdown="span">Question</summary>
@@ -143,6 +154,7 @@ Output: "abc"
 Input: s = "cbacdcbc"
 Output: "acdb"
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -168,6 +180,7 @@ Input: nums = [1,2,3,3,4,4,5,5]
 Output: true
 Explanation: [1, 2, 3, 4, 5], [3, 4, 5]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -200,6 +213,7 @@ In one turn you can:
 Return an array of the index of the left-most letter being stamped at each turn.
 If we cannot obtain target from s within `10 * target.length` turns, return an empty array.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -217,6 +231,7 @@ You are giving candies to these children subjected to the following requirements
 - Children with a higher rating get more candies than their neighbors.
 - Return the minimum number of candies you need
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -246,11 +261,13 @@ There are no longer two consecutive balloons of the same color.
 Total time = 1 + 1 = 2.
 
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -269,11 +286,13 @@ e.g. [4,0] -> height 4 with no one taller or equal in the front
      [2,2] -> height 2 with 2 people taller or equal in the front 
      ....
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team) [:dart:](max_perf_of_a_team.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -299,16 +318,19 @@ This is the same example as the first but k = 3. We can select engineer 1,
 engineer 2 and engineer 5 to get the maximum performance of the team. That is,
 performance = (2 + 10 + 5) * min(5, 4, 7) = 68.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops_greedy.h)
+
 - Question statement/other solution [:point_right: here](../dp/README.md#bulb-871-minimum-number-of-refueling-stopshttpsleetcodecomproblemsminimum-number-of-refueling-stops-dartminofrefuelingstopsh)
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -318,6 +340,7 @@ Given an array nums with n integers, check if it could become non-decreasing
 Input: nums = [4,2,3]
 Output: true
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -339,6 +362,7 @@ e.g. [[1,2],[2,3]]  --> ans = 2
 took [1,2], timeUsed = 1 <= 2 is okay to take
 took [2,3], timeUsed = 3 <= 3 is okay to take
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -364,6 +388,7 @@ Explanation: Start with arr = [1, 1, 1]
 [1, 3, 5], sum = 9 choose index 0
 [9, 3, 5] Done
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -395,6 +420,7 @@ termination where the rightmost building ends.
 Any ground between the leftmost and rightmost buildings should be part of the
 skyline's contour.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
