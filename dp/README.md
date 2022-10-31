@@ -169,7 +169,7 @@ Explanation: there are four ways to make up the amount:
 
 ------------------------------------------------------------------------------
 
-# State transition
+# State transition / Fibonacci Sequence like recursion
 
 ## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) [:dart:](buy_sell_stock_with_cooldown.h)
 
@@ -249,6 +249,40 @@ Output: -1
 Explanation: If you finish a job per day you will still have a free day.
 you cannot find a schedule for the given jobs.
 
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [:dart:](max_number_of_pts_with_cost.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an m x n integer matrix points (0-indexed).
+
+Starting with 0 points, you want to maximize the number of points you can get from the matrix.
+To gain points, you must pick one cell in each row.
+
+Picking the cell at coordinates (r, c) will add points[r][c] to your score.
+
+However, for every two adjacent rows r and r + 1 (where 0 <= r < m - 1), picking
+cells at coordinates (r, c1) and (r + 1, c2) will subtract abs(c1 - c2) from
+your score.
+
+Return the maximum number of points you can achieve.
+
+Input: points = [[1,2,3],
+                [1,5,1],
+                [3,1,1]]
+Output: 9
+
+Explanation:
+Optimal cells to pick: (0, 2), (1, 1), and (2, 0).
+where you add 3 + 5 + 3 = 11 to your score from each row
+However, and subtract abs(2 - 1) + abs(1 - 0) = 2
+Your final score is 11 - 2 = 9.
 ```
 
 </details>

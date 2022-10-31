@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 138
+# Problems listed: 139
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -24,7 +24,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [d_and_d](d_and_d/README.md): 3
 
-- [dp](dp/README.md): 25
+- [dp](dp/README.md): 26
 
 - [ds_design](ds_design/README.md): 2
 
@@ -318,7 +318,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## State transition
+## State transition / Fibonacci Sequence like recursion
 
 
 
@@ -331,6 +331,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1335. Minimum Difficulty of a Job Schedule
+
+
+
+- :bulb: 1937. Maximum Number of Points with Cost
 
 
 
