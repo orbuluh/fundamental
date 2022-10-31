@@ -73,9 +73,6 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
+# [Segment tree](segment_tree/README.md)
 
-# Segment tree related
-- check [:notebook:](segment_tree/README.md)
-
-# Binary indexed tree related
-- check [:notebook:](binary_indexed_tree/README.md)
+# [Binary indexed tree](binary_indexed_tree/README.md)

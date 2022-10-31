@@ -16,15 +16,25 @@ Quote from [HTDP](https://htdp.org/)
 
 - [backtracking](backtracking/README.md): 8
 
-- [binary_indexed_tree](binary_indexed_tree/README.md): 1
-
 - [binary_search](binary_search/README.md): 9
 
 - [bitwise](bitwise/README.md): 7
 
 - [d_and_d](d_and_d/README.md): 3
 
-- [dp](dp/README.md): 26
+- [dp](dp/README.md): 2
+
+- [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md): 4
+
+- [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md): 7
+
+- [dp/dp_state_transition](dp/dp_state_transition/README.md): 7
+
+- [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md): 3
+
+- [dp/dp_subseq](dp/dp_subseq/README.md): 1
+
+- [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 2
 
 - [ds_design](ds_design/README.md): 2
 
@@ -42,9 +52,11 @@ Quote from [HTDP](https://htdp.org/)
 
 - [range_query](range_query/README.md): 3
 
-- [recursion](recursion/README.md): 8
+- [range_query/binary_indexed_tree](range_query/binary_indexed_tree/README.md): 1
 
-- [segment_tree](segment_tree/README.md): 3
+- [range_query/segment_tree](range_query/segment_tree/README.md): 3
+
+- [recursion](recursion/README.md): 8
 
 - [sliding_window](sliding_window/README.md): 2
 
@@ -144,17 +156,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb::bulb: 126. Word Ladder II
-
-
-
-# [binary_indexed_tree](binary_indexed_tree/README.md)
-
-
-## Binary Indexed Tree
-
-
-
-- :ok_hand: 307. Range Sum Query - Mutable
 
 
 
@@ -286,6 +287,45 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## [0/1 knapsack like recursion structure](dp/dp_01_knapsack/README.md)
+
+
+
+## [Unbounded knapsack like recursion structure](dp/dp_unbounded_knapsack/README.md)
+
+
+
+## [State transition](dp/dp_state_transition/README.md)
+
+
+
+## [DFS + memorization](dp/dp_dfs_memorization/README.md)
+
+
+
+## [Sub-array (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
+
+
+
+## [Common subsequence](dp/dp_subseq/README.md)
+
+
+
+## Really tricky dp recursion
+
+
+
+- :exploding_head: 629. K Inverse Pairs Array
+
+
+
+- :exploding_head: :exploding_head: 376. Wiggle Subsequence
+
+
+
+# [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md)
+
+
 ## 0/1 knapsack like recursion structure
 
 
@@ -306,36 +346,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Unbounded knapsack like recursion structure
-
-
-
-- :bulb: 1155. Number of Dice Rolls With Target Sum
-
-
-
-- :bulb: 518. Coin Change II
-
-
-
-## State transition / Fibonacci Sequence like recursion
-
-
-
-- :ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown
-
-
-
-- :thinking: 188. Best Time to Buy and Sell Stock IV
-
-
-
-- :bulb: 1335. Minimum Difficulty of a Job Schedule
-
-
-
-- :bulb: 1937. Maximum Number of Points with Cost
-
+# [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md)
 
 
 ## DFS + memorization
@@ -370,6 +381,44 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+# [dp/dp_state_transition](dp/dp_state_transition/README.md)
+
+
+## State transition
+
+
+
+- :ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown
+
+
+
+- :ok_hand: 1220. Count Vowels Permutation
+
+
+
+- :thinking: 188. Best Time to Buy and Sell Stock IV
+
+
+
+- :bulb: 1335. Minimum Difficulty of a Job Schedule
+
+
+
+- :bulb: 1937. Maximum Number of Points with Cost
+
+
+
+- :bulb: 91. Decode Ways
+
+
+
+- :exploding_head::exploding_head: 818. Race Car
+
+
+
+# [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md)
+
+
 ## Sub-array (contiguous, Kadane's Algorithm)
 
 
@@ -386,7 +435,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Common sequence
+# [dp/dp_subseq](dp/dp_subseq/README.md)
+
+
+## Common subsequence
 
 
 
@@ -394,31 +446,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Situation analyze
+# [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md)
+
+
+## Unbounded knapsack like recursion structure
 
 
 
-- :ok_hand: 1220. Count Vowels Permutation
+- :bulb: 1155. Number of Dice Rolls With Target Sum
 
 
 
-- :bulb: 91. Decode Ways
-
-
-
-- :exploding_head::exploding_head: 818. Race Car
-
-
-
-## Really tricky dp recursion
-
-
-
-- :exploding_head: 629. K Inverse Pairs Array
-
-
-
-- :exploding_head: :exploding_head: 376. Wiggle Subsequence
+- :bulb: 518. Coin Change II
 
 
 
@@ -718,11 +757,41 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Segment tree related
+## [Segment tree](range_query/segment_tree/README.md)
 
 
 
-## Binary indexed tree related
+## [Binary indexed tree](binary_indexed_tree/segment_tree/README.md)
+
+
+
+# [range_query/binary_indexed_tree](range_query/binary_indexed_tree/README.md)
+
+
+## Binary Indexed Tree
+
+
+
+- :ok_hand: 307. Range Sum Query - Mutable
+
+
+
+# [range_query/segment_tree](range_query/segment_tree/README.md)
+
+
+## Segment tree
+
+
+
+- :ok_hand: 307. Range Sum Query - Mutable
+
+
+
+- :bulb: 2158. Amount of New Area Painted Each Day
+
+
+
+- :exploding_head: 315. Count of Smaller Numbers After Self
 
 
 
@@ -762,25 +831,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 114. Flatten Binary Tree to Linked List
-
-
-
-# [segment_tree](segment_tree/README.md)
-
-
-## Segment tree
-
-
-
-- :ok_hand: 307. Range Sum Query - Mutable
-
-
-
-- :bulb: 2158. Amount of New Area Painted Each Day
-
-
-
-- :exploding_head: 315. Count of Smaller Numbers After Self
 
 
 

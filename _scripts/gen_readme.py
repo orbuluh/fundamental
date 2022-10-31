@@ -15,10 +15,11 @@ cnt_per_chapter = {}
 total_count = 0
 
 for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
-    file = posix_file_path.as_posix()
-    folder = file.split("/")[-2]
-    if folder == "notes" or folder == "..": continue
-    with open(file, "r") as f:
+    filepath = posix_file_path.as_posix()
+    folder = filepath[filepath.find("../") + 3: filepath.rfind("/")]
+    #print(f"{filepath} -> {folder}")
+    if not folder or folder == "notes": continue
+    with open(filepath, "r") as f:
         count = 0
         for line in f:
             m = re.search("^#.*:.*https://leetcode.com/.*.h\)", line)
@@ -30,7 +31,16 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
                 # subsection, force it to header 2
                 m = re.search("^#.*?\s(.*)", line)
                 if m:
-                    content_dump[folder] += [f"## {m.group(1)}"]
+                    # if it's a subsection with relative link, we need to adjust
+                    # the relative location to the project root. Just easier to
+                    # hardcode...
+                    subsection = f"## {m.group(1)}"
+                    subsection = subsection.replace("dp_", "dp/dp_")
+                    subsection = subsection.replace("segment_tree/", "range_query/segment_tree/")
+                    subsection = subsection.replace("binary_indexed_tree/", "binary_indexed_tree/segment_tree/")
+                    content_dump[folder] += [subsection]
+                #else:
+                    #print(f"not processing: {line}")
         cnt_per_chapter[folder] = count
         total_count += count
 
