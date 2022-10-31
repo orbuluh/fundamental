@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 139
+# Problems listed: 140
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -32,7 +32,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md): 3
 
-- [dp/dp_subseq](dp/dp_subseq/README.md): 1
+- [dp/dp_subseq](dp/dp_subseq/README.md): 2
 
 - [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 2
 
@@ -438,7 +438,11 @@ Quote from [HTDP](https://htdp.org/)
 # [dp/dp_subseq](dp/dp_subseq/README.md)
 
 
-## Common subsequence
+## Subsequence
+
+
+
+- :bulb: 647. Palindromic Substrings
 
 
 
