@@ -1,4 +1,4 @@
-# Sub-array (contiguous, Kadane's Algorithm)
+# Subarray (contiguous, Kadane's Algorithm)
 
 ## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [:dart:](max_subarray.h)
 

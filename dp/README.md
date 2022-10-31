@@ -8,9 +8,9 @@
 
 # [DFS + memorization](dp_dfs_memorization/README.md)
 
-# [Sub-array (contiguous, Kadane's Algorithm)](dp_subarray_kadane/README.md)
+# [Subarray (contiguous, Kadane's Algorithm)](dp_subarray_kadane/README.md)
 
-# [Common subsequence](dp_subseq/README.md)
+# [Subsequence](dp_subseq/README.md)
 
 # Really tricky dp recursion
 

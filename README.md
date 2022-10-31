@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 140
+# Problems listed: 141
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -32,7 +32,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md): 3
 
-- [dp/dp_subseq](dp/dp_subseq/README.md): 2
+- [dp/dp_subseq](dp/dp_subseq/README.md): 3
 
 - [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 2
 
@@ -303,11 +303,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Sub-array (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
+## [Subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
 
 
 
-## [Common subsequence](dp/dp_subseq/README.md)
+## [Subsequence](dp/dp_subseq/README.md)
 
 
 
@@ -419,7 +419,7 @@ Quote from [HTDP](https://htdp.org/)
 # [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md)
 
 
-## Sub-array (contiguous, Kadane's Algorithm)
+## Subarray (contiguous, Kadane's Algorithm)
 
 
 
@@ -443,6 +443,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 647. Palindromic Substrings
+
+
+
+- :bulb: 516. Longest Palindromic Subsequence
 
 
 

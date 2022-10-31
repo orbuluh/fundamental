@@ -13,6 +13,8 @@
 
 ## [:bulb: 647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) [:dart:](palindromic_substring.h)
 
+- check out [516. Longest Palindromic Subsequence](#bulb-516-longest-palindromic-subsequence-dart), a really nice variation upon this one.
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -27,6 +29,35 @@ Explanation: Three palindromic strings: "a", "b", "c".
 Input: s = "aaa"
 Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) [:dart:](longest_palindromic_subseq.h)
+
+- beautiful extension from [647. Palindromic Substrings](#bulb-647-palindromic-substrings-dart)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a string s, find the longest palindromic subsequence's length in s.
+
+- A subsequence is a sequence that can be derived from another sequence by
+  deleting some or no elements without changing the order of the remaining
+  elements.
+
+Input: s = "bbbab"
+Output: 4
+
+Explanation: One possible longest palindromic subsequence is "bbbb".
+Example 2:
+
+Input: s = "cbbd"
+Output: 2
+
+Explanation: One possible longest palindromic subsequence is "bb".
 ```
 
 </details>
