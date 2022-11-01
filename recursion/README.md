@@ -1,7 +1,10 @@
 # Recursion
+
+- Note: When thinking about the complexity ... recursion can be thought of as n nested loops where in each loop the number of iterations decreases by one.
 - See also [really tricky recursion DP questions](../dp/README.md#really-tricky-dp-recursion)
 
 ## [:ok_hand: 38. Count and Say](https://leetcode.com/problems/count-and-say/) [:dart:](count_and_say.h)
+
 - not hard but think about how to implement it cleanly
 
 <details><summary markdown="span">Question</summary>
@@ -27,6 +30,7 @@ Explanation:
 - countAndSay(3) = say "11" = two 1's = "21"
 - countAndSay(4) = say "21" = one 2 + one 1 = "12" + "11" = "1211"
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -44,6 +48,7 @@ trim the tree so that all its elements lies in [low, high]
       2            1
      1
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -63,6 +68,7 @@ has been removed.
       0  1               1
      0
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -83,6 +89,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 - LCA of 5 and 4 is 5
 ...
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -104,12 +111,15 @@ Output: [3,9,20,8,6,15,7]
   9      20
 8  6    15  7
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
+
 - related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -125,11 +135,13 @@ Given the root of a binary search tree, rearrange the tree in in-order to a link
                                 8
                                  9
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) [:dart:](convert_bst_to_dll.h)
+
 - concept similar to [897. Increasing Order Search Tree](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
 
 <details><summary markdown="span">Question</summary>
@@ -141,12 +153,15 @@ Convert a Binary Search Tree to a sorted Circular Doubly-Linked List in place.
    2  5   -->     1 <-> 2 <-> 3 <-> 4 <-> 5
   1 3             ^_______________________^
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [:dart:](flattern_btree_to_ll.h)
+
 - Doable by many ways but best voted sol is :exploding_head: recursive idea
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -158,6 +173,7 @@ Given the root of a binary tree, flatten the tree into a "linked list" like belo
                        5
                          6
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
