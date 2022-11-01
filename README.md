@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 141
+# Problems listed: 142
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -22,7 +22,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [d_and_d](d_and_d/README.md): 3
 
-- [dp](dp/README.md): 2
+- [dp](dp/README.md): 3
 
 - [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md): 4
 
@@ -316,6 +316,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 629. K Inverse Pairs Array
+
+
+
+- :exploding_head: 837. New 21 Game
 
 
 
