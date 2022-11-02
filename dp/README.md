@@ -87,3 +87,9 @@ Answers within 10^-5 of the actual answer are considered accepted.
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:exploding_head: :exploding_head: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing_dp.h)
+
+- The brute-force backtracking solution and problem statement, some initial idea
+  check [backtracking section](../backtracking/README.md#💡-465-optimal-account-balancing-🎯).
+- The DP plus bitmask costs me so many hours to understand ... leave it here for future reference

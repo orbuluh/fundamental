@@ -16,12 +16,15 @@ Output: [1,2,3]
 Input: nums = [1,1,5]
 Output: [1,5,1]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
+
 - might be harder to not get TLE than you originally think!
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -44,11 +47,13 @@ Input: matchsticks = [3,3,3,3,4]
 Output: false
 Explanation: You cannot find a way to form a square with all the matchsticks.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
+
 - Problem description, optimal solution check -> [here](../binary_search/README.md#bulbbulb-410-split-array-largest-sumhttpsleetcodecomproblemssplit-array-largest-sum-dartsplitarrlargestsumbsh)
 - Would be nice to practice backtrack on this problem...
 
@@ -78,6 +83,7 @@ Output: 2
 You cannot reach point (1, 0) until time 2.
 Then you can reach bottom right
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -130,6 +136,7 @@ internally. You must solve this problem "blindfolded". In other words, you must
 control the robot using only the four mentioned APIs without knowing the room
 layout and the initial robot's position.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -178,6 +185,26 @@ Explanation: The following cells can flow to the Pacific and Atlantic oceans, as
        [4,0] -> Atlantic Ocean
 Note that there are other possible paths for these cells to flow to the Pacific and Atlantic oceans.
 ```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
+
+- There is a DP solution that is much difficult to think about... check ...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of transactions transactions where
+
+transactions[i] = [fromi, toi, amounti] indicates that
+- the person with ID = fromi gave amounti $ to the person with ID = toi.
+
+Return the minimum number of transactions required to settle the debt.
+```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -203,6 +230,7 @@ The shortest path without eliminating any obstacle is 10.
 The shortest path with one obstacle elimination at position (3,2) is 6.
 Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
