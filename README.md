@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 145
+# Problems listed: 146
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -29,6 +29,8 @@ Quote from [HTDP](https://htdp.org/)
 - [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md): 7
 
 - [dp/dp_state_transition](dp/dp_state_transition/README.md): 7
+
+- [dp/dp_string_match](dp/dp_string_match/README.md): 1
 
 - [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md): 3
 
@@ -291,31 +293,35 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [0/1 knapsack like recursion structure](dp/dp_01_knapsack/README.md)
+## [DP: 0/1 knapsack like recursion structure](dp/dp_01_knapsack/README.md)
 
 
 
-## [Unbounded knapsack like recursion structure](dp/dp_unbounded_knapsack/README.md)
+## [DP: Unbounded knapsack like recursion structure](dp/dp_unbounded_knapsack/README.md)
 
 
 
-## [State transition](dp/dp_state_transition/README.md)
+## [DP: state transition](dp/dp_state_transition/README.md)
 
 
 
-## [DFS + memorization](dp/dp_dfs_memorization/README.md)
+## [DP: DFS + memorization](dp/dp_dfs_memorization/README.md)
 
 
 
-## [Subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
+## [DP: subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
 
 
 
-## [Subsequence](dp/dp_subseq/README.md)
+## [DP: subsequence](dp/dp_subseq/README.md)
 
 
 
-## Really tricky dp recursion
+## [DP: string match](dp/dp_string_match/README.md)
+
+
+
+## DP: The really tricky recursion ...
 
 
 
@@ -425,6 +431,17 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head::exploding_head: 818. Race Car
+
+
+
+# [dp/dp_string_match](dp/dp_string_match/README.md)
+
+
+## String match with DP
+
+
+
+- :bulb: 72. Edit Distance
 
 
 

@@ -1,18 +1,20 @@
 # Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
 
-# [0/1 knapsack like recursion structure](dp_01_knapsack/README.md)
+# [DP: 0/1 knapsack like recursion structure](dp_01_knapsack/README.md)
 
-# [Unbounded knapsack like recursion structure](dp_unbounded_knapsack/README.md)
+# [DP: Unbounded knapsack like recursion structure](dp_unbounded_knapsack/README.md)
 
-# [State transition](dp_state_transition/README.md)
+# [DP: state transition](dp_state_transition/README.md)
 
-# [DFS + memorization](dp_dfs_memorization/README.md)
+# [DP: DFS + memorization](dp_dfs_memorization/README.md)
 
-# [Subarray (contiguous, Kadane's Algorithm)](dp_subarray_kadane/README.md)
+# [DP: subarray (contiguous, Kadane's Algorithm)](dp_subarray_kadane/README.md)
 
-# [Subsequence](dp_subseq/README.md)
+# [DP: subsequence](dp_subseq/README.md)
 
-# Really tricky dp recursion
+# [DP: string match](dp_string_match/README.md)
+
+# DP: The really tricky recursion ...
 
 ## [:exploding_head: 629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [:dart:](k_inverse_pairs_arr.h)
 
