@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 144
+# Problems listed: 145
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -40,7 +40,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [graph](graph/README.md): 3
 
-- [greedy](greedy/README.md): 18
+- [greedy](greedy/README.md): 19
 
 - [linked_list](linked_list/README.md): 7
 
@@ -539,6 +539,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 759. Employee Free Time
+
+
+
+- :ok_hand: 1024. Video Stitching
 
 
 

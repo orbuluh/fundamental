@@ -3,9 +3,9 @@
 ## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [:dart:](merge_interval.h)
 
 - Related:
-  - [57. Insert Interval](#bulb-57-insert-intervalhttpsleetcodecomproblemsinsert-interval-dartinsertintervalh)
-  - [759. Employee Free Time](#okhand-759-employee-free-timehttpsleetcodecomproblemsemployee-free-time-dartemployeefreetimeh)
-  - [715. Range Module](../binary_search/README.md#bulb-715-range-modulehttpsleetcodecomproblemsrange-module-dartrangemoduleh-notebooksrcs715addrangepng-notebooksrcs715removerangepng)
+  - [57. Insert Interval](#💡-57-insert-interval-🎯)
+  - [759. Employee Free Time](#👌-759-employee-free-time-🎯)
+  - [715. Range Module](../binary_search/README.md#💡-715-range-module-🎯)
 
 <details><summary markdown="span">Question</summary>
 
@@ -46,6 +46,35 @@ Explanation:
 - There are a total of three employees,
   and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
 - We discard any intervals that contain inf as they aren't finite.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:ok_hand: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) [:dart:](video_stitching.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a series of video clips from a sporting event that lasted time
+seconds.
+
+These video clips can be overlapping with each other and have varying lengths.
+
+Each video clip is described by an array clips where
+- clips[i] = [starti, endi] indicates that
+  the ith clip started at starti and ended at endi.
+
+Return the minimum number of clips needed so that we can cut the clips into
+segments that cover the entire sporting event [0, time].
+
+If the task is impossible, return -1.
+
+Input: clips = [[0,2],[4,6],[8,10],[1,9],[1,5],[5,9]], time = 10
+Output: 3
+
+Explanation: We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
 ```
 
 </details>
