@@ -45,6 +45,31 @@ Explanation: All possible orders:
 
 # Geometry
 
+## [:ok_hand: 593. Valid Square](https://leetcode.com/problems/valid-square/) [:dart:](valid_square.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the coordinates of four points in 2D space p1, p2, p3 and p4,
+return true if the four points construct a square.
+
+The coordinate of a point pi is represented as [xi, yi].
+The input is not given in any order.
+
+A valid square has four equal sides with positive length and four equal angles
+(90-degree angles).
+
+Input: p1 = [0,0], p2 = [1,1], p3 = [1,0], p4 = [0,1]
+Output: true
+
+Input: p1 = [1,0], p2 = [-1,0], p3 = [0,1], p4 = [0,-1]
+Output: true
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 1610. Maximum Number of Visible Points](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](max_of_visible_pts.h)
 
 <details><summary markdown="span">Question</summary>

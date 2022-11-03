@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 147
+# Problems listed: 148
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -46,7 +46,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [linked_list](linked_list/README.md): 7
 
-- [math](math/README.md): 3
+- [math](math/README.md): 4
 
 - [misc](misc/README.md): 11
 
@@ -682,6 +682,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Geometry
+
+
+
+- :ok_hand: 593. Valid Square
 
 
 
