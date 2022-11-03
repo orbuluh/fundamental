@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 146
+# Problems listed: 147
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -30,7 +30,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_state_transition](dp/dp_state_transition/README.md): 7
 
-- [dp/dp_string_match](dp/dp_string_match/README.md): 1
+- [dp/dp_string_match](dp/dp_string_match/README.md): 2
 
 - [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md): 3
 
@@ -438,6 +438,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## String match with DP
+
+
+
+- :bulb: 718. Maximum Length of Repeated Subarray
 
 
 

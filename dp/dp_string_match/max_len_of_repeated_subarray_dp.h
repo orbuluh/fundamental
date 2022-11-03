@@ -1,6 +1,6 @@
 /*
 dp[i][j] len of nums1[x:i+1] is the same as nums2[y:j+1] (non inclusive close)
-then dp[i][j] = 0 if nums1[i] != nums2[j]
+then dp[i][j] = 0 if nums1[i] != nums2[j]  (as it needs to be continuous)
                   else 1 + dp[i-1][j-1]
 
 say M = source len, N = pattern len
