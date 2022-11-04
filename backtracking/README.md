@@ -209,6 +209,31 @@ Return the minimum number of transactions required to settle the debt.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A confusing number is a number that
+- when rotated 180 degrees becomes a different number with each digit valid.
+  - When   0, 1, 6, 8, and 9 are rotated 180 degrees, they
+    become 0, 1, 9, 8, and 6 respectively.
+  - When 2, 3, 4, 5, and 7 are rotated 180 degrees, they become invalid.
+
+- We can rotate digits of a number by 180 degrees to form new digits.
+
+
+Note that after rotating a number, we can ignore leading zeros.
+For example, after rotating 8000, we have 0008 which is considered as just 8.
+
+Given an integer n, return the number of confusing numbers in the
+inclusive range [1, n].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) [:dart:](shortest_path_with_obstacle_elimination.h)
 
 <details><summary markdown="span">Question</summary>
