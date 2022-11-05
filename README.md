@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 150
+# Problems listed: 151
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -68,7 +68,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [tree](tree/README.md): 7
 
-- [trie](trie/README.md): 1
+- [trie](trie/README.md): 2
 
 - [union_find](union_find/README.md): 1
 
@@ -1011,6 +1011,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Trie
+
+
+
+- :bulb: 212. Word Search II
 
 
 
