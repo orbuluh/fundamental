@@ -3,6 +3,7 @@
 # Bipartite
 
 ## [:bulb: 785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) [:dart:](is_graph_bipartite.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -26,17 +27,19 @@ A graph is **bipartite** if
 
 - Return true if and only if it is bipartite.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 # Dijkstra
-- [778. Swim in Rising Water](../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
 
+- [778. Swim in Rising Water](../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
 
 # Model as graph
 
 ## [:bulb: 2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) [:dart:](find_all_possible_recipes.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -66,11 +69,13 @@ Explanation:
 We can create "bread" since we have the ingredients "yeast" and "flour".
 We can create "sandwich" since we have the ingredient "meat" and can create the ingredient "bread".
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 1153. String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/) [:dart:](string_to_another_string.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -89,6 +94,39 @@ Note that the order of conversions matter. Example, if you convert a to c first,
 str1 will becomes ccbcc, so eventually when you do c-> conversion, it would have
 gives eebee, and str1 will never equal to str2.
 ```
+
+</details>
+
+------------------------------------------------------------------------------
+
+# [Topological sort](../notes/graph.md#topological-sort)
+
+## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) [:dart:](alien_dictionary.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There is a new alien language that uses the English alphabet.
+However, the order among the letters is unknown to you.
+
+You are given a list of strings words from the alien language's dictionary,
+where the strings in words are sorted lexicographically by the rules of this new language.
+
+Return a string of the unique letters in the new alien language sorted in lexicographically increasing order by the new language's rules.
+
+If there is no solution, return "".
+If there are multiple solutions, return any of them.
+
+Input: words = ["wrt","wrf","er","ett","rftt"]
+Output: "wertf"
+
+Input: words = ["z","x","z"]
+Output: ""
+
+Input: words = ["abc","ab"]
+Output: ""
+```
+
 </details>
 
 ------------------------------------------------------------------------------

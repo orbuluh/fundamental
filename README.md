@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 149
+# Problems listed: 150
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -40,7 +40,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [ds_design](ds_design/README.md): 2
 
-- [graph](graph/README.md): 3
+- [graph](graph/README.md): 4
 
 - [greedy](greedy/README.md): 19
 
@@ -549,6 +549,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 1153. String Transforms Into Another String
+
+
+
+## [Topological sort](../notes/graph.md#topological-sort)
+
+
+
+- :bulb: 269. Alien Dictionary
 
 
 
