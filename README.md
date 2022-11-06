@@ -10,13 +10,13 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 151
+# Problems listed: 152
 
 - [2_ptrs](2_ptrs/README.md): 6
 
 - [backtracking](backtracking/README.md): 10
 
-- [binary_search](binary_search/README.md): 9
+- [binary_search](binary_search/README.md): 10
 
 - [bitwise](bitwise/README.md): 7
 
@@ -197,6 +197,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb::bulb: 378. Kth Smallest Element in a Sorted Matrix
+
+
+
+- :exploding_head: 4. Median of Two Sorted Arrays
 
 
 

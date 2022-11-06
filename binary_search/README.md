@@ -1,7 +1,9 @@
 # Binary search
+
 - [Notes :notebook:](../notes/algorithms.md#binary-search)
 
 ## [:ok_hand: 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) [:dart:](search_in_2d_mat.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -13,11 +15,13 @@ integer matrix matrix. This matrix has the following properties:
 Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
 Output: true
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -27,6 +31,7 @@ find the starting and ending position of a given target value.
 If target is not found in the array, return [-1, -1].
 You must write an algorithm with O(log n) runtime complexity.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -45,6 +50,7 @@ and become [4,5,6,7,0,1,2].
 Given the array nums after the possible rotation and an integer target,
 return the index of target if it is in nums, or -1 if it is not in nums.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -64,6 +70,7 @@ return true if target is in nums, or false if it is not in nums.
 Input: nums = [2,5,6,0,0,1,2], target = 0
 Output: true
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -92,6 +99,7 @@ Output: [1,2,3,4]
 Input: arr = [1,1,1,10,10,10], k = 1, x = 9
 Output: [10]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -119,12 +127,41 @@ Output: 13
 Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15],
              and the 8th smallest number is 13
 ```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:exploding_head: 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [:dart:](median_of_2_sorted_arrays.h)
+
+- the twisted way to use binary search holly ...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two sorted arrays nums1 and nums2 of size m and n respectively,
+return the median of the two sorted arrays.
+
+The overall run time complexity should be O(log (m+n)).
+
+
+Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
+
+Input: nums1 = [1,2], nums2 = [3,4]
+Output: 2.50000
+Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
+```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:exploding_head: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bs.h)
+
 - (Although much slower ...) Try doing backtrack for this one! --> [check code here](../backtracking/split_arr_largest_sum_bt.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -138,6 +175,7 @@ Output: 18
 - The best way is to split it into [7,2,5] and [10,8],
 - where the largest sum among the two subarrays is only 18.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -145,6 +183,7 @@ Output: 18
 # Interval related questions
 
 ## [:ok_hand: 729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) [:dart:](my_calendar_i.h)
+
 - you can also consider to use `std::set::upper_bound` or `std::map::upper_bound` as they are ordered.
 
 <details><summary markdown="span">Question</summary>
@@ -166,11 +205,13 @@ Input
 Output
 [null, true, false, true]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
+
 - [:notebook:](../srcs/715.addRange.png) [:notebook:](../srcs/715.removeRange.png)
 
 <details><summary markdown="span">Question</summary>
@@ -198,6 +239,7 @@ Implement the RangeModule class:
     - null, null, null, true, false, true]
 - (final ranges: [10 14)[16, 20])
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
