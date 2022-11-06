@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 152
+# Problems listed: 153
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -62,7 +62,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [sliding_window](sliding_window/README.md): 2
 
-- [sorting](sorting/README.md): 5
+- [sorting](sorting/README.md): 6
 
 - [substr_matching](substr_matching/README.md): 1
 
@@ -926,6 +926,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1996. The Number of Weak Characters in the Game
+
+
+
+## Bubble sort
+
+
+
+- :bulb: 899. Orderly Queue
 
 
 

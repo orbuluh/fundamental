@@ -1,6 +1,7 @@
 # Sorting
 
 ## [:wink: 1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) [:dart:](maximum_unit_on_a_truck.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -14,12 +15,15 @@ You are given a 2D array boxTypes, where
   You can choose any boxes to put on the truck as long as the number of boxes does not exceed truckSize.
 - Return the maximum total number of units that can be put on the truck.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
+
 - [optimal sol :dart:](count_weaker_char_o_n_sol.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -40,6 +44,39 @@ Output: 1
 Explanation: [4, 3] < [10, 4]
 
 ```
+
+</details>
+
+------------------------------------------------------------------------------
+
+# Bubble sort
+
+## [:bulb: 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/) [:dart:](orderly_queue.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a string s and an integer k.
+
+You can choose one of the first k letters of s and append it at the end of the string.
+
+Return the lexicographically smallest string you could have after applying the mentioned step any number of moves.
+
+Input: s = "cba", k = 1
+Output: "acb"
+Explanation:
+[c]ba
+[b]ac
+[a]cb
+
+
+Input: s = "baaca", k = 3
+Output: "aaabc"
+[baa]ca
+[aac]ab
+[aaa]bc
+```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -47,7 +84,9 @@ Explanation: [4, 3] < [10, 4]
 # Merge sort
 
 ## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
+
 - check [segment tree solution here :dart:](../range_query/segment_tree/cnt_smaller_num_after_self_segmenttree.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -63,6 +102,7 @@ To the right of 2 there is only 1 smaller element (1).
 To the right of 6 there is 1 smaller element (1).
 To the right of 1 there is 0 smaller element.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -70,6 +110,7 @@ To the right of 1 there is 0 smaller element.
 # Circular sort
 
 ## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) [:dart:](set_mismatch_circular_sort.h)
+
 - Other solution, problem statement [here](../bitwise/README.md#👌-645-set-mismatch-🎯)
 
 ------------------------------------------------------------------------------
@@ -77,6 +118,7 @@ To the right of 1 there is 0 smaller element.
 # Quick select
 
 ## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [:dart:](kth_largest_in_an_array.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -89,5 +131,5 @@ You must solve it in O(n) time complexity.
 Input: nums = [3,2,1,5,6,4], k = 2
 Output: 5
 ```
-</details>
 
+</details>
