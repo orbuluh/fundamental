@@ -1,7 +1,9 @@
 # Divide and Conquer
 
 ## [:ok_hand: 823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) [:dart:](btree_with_factors.h)
+
 - easier version (but same concept) with [894](#bulbbulb-894-all-possible-full-binary-trees-dart)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -23,11 +25,13 @@ Explanation:
 - We can make these trees:
 - [2], [4], [5], [10], [4, 2, 2], [10, 2, 5], [10, 5, 2].
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -36,13 +40,16 @@ each linked-list is sorted in ascending order.
 
 Merge all the linked-lists into one sorted linked-list and return it.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
+
 - Check [823](#ok_hand-823-binary-trees-with-factors-dart) as well for an easier but similar question
 - Beautiful!
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -53,6 +60,7 @@ Given an integer n, return a list of all possible full binary trees with n nodes
 
 - A full binary tree is a binary tree where each node has exactly 0 or 2 children.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------

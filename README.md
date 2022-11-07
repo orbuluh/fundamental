@@ -20,7 +20,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [bitwise](bitwise/README.md): 7
 
-- [d_and_d](d_and_d/README.md): 3
+- [divide_and_conquer](divide_and_conquer/README.md): 3
 
 - [dp](dp/README.md): 4
 
@@ -275,7 +275,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [d_and_d](d_and_d/README.md)
+# [divide_and_conquer](divide_and_conquer/README.md)
 
 
 ## Divide and Conquer
