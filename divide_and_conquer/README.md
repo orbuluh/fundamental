@@ -45,6 +45,33 @@ Merge all the linked-lists into one sorted linked-list and return it.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post.h)
+
+- for a genius recursive solution from lee215 ... check [here](../recursion/btree_from_pre_post_recursion.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two integer arrays, preorder and postorder where
+- preorder is the preorder traversal of a binary tree of distinct values and
+- postorder is the postorder traversal of the same tree,
+
+reconstruct and return the binary tree.
+If there exist multiple answers, you can return any of them.
+
+Input: preorder = [1,2,4,5,3,6,7],
+       postorder = [4,5,2,6,7,3,1]
+Output: [1,2,3,4,5,6,7]
+
+           1
+         2    3
+        4 5  6 7
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
 
 - Check [823](#ok_hand-823-binary-trees-with-factors-dart) as well for an easier but similar question

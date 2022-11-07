@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 153
+# Problems listed: 155
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -20,7 +20,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [bitwise](bitwise/README.md): 7
 
-- [divide_and_conquer](divide_and_conquer/README.md): 3
+- [divide_and_conquer](divide_and_conquer/README.md): 4
 
 - [dp](dp/README.md): 4
 
@@ -58,7 +58,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [range_query/segment_tree](range_query/segment_tree/README.md): 3
 
-- [recursion](recursion/README.md): 8
+- [recursion](recursion/README.md): 9
 
 - [sliding_window](sliding_window/README.md): 2
 
@@ -287,6 +287,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 23. Merge k Sorted Lists
+
+
+
+- :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 
 
@@ -884,6 +888,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal
+
+
+
+- :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 
 

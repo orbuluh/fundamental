@@ -116,6 +116,12 @@ Output: [3,9,20,8,6,15,7]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post_recursion.h)
+
+- for more intuitive (?) divide and conquer approach and problem statement, check [here](../divide_and_conquer/README.md#💡-889-construct-binary-tree-from-preorder-and-postorder-traversal-🎯)
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
 
 - related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
