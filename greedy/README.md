@@ -1,5 +1,29 @@
 # Greedy
 
+## [:ok_hand: 2178. Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) [:dart:](max_split_of_positive_even_ints.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an integer finalSum. Split it into a sum of a maximum number of
+unique positive even integers.
+
+For example, given finalSum = 12, the following splits are valid
+(unique positive even integers summing up to finalSum):
+- (12), (2 + 10), (2 + 4 + 6), and (4 + 8).
+
+Among them, (2 + 4 + 6) contains the maximum number of integers.
+- Note that finalSum cannot be split into (2 + 2 + 4 + 4) as all the numbers
+  should be unique.
+- Return a list of integers that represent a valid split containing a maximum
+  number of integers. If no valid split exists for finalSum, return an empty list.
+- You may return the integers in any order.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
 
 <details><summary markdown="span">Question</summary>
