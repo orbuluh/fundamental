@@ -296,4 +296,37 @@ Input: buckets = 4, minutesToDie = 15, minutesToTest = 30
 Output: 2
 ```
 
+</details>
+
+------------------------------------------------------------------------------
+
+## [:exploding_head: 932. Beautiful Array](https://leetcode.com/problems/beautiful-array/) [:dart:](beautiful_array.h)
+
+- or math/divide conquer? It's ridiculous to find such solution ...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+An array nums of length n is beautiful if:
+
+nums is a permutation of the integers in the range [1, n].
+
+- For every 0 <= i < j < n, there is no index k with i < k < j
+  where `2 * nums[k] == nums[i] + nums[j]`.
+
+Given the integer n, return any beautiful array nums of length n.
+There will be at least one valid answer for the given n.
+
+Input: n = 4
+Output: [2,1,4,3]
+
+Input: n = 5
+Output: [3,1,2,5,4]
+
+Input: n = 6
+Output: [1,5,3,2,6,4]
+```
+
+</details>
+
 ------------------------------------------------------------------------------

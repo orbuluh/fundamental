@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 155
+# Problems listed: 156
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -48,7 +48,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [math](math/README.md): 4
 
-- [misc](misc/README.md): 11
+- [misc](misc/README.md): 12
 
 - [monotonic_queue](monotonic_queue/README.md): 4
 
@@ -773,6 +773,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 458. Poor Pigs
+
+
+
+- :exploding_head: 932. Beautiful Array
 
 
 
