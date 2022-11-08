@@ -10,6 +10,37 @@
   here. Just give below question a try, with switching the looping ordering.
 ```
 
+------------------------------------------------------------------------------
+
+## [:ok_hand: 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) [:dart:](combination_sum_iv.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of distinct integers nums and a target integer target,
+return the number of possible permutations that add up to target.
+
+Input: nums = [1,2,3], target = 4
+Output: 7
+
+Explanation:
+The possible combination ways are:
+(1, 1, 1, 1)
+(1, 1, 2)
+(1, 2, 1)
+(1, 3)
+(2, 1, 1)
+(2, 2)
+(3, 1)
+
+- Note that different sequences are counted as different combinations.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
 
 - the core idea is basically the same as [518. Coin Change II](#💡-518-coin-change-ii-🎯)

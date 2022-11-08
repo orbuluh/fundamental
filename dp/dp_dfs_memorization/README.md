@@ -5,32 +5,6 @@
 - or problem that likely you can convert to some bottom-up ... but just hard to think of
 ```
 
-## [:ok_hand: 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) [:dart:](combination_sum_iv.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-Given an array of distinct integers nums and a target integer target,
-return the number of possible permutations that add up to target.
-
-Input: nums = [1,2,3], target = 4
-Output: 7
-
-Explanation:
-The possible combination ways are:
-(1, 1, 1, 1)
-(1, 1, 2)
-(1, 2, 1)
-(1, 3)
-(2, 1, 1)
-(2, 2)
-(3, 1)
-
-- Note that different sequences are counted as different combinations.
-```
-
-</details>
-
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)

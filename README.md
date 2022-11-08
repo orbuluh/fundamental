@@ -26,7 +26,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md): 4
 
-- [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md): 7
+- [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md): 6
 
 - [dp/dp_state_transition](dp/dp_state_transition/README.md): 6
 
@@ -36,7 +36,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_subseq](dp/dp_subseq/README.md): 3
 
-- [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 3
+- [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 4
 
 - [ds_design](ds_design/README.md): 2
 
@@ -383,10 +383,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :ok_hand: 377. Combination Sum IV
-
-
-
 - :bulb: 1770. Maximum Score from Performing Multiplication Operations
 
 
@@ -499,6 +495,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Unbounded knapsack like recursion structure
+
+
+
+- :ok_hand: 377. Combination Sum IV
 
 
 
