@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 158
+# Problems listed: 159
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -42,7 +42,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [graph](graph/README.md): 4
 
-- [greedy](greedy/README.md): 14
+- [greedy](greedy/README.md): 15
 
 - [greedy/meeting_room_like](greedy/meeting_room_like/README.md): 6
 
@@ -598,6 +598,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 936. Stamping The Sequence
+
+
+
+- :bulb: 1055. Shortest Way to Form String
 
 
 

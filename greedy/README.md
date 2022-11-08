@@ -127,6 +127,39 @@ If we cannot obtain target from s within `10 * target.length` turns, return an e
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1055. Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) [:dart:](shortest_way_to_form_string_sol1.h)
+
+- also [theoretically faster solution 2 using inverted indicies](shortest_way_to_form_string_sol2.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A subsequence of a string is a new string that is formed from the original
+string by deleting some (can be none) of the characters without disturbing the
+relative positions of the remaining characters.
+- (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+Given two strings source and target, return the minimum number of subsequences
+of source such that their concatenation equals target.
+
+If the task is impossible, return -1.
+
+Input: source = "abc", target = "abcbc"
+Output: 2
+Explanation:
+  The target "abcbc" can be formed by "abc" and "bc", which are subsequences of
+  source "abc".
+
+Input: source = "abc", target = "acdbc"
+Output: -1
+Explanation:
+  No subsequence of source contains d, so target can't be combined from source.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 135. Candy](https://leetcode.com/problems/candy/) [:dart:](candy.h)
 
 <details><summary markdown="span">Question</summary>
