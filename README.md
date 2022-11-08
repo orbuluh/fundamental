@@ -42,7 +42,9 @@ Quote from [HTDP](https://htdp.org/)
 
 - [graph](graph/README.md): 4
 
-- [greedy](greedy/README.md): 19
+- [greedy](greedy/README.md): 13
+
+- [greedy/meeting_room_like](greedy/meeting_room_like/README.md): 6
 
 - [linked_list](linked_list/README.md): 7
 
@@ -579,26 +581,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :ok_hand: 56. Merge Intervals
-
-
-
-- :ok_hand: 759. Employee Free Time
-
-
-
-- :ok_hand: 1024. Video Stitching
-
-
-
-- :bulb: 57. Insert Interval
-
-
-
-- :bulb: 732. My Calendar III
-
-
-
 - :bulb: 763. Partition Labels
 
 
@@ -639,10 +621,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 630. Course Schedule III
-
-
-
 - :bulb: 2136. Earliest Possible Day of Full Bloom
 
 
@@ -652,6 +630,37 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head::exploding_head: 218. The Skyline Problem
+
+
+
+# [greedy/meeting_room_like](greedy/meeting_room_like/README.md)
+
+
+## Meeting room like questions
+
+
+
+- :ok_hand: 56. Merge Intervals
+
+
+
+- :ok_hand: 759. Employee Free Time
+
+
+
+- :ok_hand: 1024. Video Stitching
+
+
+
+- :bulb: 57. Insert Interval
+
+
+
+- :bulb: 732. My Calendar III
+
+
+
+- :bulb: 630. Course Schedule III
 
 
 
