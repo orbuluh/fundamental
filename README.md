@@ -10,11 +10,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 156
+# Problems listed: 157
 
 - [2_ptrs](2_ptrs/README.md): 6
 
-- [backtracking](backtracking/README.md): 10
+- [backtracking](backtracking/README.md): 11
 
 - [binary_search](binary_search/README.md): 10
 
@@ -122,6 +122,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
+
+
+
+- :ok_hand: 39. Combination Sum
 
 
 

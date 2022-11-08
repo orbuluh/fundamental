@@ -14,6 +14,9 @@
 
 ## [:ok_hand: 377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) [:dart:](combination_sum_iv.h)
 
+- check variation that you want a normal DFS backtracking -> [here](../../backtracking/README.md#👌-39-combination-sum-🎯)
+- note this is more permutation (order matters) than combination (order doesn't matter).
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
