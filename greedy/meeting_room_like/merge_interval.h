@@ -1,19 +1,19 @@
+/*
+The critical thing is don't do a erase on intervals while merging, it's just
+slow and you will get a TLE
+*/
 class Solution {
-  public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        std::vector<std::vector<int>> res;
-        std::sort(intervals.begin(), intervals.end(),
-                  [](const auto& a, const auto& b) {
-                      return a[0] < b[0] || (a[0] == b[0] && a[1] < b[1]);
-                  });
-        res.emplace_back(std::move(intervals.front()));
-        for (int i = 1; i < intervals.size(); ++i) {
-            if (res.back()[1] >= intervals[i][0]) {
-                res.back()[1] = std::max(res.back()[1], intervals[i][1]);
-            } else {
-                res.emplace_back(std::move(intervals[i]));
-            }
-        }
-        return res;
+ public:
+  vector<vector<int>> merge(vector<vector<int>>& intervals) {
+    std::sort(intervals.begin(), intervals.end());
+    std::vector<std::vector<int>> result({{intervals.front()}});
+    for (int i = 1; i < intervals.size(); ++i) {
+      if (intervals[i][0] <= result.back()[1]) {
+        result.back()[1] = std::max(result.back()[1], intervals[i][1]);
+      } else {
+        result.emplace_back(std::move(intervals[i]));
+      }
     }
+    return result;
+  }
 };
