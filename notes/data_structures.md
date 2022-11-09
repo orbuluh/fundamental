@@ -36,14 +36,13 @@
 
 # [Segment tree](segment_tree.md)
 
-# Monotonic Queue
+# Monotonic Queue/Stack
 
-- A **monotonic** queue: the elements from the front to the end is strictly either increasing or decreasing.
+- A **monotonic** queue/stack: the elements from the front to the end is strictly either increasing or decreasing.
   - -> monotonic increasing `[1, 2, 3, 4, 5]`
   - -> monotonic decreasing `[5, 4, 3, 2, 1]`
-- Take monotonic increasing for example ..
-- How to maintain it?
-  - Every time you insert a new value, just pop the value that is larger than the new value.
+- The way to maintain such relationship is keep pop'ing the invalid one.
+- Say we want a monotonic increasing queue/stack, every time we get a new value, we check whether stack.top() is larger than the new value. If it's larger, we need to pop it out, so when we push new value, the stack is still in an increasing way.
   - For example: originally [1, 4, 5],
     - If you are going to insert 3, then you pop 5 and 4 out, queue becomes [1, 3]
     - If you are going to insert 6, then you pop nothing, queue becomes [1, 4, 5, 6]
