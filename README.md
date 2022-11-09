@@ -656,11 +656,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :ok_hand: 759. Employee Free Time
-
-
-
 - :ok_hand: 1024. Video Stitching
+
+
+
+- :bulb: 759. Employee Free Time
 
 
 

@@ -21,34 +21,6 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
-
-- you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-- Given a list schedule of employees,
-  which represents the working time for each employee.
-  - Each employee has a list of non-overlapping Intervals that are itself sorted.
-- Return the list of finite intervals representing common,
-  positive-length free time for all employees, also in sorted order.
-
-Input: schedule = [[[1,2],[5,6]],
-                  [[1,3]],
-                  [[4,10]]]
-Output: [[3,4]]
-
-Explanation:
-- There are a total of three employees,
-  and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
-- We discard any intervals that contain inf as they aren't finite.
-```
-
-</details>
-
-------------------------------------------------------------------------------
-
 ## [:ok_hand: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) [:dart:](video_stitching.h)
 
 <details><summary markdown="span">Question</summary>
@@ -72,6 +44,34 @@ Input: clips = [[0,2],[4,6],[8,10],[1,9],[1,5],[5,9]], time = 10
 Output: 3
 
 Explanation: We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
+
+- you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+- Given a list schedule of employees,
+  which represents the working time for each employee.
+  - Each employee has a list of non-overlapping Intervals that are itself sorted.
+- Return the list of finite intervals representing common,
+  positive-length free time for all employees, also in sorted order.
+
+Input: schedule = [[[1,2],[5,6]],
+                  [[1,3]],
+                  [[4,10]]]
+Output: [[3,4]]
+
+Explanation:
+- There are a total of three employees,
+  and all common free time intervals would be [-inf, 1], [3, 4], [10, inf].
+- We discard any intervals that contain inf as they aren't finite.
 ```
 
 </details>
