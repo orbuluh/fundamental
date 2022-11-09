@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 162
+# Problems listed: 163
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -52,7 +52,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [misc](misc/README.md): 12
 
-- [monotonic](monotonic/README.md): 6
+- [monotonic](monotonic/README.md): 7
 
 - [range_query](range_query/README.md): 3
 
@@ -825,6 +825,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 901. Online Stock Span
+
+
+
+- :bulb: 84. Largest Rectangle in Histogram
 
 
 

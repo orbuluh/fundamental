@@ -105,6 +105,25 @@ stockSpanner.next(85);  // return 6 ... same reasoning
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [:dart:](largest_retangle_in_histogram.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of integers heights representing the histogram's bar height where
+the width of each bar is 1, return the area of the largest rectangle in the histogram.
+
+Input: heights = [2,1,5,6,2,3]
+
+Output: 10
+Explanation: The above is a histogram where width of each bar is 1.
+The largest rectangle is 5 * 2 = 10
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 853. Car Fleet](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet.h)
 
 <details><summary markdown="span">Question</summary>
