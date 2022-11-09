@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 159
+# Problems listed: 162
 
 - [2_ptrs](2_ptrs/README.md): 6
 
@@ -34,7 +34,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_subarray_kadane](dp/dp_subarray_kadane/README.md): 3
 
-- [dp/dp_subseq](dp/dp_subseq/README.md): 3
+- [dp/dp_subseq](dp/dp_subseq/README.md): 4
 
 - [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 4
 
@@ -52,7 +52,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [misc](misc/README.md): 12
 
-- [monotonic](monotonic/README.md): 4
+- [monotonic](monotonic/README.md): 6
 
 - [range_query](range_query/README.md): 3
 
@@ -497,6 +497,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 1130. Minimum Cost Tree From Leaf Values
+
+
+
 # [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md)
 
 
@@ -816,11 +820,23 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## Monotonic stack
+
+
+
+- :bulb: 901. Online Stock Span
+
+
+
 - :bulb: 853. Car Fleet
 
 
 
 - :exploding_head: 1776. Car Fleet II
+
+
+
+- :exploding_head: 1130. Minimum Cost Tree From Leaf Values
 
 
 

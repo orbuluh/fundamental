@@ -83,3 +83,9 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:bulb: 1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) [:dart:](min_cost_tree_from_leaf_values_dp.h)
+
+- DP solution is actually almost pure brute force solution... the actual O(n) sol and problem statement is [here](../../monotonic/README.md#🤯-1130-minimum-cost-tree-from-leaf-values-🎯)
+
+------------------------------------------------------------------------------
