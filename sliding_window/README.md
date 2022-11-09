@@ -1,7 +1,9 @@
 # Sliding window
-- highly related to [:point_right: Monotonic Queue](../monotonic_queue/README.md)
+
+- highly related to [:point_right: Monotonic Queue](../monotonic/README.md)
 
 ## [:bulb: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) [:dart:](max_pts_from_cards.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -24,11 +26,13 @@ Explanation:
 - The optimal strategy is to take the three cards on the right,
   giving a final score of 1 + 6 + 5 = 12.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
 
 ## [:bulb::bulb: 30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) [:dart:](substr_with_concat_of_all.h)
+
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -45,6 +49,7 @@ Input: s = "aaaaa", words = ["a","a"]
             0123
 Output: [0,1,2,3]
 ```
+
 </details>
 
 ------------------------------------------------------------------------------

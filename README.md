@@ -52,7 +52,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [misc](misc/README.md): 12
 
-- [monotonic_queue](monotonic_queue/README.md): 4
+- [monotonic](monotonic/README.md): 4
 
 - [range_query](range_query/README.md): 3
 
@@ -801,7 +801,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [monotonic_queue](monotonic_queue/README.md)
+# [monotonic](monotonic/README.md)
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
