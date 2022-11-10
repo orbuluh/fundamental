@@ -1,5 +1,29 @@
 # 2 pointers
 
+## [:ok_hand: 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) [:dart:](remove_all_adjacent_duplicates.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a string s consisting of lowercase English letters.
+A duplicate removal consists of choosing two adjacent and equal letters and removing them.
+
+We repeatedly make duplicate removals on s until we no longer can.
+
+Return the final string after all such duplicate removals have been made.
+It can be proven that the answer is unique.
+
+Input: s = "abbaca"
+Output: "ca"
+
+Input: s = "azxxxzy"
+Output: "azxzy"
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) [:dart:](3sum_closest.h)
 
 <details><summary markdown="span">Question</summary>

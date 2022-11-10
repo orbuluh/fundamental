@@ -10,9 +10,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 163
+# Problems listed: 164
 
-- [2_ptrs](2_ptrs/README.md): 6
+- [2_ptrs](2_ptrs/README.md): 7
 
 - [backtracking](backtracking/README.md): 11
 
@@ -81,6 +81,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## 2 pointers
+
+
+
+- :ok_hand: 1047. Remove All Adjacent Duplicates In String
 
 
 
