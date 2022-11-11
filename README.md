@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 164
+# Problems listed: 165
 
 - [2_ptrs](2_ptrs/README.md): 7
 
@@ -60,7 +60,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [range_query/segment_tree](range_query/segment_tree/README.md): 3
 
-- [recursion](recursion/README.md): 9
+- [recursion](recursion/README.md): 10
 
 - [sliding_window](sliding_window/README.md): 2
 
@@ -941,6 +941,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
+
+
+
+- :bulb: 230. Kth Smallest Element in a BST
 
 
 

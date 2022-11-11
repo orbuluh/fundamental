@@ -122,6 +122,28 @@ Output: [3,9,20,8,6,15,7]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) [:dart:](kth_smallest_element_in_bst.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary search tree, and an integer k,
+
+return the kth smallest value (1-indexed) of all the values of the nodes
+in the tree.
+
+Input: root = [3,1,4,null,2], k = 1
+   3
+ 1   4
+  2
+
+output = 1
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
 
 - related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
