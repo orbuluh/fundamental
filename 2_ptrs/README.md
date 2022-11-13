@@ -24,6 +24,28 @@ Output: "azxzy"
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) [:dart:](reverse_words_in_a_string.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an input string s, reverse the order of the words.
+
+A word is defined as a sequence of non-space characters.
+The words in s will be separated by at least one space.
+
+Return a string of the words in reverse order concatenated by a single space.
+
+Input: s = "  hello world  "
+Output: "world hello"
+Explanation: Your reversed string should not contain leading or trailing spaces.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) [:dart:](3sum_closest.h)
 
 <details><summary markdown="span">Question</summary>
