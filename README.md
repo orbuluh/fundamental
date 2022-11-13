@@ -10,9 +10,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 166
+# Problems listed: 168
 
-- [2_ptrs](2_ptrs/README.md): 8
+- [2_ptrs](2_ptrs/README.md): 9
 
 - [backtracking](backtracking/README.md): 11
 
@@ -52,7 +52,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [misc](misc/README.md): 12
 
-- [monotonic](monotonic/README.md): 7
+- [monotonic](monotonic/README.md): 8
 
 - [range_query](range_query/README.md): 3
 
@@ -85,6 +85,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 1047. Remove All Adjacent Duplicates In String
+
+
+
+- :ok_hand: 151. Reverse Words in a String
 
 
 
@@ -817,6 +821,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
+
+
+
+- :bulb: 496. Next Greater Element I
 
 
 
