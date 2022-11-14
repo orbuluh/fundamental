@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 168
+# Problems listed: 170
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -40,7 +40,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [ds_design](ds_design/README.md): 2
 
-- [graph](graph/README.md): 4
+- [graph](graph/README.md): 5
 
 - [greedy](greedy/README.md): 15
 
@@ -72,7 +72,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [trie](trie/README.md): 2
 
-- [union_find](union_find/README.md): 1
+- [union_find](union_find/README.md): 2
 
 ---
 
@@ -579,6 +579,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 1153. String Transforms Into Another String
+
+
+
+## [Connected component]
+
+
+
+- :bulb: 947. Most Stones Removed with Same Row or Column
 
 
 
@@ -1115,5 +1123,9 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 990. Satisfiability of Equality Equations
+
+
+
+- :bulb: 947. Most Stones Removed with Same Row or Column
 
 
