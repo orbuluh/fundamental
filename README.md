@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 171
+# Problems listed: 172
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -60,7 +60,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [range_query/segment_tree](range_query/segment_tree/README.md): 3
 
-- [recursion](recursion/README.md): 10
+- [recursion](recursion/README.md): 11
 
 - [sliding_window](sliding_window/README.md): 2
 
@@ -969,6 +969,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 230. Kth Smallest Element in a BST
+
+
+
+- :bulb: 222. Count Complete Tree Nodes
 
 
 

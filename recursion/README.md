@@ -144,6 +144,26 @@ output = 1
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) [:dart:](count_complete_tree_nodes.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a complete binary tree, return the number of the nodes in the tree.
+
+complete binary tree:
+- every level, except possibly the last, is completely filled in a complete
+  binary tree
+- all nodes in the last level are as far left as possible. It can have between
+  1 and 2^h nodes inclusive at the last level h.
+
+Design an algorithm that runs in less than O(n) time complexity.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
 
 - related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
