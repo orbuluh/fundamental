@@ -582,7 +582,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Connected component]
+## Connected component
 
 
 

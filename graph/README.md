@@ -99,7 +99,7 @@ gives eebee, and str1 will never equal to str2.
 
 ------------------------------------------------------------------------------
 
-# [Connected component]
+# Connected component
 
 - Can be done through [union find](../union_find/most_stones_removed_with_same_row_or_col_uf.h) as well
 
