@@ -55,6 +55,33 @@ The second 1's next greater number needs to search circularly, which is also 2.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) [:dart:](next_greater_element_iii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a positive integer n, find the smallest integer which has exactly the
+same digits existing in the integer n and is greater in value than n.
+
+If no such positive integer exists, return -1.
+
+Note that the returned integer should fit in 32-bit integer,
+if there is a valid answer but it does not fit in 32-bit integer, return -1.
+
+Input: n = 12
+Output: 21
+
+Input: n = 21
+Output: -1
+
+Input: n = 11
+Output: -1
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) [:dart:](sliding_window_maximum.h)
 
 <details><summary markdown="span">Question</summary>

@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 172
+# Problems listed: 173
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -52,7 +52,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [misc](misc/README.md): 12
 
-- [monotonic](monotonic/README.md): 9
+- [monotonic](monotonic/README.md): 10
 
 - [range_query](range_query/README.md): 3
 
@@ -837,6 +837,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 503. Next Greater Element II
+
+
+
+- :bulb: 556. Next Greater Element III
 
 
 
