@@ -1,6 +1,8 @@
 # Modular multiplication property
+
 - `(A * B) % C = ((A % C) * (B % C)) % C`
-```
+
+```text
 Proof:
 
 A = C * Qa + Ra where 0 ≤ Ra < C and Qa is some integer. A % C = Ra
@@ -16,3 +18,7 @@ RHS = ((A % C) * (B % C))% C
 
 Hence LHS == RHS
 ```
+
+# Sampling algorithms
+
+- [Reservoir sampling](reservoir_sampling.md)
