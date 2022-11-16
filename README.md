@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 173
+# Problems listed: 174
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -48,7 +48,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [linked_list](linked_list/README.md): 7
 
-- [math](math/README.md): 4
+- [math](math/README.md): 5
 
 - [misc](misc/README.md): 12
 
@@ -755,6 +755,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1610. Maximum Number of Visible Points
+
+
+
+## Fisher–Yates shuffle
+
+
+
+- :bulb: 384. Shuffle an Array
 
 
 

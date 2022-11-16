@@ -103,3 +103,21 @@ Output: 1
 ```
 
 </details>
+
+------------------------------------------------------------------------------
+
+# Fisher–Yates shuffle
+
+## [:bulb: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) [:dart:](shuffle_an_array.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums, design an algorithm to randomly shuffle the array.
+
+- All permutations of the array should be equally likely as a result of the shuffling.
+```
+
+</details>
+
+------------------------------------------------------------------------------
