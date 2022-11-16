@@ -10,11 +10,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 174
+# Problems listed: 175
 
 - [2_ptrs](2_ptrs/README.md): 9
 
-- [backtracking](backtracking/README.md): 11
+- [backtracking](backtracking/README.md): 12
 
 - [binary_search](binary_search/README.md): 10
 
@@ -139,6 +139,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## State walking
+
+
+
 - :ok_hand: 39. Combination Sum
 
 
@@ -155,6 +159,22 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 465. Optimal Account Balancing
+
+
+
+- :bulb: 1088. Confusing Number II
+
+
+
+## Grid walking
+
+
+
+- :ok_hand: 490. The Maze
+
+
+
 - :bulb: 778. Swim in Rising Water
 
 
@@ -167,19 +187,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 465. Optimal Account Balancing
-
-
-
-- :bulb: 1088. Confusing Number II
-
-
-
 - :bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination
 
 
 
-## Back tracking the BFS path
+## Backtracking the BFS path
 
 
 

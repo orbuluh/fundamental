@@ -8,7 +8,7 @@
   - For some DFS problem where state with smaller parameter is related to state with larger one, it's likely dp'able. Check [here](../dp/dp_dfs_memorization/README.md)
 ```
 
-------------------------------------------------------------------------------
+# State walking
 
 ## [:ok_hand: 39. Combination Sum](https://leetcode.com/problems/combination-sum/) [:dart:](combinational_sum.h)
 
@@ -97,6 +97,92 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 
 - Problem description, optimal solution check -> [here](../binary_search/README.md#bulbbulb-410-split-array-largest-sumhttpsleetcodecomproblemssplit-array-largest-sum-dartsplitarrlargestsumbsh)
 - Would be nice to practice backtrack on this problem...
+
+------------------------------------------------------------------------------
+
+## [:bulb: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
+
+- There is a DP solution that is much difficult to think about... check ...
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of transactions transactions where
+
+transactions[i] = [fromi, toi, amounti] indicates that
+- the person with ID = fromi gave amounti $ to the person with ID = toi.
+
+Return the minimum number of transactions required to settle the debt.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A confusing number is a number that
+- when rotated 180 degrees becomes a different number with each digit valid.
+  - When   0, 1, 6, 8, and 9 are rotated 180 degrees, they
+    become 0, 1, 9, 8, and 6 respectively.
+  - When 2, 3, 4, 5, and 7 are rotated 180 degrees, they become invalid.
+
+- We can rotate digits of a number by 180 degrees to form new digits.
+
+
+Note that after rotating a number, we can ignore leading zeros.
+For example, after rotating 8000, we have 0008 which is considered as just 8.
+
+Given an integer n, return the number of confusing numbers in the
+inclusive range [1, n].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+# Grid walking
+
+## [:ok_hand: 490. The Maze](https://leetcode.com/problems/the-maze/) [:dart:](the_maze.h)
+
+- pokemon ice gym like variations of normal 2D walking!
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There is a ball in a maze with
+- empty spaces (represented as 0) and
+- walls (represented as 1).
+
+The ball can go through the empty spaces by rolling up, down, left or right,
+but it won't stop rolling until hitting a wall.
+
+When the ball stops, it could choose the next direction.
+
+Given the m x n maze, the ball's start position and the destination, where
+
+- start = [startrow, startcol] and
+- destination = [destinationrow, destinationcol],
+
+return true if the ball can stop at the destination, otherwise return false.
+You may assume that the borders of the maze are all walls.
+
+
+Input: maze =
+[[0,0,1,0,0],
+ [0,0,0,0,0],
+ [0,0,0,1,0],
+ [1,1,0,1,1],
+ [0,0,0,0,0]], start = [0,4], destination = [4,4]
+
+Output: true
+Explanation: One possible way is : left -> down -> left -> down -> right -> down -> right.
+```
+
+</details>
 
 ------------------------------------------------------------------------------
 
@@ -231,50 +317,6 @@ Note that there are other possible paths for these cells to flow to the Pacific 
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
-
-- There is a DP solution that is much difficult to think about... check ...
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-You are given an array of transactions transactions where
-
-transactions[i] = [fromi, toi, amounti] indicates that
-- the person with ID = fromi gave amounti $ to the person with ID = toi.
-
-Return the minimum number of transactions required to settle the debt.
-```
-
-</details>
-
-------------------------------------------------------------------------------
-
-## [:bulb: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-A confusing number is a number that
-- when rotated 180 degrees becomes a different number with each digit valid.
-  - When   0, 1, 6, 8, and 9 are rotated 180 degrees, they
-    become 0, 1, 9, 8, and 6 respectively.
-  - When 2, 3, 4, 5, and 7 are rotated 180 degrees, they become invalid.
-
-- We can rotate digits of a number by 180 degrees to form new digits.
-
-
-Note that after rotating a number, we can ignore leading zeros.
-For example, after rotating 8000, we have 0008 which is considered as just 8.
-
-Given an integer n, return the number of confusing numbers in the
-inclusive range [1, n].
-```
-
-</details>
-
-------------------------------------------------------------------------------
-
 ## [:bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) [:dart:](shortest_path_with_obstacle_elimination.h)
 
 <details><summary markdown="span">Question</summary>
@@ -301,7 +343,7 @@ Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
 
 ------------------------------------------------------------------------------
 
-# Back tracking the BFS path
+# Backtracking the BFS path
 
 ## [:bulb::bulb: 126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [:dart:](word_ladder_ii.h)
 
