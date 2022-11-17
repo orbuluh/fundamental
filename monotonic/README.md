@@ -246,6 +246,41 @@ Note that no other cars meet these fleets before the destination, so the answer 
 
 ------------------------------------------------------------------------------
 
+## [:bulb::bulb: 2454. Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/) [:dart:](next_greater_element_iv.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a 0-indexed array of non-negative integers nums.
+
+For each integer in nums, you must find its respective second greater integer.
+
+The second greater integer of nums[i] is nums[j] such that:
+- j > i
+- nums[j] > nums[i]
+- There exists exactly one index k such that nums[k] > nums[i] and i < k < j.
+
+- If there is no such nums[j], the second greater integer is considered to be -1.
+
+For example, in the array [1, 2, 4, 3], the second greater integer of
+- 1 is 4,
+- 2 is 3,
+- and that of 3 and 4 is -1.
+
+Return an integer array answer, where answer[i] is the second greater integer of
+nums[i].
+
+Input: nums = [2,4,0,9,6]
+Output: [9,6,6,-1,-1]
+
+--> note: second largest of 2 is 9 not 4, as both 4 and 9 are larger than 2, but
+    9 is on the right of 4.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [:dart:](sum_of_subarray_mininums.h)
 
 - the most difficult part is the dp recursion, so check [here](../dp/dp_z_misc_hard_recursion/README.md#💡💡-907-sum-of-subarray-minimums-🎯)
