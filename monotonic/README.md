@@ -246,6 +246,12 @@ Note that no other cars meet these fleets before the destination, so the answer 
 
 ------------------------------------------------------------------------------
 
+## [:bulb::bulb: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [:dart:](sum_of_subarray_mininums.h)
+
+- the most difficult part is the dp recursion, so check [here](../dp/dp_z_misc_hard_recursion/README.md#💡💡-907-sum-of-subarray-minimums-🎯)
+
+------------------------------------------------------------------------------
+
 ## [:exploding_head: 1776. Car Fleet II](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet2.h)
 
 <details><summary markdown="span">Question</summary>

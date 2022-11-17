@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 175
+# Problems listed: 177
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -22,7 +22,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [divide_and_conquer](divide_and_conquer/README.md): 4
 
-- [dp](dp/README.md): 4
+- [dp](dp/README.md): 0
 
 - [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md): 4
 
@@ -38,6 +38,8 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 4
 
+- [dp/dp_z_misc_hard_recursion](dp/dp_z_misc_hard_recursion/README.md): 5
+
 - [ds_design](ds_design/README.md): 2
 
 - [graph](graph/README.md): 5
@@ -52,7 +54,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [misc](misc/README.md): 12
 
-- [monotonic](monotonic/README.md): 10
+- [monotonic](monotonic/README.md): 11
 
 - [range_query](range_query/README.md): 3
 
@@ -343,7 +345,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [DP: state transition](dp/dp_state_transition/README.md)
+## [DP: State transition](dp/dp_state_transition/README.md)
 
 
 
@@ -351,35 +353,19 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [DP: subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
+## [DP: Subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
 
 
 
-## [DP: subsequence](dp/dp_subseq/README.md)
+## [DP: Subsequence](dp/dp_subseq/README.md)
 
 
 
-## [DP: string match](dp/dp_string_match/README.md)
+## [DP: String match](dp/dp_string_match/README.md)
 
 
 
-## DP: The really tricky recursion ...
-
-
-
-- :exploding_head: 629. K Inverse Pairs Array
-
-
-
-- :exploding_head: 837. New 21 Game
-
-
-
-- :exploding_head: :exploding_head: 376. Wiggle Subsequence
-
-
-
-- :exploding_head: :exploding_head: 465. Optimal Account Balancing
+## [DP: Misc hard recursion](dp/dp_z_misc_hard_recursion/README.md)
 
 
 
@@ -545,6 +531,33 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 91. Decode Ways
+
+
+
+# [dp/dp_z_misc_hard_recursion](dp/dp_z_misc_hard_recursion/README.md)
+
+
+## DP: Misc hard recursion
+
+
+
+- :bulb::bulb: 907. Sum of Subarray Minimums
+
+
+
+- :exploding_head: 629. K Inverse Pairs Array
+
+
+
+- :exploding_head: 837. New 21 Game
+
+
+
+- :exploding_head: :exploding_head: 376. Wiggle Subsequence
+
+
+
+- :exploding_head: :exploding_head: 465. Optimal Account Balancing
 
 
 
@@ -885,6 +898,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 853. Car Fleet
+
+
+
+- :bulb::bulb: 907. Sum of Subarray Minimums
 
 
 
