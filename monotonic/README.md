@@ -281,6 +281,34 @@ Output: [9,6,6,-1,-1]
 
 ------------------------------------------------------------------------------
 
+## [:bulb::bulb: 2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) [:dart:](steps_to_make_arr_non_dec.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a 0-indexed integer array nums.
+
+In one step, remove all elements nums[i] where
+- nums[i - 1] > nums[i] for all 0 < i < nums.length.
+
+Return the number of steps performed until nums becomes a non-decreasing array.
+
+Input: nums = [5,3,4,4,7,3,6,11,8,5,11]
+Output: 3
+Explanation: The following are the steps performed:
+- Step 1: [5,3,4,4,7,3,6,11,8,5,11] becomes [5,4,4,7,6,11,11]
+             ^       ^      ^ ^
+- Step 2: [5,4,4,7,6,11,11] becomes [5,4,7,11,11]
+             ^     ^
+- Step 3: [5,4,7,11,11] becomes [5,7,11,11]
+             ^
+--> [5,7,11,11] is a non-decreasing array. Therefore, we return 3.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [:dart:](sum_of_subarray_mininums.h)
 
 - the most difficult part is the dp recursion, so check [here](../dp/dp_z_misc_hard_recursion/README.md#💡💡-907-sum-of-subarray-minimums-🎯)
