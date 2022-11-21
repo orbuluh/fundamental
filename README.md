@@ -10,11 +10,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 179
+# Problems listed: 180
 
 - [2_ptrs](2_ptrs/README.md): 9
 
-- [backtracking](backtracking/README.md): 12
+- [backtracking](backtracking/README.md): 13
 
 - [binary_search](binary_search/README.md): 10
 
@@ -190,6 +190,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination
+
+
+
+## BFS
+
+
+
+- :bulb: 1926. Nearest Exit from Entrance in Maze
 
 
 
