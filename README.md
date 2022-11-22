@@ -587,7 +587,7 @@ Quote from [HTDP](https://htdp.org/)
 # [graph](graph/README.md)
 
 
-## Graph [:notebook:](../notes/algorithms.md#dynamic-programming)
+## Graph [:notebook:](../notes/graph.md)
 
 
 
