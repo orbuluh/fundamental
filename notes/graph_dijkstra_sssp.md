@@ -9,9 +9,10 @@
 ## Pseudo code
 
 1. Maintain a `dist` array where the distance to every node is `inf`. Mark the `distance` to the start node `s` to be 0.
-2. Maintain a PQ with (`nodeIdx`, `distance`) pairs, which tell you node to visit next based on sorted min `distance`.
-3. Insert (s, 0) into PQ and loop while PQ is not empty. Pull out **the next most promising pair** (`nodeIdx`, `distance`)
-4. Iterate over all edges outwards from the current node and relax each edge appending a new (`nodeIdx`, `distance`) to PQ for every relaxation
+2. Maintain a PQ with (`distance`, `nodeIdx`) pairs, which tell you node to visit next based on sorted min `distance`.
+3. Insert `(0, s)` into PQ and loop while PQ is not empty.
+4. Pull out **the next most promising pair** (`distance`, `nodeIdx`)
+5. Iterate over all edges outwards from the current node and relax each edge appending a new (`distance`, `nodeIdx`) to PQ for every relaxation
    - (ignoring a pair if `dist` array already find a quicker way to reach the new node)
 
 ## Building path from Dijkstra
@@ -27,13 +28,13 @@
 
 ### Indexed Priority Queue (IPQ)
 
-- The original algorithm insert all the feasible (`nodeIdx`, `distance`) pair in `O(log(n)`, and “lazily” remove stale edges in PQ.
-- When doing this, one `nodeIdx` could have several entires in the PQ, with different value of distance. For dense graph, this would be costly.
-- The “eager” version of Dijkstra avoids duplicated key-value pairs and support efficient updates by using IPQ.
+- The original algorithm insert all the feasible (`distance`, `nodeIdx`) pair in `O(log(n)`, and “lazily” remove stale edges in PQ.
+- When doing this, one `nodeIdx` could have several entires in the PQ, with different value of distance.For dense graph, this would be costly.
+- The “eager” version of Dijkstra **avoids duplicated key-value pairs** and support efficient updates by using IPQ.
 - The difference of using IPQ is that for the same `nodeIdx`, whenever we saw a smaller `distance`, we can simply update the `distance` in the entry instead of making duplicated `nodeIdx` entries in the PQ.
 
 ### D-ary heap for the IPQ
 
-- In the context of Dijkstra on dense graph, there are more updates (i.e. decreaseKey operation) than dequeue operations.
+- In the context of Dijkstra on dense graph, there are more updates (i.e. `decreaseKey` operation) than `dequeue` operations.
 - A D-ary heap where a node having D children would be more feasible than general binary heap for IPQ. This speeds up decrease key operations at the expense of more costly removals.
 - Ideally improving the whole complexity to `O(E * log(V))` to `O(E * log_{E/V}(V))`
