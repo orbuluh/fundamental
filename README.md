@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 180
+# Problems listed: 181
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -24,7 +24,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp](dp/README.md): 0
 
-- [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md): 4
+- [dp/dp_01_knapsack](dp/dp_01_knapsack/README.md): 5
 
 - [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md): 6
 
@@ -397,6 +397,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 115. Distinct Subsequences
+
+
+
+- :bulb: 1235. Maximum Profit in Job Scheduling
 
 
 
