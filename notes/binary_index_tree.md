@@ -6,12 +6,12 @@
   - [Malomalomalomalo's blog](https://codeforces.com/blog/entry/57292)
   - [Algorithms Live! YT](https://youtu.be/kPaJfAUwViY)
 
-## Basic idea
+**Basic idea**
 - For a given array of size N, we can maintain an array BIT[] such that, at any index we can store sum of **some numbers** of the given array.
 - BITs take advantage of the fact that **ranges can be broken down into other ranges, and combined quickly**.
 - Basically, if we can precalculate the range query for a certain subset of ranges, we can quickly combine them to answer any [1,x] range query.
 
-## The "binary indexed"
+**The "binary indexed"**
 - The clever way of utilizing the array index to represent "range" in BIT is through arranging on least significant bit (LSB)
 - For index i,
   - the LSB(i) represents the length of the range, e.g. how much it responsible below and includes i
@@ -30,16 +30,16 @@
 
 - Generalize: at BIT[i] stores the cumulative sum from the index [i - lsb(i) + 1, i]  (both inclusive).
 
-### Trick to isolate the least significant bit: `x & (-x)`
+**Trick to isolate the least significant bit: `x & (-x)`**
 - [Check :notebook:](bitwise.md#trick-to-isolate-the-least-significant-bit-x---x)
 
-## Overall structure
+**Overall structure**
 - Space Complexity: O(N) for declaring another array of size N
 - Implementation details check [this question :dart:](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
   - Some details about how we ignore index 0, and how to construct/update.
 ![](../srcs/binary_index_tree.png)
 
-## Construct the tree
+**Construct the tree**
 - From the graph, you will see a number is actually covered by multiple ranges
   - For example: elements 7 is included by BIT[7] (0111), BIT[8] (1000), BIT[16] (10000)
 - So think it in another direction - when you update element 7, you should have updated all the ranges including 7
@@ -57,7 +57,7 @@ void update(int x, int valDelta) {
 ```
 - Implementation details check: [this question :dart:](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
 
-## Query the tree
+**Query the tree**
 - Recall that BST[i] is responsible for range i and LSB(i) range below i.
   - For example, BST[10] has LSB(10) = 2, so BST[10] take care of range [9, 10]
 - So think this in another way - if you want to find the non-overlapping range `j`,
@@ -80,7 +80,7 @@ int query(int x) // returns the sum of first x elements in given array a[]
 - Implementation details check: [this question :dart:](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
 
 
-##  The "binary indexed" property
+**The "binary indexed" property**
 - With how the index is used to represent a range, it can be proved that ...
   - (P.1) Every range [1,x] is constructable from the intervals given
   - (P.2) Every range decomposes into at most log N ranges.

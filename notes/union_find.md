@@ -8,13 +8,13 @@
   - A union-ﬁnd data structure is born with each object in a different set. Whenever a new edge (v, w) is added to the solution-so-far, the connected components of v and w fuse into one, and one Union operation suffices to update the union-ﬁnd data structure accordingly. Checking whether an edge addition (v, w) would create a cycle is equivalent to checking whether v and w are already in the same connected component.
 - Union-find data structure can be viewed as a disjoint-set forest consists of a pointer used to make parent pointer trees, where each node that is not the root of a tree points to its parent. Each tree represents a set stored in the forest, with the members of the set being the nodes in the tree. Root nodes provide set representatives: Two nodes are in the same set if and only if the roots of the trees containing the nodes are equal.
 
-# `find`
+**`find`**
 
 - The Find operation follows the chain of parent pointers from a specified query node x until it reaches a root element. This root element represents the set to which x belongs and may be x itself. Find returns the root element it reaches.
 
 ![](../srcs/find_of_union_find.png)
 
-## Path compression
+**Path compression**
 
 - Performing a Find operation presents an important opportunity for improving the forest.
 - The time in a Find operation is spent chasing parent pointers, so a flatter tree leads to faster Find operations.
@@ -32,7 +32,7 @@ int find(int nodeIdx) {
 }
 ```
 
-### Iterative way to do the find with path compression
+**Iterative way to do the find with path compression**
 
 ```c++
 //std::vector<int> parent_;
@@ -50,7 +50,7 @@ int find(int nodeIdx) {
 }
 ```
 
-## Path compression with path splitting/path halving
+**Path compression with path splitting/path halving**
 
 - assume node point to itself as initialization!
 - "halving" because you keep pointing to grandparent
@@ -70,7 +70,7 @@ int find(int nodeIdx) {
 }
 ```
 
-# `union`
+**`union`**
 
 > NOTE: easily mess up - doing `parent_[x] = yRoot` or alike. No it's not, you
   are not just assign x's parent to y, you are point x's grandparent instead.

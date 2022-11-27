@@ -3,16 +3,16 @@
 - From [WilliamFiset](https://youtu.be/LdOnanfc5TM)
 - From [MIT OpenCourseWare](https://youtu.be/VYZGlgzr_As)
 
-## What
+**What**
 
 > "It's an optimization problem associated with the exact number that the flow all obey the edge capacity constraints"
 
-## Why the problem is challenging?
+**Why the problem is challenging?**
 
 - You can imagine, an edge could be filled by flow from either of the neighbors. And among the whole graph, how do you find the way so that the overall maximum flow into the target is maximum while all the flow in each edge doesn't break the capacity constraint.
 - For the flow on each edge, it's not monotonic increased like Dijikstra / Minimum Spanning Tree would do, sometimes you can try to decrease the flow from one edge, and making its original flow to be sent from some other node.
 
-## Fundamental concepts to model max flow
+**Fundamental concepts to model max flow**
 
 **Flow graph/network**:
 
@@ -77,8 +77,8 @@ augmenting paths can be found. The result is guarantee to result to maximum flow
 - **Dinic's algorithm**: Use BFS + DFS as heuristic on Ford-Fulker method, achieve $O(V^2E)$
 - **Push relabel**: Use a concept of maintaining preflow instead of finding augmenting paths to achieve the solution. $O(V^2E)$ or $O(V^2\sqrt{E})$
 
-## Max flow min cut theorem
+**Max flow min cut theorem**
 
 **The intuition**: For any given cut, the flow for that cut is bounded by the capacity ot that cut.
 
-## [Use max flow/min cut to solve bipartite matching problem!](graph_bipartite.md#how-do-we-solve-the-problem-💡-making-it-a-max-cut-problem)
+[**Use max flow/min cut to solve bipartite matching problem!**](graph_bipartite.md#how-do-we-solve-the-problem-💡-making-it-a-max-cut-problem)

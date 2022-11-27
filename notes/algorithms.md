@@ -1,6 +1,6 @@
 # Algorithm notes
 
-# Binary search
+## Binary search
 
 - normally, use `std::binary_search`, `std::lower_bound`, `std::upper_bound` - check [notes :notebook:](https://github.com/orbuluh/cpp/blob/main/notes/binary_search.md)
 - From the above 3 std functions, you can see there is 3 cases:
@@ -8,7 +8,7 @@
   - (2) `std::lower_bound` - what's the first occurrence of value >= target - e.g. **first occurrence** of target
   - (3) `std::upper_bound` - what's the first occurrence of value > target - e.g. previous is the **last occurrence** of target
 
-# Implement by yourself
+**Implement by yourself**
 
 - The key to code binary search by yourselves is to **implement it as case (2) or (3), but not (1)**
   - e.g. **think binary search as a binary insert problem instead**
@@ -16,13 +16,13 @@
   - And because (1) could have multiple result, the implementation is easy to get wrong!
 - So how to do it in binary insert way? - check [here :dart:](../binary_search/first_and_last_pos_of_tgt_in_arr.h)
 
-## Key 1: we want to make sure we don't go into infinite loop. How?
+**Key 1: we want to make sure we don't go into infinite loop. How?**
 
 - when you do `while (l < r)` ... and if ...
   - mid bias to `l`, e.g. `mid = l + (r - l) / 2`, then moving `r = mid` is guaranteed to be okay as `mid` can't equal to `r`
   - mid bias to `r`, e.g. `mid = l + (r - l + 1) / 2`, then moving `l = mid` is guaranteed to be okay as `mid` can't equal to `l`
 
-## Key 2: when to bias what?
+**Key 2: when to bias what?**
 
 - when do we need to bias to `l`? When we try to find the first occurrence (case 2)
   - Why? when we try to find the first occurrence, we want to always decrease `r` when `value >= target`.
@@ -33,12 +33,12 @@
   - And because `l` itself could be result, we want to make `l = mid` when `value <= target`
   - To ensure `l = mid` won't be an infinite loop, we have to "right bias" so mid will always not equal to `l`
 
-## Key 3: what to return?
+**Key 3: what to return?**
 
 - when we bias to `l`, `mid` will eventually equal to `l` when loop break, which is the value we want to return.
 - vise-versa, when bias to `r`, we want to return `r`
 
-# Dynamic programming
+## Dynamic programming
 
 - DP's goal is finding **overlapping sub-problems** that can be memorized.
   - To memorize the sub-problems, each of them is basically a "DP state" (a.k.a optimal substructure), where the state is represented by parameters.
@@ -59,14 +59,14 @@
 5. Implementing by solving subproblems in order.
 ```
 
-# Backtracking
+## Backtracking
 
 - 3 main components
   - **choice**: decisions to make in each step
   - **constraints**: your decision is restricted somehow
   - **goal**: eventually converge to a goal
 
-## Backtracking v.s. DFS
+**Backtracking v.s. DFS**
 
 - Backtracking is something that happens during search, but it also refers to a specific problem-solving technique where a lot of backtracking is done. [src](https://stackoverflow.com/a/3156208/4924135)
   - The more specific usage refers to a problem-solving strategy that is similar to depth-first search but backtracks when it realizes that it's not worth continuing down some subtree.
@@ -75,16 +75,16 @@
   - When the search space of a problem is visited by backtracking, the implicit tree gets traversed and pruned in the middle of it.
   - Yet for DFS, the tree/graph it deals with is explicitly constructed and unacceptable cases have already been thrown, i.e. pruned, away before any search is done.
 
-# Morris traversal
+## Morris traversal
 
 - [implementation](../tree/inorder_morris.h)
 - ![](../srcs/morris_inorder.png)
 
-# Substring matching
+## Substring matching
 
 - [KMP :notebook:](kmp.md)
 - [Rolling hash :notebook:](rolling_hash.md)
 
-# Graph
+## Graph
 
 - check [:notebook:](graph.md)

@@ -1,12 +1,191 @@
 # :shinto_shrine: Fundamentals :shinto_shrine:
 
-## [Notes for algo/DS deep-dive :book:](notes/README.md)
-
 :frog: :thinking: :exploding_head: :bulb: :star_struck: :sunrise:
 
 Quote from [HTDP](https://htdp.org/)
 > * ... many elements of the general design recipe apply to the design of algorithms ... The key to designing algorithms is the “generation” step, which often means **dividing up the problem. And figuring out a novel way of dividing a problem requires insight.**
 > * ... programmers must thoroughly understand the underlying ideas so that they can code up algorithms and have the program **communicate with future readers.** The best way to get acquainted with the idea is to **study a wide range of examples and to develop a sense for the kinds of generative recursions that may show up in the real world.**
+
+<br/>
+
+## [Notes for algo/DS deep-dive :book:](notes/README.md)
+
+
+**[Algorithm notes](notes/algorithms.md)**
+
+
+
+
+- Binary search
+
+
+
+
+- Dynamic programming
+
+
+
+
+- Backtracking
+
+
+
+
+- Morris traversal
+
+
+
+
+- Substring matching
+
+
+
+
+- Graph
+
+
+**[Binary indexed tree](notes/binary_index_tree.md)**
+
+
+
+
+
+**[Bipartite](notes/graph_bipartite.md)**
+
+
+
+
+
+**[Bitwise](notes/bitwise.md)**
+
+
+
+
+- Size of integers in C++
+
+
+
+
+- Two's complement
+
+
+
+
+- Reset the last/rightmost set bit: `x & (x - 1)`
+
+
+
+
+- Detect is power of 2: `(x & (x - 1)) == 0`
+
+
+
+
+- Get the last/rightmost set bit: `x - (x & (x - 1))`
+
+
+
+
+- Isolate the least significant bit: `x & (-x)`
+
+
+
+
+- Detect if two integers have opposite signs: `f = (X ^ Y) < 0`
+
+
+
+
+- Common mask
+
+
+**[Data structures](notes/data_structures.md)**
+
+
+
+
+- Heap
+
+
+
+
+- tree like DS are sorted by keys `map`, `set`, `multimap`, `multiset`
+
+
+
+
+- BST
+
+
+
+
+- Binary index tree (BIT)
+
+
+
+
+- Segment tree
+
+
+
+
+- Monotonic Queue/Stack
+
+
+**[KMP (Knuth–Morris–Pratt) algorithm for pattern matching](notes/kmp.md)**
+
+
+
+
+
+**[Max flow / min cut / Ford-Fulker method](notes/graph_max_flow.md)**
+
+
+
+
+
+**[Reservoir sampling](notes/reservoir_sampling.md)**
+
+
+
+
+
+**[Rolling hash](notes/rolling_hash.md)**
+
+
+
+
+
+**[Sampling algorithms](notes/math.md)**
+
+
+
+
+
+**[Segment tree](notes/segment_tree.md)**
+
+
+
+
+
+**[SSSP: Dijkstra Algorithm (Single Source Shortest Path)](notes/graph_dijkstra_sssp.md)**
+
+
+
+
+
+**[Topological sort](notes/graph_topological_sort.md)**
+
+
+
+
+
+**[union–find data structure](notes/union_find.md)**
+
+
+
+
+
 
 <br/>
 

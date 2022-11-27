@@ -2,7 +2,7 @@
 
 - [Bizillion Proofs](https://youtu.be/dWfo9XGrqKU)
 
-## What
+**What**
 
 $X = [x_1, ...., x_n]$ be a stream of unknown number of n distinct items. We want to
 - obtain a sample $T_i$ of k items, where $k < n$.
@@ -14,7 +14,7 @@ And at any point of timing $i$ where $i < n$
 - (e.g. for all valid i, j that meets the condition, following holds: prob of picking the new item at $i$, $x_i$, is just the same as picking any other $x_j$ that is in the current k size sampling set $T_i$)
 
 
-## Algorithm
+**The algorithm**
 
 - if $i \leq k: T_i = T_{i - 1} \cup { x_i }$
 - else:
@@ -22,7 +22,7 @@ And at any point of timing $i$ where $i < n$
   - (e.g. with probability $1 - \frac{k}{i}$, discard the new item $x_i$)
 
 
-## Proof (by induction)
+**Proof (by induction)**
 
 when $i \leq k$, we simply include $x_i$, so the probability of $x_i$ is in the set is just 1. This holds for all the elements that is in the sample set already.
 

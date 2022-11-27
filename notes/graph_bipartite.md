@@ -2,7 +2,7 @@
 
 Notes from watching [WilliamFiset](https://youtu.be/GhjwOiJ4SqU)
 
-## What
+**What**
 
 - A bipartite graph is one whose vertices can be split into 2 independent groups U, V, such that every edge connects between U and V.
   - E.g. "every edge in the graph connects a node in set A and a node in set B."
@@ -10,14 +10,14 @@ Notes from watching [WilliamFiset](https://youtu.be/GhjwOiJ4SqU)
 - ![bipartite graph](../srcs/bipartite_example.JPG)
 - [Question: is graph bipartite](../graph/README.md#💡-785-is-graph-bipartite-🎯)
 
-## Why does it matters?
+**Why does it matters?**
 
 - Consider a common matching scenario, where we have 5 people, 5 different books. Each of them can take 1 book, but each book only have 1 copy. How do we make most people to get a book?
   - ![bipartite matching example](../srcs/bipartite_matching_example.JPG)
 - Can greedy find the optimal solution, like the graph show? The answer is actually no. So there is more about for this problem.
 - The point is, such matching can be modeled as a bipartite graph, where people are in one set, and book are in another set.
 
-## How do we solve the problem? :bulb: making it a [max cut problem](graph_max_flow.md)
+**How do we solve the problem? :bulb: making it a** [max cut problem](graph_max_flow.md)
 
 ![bipartite matching converted](../srcs/bipartite_matching_to_max_flow.JPG)
 

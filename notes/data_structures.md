@@ -1,15 +1,15 @@
-# Data structure notes
+# Data structures
 
-# Heap
+## Heap
 
-## Quick facts
+**Quick facts**
 
 - The tree maintain either parent >= child or parent <= child. **Not left <= parent <= right.**
 - **Heapify is O(n)**
 - insert is O(log(n))
 - HeapSort is O(nlog(n))
 
-### more about [:link: `heapify`](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity)
+**More about** [:link: `heapify`](https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity)
 
 - [:link: siftUp/siftDown animation](https://youtu.be/5iBUTMWGtIQ)
 - siftDown and siftUp are themselves O(log(n))
@@ -18,25 +18,25 @@
 - notes from [src](http://www.cs.umd.edu/~meesh/351/mount/lectures/lect14-heapsort-analysis-part.pdf)
 ![](../srcs/heapify.jpeg)
 
-# tree like DS are sorted by keys `map`, `set`, `multimap`, `multiset`
+## tree like DS are sorted by keys `map`, `set`, `multimap`, `multiset`
 
 - Key is ascending sorted by default - e.g. comparator is `std::less<T>` by default.
   - To make it descending, could do something like `std::map<int, int, std::greater<int>> m;`;
 - If the keys are constant-pointers-to-characters, the map is sorted by the key pointers, and not by the key string literals.
 - If the keys are `std::string`, it is lexicographically sorted.
 
-# BST
+## BST
 
 - binary search tree is a binary tree in which every node fits a specific ordering property:
   - `all left descendents <= n < all right descendents`. This must be true for each node `n`.
   - (or) `all left descendents < n <= all right descendents`
 - Note that this **inequality must be true for all of a node's descendents, not just its immediate children**
 
-# [Binary index tree (BIT)](binary_index_tree.md)
+## [Binary index tree (BIT)](binary_index_tree.md)
 
-# [Segment tree](segment_tree.md)
+## [Segment tree](segment_tree.md)
 
-# Monotonic Queue/Stack
+## Monotonic Queue/Stack
 
 - A **monotonic** queue/stack: the elements from the front to the end is strictly either increasing or decreasing.
   - -> monotonic increasing `[1, 2, 3, 4, 5]`

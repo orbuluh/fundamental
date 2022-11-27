@@ -6,7 +6,8 @@ from jinja2 import Environment, FileSystemLoader
 import os
 
 scriptDir = os.path.dirname(os.path.realpath(__file__))
-environment = Environment(loader=FileSystemLoader(scriptDir))
+environment = Environment(loader=FileSystemLoader(scriptDir),
+                          extensions=['jinja2.ext.loopcontrols'])
 template = environment.get_template("readme.jinja")
 
 context = {}
@@ -45,10 +46,41 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
         cnt_per_chapter[folder] = count
         total_count += count
 
+note_dump = defaultdict(list)
+note_file_map = dict()
+
+for posix_file_path in Path(f"{scriptDir}/../notes").rglob('*.md'):
+    filepath = posix_file_path.as_posix()
+    if "README.md" in filepath or "graph.md" in filepath: continue
+    with open(filepath, "r") as f:
+        title = ""
+        for line in f:
+            m = re.search("^# (.*)", line)
+            if m:
+                m2 = re.search("^# .*\[(.*)\]\(.*\)", line)
+                if m2:
+                    title = m2.group(1)
+                else:
+                    title = m.group(1)
+                note_file_map[title] = filepath[filepath.find("notes/"):]
+                continue
+            m = re.search("^## (.*)", line)
+            if m:
+                # if subsection tile is a link, discard it
+                m2 = re.search("^## .*\[(.*)\]\(.*\)", line)
+                if m2:
+                    note_dump[title] += [m2.group(1)]
+                else:
+                    note_dump[title] += [m.group(1)]
+        if title not in note_dump:
+            note_dump[title] += ["NoSubsection"]
+
 context = {
     "content_dump": content_dump,
     "cnt_per_chapter": cnt_per_chapter,
     "total_count": total_count,
+    "note_dump": note_dump,
+    "note_file_map": note_file_map
 }
 filename = f"{scriptDir}/../README.md"
 with open(filename, mode="w", encoding="utf-8") as fo:
