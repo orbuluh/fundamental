@@ -1,5 +1,8 @@
 # Subarray (contiguous, Kadane's Algorithm)
 
+> "rule of thumb" is that we should search for O(n) solution if we are dealing
+with consecutive sequences, and O(n ^ 2) if we are dealing with subsequences" - @votrubac
+
 ## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [:dart:](max_subarray.h)
 
 <details><summary markdown="span">Question</summary>

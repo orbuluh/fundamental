@@ -9,6 +9,9 @@
   these problems
 ```
 
+> "rule of thumb" is that we should search for O(n) solution if we are dealing
+with consecutive sequences, and O(n ^ 2) if we are dealing with subsequences" - @votrubac
+
 ------------------------------------------------------------------------------
 
 ## [:bulb: 647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) [:dart:](palindromic_substring.h)

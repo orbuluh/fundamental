@@ -30,6 +30,38 @@ Sum of all mins are 17.
 
 ------------------------------------------------------------------------------
 
+## [:exploding_head: 446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) [:dart:](arithmetic_slices_ii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums, return the number of all the arithmetic subsequences of nums.
+
+A sequence of numbers is called arithmetic
+- if it consists of at least 3 elements and
+- if the difference between any two consecutive elements is the same.
+
+Input: nums = [2,4,6,8,10]
+Output: 7
+Explanation: All arithmetic subsequence slices are:
+[2,4,6]
+[4,6,8]
+[6,8,10]
+[2,4,6,8]
+[4,6,8,10]
+[2,4,6,8,10]
+[2,6,10]
+
+Input: nums = [7,7,7,7,7]
+Output: 16
+Explanation: Any subsequence of this array is arithmetic.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:exploding_head: 629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [:dart:](k_inverse_pairs_arr.h)
 
 <details><summary markdown="span">Question</summary>

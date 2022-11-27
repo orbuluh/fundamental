@@ -189,7 +189,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 181
+# Problems listed: 182
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -217,7 +217,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_unbounded_knapsack](dp/dp_unbounded_knapsack/README.md): 4
 
-- [dp/dp_z_misc_hard_recursion](dp/dp_z_misc_hard_recursion/README.md): 5
+- [dp/dp_z_misc_hard_recursion](dp/dp_z_misc_hard_recursion/README.md): 6
 
 - [ds_design](ds_design/README.md): 2
 
@@ -733,6 +733,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb::bulb: 907. Sum of Subarray Minimums
+
+
+
+- :exploding_head: 446. Arithmetic Slices II - Subsequence
 
 
 
