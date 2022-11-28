@@ -40,6 +40,7 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
                     subsection = subsection.replace("segment_tree/", "range_query/segment_tree/")
                     subsection = subsection.replace("binary_indexed_tree/", "binary_indexed_tree/segment_tree/")
                     subsection = subsection.replace("meeting_room_like/", "greedy/meeting_room_like/")
+                    subsection = subsection.replace("graph_", "graph/graph_")
                     content_dump[folder] += [subsection]
                 #else:
                     #print(f"not processing: {line}")

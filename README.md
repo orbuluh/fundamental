@@ -168,10 +168,12 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-**[SSSP: Dijkstra Algorithm (Single Source Shortest Path)](notes/graph_dijkstra_sssp.md)**
+**[Single source shortest path / SSSP](notes/graph_sssp.md)**
 
 
 
+
+- Dijkstra Algorithm
 
 
 **[Topological sort](notes/graph_topological_sort.md)**
@@ -222,6 +224,8 @@ Quote from [HTDP](https://htdp.org/)
 - [ds_design](ds_design/README.md): 2
 
 - [graph](graph/README.md): 5
+
+- [graph/graph_sssp](graph/graph_sssp/README.md): 0
 
 - [greedy](greedy/README.md): 15
 
@@ -786,10 +790,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Dijkstra
-
-
-
 ## Model as graph
 
 
@@ -815,6 +815,21 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 269. Alien Dictionary
+
+
+
+## [Single source shortest path](graph/graph_sssp/README.md)
+
+
+
+# [graph/graph_sssp](graph/graph_sssp/README.md)
+
+
+## Single source shortest path
+
+
+
+## Dijkstra
 
 
 

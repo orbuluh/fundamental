@@ -32,10 +32,6 @@ A graph is **bipartite** if
 
 ------------------------------------------------------------------------------
 
-# Dijkstra
-
-- [778. Swim in Rising Water](../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
-
 # Model as graph
 
 ## [:bulb: 2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) [:dart:](find_all_possible_recipes.h)
@@ -165,3 +161,5 @@ Output: ""
 </details>
 
 ------------------------------------------------------------------------------
+
+# [Single source shortest path](graph_sssp/README.md)
