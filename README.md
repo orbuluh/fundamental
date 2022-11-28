@@ -44,18 +44,6 @@ Quote from [HTDP](https://htdp.org/)
 - Graph
 
 
-**[Binary indexed tree](notes/binary_index_tree.md)**
-
-
-
-
-
-**[Bipartite](notes/graph_bipartite.md)**
-
-
-
-
-
 **[Bitwise](notes/bitwise.md)**
 
 
@@ -132,43 +120,25 @@ Quote from [HTDP](https://htdp.org/)
 - Monotonic Queue/Stack
 
 
-**[KMP (Knuth–Morris–Pratt) algorithm for pattern matching](notes/kmp.md)**
+**[Data structures: Union–find data structure](notes/union_find.md)**
 
 
 
 
 
-**[Max flow / min cut / Ford-Fulker method](notes/graph_max_flow.md)**
+**[Graph: Bipartite](notes/graph_bipartite.md)**
 
 
 
 
 
-**[Reservoir sampling](notes/reservoir_sampling.md)**
+**[Graph: Max flow / min cut / Ford-Fulker method](notes/graph_max_flow.md)**
 
 
 
 
 
-**[Rolling hash](notes/rolling_hash.md)**
-
-
-
-
-
-**[Sampling algorithms](notes/math.md)**
-
-
-
-
-
-**[Segment tree](notes/segment_tree.md)**
-
-
-
-
-
-**[Single source shortest path / SSSP](notes/graph_sssp.md)**
+**[Graph: Single source shortest path / SSSP](notes/graph_sssp.md)**
 
 
 
@@ -176,13 +146,50 @@ Quote from [HTDP](https://htdp.org/)
 - Dijkstra Algorithm
 
 
-**[Topological sort](notes/graph_topological_sort.md)**
+**[Graph: Topological sort](notes/graph_topological_sort.md)**
 
 
 
 
 
-**[union–find data structure](notes/union_find.md)**
+**[Math](notes/math.md)**
+
+
+
+
+- Modular multiplication property
+
+
+
+
+- Sampling algorithms
+
+
+**[Math: Reservoir sampling](notes/reservoir_sampling.md)**
+
+
+
+
+
+**[Range query: Binary indexed tree](notes/binary_index_tree.md)**
+
+
+
+
+
+**[Range query: Segment tree](notes/segment_tree.md)**
+
+
+
+
+
+**[Substring matching: KMP (Knuth–Morris–Pratt) algorithm for pattern matching](notes/kmp.md)**
+
+
+
+
+
+**[Substring matching: Rolling hash](notes/rolling_hash.md)**
 
 
 

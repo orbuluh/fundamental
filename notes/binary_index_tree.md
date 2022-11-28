@@ -1,4 +1,4 @@
-# Binary indexed tree
+# Range query: Binary indexed tree
 - a.k.a Fenwick Tree
 - Taking notes from:
   - [Chandan Mittal](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)

@@ -1,4 +1,4 @@
-# Rolling hash
+# Substring matching: Rolling hash
 
 - [SRC: Tushar Roy - Coding Made Simple channel](https://youtu.be/H4VrKHVG5qI)
 - [wiki](https://en.wikipedia.org/wiki/Rolling_hash)

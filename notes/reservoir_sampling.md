@@ -1,4 +1,4 @@
-# Reservoir sampling
+# Math: Reservoir sampling
 
 - [Bizillion Proofs](https://youtu.be/dWfo9XGrqKU)
 

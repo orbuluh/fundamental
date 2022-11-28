@@ -1,4 +1,4 @@
-# [union–find data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+# [Data structures: Union–find data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
 
 - a.k.a disjoint set or merge–find
 - Allow us to quickly identify whether a path exists between a given pair of vertices.

@@ -1,4 +1,4 @@
-# Bipartite
+# Graph: Bipartite
 
 Notes from watching [WilliamFiset](https://youtu.be/GhjwOiJ4SqU)
 

@@ -1,4 +1,4 @@
-# Segment tree
+# Range query: Segment tree
 
 - Original taking notes from watching [YT video](https://youtu.be/-dUiRtJ8ot0)
 

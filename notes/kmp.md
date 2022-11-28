@@ -1,4 +1,4 @@
-# KMP (Knuth–Morris–Pratt) algorithm for pattern matching
+# Substring matching: KMP (Knuth–Morris–Pratt) algorithm for pattern matching
 
 - [SRC: Tushar Roy - Coding Made Simple channel](https://youtu.be/GTJr8OvyEVQ)
 

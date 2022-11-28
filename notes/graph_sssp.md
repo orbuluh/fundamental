@@ -1,4 +1,4 @@
-# Single source shortest path / SSSP
+# Graph: Single source shortest path / SSSP
 
 **Problems / implementations**
 
