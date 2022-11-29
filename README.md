@@ -203,7 +203,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 184
+# Problems listed: 185
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -233,7 +233,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_z_misc_hard_recursion](dp/dp_z_misc_hard_recursion/README.md): 6
 
-- [ds_design](ds_design/README.md): 2
+- [ds_design](ds_design/README.md): 3
 
 - [graph](graph/README.md): 5
 
@@ -776,6 +776,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Data structure design
+
+
+
+- :ok_hand: 380. Insert Delete GetRandom O(1)
 
 
 
