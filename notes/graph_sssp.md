@@ -66,6 +66,15 @@ Or more concretely, it's like:
   - A D-ary heap where a node having D children would be more feasible than general binary heap for IPQ. This speeds up decrease key operations at the expense of more costly removals.
   - Ideally improving the whole complexity to `O(E * log(V))` to `O(E * log_{E/V}(V))`
 
+**Side note: ["Is Dijkstra's algorithm just BFS with a priority queue"](https://cs.stackexchange.com/questions/10047/is-dijkstras-algorithm-just-bfs-with-a-priority-queue)**
+
+> You can implement Dijkstra's algorithm as BFS with a priority queue (**though it's not the only implementation**).
+> - Dijkstra's algorithm relies on the property that the shortest path from s to t is also the shortest path to any of the vertices along the path. This is exactly what BFS does.
+> - Or in another perspective: how would Dijkstra's algorithm behave if all the weights were 1? Exactly like BFS.
+> - From [best answer](https://cs.stackexchange.com/a/10048/150744)
+
+- check [related problem that looks like normal grid walking with BFS but you can think it as a variation of Dijkstra](../graph/graph_sssp/README.md#grid-walking-using-dijkstra-dijkstras-algorithm-is-bfs-with-a-priority-queue)
+
 <br/>
 
 ---

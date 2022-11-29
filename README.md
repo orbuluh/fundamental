@@ -203,13 +203,13 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 185
+# Problems listed: 187
 
 - [2_ptrs](2_ptrs/README.md): 9
 
 - [backtracking](backtracking/README.md): 13
 
-- [binary_search](binary_search/README.md): 10
+- [binary_search](binary_search/README.md): 11
 
 - [bitwise](bitwise/README.md): 7
 
@@ -237,7 +237,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [graph](graph/README.md): 5
 
-- [graph/graph_sssp](graph/graph_sssp/README.md): 2
+- [graph/graph_sssp](graph/graph_sssp/README.md): 3
 
 - [greedy](greedy/README.md): 15
 
@@ -436,6 +436,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 4. Median of Two Sorted Arrays
+
+
+
+## Backtracking x Binary search
+
+
+
+- :bulb::bulb: 1102. Path With Maximum Minimum Value
 
 
 
@@ -849,7 +857,15 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
+
+
+
 - TODO: 778. Swim in Rising Water
+
+
+
+- :bulb: 1102. Path With Maximum Minimum Value
 
 
 

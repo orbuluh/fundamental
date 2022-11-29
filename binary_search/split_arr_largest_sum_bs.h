@@ -2,7 +2,7 @@
 Compared to the backtrack way O(m * N^2), doing this is O(N * log(sum(nums)))
 Run time it's 2800 ms -> 0 ms !!...
 
-Binary search greately improve the complexity, but quite unintuitive
+Binary search greatly improve the complexity, but quite unintuitive
 say given nums, as all the number in the array are positive, no matter
 how you split, the min of the largest sum of a group must at least
 equal to the value of the element, e.g. say [1, 1, 100] - you can't
@@ -16,9 +16,9 @@ really need it to be precise. We just need a upper bound and a lower bound)
 Then - you can actually do a binary search, where the question becomes ...
 "can you find a split way, s.t. the max of each group's sum is <= target value"
 
-But how to answer such question? As subarry is contiguous, you can actually
-do this in a greedy way - as long as you leave enough elements for the remaing
-groups ... check details for the implementaion
+But how to answer such question? As subarray is contiguous, you can actually
+do this in a greedy way - as long as you leave enough elements for the remaining
+groups ... check details for the implementation
 
 
 [7, 2, 5, 10, 8] -> L = max(nums) = 10, R = sum(nums) = 32

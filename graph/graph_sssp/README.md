@@ -4,9 +4,31 @@
 
 ## Dijkstra
 
+
+## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
+
+
 ## [TODO: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](matchsticks_to_square_dijkstra.h)
 
 - Problem description and backtracking solution check [here](../../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
+
+------------------------------------------------------------------------------
+
+## [:bulb: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-probability/) [:dart:](path_with_maximum_min_value_dijkstra.h)
+
+- Check DFS with binary search solution [here](../../binary_search/README.md#💡💡-1102-path-with-maximum-minimum-value-🎯)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an m x n integer matrix grid, return the maximum score of a path starting at (0, 0) and ending at (m - 1, n - 1) moving in the 4 cardinal directions.
+
+The score of a path is the minimum value in that path.
+
+For example, the score of the path 8 → 4 → 5 → 9 is 4.
+```
+
+</details>
 
 ------------------------------------------------------------------------------
 
@@ -40,4 +62,3 @@ the other has 0.5 * 0.5 = 0.25.
 ```
 
 </details>
-
