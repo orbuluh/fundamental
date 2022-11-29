@@ -160,7 +160,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 # Backtracking x Binary search
 
-## [:bulb::bulb: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-probability/) [:dart:](path_with_maximum_min_value_dfs_bs.h)
+## [:bulb::bulb: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](path_with_maximum_min_value_dfs_bs.h)
 
 - check problem description and Dijkstra like solution [here](../graph/graph_sssp/README.md#💡-1102-path-with-maximum-minimum-value-🎯)
 
