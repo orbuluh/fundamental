@@ -7,10 +7,32 @@
 
 ## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
 
+## [:bulb: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](swim_in_rising_water.h)
 
-## [TODO: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](matchsticks_to_square_dijkstra.h)
+<details><summary markdown="span">Question</summary>
 
-- Problem description and backtracking solution check [here](../../backtracking/README.md#bulb-778-swim-in-rising-waterhttpsleetcodecomproblemsswim-in-rising-water-dartmatchstickstosquareh)
+```markdown
+You are given an n x n integer matrix grid where each value grid[i][j]
+represents the elevation at that point (i, j).
+
+The rain starts to fall. At time t, the depth of the water everywhere is t.
+
+You can swim from a square to another 4-directionally adjacent square
+- if and only if the elevation of both squares individually are at most t.
+- You can swim infinite distances in zero time.
+- Of course, you must stay within the boundaries of the grid during your swim.
+
+Return the least time until you can reach the bottom right square
+(n - 1, n - 1) if you start at the top left square (0, 0).
+
+Input: grid = [[0,3],
+               [2,1]]
+Output: 2
+You cannot reach point (1, 0) until time 2.
+Then you can reach bottom right
+```
+
+</details>
 
 ------------------------------------------------------------------------------
 

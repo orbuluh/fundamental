@@ -203,11 +203,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 187
+# Problems listed: 186
 
 - [2_ptrs](2_ptrs/README.md): 9
 
-- [backtracking](backtracking/README.md): 13
+- [backtracking](backtracking/README.md): 12
 
 - [binary_search](binary_search/README.md): 11
 
@@ -372,10 +372,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 778. Swim in Rising Water
-
-
-
 - :bulb: 489. Robot Room Cleaner
 
 
@@ -401,6 +397,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb::bulb: 126. Word Ladder II
+
+
+
+## [Backtracking with binary search](../binary_search/README.md#backtracking-x-binary-search)
 
 
 
@@ -861,7 +861,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- TODO: 778. Swim in Rising Water
+- :bulb: 778. Swim in Rising Water
 
 
 
