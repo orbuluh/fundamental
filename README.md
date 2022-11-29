@@ -203,7 +203,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 186
+# Problems listed: 187
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -237,7 +237,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [graph](graph/README.md): 5
 
-- [graph/graph_sssp](graph/graph_sssp/README.md): 3
+- [graph/graph_sssp](graph/graph_sssp/README.md): 4
 
 - [greedy](greedy/README.md): 15
 
@@ -857,6 +857,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :ok_hand: 743. Network Delay Time
+
+
+
 ## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
 
 
@@ -869,11 +873,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Bellmon-Ford
-
-
-
 - :bulb: 1514. Path with Maximum Probability
+
+
+
+## Bellmon-Ford Specific (e.g. contains negative cycle)
 
 
 

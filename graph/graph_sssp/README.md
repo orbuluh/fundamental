@@ -4,6 +4,32 @@
 
 ## Dijkstra
 
+## [:ok_hand: 743. Network Delay Time](https://leetcode.com/problems/network-delay-time/) [:dart:](network_delay_time.h)
+
+- the basic forms of Dijkstra and Bellman-Ford without much variation.
+- solve with both
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a network of n nodes, labeled from 1 to n.
+
+You are also given times, a list of travel times as directed edges
+
+times[i] = (ui, vi, wi), where
+
+ui is the source node, vi is the target node, and
+wi is the time it takes for a signal to travel from source to target.
+
+We will send a signal from a given node k.
+
+Return the minimum time it takes for all the n nodes to receive the signal.
+If it is impossible for all the n nodes to receive the signal, return -1.
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 ## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
 
@@ -60,8 +86,6 @@ Explanation: The path with the maximum score is from path 5 > 4 > 5 > 6 > 6
 
 ------------------------------------------------------------------------------
 
-## Bellmon-Ford
-
 ## [:bulb: 1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) [:dart:](path_with_max_probs.h)
 
 - solve with both Bellmon-Ford (quicker) and Dijkstra, check code.
@@ -90,3 +114,9 @@ the other has 0.5 * 0.5 = 0.25.
 ```
 
 </details>
+
+------------------------------------------------------------------------------
+
+## Bellmon-Ford Specific (e.g. contains negative cycle)
+
+
