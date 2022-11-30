@@ -203,7 +203,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 187
+# Problems listed: 188
 
 - [2_ptrs](2_ptrs/README.md): 9
 
@@ -221,7 +221,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [dp/dp_dfs_memorization](dp/dp_dfs_memorization/README.md): 6
 
-- [dp/dp_state_transition](dp/dp_state_transition/README.md): 6
+- [dp/dp_state_transition](dp/dp_state_transition/README.md): 7
 
 - [dp/dp_string_match](dp/dp_string_match/README.md): 2
 
@@ -642,6 +642,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## State transition
+
+
+
+- :ok_hand: 740. Delete and Earn
 
 
 
