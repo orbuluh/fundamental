@@ -1,8 +1,23 @@
 # Graph
 
-## [Topological sort](graph_topological_sort.md)
+## Shortest path high-level comparison
+
+- from [WilliamFiset](https://youtu.be/4NQ3HnhyNfQ)
+
+|     | BFS | Dijkstra | Bellmon-Ford | Floyd-Warshall |
+|---  |--- |--- |--- |--- |
+|Complexity| O(V+E) | O((V + E)logV) | O(VE) | O(V^3) |
+|Recommend graph size | large | large/medium | medium/small | small |
+|can do ASAP? | only on unweighted graphs | O | Bad | Yes!|
+|can detect negative cycle? | X | X | O | O |
+|SP on graph with weighted edges | Can't derive answer | Best | Works | Bad in general |
+|SP on graph with unweighted edges | Best | Ok | Bad | Bad in general |
 
 ## [Single Source Shortest Path](graph_sssp.md)
+
+## [All Pairs Shortest Path](graph_apsp.md)
+
+## [Topological sort](graph_topological_sort.md)
 
 ## [Max flow / Ford-Fulker method](graph_max_flow.md)
 
