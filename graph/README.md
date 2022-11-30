@@ -1,4 +1,4 @@
-# Graph [:notebook:](../notes/graph.md)
+# Graph [:notebook:](../_notes/graph.md)
 
 # Bipartite
 
@@ -130,7 +130,7 @@ Stone [0,0] cannot be removed since it does not share a row/column with another 
 
 ------------------------------------------------------------------------------
 
-# [Topological sort](../notes/graph.md#topological-sort)
+# [Topological sort](../_notes/graph.md#topological-sort)
 
 ## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) [:dart:](alien_dictionary.h)
 

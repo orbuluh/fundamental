@@ -1,4 +1,4 @@
-# Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
+# Dynamic programming [:notebook:](../_notes/algorithms.md#dynamic-programming)
 
 # [DP: 0/1 knapsack like recursion structure](dp_01_knapsack/README.md)
 

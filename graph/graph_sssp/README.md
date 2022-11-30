@@ -1,6 +1,6 @@
 # Single source shortest path
 
-- notes [here](../../notes/graph_sssp.md)
+- _notes [here](../../_notes/graph_sssp.md)
 
 ## Dijkstra
 

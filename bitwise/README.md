@@ -1,7 +1,7 @@
 # Bitwise
-- [Notes :notebook:](../notes/bitwise.md)
+- [Notes :notebook:](../_notes/bitwise.md)
 
-# [Two's complement](../notes/bitwise.md#twos-complement)
+# [Two's complement](../_notes/bitwise.md#twos-complement)
 
 ## [:bulb: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) [:dart:](sum_of_2_ints.h)
 <details><summary markdown="span">Question</summary>
@@ -105,7 +105,7 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 # Detect power of 2: `(x & (x - 1) == 0)`
 
 ## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) [:dart:](concat_consecutive_binary_nums.h)
-- [(A * B) % C = ((A % C) * (B % C)) % C](../notes/math.md#modular-multiplication-property)
+- [(A * B) % C = ((A % C) * (B % C)) % C](../_notes/math.md#modular-multiplication-property)
 
 <details><summary markdown="span">Question</summary>
 ```markdown

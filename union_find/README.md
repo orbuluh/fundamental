@@ -1,4 +1,4 @@
-# Union find [:notebook:](../notes/union_find.md)
+# Union find [:notebook:](../_notes/union_find.md)
 
 ------------------------------------------------------------------------------
 

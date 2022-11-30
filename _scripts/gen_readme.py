@@ -19,7 +19,7 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
     filepath = posix_file_path.as_posix()
     folder = filepath[filepath.find("../") + 3: filepath.rfind("/")]
     #print(f"{filepath} -> {folder}")
-    if not folder or folder == "notes": continue
+    if not folder or folder == "_notes": continue
     with open(filepath, "r") as f:
         count = 0
         for line in f:
@@ -50,7 +50,7 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
 note_dump = defaultdict(list)
 note_file_map = dict()
 
-for posix_file_path in Path(f"{scriptDir}/../notes").rglob('*.md'):
+for posix_file_path in Path(f"{scriptDir}/../_notes").rglob('*.md'):
     filepath = posix_file_path.as_posix()
     if "README.md" in filepath or "graph.md" in filepath: continue
     with open(filepath, "r") as f:
@@ -63,7 +63,7 @@ for posix_file_path in Path(f"{scriptDir}/../notes").rglob('*.md'):
                     title = m2.group(1)
                 else:
                     title = m.group(1)
-                note_file_map[title] = filepath[filepath.find("notes/"):]
+                note_file_map[title] = filepath[filepath.find("_notes/"):]
                 continue
             m = re.search("^## (.*)", line)
             if m:

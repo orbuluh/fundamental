@@ -1,6 +1,6 @@
 # Binary search
 
-- [Notes :notebook:](../notes/algorithms.md#binary-search)
+- [Notes :notebook:](../_notes/algorithms.md#binary-search)
 
 ## [:ok_hand: 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) [:dart:](search_in_2d_mat.h)
 

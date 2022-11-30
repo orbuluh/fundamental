@@ -8,10 +8,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-## [Notes for algo/DS deep-dive :book:](notes/README.md)
+## [Notes for algo/DS deep-dive :book:](_notes/README.md)
 
 
-**[Algorithm notes](notes/algorithms.md)**
+**[Algorithm notes](_notes/algorithms.md)**
 
 
 
@@ -44,7 +44,7 @@ Quote from [HTDP](https://htdp.org/)
 - Graph
 
 
-**[Bitwise](notes/bitwise.md)**
+**[Bitwise](_notes/bitwise.md)**
 
 
 
@@ -87,7 +87,7 @@ Quote from [HTDP](https://htdp.org/)
 - Common mask
 
 
-**[Data structures](notes/data_structures.md)**
+**[Data structures](_notes/data_structures.md)**
 
 
 
@@ -120,25 +120,25 @@ Quote from [HTDP](https://htdp.org/)
 - Monotonic Queue/Stack
 
 
-**[Data structures: Union–find data structure](notes/union_find.md)**
+**[Data structures: Union–find data structure](_notes/union_find.md)**
 
 
 
 
 
-**[Graph: Bipartite](notes/graph_bipartite.md)**
+**[Graph: Bipartite](_notes/graph_bipartite.md)**
 
 
 
 
 
-**[Graph: Max flow / min cut / Ford-Fulker method](notes/graph_max_flow.md)**
+**[Graph: Max flow / min cut / Ford-Fulker method](_notes/graph_max_flow.md)**
 
 
 
 
 
-**[Graph: Single source shortest path / SSSP](notes/graph_sssp.md)**
+**[Graph: Single source shortest path / SSSP](_notes/graph_sssp.md)**
 
 
 
@@ -151,13 +151,13 @@ Quote from [HTDP](https://htdp.org/)
 - Bellman Ford Algorithm
 
 
-**[Graph: Topological sort](notes/graph_topological_sort.md)**
+**[Graph: Topological sort](_notes/graph_topological_sort.md)**
 
 
 
 
 
-**[Math](notes/math.md)**
+**[Math](_notes/math.md)**
 
 
 
@@ -170,31 +170,31 @@ Quote from [HTDP](https://htdp.org/)
 - Sampling algorithms
 
 
-**[Math: Reservoir sampling](notes/reservoir_sampling.md)**
+**[Math: Reservoir sampling](_notes/reservoir_sampling.md)**
 
 
 
 
 
-**[Range query: Binary indexed tree](notes/binary_index_tree.md)**
+**[Range query: Binary indexed tree](_notes/binary_index_tree.md)**
 
 
 
 
 
-**[Range query: Segment tree](notes/segment_tree.md)**
+**[Range query: Segment tree](_notes/segment_tree.md)**
 
 
 
 
 
-**[Substring matching: KMP (Knuth–Morris–Pratt) algorithm for pattern matching](notes/kmp.md)**
+**[Substring matching: KMP (Knuth–Morris–Pratt) algorithm for pattern matching](_notes/kmp.md)**
 
 
 
 
 
-**[Substring matching: Rolling hash](notes/rolling_hash.md)**
+**[Substring matching: Rolling hash](_notes/rolling_hash.md)**
 
 
 
@@ -332,7 +332,7 @@ Quote from [HTDP](https://htdp.org/)
 # [backtracking](backtracking/README.md)
 
 
-## Backtracking [:notebook:](../notes/algorithms.md#backtracking)
+## Backtracking [:notebook:](../_notes/algorithms.md#backtracking)
 
 
 
@@ -470,7 +470,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Two's complement](../notes/bitwise.md#twos-complement)
+## [Two's complement](../_notes/bitwise.md#twos-complement)
 
 
 
@@ -544,7 +544,7 @@ Quote from [HTDP](https://htdp.org/)
 # [dp](dp/README.md)
 
 
-## Dynamic programming [:notebook:](../notes/algorithms.md#dynamic-programming)
+## Dynamic programming [:notebook:](../_notes/algorithms.md#dynamic-programming)
 
 
 
@@ -810,7 +810,7 @@ Quote from [HTDP](https://htdp.org/)
 # [graph](graph/README.md)
 
 
-## Graph [:notebook:](../notes/graph.md)
+## Graph [:notebook:](../_notes/graph.md)
 
 
 
@@ -842,7 +842,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Topological sort](../notes/graph.md#topological-sort)
+## [Topological sort](../_notes/graph.md#topological-sort)
 
 
 
@@ -1127,7 +1127,7 @@ Quote from [HTDP](https://htdp.org/)
 # [monotonic](monotonic/README.md)
 
 
-## Monotonic Queue [:notebook:](../notes/README.md#monotonic-queue)
+## Monotonic Queue [:notebook:](../_notes/README.md#monotonic-queue)
 
 
 
@@ -1441,7 +1441,7 @@ Quote from [HTDP](https://htdp.org/)
 # [union_find](union_find/README.md)
 
 
-## Union find [:notebook:](../notes/union_find.md)
+## Union find [:notebook:](../_notes/union_find.md)
 
 
 
