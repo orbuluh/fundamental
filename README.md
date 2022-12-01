@@ -151,6 +151,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- Generic structure of shortest path
+
+
+
+
 - Dijkstra Algorithm
 
 

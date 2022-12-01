@@ -2,36 +2,72 @@
 
 [**Problem sets :link:**](../graph/graph_sssp/README.md)
 
+
+## Generic structure of shortest path
+
+> from [MITOpenCourseWare](https://youtu.be/2E7MmKv0Y24)
+
+---
+
+> For a graph $G(V, E)$
+>
+> Initialize for $v \in V$:
+> - $d[v] <- \infty$: stores length of current shortest path to $v$
+> - $\Pi[v] <- NIL$: stores predecessor of $v$ in shortest path
+> - $d[s] <- 0$: $s$ is source vertex
+>
+> Repeat:
+> - select an edge somehow
+>   - $Relax(u, v, w)$
+> Until you can't relax an edge any more
+
+---
+
+> Relax(u, v, w):
+> - if ($d[v]$ > $d[u] + w(u, v)$)
+>   - $d[v]$ = $d[u] + w(u, v)$
+>   - $\Pi[v]$ = $u$
+
+---
+
+**The intuition of why $Relax(u, v, w)$ is correct/safe**
+
+- Define:
+  - $d[v]$ is length of the current shortest path from source $s$ to vertex $v$
+  - $\delta(s, v)$ is the length of **a** shortest path from source $s$ to vertex $v$
+    - (so all $d[v]$ should eventually converge to $\delta(s, v)$)
+  - $\Pi(v)$ is the predecessor of $v$ in shortest path from source $s$ to vertex $v$
+
+> Lemma: The relaxation operation maintains the invariant that $d[v] \geq \delta(s, v)$ for all $v \in V$
+
+- It's saying that, if you have an algorithm that uses relaxation, and that's the only you update the $d[v]$, then you must converge eventually. And you are not going to get a wrong shortest path value at any given timing of the execution of the algorithm.
+- E.g. **the sequence of relax operations doesn't matter.**
+- This tells us that we can create the generic structure of shortest path algorithm - pick an edge, relax it, pick another, relax it, and eventually will work out and you will get your correct $\delta(s, v)$ eventually.
+- The lemma ensures that you are never going to get something in the middle that is less than the eventual $\delta(s, v)$. And if you run enough time, depends on your heuristic of selecting the edges to relax, the generic shortest path algorithm should terminate and give you the result (hopefully) in polynomial time.
+
+- By triangle inequality, we know $\delta(s, v) \leq \delta(s, u) + \delta(u, v)$
+  - Note - $\delta$ only means the **eventual length** of shortest path between 2 points, it doesn't matter how much hops in between.
+- By induction, our hypothesis: $d[u] \geq \delta(s, u)$
+- Substitute hypothesis into triangle inequality:
+  - $\delta(s, v) \leq \delta(s, u) + \delta(u, v)$,
+  - $\delta(s, v) \leq d[u] + \delta(u, v)$
+- And because $\delta(u, v)$ is the shortest path between $u$ and $v$, and $w(u, v)$ is the single edge directed way to go from $u$ to $v$, this most hold: $\delta(u, v) \leq w(u, v)$, so substitute to above
+  - $\delta(s, v) \leq d[u] + w(u, v)$, and right hand side is basically $d[v]$ in relaxation, so we get
+  - $\delta(s, v) \leq d[v]$
+  - e.g. we prove the lemma!
+
+
 ## Dijkstra Algorithm
 
 > from [WilliamFiset](https://youtu.be/pSqmAO-m7Lk)
+
+
 - An SSSP algorithm for  non-negative edge weights.
   - This ensures once a node is visited, its optimal path can not be improved further by taking an edge through negative weight.
   - Basically ensure the algorithm can act with greedy manner to always select the most promising node.
 - Complexity typically `O(E * log(V))`
 
 **Pseudo code**
-
-For a graph $G(V, E)$
-Initialize for $v \in V$:
-- $d[v] <- \infty$: stores len of shortest path to $v$
-- $\Pi[v] <- NIL$: stores predecessor of $v$ in shortest path
-- $d[s] <- 0$: $s$ is source vertex
-
-Repeat:
-- select an edge somehow
-  - $Relax(u, v, w)$
-Until you can't relax an edge any more
-
----
-
-Relax(u, v, w):
-
-- if ($d[v]$ > $d[u] + w(u, v)$)
-  - $d[v]$ = $d[u] + w(u, v)$
-  - $\Pi[v]$ = $u$
-
----
 
 Or more concretely, it's like:
 
