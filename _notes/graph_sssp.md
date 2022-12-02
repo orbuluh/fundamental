@@ -143,7 +143,7 @@ Initialize for $v \in V$:
 - $\Pi[v] <- NIL$: stores predecessor of $v$ in shortest path
 - $d[s] <- 0$: $s$ is source vertex
 
-for $_$ in range($|V| - 1$)
+for $iteration$ in range($|V| - 1$)
   - for each $edge(u, v) \in E$
     - $Relax(u, v, w)$
 
