@@ -2,12 +2,15 @@
 
 [**Problem sets :link:**](../graph/graph_sssp/README.md)
 
+**Resources**
+Taking notes from
 
-## Generic structure of shortest path
+1. [MIT OpenCourseWare](https://youtu.be/2E7MmKv0Y24)
+2. [WilliamFiset 1](https://youtu.be/pSqmAO-m7Lk)
+3. [MIT OpenCourseWare](https://youtu.be/ozsuci5pIso)
+4. [WilliamFiset 2](https://youtu.be/lyw4FaxrwHg)
 
-> from [MITOpenCourseWare](https://youtu.be/2E7MmKv0Y24)
-
----
+## Generic structure of shortest path (SP)
 
 > For a graph $G(V, E)$
 >
@@ -30,7 +33,7 @@
 
 ---
 
-**The intuition of why $Relax(u, v, w)$ is correct/safe**
+**Proof of why $Relax(u, v, w)$ is correct/safe**
 
 - Define:
   - $d[v]$ is length of the current shortest path from source $s$ to vertex $v$
@@ -56,29 +59,54 @@
   - $\delta(s, v) \leq d[v]$
   - e.g. we prove the lemma!
 
+## Shortest path in DAGs
+
+**Directed acyclic graphs (DAGs)**
+
+- we can have negative edges, but can't have negative cycle. (Only negative cycle will make shortest path undefined.)
+
+**Method to find SP**
+
+1. Topological sort the DAG. (Complexity: O(V+E))
+2. One pass over vertexes in topologically sorted order, relaxing each edge that leave each vertex. (Touch each vertex once and each edge once, also O(V+E))
+
+The algorithm overall takes O(V+E) - why? because you are relaxing each edge from each vertex. Overall you only check each edge once.
+
+Side notes: after getting the topological order, you can just start from the source point that you want. So the vertexes that is before source point in topological order will just be ignored.
 
 ## Dijkstra Algorithm
 
-> from [WilliamFiset](https://youtu.be/pSqmAO-m7Lk)
-
+> The intuition is that using the generic framework, with a greedy heuristic to construct the shortest path.
 
 - An SSSP algorithm for  non-negative edge weights.
   - This ensures once a node is visited, its optimal path can not be improved further by taking an edge through negative weight.
   - Basically ensure the algorithm can act with greedy manner to always select the most promising node.
-- Complexity typically `O(E * log(V))`
 
 **Pseudo code**
 
-Or more concretely, it's like:
+> Initialize
+> - $d[s] = 0$
+> - $S = \phi$: an empty set to store the vertex that has been traveled
+> - $Q = \{ (d[s], s) \}$: a min priority queue store pair of ($d[s], s$)
 
-```markdown
-1. Maintain a `dist` array where the distance to every node is `inf`. Mark the `distance` to the start node `s` to be 0.
-2. Maintain a PQ with (`distance`, `nodeIdx`) pairs, which tell you node to visit next based on sorted min `distance`.
-3. Insert `(0, s)` into PQ and loop while PQ is not empty.
-4. Pull out **the next most promising pair** (`distance`, `nodeIdx`)
-5. Iterate over all edges outwards from the current node and relax each edge appending a new (`distance`, `nodeIdx`) to PQ for every relaxation
-   - (ignoring a pair if `dist` array already find a quicker way to reach the new node)
-```
+> while $Q \neq \phi:$
+> - $u$ = EXTRACT_MIN($Q$)
+> - $S = S \cup \{ u \}$
+> - for each $v \in neighbor[u]:$
+>   - $Relax(u, v, w)$
+
+**The complexity**
+
+- $\theta(V)$ inserts into queue
+- $\theta(V)$ extract from priority queue
+- $\theta(E)$ while relax, you decrease the $d[v]$ for a vertex
+
+Assume it's normal heap / priority queue:
+
+- Outer while loop is O(V)
+- $\theta(log(V))$ for EXTRACT_MIN, and you extract $\theta(V)$ times
+- $\theta(log(V))$ for decrease/update key, and you do this for each edge, $\theta(E)$ times
+- So overall: $\theta(V log(V)) + \theta(Elog(V))$ = $O((E+V)log(V))$
 
 **Building path from Dijkstra**
 
@@ -118,8 +146,6 @@ Or more concretely, it's like:
 <br/>
 
 ## Bellman Ford Algorithm
-
-> from 1. [MIT OpenCourseWare](https://youtu.be/ozsuci5pIso) 2. [WilliamFiset](https://youtu.be/lyw4FaxrwHg)
 
 **Quick fact**
 

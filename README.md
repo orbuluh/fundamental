@@ -151,7 +151,12 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- Generic structure of shortest path
+- Generic structure of shortest path (SP)
+
+
+
+
+- Shortest path in DAGs
 
 
 
