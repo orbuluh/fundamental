@@ -92,12 +92,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- Heap
-
-
-
-
-- tree like DS are sorted by keys `map`, `set`, `multimap`, `multiset`
+- (Tree) map are sorted by keys `map`, `set`, `multimap`, `multiset`
 
 
 
@@ -118,6 +113,24 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - Monotonic Queue/Stack
+
+
+**[Data structures: All kinds of Heap](_notes/ds_all_kinds_of_heap.md)**
+
+
+
+
+- (Binary) heap
+
+
+
+
+- Binomial heap
+
+
+
+
+- Fibonacci heap
 
 
 **[Data structures: Union–find data structure](_notes/union_find.md)**
