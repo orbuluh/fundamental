@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 190
+# Problems listed: 191
 
 - [2_ptrs](2_ptrs/README.md): 10
 
@@ -288,7 +288,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [range_query/segment_tree](range_query/segment_tree/README.md): 3
 
-- [recursion](recursion/README.md): 11
+- [recursion](recursion/README.md): 12
 
 - [sliding_window](sliding_window/README.md): 2
 
@@ -1323,6 +1323,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 222. Count Complete Tree Nodes
+
+
+
+- :bulb: 394. Decode String
 
 
 

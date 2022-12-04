@@ -164,6 +164,35 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 394. Decode String](https://leetcode.com/problems/decode-string/) [:dart:](decode_string.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an encoded string, return its decoded string.
+
+The encoding rule is:`k[encoded_string]`, where
+- the `encoded_string` inside the square brackets is being repeated exactly k times.
+- Note that k is guaranteed to be a positive integer.
+
+You may assume that the input string is always valid;
+there are no extra white spaces, square brackets are well-formed, etc.
+
+Furthermore, you may assume that the original data does not contain any digits
+and that digits are only for those repeat numbers, k.
+
+For example, there will not be input like 3a or 2[4].
+
+The test cases are generated so that the length of the output will never exceed 10^5.
+
+Input: s = "3[a2[c]]"
+Output: "accaccacc"
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
 
 - related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
