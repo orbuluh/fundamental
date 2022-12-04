@@ -89,6 +89,39 @@ Output: 49
 
 ------------------------------------------------------------------------------
 
+## [:bulb::bulb: 777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/) [:dart:](swap_adj_in_lr_string.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+In a string composed of 'L', 'R', and 'X' characters, like "RXXLRXRXL"
+
+a move consists of either
+- replacing one occurrence of "XL" with "LX", or
+- replacing one occurrence of "RX" with "XR".
+
+Given the starting string start and the ending string end,
+return True if and only if there exists a sequence of moves to
+transform start to end.
+
+(Note: LX in start can't transform to XL in end, only XL in start can
+ transform to LX in end!)
+
+
+Input: start = "RXXLRXRXL", end = "XRLXXRRLX"
+Output: true
+Explanation: We can transform start to end following these steps:
+RXXLRXRXL ->
+XRXLRXRXL ->
+XRLXRXRXL ->
+XRLXXRRXL ->
+XRLXXRRLX
+
+```
+
+</details>
+------------------------------------------------------------------------------
+
 ## [:bulb::bulb: 838. Push Dominoes](https://leetcode.com/problems/push-dominoes/) [:dart:](push_dominoes.h)
 
 <details><summary markdown="span">Question</summary>
