@@ -1,4 +1,4 @@
-# Graph: Single source shortest path / SSSP
+# Graph: 2. Single source shortest path / SSSP
 
 [**Problem sets :link:**](../graph/graph_sssp/README.md)
 

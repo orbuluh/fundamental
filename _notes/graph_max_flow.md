@@ -1,4 +1,4 @@
-# Graph: Max flow / min cut / Ford-Fulker method
+# Graph: 5. Max flow / min cut / Ford-Fulker method
 
 - From [WilliamFiset](https://youtu.be/LdOnanfc5TM)
 - From [MIT OpenCourseWare](https://youtu.be/VYZGlgzr_As)

@@ -1,4 +1,4 @@
-# Graph: All pairs shortest path / APSP
+# Graph: 3. All pairs shortest path / APSP
 
 ## Floyd Warshall Algorithm
 

@@ -139,27 +139,13 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-**[Graph: All pairs shortest path / APSP](_notes/graph_apsp.md)**
-
-
-
-
-- Floyd Warshall Algorithm
-
-
-**[Graph: Bipartite](_notes/graph_bipartite.md)**
+**[Graph: 1. Topological sort](_notes/graph_topological_sort.md)**
 
 
 
 
 
-**[Graph: Max flow / min cut / Ford-Fulker method](_notes/graph_max_flow.md)**
-
-
-
-
-
-**[Graph: Single source shortest path / SSSP](_notes/graph_sssp.md)**
+**[Graph: 2. Single source shortest path / SSSP](_notes/graph_sssp.md)**
 
 
 
@@ -182,7 +168,21 @@ Quote from [HTDP](https://htdp.org/)
 - Bellman Ford Algorithm
 
 
-**[Graph: Topological sort](_notes/graph_topological_sort.md)**
+**[Graph: 3. All pairs shortest path / APSP](_notes/graph_apsp.md)**
+
+
+
+
+- Floyd Warshall Algorithm
+
+
+**[Graph: 4. Bipartite](_notes/graph_bipartite.md)**
+
+
+
+
+
+**[Graph: 5. Max flow / min cut / Ford-Fulker method](_notes/graph_max_flow.md)**
 
 
 
