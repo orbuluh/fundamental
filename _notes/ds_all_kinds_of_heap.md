@@ -90,22 +90,31 @@ from resources:
 
 binomial heap only improved the amortized complexity of insert, but to speed up Dijkstra, we also need to do a lot of decrease key operations. Can we do better on this?
 
-
-
-
-
-
-
 ## Fibonacci heap
 
-A **mergeable** heap that supports:
+An extreme clever way to implement priority queue with amortized $O(1)$ to insert and decreaseKey.
 
-- normal heap functionality: make-heap, insert, minimum, extra-min
-- union
-- decrease key
-- delete
+**Structure of Fibonacci heap**
 
-And with better amortized complexity in certain operation.
+- store a list of trees, each is a heap
+- trees can have any shape (not need to be binomial tree or some sort)
+- Keeping track of the minRoot among all trees
+- Overall a fibonacci heap is a collection of min-heap ordered tree
+
+**The source of intuition**
+
+- Check [here](https://youtu.be/FMAG0aunrmM?t=920) about the naive linked list implementation for speeding up decreaseKey and the [here](https://youtu.be/fRpsjKCfQjE?t=65) about how the previous implementation enlighten the fibonacci heap
+
+**The proof of amortized analysis**
+
+- TODO -> [here](https://youtu.be/RCCUrmklzjg)
+
+**Common use cases**
+
+- Mainly when we don't do much delete and extract-min (otherwise normal binary heap might be better)
+
+1. minimum spanning tree
+2. [SSSP: Dijkstra algorithm](graph_sssp.md)
 
 |Operation|Fibonacci heap (amortized)| Binary heap (worst case)|
 |--- | --- | --- |
@@ -118,15 +127,3 @@ And with better amortized complexity in certain operation.
 |decrease key| $\theta(1)$ | $\theta(\log n)$ |
 |union       | $\theta(1)$ | $\theta(n)$ |
 |insert      | $\theta(1)$ | $\theta(\log n)$ |
-
-
-**Common use cases**
-
-- Mainly when we don't do much delete and extract-min (otherwise normal binary heap might be better)
-
-1. minimum spanning tree
-2. [SSSP: Dijkstra algorithm](graph_sssp.md)
-
-**High level**
-
-- A fibonacci heap is a collection of min-heap ordered tree
