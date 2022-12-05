@@ -1,6 +1,6 @@
 # Union find
 
-- [:notebook:](../_notes/union_find.md)
+- [:notebook:](../../_notes/union_find.md)
 
 ------------------------------------------------------------------------------
 

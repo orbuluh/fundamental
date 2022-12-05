@@ -487,7 +487,7 @@ Quote from [HTDP](https://htdp.org/)
 # [Bitwise](problem_sets/bitwise/README.md)
 
 
-## [Two's complement](../_notes/bitwise.md#twos-complement)
+## [Two's complement](../../_notes/bitwise.md#twos-complement)
 
 
 
@@ -776,7 +776,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Topological sort](../_notes/graph.md#topological-sort)
+## [Topological sort](../../_notes/graph.md#topological-sort)
 
 
 

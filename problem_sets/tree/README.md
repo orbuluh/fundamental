@@ -52,7 +52,7 @@ Serialize and deserialize a binary tree.
 
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) [:dart:](vertical_order_traversal.h)
 
-- tips: [Tree like DS are sorted by keys!](../_notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
+- tips: [Tree like DS are sorted by keys!](../../_notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
 
 <details><summary markdown="span">Question</summary>
 
@@ -71,7 +71,7 @@ Given the root of a binary tree, calculate the vertical order traversal of the b
 
 ## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) [:dart:](inorder_morris.h)
 
-- check _notes on morris: [:point_right: here](../_notes/algorithms.md#morris-traversal)
+- check _notes on morris: [:point_right: here](../../_notes/algorithms.md#morris-traversal)
 
 <details><summary markdown="span">Question</summary>
 
@@ -85,7 +85,7 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 
 ## BST
 
-- check [_notes :notebook:](../_notes/data_structures.md#bst)
+- check [_notes :notebook:](../../_notes/data_structures.md#bst)
 
 ## [:ok_hand: 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) [:dart:](bst_iterator.h)
 

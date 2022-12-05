@@ -1,6 +1,6 @@
 # Monotonic Stack/Queue
 
-- [:notebook:](../_notes/README.md#monotonic-queue)
+- [:notebook:](../../_notes/README.md#monotonic-queue)
 
 ## [:bulb: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) [:dart:](next_greater_element_i.h)
 

@@ -1,7 +1,7 @@
 # Substring matching algorithm
 
-- [KMP :point_right: here](../_notes/kmp.md)
-- [Rolling hash :point_right: here](../_notes/rolling_hash.md)
+- [KMP :point_right: here](../../_notes/kmp.md)
+- [Rolling hash :point_right: here](../../_notes/rolling_hash.md)
 
 ## [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) [:dart:](max_len_of_repeated_subarray.h)
 
