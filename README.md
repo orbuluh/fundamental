@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 191
+# Problems listed: 192
 
 - [2_ptrs](2_ptrs/README.md): 10
 
@@ -274,7 +274,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [greedy/meeting_room_like](greedy/meeting_room_like/README.md): 6
 
-- [linked_list](linked_list/README.md): 7
+- [linked_list](linked_list/README.md): 8
 
 - [math](math/README.md): 5
 
@@ -1029,11 +1029,23 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## Basic operations on linked list
+
+
+
 - :ok_hand: 141. Linked List Cycle
 
 
 
 - :ok_hand: 206. Reverse Linked List
+
+
+
+- :ok_hand: 876. Middle of the Linked List
+
+
+
+## Composite operations on linked list
 
 
 

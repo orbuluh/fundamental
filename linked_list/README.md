@@ -1,5 +1,7 @@
 # Linked list
 
+## Basic operations on linked list
+
 ## [:ok_hand: 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [:dart:](reversed_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
@@ -23,6 +25,22 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:ok_hand: 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) [:dart:](middle_of_the_linked_list.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a singly linked list, return the middle node of the linked list.
+
+If there are two middle nodes, return the second middle node.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## Composite operations on linked list
 
 ## [:bulb: 61. Rotate List](https://leetcode.com/problems/rotate-list/) [:dart:](rotate_list.h)
 
