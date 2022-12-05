@@ -1,4 +1,6 @@
-# Monotonic Queue [:notebook:](../_notes/README.md#monotonic-queue)
+# Monotonic Stack/Queue
+
+- [:notebook:](../_notes/README.md#monotonic-queue)
 
 ## [:bulb: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) [:dart:](next_greater_element_i.h)
 
@@ -115,7 +117,7 @@ Window position                Max
 
 ## [:bulb: 1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/) [:dart:](jump_game_vi.h)
 
-- a dp problem but the core is actually monotonic Queue.
+- a dp problem but the core is actually monotonic stack.
 - core is the same as [239. Sliding Window Maximum](#bulb-239-sliding-window-maximum-dart)
 
 <details><summary markdown="span">Question</summary>
@@ -138,8 +140,6 @@ Explanation: You can choose your jumps with [1,-1,4,3] (^ above). The sum is 7.
 ```
 
 </details>
-
-# Monotonic stack
 
 ------------------------------------------------------------------------------
 

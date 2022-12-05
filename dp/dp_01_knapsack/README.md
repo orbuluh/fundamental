@@ -1,4 +1,4 @@
-# 0/1 knapsack like recursion structure
+# DP: 0/1 knapsack like recursion structure
 
 ```markdown
 - "to use or not to use" and the relation to previous state

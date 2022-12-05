@@ -158,7 +158,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ------------------------------------------------------------------------------
 
-# Backtracking x Binary search
+## Backtracking x Binary search
 
 ## [:bulb::bulb: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](path_with_maximum_min_value_dfs_bs.h)
 
@@ -187,7 +187,7 @@ Output: 18
 
 ------------------------------------------------------------------------------
 
-# Interval related questions
+## Interval related questions
 
 ## [:ok_hand: 729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) [:dart:](my_calendar_i.h)
 

@@ -1,4 +1,4 @@
-# Single source shortest path
+# Graph: Single source shortest path
 
 - _notes [here](../../_notes/graph_sssp.md)
 

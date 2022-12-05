@@ -1,4 +1,4 @@
-# Misc, some great algo to do something
+# Misc: some great algo to do something
 
 ## [:ok_hand: 916. Word Subsets](https://leetcode.com/problems/word-subsets/) [:dart:](word_subsets.h)
 
@@ -167,7 +167,7 @@ Output: 2
 
 ------------------------------------------------------------------------------
 
-# Nice implementation idea
+## Nice implementation idea
 
 ## [:ok_hand: 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) [:dart:](integer_to_roman.h)
 
@@ -207,7 +207,7 @@ Given an integer, convert it to a roman numeral.
 
 ------------------------------------------------------------------------------
 
-# Hard indices manipulation
+## Hard indices manipulation
 
 ## [:bulb: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) [:dart:](rotate_image.h)
 
@@ -264,7 +264,7 @@ Explanation: making a right shift then down shift of img1 - it becomes
 
 ------------------------------------------------------------------------------
 
-# Brainteaser
+## Brainteaser
 
 ## [:bulb: 458. Poor Pigs](https://leetcode.com/problems/poor-pigs) [:dart:](pool_pigs.h)
 

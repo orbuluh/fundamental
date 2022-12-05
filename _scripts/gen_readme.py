@@ -12,6 +12,7 @@ template = environment.get_template("readme.jinja")
 
 context = {}
 content_dump = defaultdict(list)
+folder_title = {}
 cnt_per_chapter = {}
 total_count = 0
 
@@ -20,28 +21,34 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
     folder = filepath[filepath.find("../") + 3: filepath.rfind("/")]
     #print(f"{filepath} -> {folder}")
     if not folder or folder == "_notes": continue
+    problemLine = "^#.*:.*https://leetcode.com/.*.h\)"
+    problemTitle = "\[(.*\d+?\..*?)\]"
     with open(filepath, "r") as f:
         count = 0
         for line in f:
-            m = re.search("^#.*:.*https://leetcode.com/.*.h\)", line)
+            m = re.search(problemLine, line)
             if m:
-                title = re.search("\[(.*\d+?\..*?)\]", line).group(1)
+                title = re.search(problemTitle, line).group(1)
                 content_dump[folder] += [title]
                 count += 1
             else:
-                # subsection, force it to header 2
                 m = re.search("^#.*?\s(.*)", line)
                 if m:
                     # if it's a subsection with relative link, we need to adjust
                     # the relative location to the project root. Just easier to
                     # hardcode...
-                    subsection = f"## {m.group(1)}"
+                    subsection = m.group(1)
                     subsection = subsection.replace("dp_", "dp/dp_")
                     subsection = subsection.replace("segment_tree/", "range_query/segment_tree/")
                     subsection = subsection.replace("binary_indexed_tree/", "binary_indexed_tree/segment_tree/")
                     subsection = subsection.replace("meeting_room_like/", "greedy/meeting_room_like/")
                     subsection = subsection.replace("graph_", "graph/graph_")
-                    content_dump[folder] += [subsection]
+                    if re.search("^##", line):
+                        subsection = "## " + subsection
+                        content_dump[folder] += [subsection]
+                    else: # one # H1 heading for the file
+                        folder_title[folder] = subsection
+                        #print(f"{folder} -> {subsection}")
                 #else:
                     #print(f"not processing: {line}")
         cnt_per_chapter[folder] = count
@@ -77,6 +84,7 @@ for posix_file_path in Path(f"{scriptDir}/../_notes").rglob('*.md'):
             note_dump[title] += ["NoSubsection"]
 
 context = {
+    "folder_title": folder_title,
     "content_dump": content_dump,
     "cnt_per_chapter": cnt_per_chapter,
     "total_count": total_count,

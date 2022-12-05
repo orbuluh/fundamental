@@ -43,7 +43,7 @@ Explanation: All possible orders:
 
 ------------------------------------------------------------------------------
 
-# Geometry
+## Geometry
 
 ## [:ok_hand: 593. Valid Square](https://leetcode.com/problems/valid-square/) [:dart:](valid_square.h)
 
@@ -106,7 +106,7 @@ Output: 1
 
 ------------------------------------------------------------------------------
 
-# Fisher–Yates shuffle
+## Fisher–Yates shuffle
 
 ## [:bulb: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) [:dart:](shuffle_an_array.h)
 

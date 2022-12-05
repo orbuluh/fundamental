@@ -1,4 +1,4 @@
-# DFS + memorization
+# DP: DFS + memorization
 
 ```markdown
 - DP but likely with a more sparse access needed to whole dp matrix

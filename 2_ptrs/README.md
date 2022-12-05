@@ -148,19 +148,19 @@ Output:           "LL.RR.LLRRLL.."
 
 ------------------------------------------------------------------------------
 
-# Circular sort
+## Circular sort
 
 - check [here](../sorting/README.md#circular-sort)
 
 ------------------------------------------------------------------------------
 
-# Quick select
+## Quick select
 
 - check [here](../sorting/README.md#quick-select)
 
 ------------------------------------------------------------------------------
 
-# Substring window algorithm
+## Substring window algorithm
 
 - All the below questions using the same "template" of substring window
 - The idea is that you keep a window containing valid substring with 2 ptrs

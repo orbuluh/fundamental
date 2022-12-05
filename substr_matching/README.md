@@ -27,6 +27,6 @@ Output: 5
 
 ------------------------------------------------------------------------------
 
-# Sliding window of Substring
+## Sliding window of Substring
 
 - check [here](../2_ptrs/README.md#substring-window-algorithm)

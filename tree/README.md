@@ -48,7 +48,7 @@ Serialize and deserialize a binary tree.
 
 ------------------------------------------------------------------------------
 
-# Tree traversal
+## Tree traversal
 
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) [:dart:](vertical_order_traversal.h)
 
@@ -83,7 +83,7 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 
 ------------------------------------------------------------------------------
 
-# BST
+## BST
 
 - check [_notes :notebook:](../_notes/data_structures.md#bst)
 

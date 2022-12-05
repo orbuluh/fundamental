@@ -1,4 +1,4 @@
-# Unbounded knapsack like recursion structure
+# DP: Unbounded knapsack like recursion structure
 
 ```markdown
 - There are fixed set of options and we have unlimited ways to choose each option.

@@ -49,7 +49,7 @@ Explanation: [4, 3] < [10, 4]
 
 ------------------------------------------------------------------------------
 
-# Bubble sort
+## Bubble sort
 
 ## [:bulb: 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/) [:dart:](orderly_queue.h)
 
@@ -81,7 +81,7 @@ Output: "aaabc"
 
 ------------------------------------------------------------------------------
 
-# Merge sort
+## Merge sort
 
 ## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
 
@@ -107,7 +107,7 @@ To the right of 1 there is 0 smaller element.
 
 ------------------------------------------------------------------------------
 
-# Circular sort
+## Circular sort
 
 ## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) [:dart:](set_mismatch_circular_sort.h)
 
@@ -115,7 +115,7 @@ To the right of 1 there is 0 smaller element.
 
 ------------------------------------------------------------------------------
 
-# Quick select
+## Quick select
 
 ## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [:dart:](kth_largest_in_an_array.h)
 

@@ -1,4 +1,4 @@
-# State transition
+# DP: State transition
 
 ## [:ok_hand: 740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) [:dart:](delete_and_earn.h)
 

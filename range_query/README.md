@@ -1,6 +1,6 @@
 # Range Query
 
-# Prefix sum
+## Prefix sum
 
 ## [:ok_hand: 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [:dart:](range_sum_equal_to_k.h)
 - The basic question, but has certain details...
@@ -42,7 +42,7 @@ Explanation: [23, 2, 6, 4, 7] is an continuous subarray of size 5 whose elements
 
 ------------------------------------------------------------------------------
 
-# The jump line method
+## The jump line method
 - Suitable when the range is constrained!
 
 ## [:bulb: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted.h)
@@ -73,6 +73,6 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-# [Segment tree](segment_tree/README.md)
+## [Segment tree](segment_tree/README.md)
 
-# [Binary indexed tree](binary_indexed_tree/README.md)
+## [Binary indexed tree](binary_indexed_tree/README.md)

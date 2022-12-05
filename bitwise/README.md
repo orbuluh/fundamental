@@ -1,7 +1,7 @@
 # Bitwise
 - [Notes :notebook:](../_notes/bitwise.md)
 
-# [Two's complement](../_notes/bitwise.md#twos-complement)
+## [Two's complement](../_notes/bitwise.md#twos-complement)
 
 ## [:bulb: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) [:dart:](sum_of_2_ints.h)
 <details><summary markdown="span">Question</summary>
@@ -13,7 +13,7 @@ Given two integers a and b, return the sum of the two integers without using the
 
 ------------------------------------------------------------------------------
 
-# basic operations
+## basic operations
 ## [:ok_hand: 190. Reverse Bits](https://leetcode.com/problems/missing-number/) [:dart:](reverse_bits.h)
 <details><summary markdown="span">Question</summary>
 
@@ -42,7 +42,7 @@ Output: [0,1,1,2,1,2]
 
 ------------------------------------------------------------------------------
 
-# xor: `a^a = 0; b^0 = b; b^a^a = b`
+## xor: `a^a = 0; b^0 = b; b^a^a = b`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) [:dart:](missing_num.h)
 <details><summary markdown="span">Question</summary>
@@ -89,7 +89,7 @@ Output: [1,2]
 
 ------------------------------------------------------------------------------
 
-# Reset the last set bit: `x & (x - 1)`
+## Reset the last set bit: `x & (x - 1)`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) [:dart:](number_of_setbit.h)
 <details><summary markdown="span">Question</summary>
@@ -102,7 +102,7 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 
 ------------------------------------------------------------------------------
 
-# Detect power of 2: `(x & (x - 1) == 0)`
+## Detect power of 2: `(x & (x - 1) == 0)`
 
 ## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) [:dart:](concat_consecutive_binary_nums.h)
 - [(A * B) % C = ((A % C) * (B % C)) % C](../_notes/math.md#modular-multiplication-property)

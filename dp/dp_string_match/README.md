@@ -1,4 +1,4 @@
-# String match with DP
+# DP: String match
 
 ```markdown
 - A common trait is building a 2-D DP matrix and think from the back of 2 strings.

@@ -1,4 +1,6 @@
-# Backtracking [:notebook:](../_notes/algorithms.md#backtracking)
+# Backtracking
+
+- [:notebook:](../_notes/algorithms.md#backtracking)
 
 ```markdown
 - One important thing while dfs backtracking is that how to NOT go to the same state.
@@ -8,7 +10,7 @@
   - For some DFS problem where state with smaller parameter is related to state with larger one, it's likely dp'able. Check [here](../dp/dp_dfs_memorization/README.md)
 ```
 
-# State walking
+## State walking
 
 ## [:ok_hand: 39. Combination Sum](https://leetcode.com/problems/combination-sum/) [:dart:](combinational_sum.h)
 
@@ -144,7 +146,7 @@ inclusive range [1, n].
 
 ------------------------------------------------------------------------------
 
-# Grid walking
+## Grid walking
 
 ## [:ok_hand: 490. The Maze](https://leetcode.com/problems/the-maze/) [:dart:](the_maze.h)
 
@@ -314,7 +316,7 @@ Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
 
 ------------------------------------------------------------------------------
 
-# BFS
+## BFS
 
 ```markdown
 - Note: when BFS, you should mark a point as visited whenever it's put into the
@@ -365,7 +367,7 @@ Thus, the nearest exit is [0,2], which is 1 step away.
 
 ------------------------------------------------------------------------------
 
-# Backtracking the BFS path
+## Backtracking the BFS path
 
 ## [:bulb::bulb: 126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [:dart:](word_ladder_ii.h)
 
@@ -404,4 +406,4 @@ Explanation: There are 2 shortest transformation sequences:
 
 ------------------------------------------------------------------------------
 
-# [Backtracking with binary search](../binary_search/README.md#backtracking-x-binary-search)
+## [Backtracking with binary search](../binary_search/README.md#backtracking-x-binary-search)

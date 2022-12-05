@@ -1,6 +1,8 @@
-# Graph [:notebook:](../_notes/graph.md)
+# Graph
 
-# Bipartite
+- [:notebook:](../_notes/graph.md)
+
+## Bipartite
 
 ## [:bulb: 785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) [:dart:](is_graph_bipartite.h)
 
@@ -32,7 +34,7 @@ A graph is **bipartite** if
 
 ------------------------------------------------------------------------------
 
-# Model as graph
+## Model as graph
 
 ## [:bulb: 2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) [:dart:](find_all_possible_recipes.h)
 
@@ -95,7 +97,7 @@ gives eebee, and str1 will never equal to str2.
 
 ------------------------------------------------------------------------------
 
-# Connected component
+## Connected component
 
 - Can be done through [union find](../union_find/most_stones_removed_with_same_row_or_col_uf.h) as well
 
@@ -130,7 +132,7 @@ Stone [0,0] cannot be removed since it does not share a row/column with another 
 
 ------------------------------------------------------------------------------
 
-# [Topological sort](../_notes/graph.md#topological-sort)
+## [Topological sort](../_notes/graph.md#topological-sort)
 
 ## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) [:dart:](alien_dictionary.h)
 
@@ -162,4 +164,4 @@ Output: ""
 
 ------------------------------------------------------------------------------
 
-# [Single source shortest path](graph_sssp/README.md)
+## [Single source shortest path](graph_sssp/README.md)
