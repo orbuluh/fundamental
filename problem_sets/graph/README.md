@@ -164,4 +164,4 @@ Output: ""
 
 ------------------------------------------------------------------------------
 
-## [Single source shortest path](graph_sssp/README.md)
+- [Single source shortest path](graph_sssp/README.md)

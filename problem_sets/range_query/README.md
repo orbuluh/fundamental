@@ -73,6 +73,6 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [Segment tree](segment_tree/README.md)
+- [Segment tree](segment_tree/README.md)
 
-## [Binary indexed tree](binary_indexed_tree/README.md)
+- [Binary indexed tree](binary_indexed_tree/README.md)

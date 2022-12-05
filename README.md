@@ -236,74 +236,74 @@ Quote from [HTDP](https://htdp.org/)
 
 # Problems listed: 193
 
-- [2 pointers](2_ptrs/README.md): 10
+- [2 pointers](problem_sets/2_ptrs/README.md): 10
 
-- [Backtracking](backtracking/README.md): 12
+- [Backtracking](problem_sets/backtracking/README.md): 12
 
-- [Binary search](binary_search/README.md): 11
+- [Binary search](problem_sets/binary_search/README.md): 11
 
-- [Bitwise](bitwise/README.md): 7
+- [Bitwise](problem_sets/bitwise/README.md): 7
 
-- [Divide and Conquer](divide_and_conquer/README.md): 4
+- [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 4
 
-- [DP: 0/1 knapsack like recursion structure](dp/dp_01_knapsack/README.md): 5
+- [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 5
 
-- [DP: DFS + memorization](dp/dp_dfs_memorization/README.md): 6
+- [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 6
 
-- [DP: State transition](dp/dp_state_transition/README.md): 8
+- [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 8
 
-- [DP: String match](dp/dp_string_match/README.md): 2
+- [DP: String match](problem_sets/dp/dp_string_match/README.md): 2
 
-- [DP: Subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md): 3
+- [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 3
 
-- [DP: Subsequence](dp/dp_subseq/README.md): 4
+- [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 4
 
-- [DP: Unbounded knapsack like recursion structure](dp/dp_unbounded_knapsack/README.md): 4
+- [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md): 4
 
-- [DP: Misc hard recursion](dp/dp_z_misc_hard_recursion/README.md): 6
+- [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 6
 
-- [Data structure design](ds_design/README.md): 3
+- [Data structure design](problem_sets/ds_design/README.md): 3
 
-- [Graph](graph/README.md): 5
+- [Graph](problem_sets/graph/README.md): 5
 
-- [Graph: Single source shortest path](graph/graph_sssp/README.md): 5
+- [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 5
 
-- [Greedy](greedy/README.md): 15
+- [Greedy](problem_sets/greedy/README.md): 15
 
-- [Meeting room like questions](greedy/meeting_room_like/README.md): 6
+- [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 6
 
-- [Linked list](linked_list/README.md): 8
+- [Linked list](problem_sets/linked_list/README.md): 8
 
-- [Math](math/README.md): 5
+- [Math](problem_sets/math/README.md): 5
 
-- [Misc: some great algo to do something](misc/README.md): 12
+- [Misc: some great algo to do something](problem_sets/misc/README.md): 12
 
-- [Monotonic Stack/Queue](monotonic/README.md): 13
+- [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 13
 
-- [Range Query](range_query/README.md): 3
+- [Range Query](problem_sets/range_query/README.md): 3
 
-- [Binary Indexed Tree](range_query/binary_indexed_tree/README.md): 1
+- [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/README.md): 1
 
-- [Segment tree](range_query/segment_tree/README.md): 3
+- [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](recursion/README.md): 12
+- [Recursion](problem_sets/recursion/README.md): 12
 
-- [Sliding window](sliding_window/README.md): 2
+- [Sliding window](problem_sets/sliding_window/README.md): 2
 
-- [Sorting](sorting/README.md): 6
+- [Sorting](problem_sets/sorting/README.md): 6
 
-- [Substring matching algorithm](substr_matching/README.md): 1
+- [Substring matching algorithm](problem_sets/substr_matching/README.md): 1
 
-- [Tree](tree/README.md): 7
+- [Tree](problem_sets/tree/README.md): 7
 
-- [Trie](trie/README.md): 2
+- [Trie](problem_sets/trie/README.md): 2
 
-- [Union find](union_find/README.md): 2
+- [Union find](problem_sets/union_find/README.md): 2
 
 ---
 
 
-# [2 pointers](2_ptrs/README.md)
+# [2 pointers](problem_sets/2_ptrs/README.md)
 
 
 - :ok_hand: 1047. Remove All Adjacent Duplicates In String
@@ -358,7 +358,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Backtracking](backtracking/README.md)
+# [Backtracking](problem_sets/backtracking/README.md)
 
 
 ## State walking
@@ -429,7 +429,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Binary search](binary_search/README.md)
+# [Binary search](problem_sets/binary_search/README.md)
 
 
 - :ok_hand: 74. Search a 2D Matrix
@@ -484,7 +484,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Bitwise](bitwise/README.md)
+# [Bitwise](problem_sets/bitwise/README.md)
 
 
 ## [Two's complement](../_notes/bitwise.md#twos-complement)
@@ -535,7 +535,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Divide and Conquer](divide_and_conquer/README.md)
+# [Divide and Conquer](problem_sets/divide_and_conquer/README.md)
 
 
 - :ok_hand: 823. Binary Trees With Factors
@@ -554,7 +554,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: 0/1 knapsack like recursion structure](dp/dp_01_knapsack/README.md)
+# [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md)
 
 
 - :bulb: 474. Ones and Zeroes
@@ -577,7 +577,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: DFS + memorization](dp/dp_dfs_memorization/README.md)
+# [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md)
 
 
 - :bulb: 1770. Maximum Score from Performing Multiplication Operations
@@ -604,7 +604,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: State transition](dp/dp_state_transition/README.md)
+# [DP: State transition](problem_sets/dp/dp_state_transition/README.md)
 
 
 - :ok_hand: 740. Delete and Earn
@@ -639,7 +639,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: String match](dp/dp_string_match/README.md)
+# [DP: String match](problem_sets/dp/dp_string_match/README.md)
 
 
 - :bulb: 718. Maximum Length of Repeated Subarray
@@ -650,7 +650,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: Subarray (contiguous, Kadane's Algorithm)](dp/dp_subarray_kadane/README.md)
+# [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md)
 
 
 - :ok_hand: 53. Maximum Subarray
@@ -665,7 +665,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: Subsequence](dp/dp_subseq/README.md)
+# [DP: Subsequence](problem_sets/dp/dp_subseq/README.md)
 
 
 - :bulb: 647. Palindromic Substrings
@@ -684,7 +684,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: Unbounded knapsack like recursion structure](dp/dp_unbounded_knapsack/README.md)
+# [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md)
 
 
 - :ok_hand: 377. Combination Sum IV
@@ -703,7 +703,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [DP: Misc hard recursion](dp/dp_z_misc_hard_recursion/README.md)
+# [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md)
 
 
 - :bulb::bulb: 907. Sum of Subarray Minimums
@@ -730,7 +730,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Data structure design](ds_design/README.md)
+# [Data structure design](problem_sets/ds_design/README.md)
 
 
 - :ok_hand: 380. Insert Delete GetRandom O(1)
@@ -745,7 +745,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Graph](graph/README.md)
+# [Graph](problem_sets/graph/README.md)
 
 
 ## Bipartite
@@ -784,11 +784,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Single source shortest path](graph/graph_sssp/README.md)
-
-
-
-# [Graph: Single source shortest path](graph/graph_sssp/README.md)
+# [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md)
 
 
 ## Dijkstra
@@ -823,7 +819,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Greedy](greedy/README.md)
+# [Greedy](problem_sets/greedy/README.md)
 
 
 - :ok_hand: 2178. Maximum Split of Positive Even Integers
@@ -886,7 +882,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Meeting room like questions](greedy/meeting_room_like/README.md)
+# [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md)
 
 
 - :ok_hand: 56. Merge Intervals
@@ -913,7 +909,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Linked list](linked_list/README.md)
+# [Linked list](problem_sets/linked_list/README.md)
 
 
 ## Basic operations on linked list
@@ -956,7 +952,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Math](math/README.md)
+# [Math](problem_sets/math/README.md)
 
 
 - :bulb: 462. Minimum Moves to Equal Array Elements II
@@ -987,7 +983,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Misc: some great algo to do something](misc/README.md)
+# [Misc: some great algo to do something](problem_sets/misc/README.md)
 
 
 - :ok_hand: 916. Word Subsets
@@ -1050,7 +1046,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Monotonic Stack/Queue](monotonic/README.md)
+# [Monotonic Stack/Queue](problem_sets/monotonic/README.md)
 
 
 - :bulb: 496. Next Greater Element I
@@ -1105,7 +1101,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Range Query](range_query/README.md)
+# [Range Query](problem_sets/range_query/README.md)
 
 
 ## Prefix sum
@@ -1128,22 +1124,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## [Segment tree](range_query/segment_tree/README.md)
-
-
-
-## [Binary indexed tree](binary_indexed_tree/segment_tree/README.md)
-
-
-
-# [Binary Indexed Tree](range_query/binary_indexed_tree/README.md)
+# [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/README.md)
 
 
 - :ok_hand: 307. Range Sum Query - Mutable
 
 
 
-# [Segment tree](range_query/segment_tree/README.md)
+# [Segment tree](problem_sets/range_query/segment_tree/README.md)
 
 
 - :ok_hand: 307. Range Sum Query - Mutable
@@ -1158,7 +1146,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Recursion](recursion/README.md)
+# [Recursion](problem_sets/recursion/README.md)
 
 
 - :ok_hand: 38. Count and Say
@@ -1209,7 +1197,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Sliding window](sliding_window/README.md)
+# [Sliding window](problem_sets/sliding_window/README.md)
 
 
 - :bulb: 1423. Maximum Points You Can Obtain from Cards
@@ -1220,7 +1208,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Sorting](sorting/README.md)
+# [Sorting](problem_sets/sorting/README.md)
 
 
 - :wink: 1710. Maximum Units on a Truck
@@ -1263,7 +1251,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Substring matching algorithm](substr_matching/README.md)
+# [Substring matching algorithm](problem_sets/substr_matching/README.md)
 
 
 - :bulb: 718. Maximum Length of Repeated Subarray
@@ -1274,7 +1262,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Tree](tree/README.md)
+# [Tree](problem_sets/tree/README.md)
 
 
 - :ok_hand: 235. Lowest Common Ancestor of a Binary Search Tree
@@ -1313,7 +1301,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Trie](trie/README.md)
+# [Trie](problem_sets/trie/README.md)
 
 
 - :bulb: 212. Word Search II
@@ -1324,7 +1312,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Union find](union_find/README.md)
+# [Union find](problem_sets/union_find/README.md)
 
 
 - :ok_hand: 990. Satisfiability of Equality Equations
