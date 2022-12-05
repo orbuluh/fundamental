@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 192
+# Problems listed: 193
 
 - [2 pointers](2_ptrs/README.md): 10
 
@@ -266,7 +266,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Graph](graph/README.md): 5
 
-- [Graph: Single source shortest path](graph/graph_sssp/README.md): 4
+- [Graph: Single source shortest path](graph/graph_sssp/README.md): 5
 
 - [Greedy](greedy/README.md): 15
 
@@ -812,6 +812,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1514. Path with Maximum Probability
+
+
+
+- :bulb: 1631. Path With Minimum Effort
 
 
 
