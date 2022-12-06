@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 193
+# Problems listed: 194
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -272,7 +272,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 6
 
-- [Linked list](problem_sets/linked_list/README.md): 8
+- [Linked list](problem_sets/linked_list/README.md): 9
 
 - [Math](problem_sets/math/README.md): 5
 
@@ -925,6 +925,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 876. Middle of the Linked List
+
+
+
+- :ok_hand: 328. Odd Even Linked List
 
 
 
