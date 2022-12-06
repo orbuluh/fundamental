@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 194
+# Problems listed: 195
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -270,7 +270,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Greedy](problem_sets/greedy/README.md): 15
 
-- [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 6
+- [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 7
 
 - [Linked list](problem_sets/linked_list/README.md): 9
 
@@ -906,6 +906,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 630. Course Schedule III
+
+
+
+- :bulb: 2402. Meeting Rooms III
 
 
 
