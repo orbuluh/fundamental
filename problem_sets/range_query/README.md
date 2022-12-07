@@ -3,6 +3,7 @@
 ## Prefix sum
 
 ## [:ok_hand: 560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) [:dart:](range_sum_equal_to_k.h)
+
 - The basic question, but has certain details...
 - Check [363. Max Sum of Rectangle No Larger Than K](../dp/README.md#bulb-363-max-sum-of-rectangle-no-larger-than-khttpsleetcodecomproblemsmax-sum-of-rectangle-no-larger-than-k-dartmaxsumofrectanglelekh)
 
@@ -37,6 +38,37 @@ Output: true
 
 Explanation: [23, 2, 6, 4, 7] is an continuous subarray of size 5 whose elements sum up to 42.
 42 is a multiple of 6 because 42 = 7 * 6 and 7 is an integer.
+```
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 1664. Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array) [:dart:](ways_to_make_fair_array.h)
+
+- @lee215's way to make it O(1) space is :exploding_head:
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+ou are given an integer array nums. You can choose exactly one index (0-indexed) and remove the element. Notice that the index of the elements may change after the removal.
+
+For example, if nums = [6,1,7,4,1]:
+
+Choosing to remove index 1 results in nums = [6,7,4,1].
+Choosing to remove index 2 results in nums = [6,1,4,1].
+Choosing to remove index 4 results in nums = [6,1,7,4].
+An array is fair if the sum of the odd-indexed values equals the sum of the even-indexed values.
+
+Return the number of indices that you could choose such that after the removal, nums is fair.
+
+Input: nums = [2,1,6,4]
+Output: 1
+Explanation:
+Remove index 0: [1,6,4] -> Even sum: 1 + 4 = 5. Odd sum: 6. Not fair.
+Remove index 1: [2,6,4] -> Even sum: 2 + 4 = 6. Odd sum: 6. Fair.
+Remove index 2: [2,1,4] -> Even sum: 2 + 4 = 6. Odd sum: 1. Not fair.
+Remove index 3: [2,1,6] -> Even sum: 2 + 6 = 8. Odd sum: 1. Not fair.
+There is 1 index that you can remove to make nums fair.
 ```
 </details>
 

@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 195
+# Problems listed: 196
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -280,7 +280,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 13
 
-- [Range Query](problem_sets/range_query/README.md): 3
+- [Range Query](problem_sets/range_query/README.md): 4
 
 - [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/README.md): 1
 
@@ -1121,6 +1121,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 523. Continuous Subarray Sum
+
+
+
+- :bulb: 1664. Ways to Make a Fair Array
 
 
 
