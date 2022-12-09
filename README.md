@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 196
+# Problems listed: 197
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -286,7 +286,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](problem_sets/recursion/README.md): 12
+- [Recursion](problem_sets/recursion/README.md): 13
 
 - [Sliding window](problem_sets/sliding_window/README.md): 2
 
@@ -1162,6 +1162,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 38. Count and Say
+
+
+
+- :ok_hand: 1026. Maximum Difference Between Node and Ancestor
 
 
 
