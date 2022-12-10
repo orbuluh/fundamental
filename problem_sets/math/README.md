@@ -70,6 +70,32 @@ Output: true
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 478. Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle) [:dart:](gen_random_pt_in_circle.h)
+
+- more of a if you know you know question... take a note anyway
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the radius and the position of the center of a circle, implement the
+function `randPoint` which generates a uniform random point inside the circle.
+
+Implement the Solution class:
+
+`Solution(double radius, double x_center, double y_center)`
+- initializes the object with the radius of the circle radius and the position
+  of the center (x_center, y_center).
+`randPoint()`
+- returns a random point inside the circle.
+
+A point on the circumference of the circle is considered to be in the circle.
+The answer is returned as an array [x, y].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 1610. Maximum Number of Visible Points](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](max_of_visible_pts.h)
 
 <details><summary markdown="span">Question</summary>

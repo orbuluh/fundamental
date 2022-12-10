@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 197
+# Problems listed: 198
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -274,7 +274,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Linked list](problem_sets/linked_list/README.md): 9
 
-- [Math](problem_sets/math/README.md): 5
+- [Math](problem_sets/math/README.md): 6
 
 - [Misc: some great algo to do something](problem_sets/misc/README.md): 12
 
@@ -976,6 +976,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 593. Valid Square
+
+
+
+- :ok_hand: 478. Generate Random Point in a Circle
 
 
 
