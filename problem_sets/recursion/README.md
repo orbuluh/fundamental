@@ -190,6 +190,38 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) [:dart:](binary_tree_max_path_sum.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A path in a binary tree is a sequence of nodes where each pair of adjacent nodes
+in the sequence has an edge connecting them.
+
+A node can only appear in the sequence at most once.
+
+Note that the path does not need to pass through the root.
+
+The path sum of a path is the sum of the node's values in the path.
+
+Given the root of a binary tree, return the maximum path sum of any non-empty path.
+
+
+      -10
+    9      20
+         15   7
+
+Input: root = [-10,9,20,null,null,15,7]
+Output: 42
+Explanation: The optimal path is 15 -> 20 -> 7
+             with a path sum of 15 + 20 + 7 = 42.
+
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 394. Decode String](https://leetcode.com/problems/decode-string/) [:dart:](decode_string.h)
 
 <details><summary markdown="span">Question</summary>
