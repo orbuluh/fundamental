@@ -5,6 +5,35 @@
 - or problem that likely you can convert to some bottom-up ... but just hard to think of
 ```
 
+## [:ok_hand: 931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/) [:dart:](minimum_falling_path_sum.h)
+
+- as grid nature, the intuition would be dfs + memorization. But you will see it's basically bottom up at the end.
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an n x n array of integers matrix, return the minimum sum of
+any falling path through matrix.
+
+A falling path starts at any element in the first row and chooses the element
+in the next row that is either directly below or diagonally left/right.
+
+Specifically, the next element from position (row, col) will be
+(row + 1, col - 1), (row + 1, col), or (row + 1, col + 1).
+
+Input: matrix = [[2,1,3],
+                 [6,5,4],
+                 [7,8,9]]
+Output: 13
+Explanation: There are two falling paths with a minimum sum
+1->5->7  / 1->4->8
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
