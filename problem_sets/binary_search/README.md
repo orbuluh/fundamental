@@ -20,7 +20,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
+## [:thinking: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -36,7 +36,7 @@ You must write an algorithm with O(log n) runtime complexity.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [:dart:](search_in_rotated_sorted_arr.h)
+## [:thinking: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [:dart:](search_in_rotated_sorted_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -55,7 +55,7 @@ return the index of target if it is in nums, or -1 if it is not in nums.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr_ii.h)
+## [:thinking: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -75,7 +75,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) [:dart:](find_k_closest.h)
+## [:persevere: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) [:dart:](find_k_closest.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -104,7 +104,7 @@ Output: [10]
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [:dart:](kth_small_ele_in_sorted_matrix.h)
+## [:persevere: 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [:dart:](kth_small_ele_in_sorted_matrix.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -132,7 +132,7 @@ Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15],
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [:dart:](median_of_2_sorted_arrays.h)
+## [:dizzy_face: 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [:dart:](median_of_2_sorted_arrays.h)
 
 - the twisted way to use binary search holly ...
 
@@ -160,12 +160,12 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Backtracking x Binary search
 
-## [:bulb::bulb: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](path_with_maximum_min_value_dfs_bs.h)
+## [:persevere: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](path_with_maximum_min_value_dfs_bs.h)
 
 - check problem description and Dijkstra like solution [here](../graph/graph_sssp/README.md#💡-1102-path-with-maximum-minimum-value-🎯)
 
 
-## [:exploding_head: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bs.h)
+## [:dizzy_face: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bs.h)
 
 - (Although much slower ...) Try doing backtrack for this one! --> [check code here](../backtracking/split_arr_largest_sum_bt.h)
 
@@ -217,7 +217,7 @@ Output
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
+## [:thinking: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
 
 - [:notebook: addRange pic](../../srcs/715.addRange.png) [:notebook: removeRange pic](../../srcs/715.removeRange.png)
 

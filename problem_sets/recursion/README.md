@@ -99,7 +99,7 @@ has been removed.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [:dart:](lca_of_btree.h)
+## [:thinking: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [:dart:](lca_of_btree.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -120,7 +120,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) [:dart:](btree_from_pre_and_in.h)
+## [:thinking: 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) [:dart:](btree_from_pre_and_in.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -142,13 +142,13 @@ Output: [3,9,20,8,6,15,7]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post_recursion.h)
+## [:thinking: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post_recursion.h)
 
 - for more intuitive (?) divide and conquer approach and problem statement, check [here](../divide_and_conquer/README.md#💡-889-construct-binary-tree-from-preorder-and-postorder-traversal-🎯)
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) [:dart:](kth_smallest_element_in_bst.h)
+## [:thinking: 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) [:dart:](kth_smallest_element_in_bst.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -170,7 +170,7 @@ output = 1
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) [:dart:](count_complete_tree_nodes.h)
+## [:thinking: 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) [:dart:](count_complete_tree_nodes.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -190,7 +190,7 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) [:dart:](binary_tree_max_path_sum.h)
+## [:thinking: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) [:dart:](binary_tree_max_path_sum.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -222,7 +222,7 @@ Explanation: The optimal path is 15 -> 20 -> 7
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 394. Decode String](https://leetcode.com/problems/decode-string/) [:dart:](decode_string.h)
+## [:thinking: 394. Decode String](https://leetcode.com/problems/decode-string/) [:dart:](decode_string.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -251,7 +251,7 @@ Output: "accaccacc"
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
+## [:persevere: 897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) [:dart:](increasing_order_bst.h)
 
 - related: [426. Convert Binary Search Tree to Sorted Doubly Linked List](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
 
@@ -275,7 +275,7 @@ Given the root of a binary search tree, rearrange the tree in in-order to a link
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) [:dart:](convert_bst_to_dll.h)
+## [:persevere: 426. Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) [:dart:](convert_bst_to_dll.h)
 
 - concept similar to [897. Increasing Order Search Tree](#bulbbulb-426-convert-binary-search-tree-to-sorted-doubly-linked-list-dart)
 
@@ -293,7 +293,7 @@ Convert a Binary Search Tree to a sorted Circular Doubly-Linked List in place.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [:dart:](flattern_btree_to_ll.h)
+## [:dizzy_face: 114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) [:dart:](flattern_btree_to_ll.h)
 
 - Doable by many ways but best voted sol is :exploding_head: recursive idea
 

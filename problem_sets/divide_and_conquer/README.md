@@ -30,7 +30,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
+## [:thinking: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -45,7 +45,7 @@ Merge all the linked-lists into one sorted linked-list and return it.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post.h)
+## [:thinking: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post.h)
 
 - for a genius recursive solution from lee215 ... check [here](../recursion/btree_from_pre_post_recursion.h)
 
@@ -72,7 +72,7 @@ Output: [1,2,3,4,5,6,7]
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
+## [:persevere: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
 
 - Check [823](#ok_hand-823-binary-trees-with-factors-dart) as well for an easier but similar question
 - Beautiful!

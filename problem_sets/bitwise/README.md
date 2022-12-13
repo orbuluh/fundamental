@@ -3,7 +3,7 @@
 
 ## [Two's complement](../../_notes/bitwise.md#twos-complement)
 
-## [:bulb: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) [:dart:](sum_of_2_ints.h)
+## [:thinking: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) [:dart:](sum_of_2_ints.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown

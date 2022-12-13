@@ -112,7 +112,7 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) [:dart:](champagne_tower.h)
+## [:thinking: 799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) [:dart:](champagne_tower.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -160,7 +160,7 @@ full, and the two outside glasses are a quarter full
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) [:dart:](min_difficulty_of_job_schedule.h)
+## [:thinking: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) [:dart:](min_difficulty_of_job_schedule.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -195,7 +195,7 @@ you cannot find a schedule for the given jobs.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [:dart:](max_number_of_pts_with_cost.h)
+## [:thinking: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [:dart:](max_number_of_pts_with_cost.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -229,7 +229,7 @@ Your final score is 11 - 2 = 9.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head::exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) [:dart:](race_car.h)
+## [:exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) [:dart:](race_car.h)
 
 <details><summary markdown="span">Question</summary>
 

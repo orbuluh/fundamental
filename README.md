@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 200
+# Problems listed: 201
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -248,7 +248,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 5
 
-- [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 6
+- [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 7
 
 - [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 8
 
@@ -314,19 +314,19 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 16. 3Sum Closest
+- :thinking: 16. 3Sum Closest
 
 
 
-- :bulb: 11. Container With Most Water
+- :thinking: 11. Container With Most Water
 
 
 
-- :bulb::bulb: 777. Swap Adjacent in LR String
+- :persevere: 777. Swap Adjacent in LR String
 
 
 
-- :bulb::bulb: 838. Push Dominoes
+- :persevere: 838. Push Dominoes
 
 
 
@@ -342,19 +342,19 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 76. Minimum Window Substring
+- :thinking: 76. Minimum Window Substring
 
 
 
-- :bulb: 159. Longest Substring with At Most Two Distinct Characters
+- :thinking: 159. Longest Substring with At Most Two Distinct Characters
 
 
 
-- :bulb: 438. Find All Anagrams in a String
+- :thinking: 438. Find All Anagrams in a String
 
 
 
-- :bulb: 1295. Find Median from Data Stream
+- :thinking: 1295. Find Median from Data Stream
 
 
 
@@ -369,23 +369,23 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 31. Next Permutation
+- :thinking: 31. Next Permutation
 
 
 
-- :bulb: 473. Matchsticks to Square
+- :thinking: 473. Matchsticks to Square
 
 
 
-- :bulb: 410. Split Array Largest Sum
+- :thinking: 410. Split Array Largest Sum
 
 
 
-- :bulb: 465. Optimal Account Balancing
+- :thinking: 465. Optimal Account Balancing
 
 
 
-- :bulb: 1088. Confusing Number II
+- :thinking: 1088. Confusing Number II
 
 
 
@@ -397,15 +397,15 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 489. Robot Room Cleaner
+- :thinking: 489. Robot Room Cleaner
 
 
 
-- :bulb: 417. Pacific Atlantic Water Flow
+- :thinking: 417. Pacific Atlantic Water Flow
 
 
 
-- :bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination
+- :persevere: 1293. Shortest Path in a Grid with Obstacles Elimination
 
 
 
@@ -413,7 +413,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 1926. Nearest Exit from Entrance in Maze
+- :thinking: 1926. Nearest Exit from Entrance in Maze
 
 
 
@@ -421,7 +421,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb::bulb: 126. Word Ladder II
+- :persevere: 126. Word Ladder II
 
 
 
@@ -436,27 +436,27 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 34. Find First and Last Position of Element in Sorted Array
+- :thinking: 34. Find First and Last Position of Element in Sorted Array
 
 
 
-- :bulb: 33. Search in Rotated Sorted Array
+- :thinking: 33. Search in Rotated Sorted Array
 
 
 
-- :bulb: 81. Search in Rotated Sorted Array II
+- :thinking: 81. Search in Rotated Sorted Array II
 
 
 
-- :bulb::bulb: 658. Find K Closest Elements
+- :persevere: 658. Find K Closest Elements
 
 
 
-- :bulb::bulb: 378. Kth Smallest Element in a Sorted Matrix
+- :persevere: 378. Kth Smallest Element in a Sorted Matrix
 
 
 
-- :exploding_head: 4. Median of Two Sorted Arrays
+- :dizzy_face: 4. Median of Two Sorted Arrays
 
 
 
@@ -464,11 +464,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb::bulb: 1102. Path With Maximum Minimum Value
+- :persevere: 1102. Path With Maximum Minimum Value
 
 
 
-- :exploding_head: 410. Split Array Largest Sum
+- :dizzy_face: 410. Split Array Largest Sum
 
 
 
@@ -480,7 +480,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 715. Range Module
+- :thinking: 715. Range Module
 
 
 
@@ -491,7 +491,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 371. Sum of Two Integers
+- :thinking: 371. Sum of Two Integers
 
 
 
@@ -542,49 +542,45 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 23. Merge k Sorted Lists
+- :thinking: 23. Merge k Sorted Lists
 
 
 
-- :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
+- :thinking: 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 
 
-- :bulb::bulb: 894. All Possible Full Binary Trees
+- :persevere: 894. All Possible Full Binary Trees
 
 
 
 # [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md)
 
 
-- :bulb: 474. Ones and Zeroes
+- :thinking: 474. Ones and Zeroes
 
 
 
-- :bulb::bulb: 494. Target Sum
+- :persevere: 494. Target Sum
 
 
 
-- :bulb: 416. Partition Equal Subset Sum
+- :thinking: 416. Partition Equal Subset Sum
 
 
 
-- :bulb: 115. Distinct Subsequences
+- :thinking: 115. Distinct Subsequences
 
 
 
-- :bulb: 1235. Maximum Profit in Job Scheduling
+- :thinking: 1235. Maximum Profit in Job Scheduling
 
 
 
 # [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md)
 
 
-- :bulb: 1770. Maximum Score from Performing Multiplication Operations
-
-
-
-- :bulb: 494. Target Sum
+- :ok_hand: 931. Minimum Falling Path Sum
 
 
 
@@ -592,15 +588,23 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 871. Minimum Number of Refueling Stops
+- :thinking: 1770. Maximum Score from Performing Multiplication Operations
 
 
 
-- :bulb: 1473. Paint House III
+- :thinking: 494. Target Sum
 
 
 
-- :exploding_head::exploding_head: 1531. String Compression II
+- :thinking: 871. Minimum Number of Refueling Stops
+
+
+
+- :thinking: 1473. Paint House III
+
+
+
+- :exploding_head: 1531. String Compression II
 
 
 
@@ -623,30 +627,30 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 799. Champagne Tower
+- :thinking: 799. Champagne Tower
 
 
 
-- :bulb: 1335. Minimum Difficulty of a Job Schedule
+- :thinking: 1335. Minimum Difficulty of a Job Schedule
 
 
 
-- :bulb: 1937. Maximum Number of Points with Cost
+- :thinking: 1937. Maximum Number of Points with Cost
 
 
 
-- :exploding_head::exploding_head: 818. Race Car
+- :exploding_head: 818. Race Car
 
 
 
 # [DP: String match](problem_sets/dp/dp_string_match/README.md)
 
 
-- :bulb: 718. Maximum Length of Repeated Subarray
+- :thinking: 718. Maximum Length of Repeated Subarray
 
 
 
-- :bulb: 72. Edit Distance
+- :thinking: 72. Edit Distance
 
 
 
@@ -657,30 +661,30 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 363. Max Sum of Rectangle No Larger Than K
+- :thinking: 363. Max Sum of Rectangle No Larger Than K
 
 
 
-- :exploding_head: 2272. Substring With Largest Variance
+- :dizzy_face: 2272. Substring With Largest Variance
 
 
 
 # [DP: Subsequence](problem_sets/dp/dp_subseq/README.md)
 
 
-- :bulb: 647. Palindromic Substrings
+- :thinking: 647. Palindromic Substrings
 
 
 
-- :bulb: 516. Longest Palindromic Subsequence
+- :thinking: 516. Longest Palindromic Subsequence
 
 
 
-- :bulb: 300. Longest Increasing Subsequence
+- :thinking: 300. Longest Increasing Subsequence
 
 
 
-- :bulb: 1130. Minimum Cost Tree From Leaf Values
+- :thinking: 1130. Minimum Cost Tree From Leaf Values
 
 
 
@@ -691,42 +695,42 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 1155. Number of Dice Rolls With Target Sum
+- :thinking: 1155. Number of Dice Rolls With Target Sum
 
 
 
-- :bulb: 518. Coin Change II
+- :thinking: 518. Coin Change II
 
 
 
-- :bulb: 91. Decode Ways
+- :thinking: 91. Decode Ways
 
 
 
 # [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md)
 
 
-- :bulb::bulb: 907. Sum of Subarray Minimums
+- :persevere: 907. Sum of Subarray Minimums
 
 
 
-- :exploding_head: 446. Arithmetic Slices II - Subsequence
+- :dizzy_face: 446. Arithmetic Slices II - Subsequence
 
 
 
-- :exploding_head: 629. K Inverse Pairs Array
+- :dizzy_face: 629. K Inverse Pairs Array
 
 
 
-- :exploding_head: 837. New 21 Game
+- :dizzy_face: 837. New 21 Game
 
 
 
-- :exploding_head: :exploding_head: 376. Wiggle Subsequence
+- :exploding_head: 376. Wiggle Subsequence
 
 
 
-- :exploding_head: :exploding_head: 465. Optimal Account Balancing
+- :exploding_head: 465. Optimal Account Balancing
 
 
 
@@ -741,7 +745,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb::bulb: 146. LRU Cache
+- :persevere: 146. LRU Cache
 
 
 
@@ -752,7 +756,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 785. Is Graph Bipartite
+- :thinking: 785. Is Graph Bipartite
 
 
 
@@ -760,11 +764,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 2115. Find All Possible Recipes from Given Supplies
+- :thinking: 2115. Find All Possible Recipes from Given Supplies
 
 
 
-- :exploding_head: 1153. String Transforms Into Another String
+- :dizzy_face: 1153. String Transforms Into Another String
 
 
 
@@ -772,7 +776,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 947. Most Stones Removed with Same Row or Column
+- :thinking: 947. Most Stones Removed with Same Row or Column
 
 
 
@@ -780,7 +784,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 269. Alien Dictionary
+- :thinking: 269. Alien Dictionary
 
 
 
@@ -799,19 +803,19 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 778. Swim in Rising Water
+- :thinking: 778. Swim in Rising Water
 
 
 
-- :bulb: 1102. Path With Maximum Minimum Value
+- :thinking: 1102. Path With Maximum Minimum Value
 
 
 
-- :bulb: 1514. Path with Maximum Probability
+- :thinking: 1514. Path with Maximum Probability
 
 
 
-- :bulb: 1631. Path With Minimum Effort
+- :thinking: 1631. Path With Minimum Effort
 
 
 
@@ -826,63 +830,63 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 763. Partition Labels
+- :thinking: 763. Partition Labels
 
 
 
-- :bulb: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+- :thinking: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
 
 
 
-- :bulb: 316. Remove Duplicate Letters
+- :thinking: 316. Remove Duplicate Letters
 
 
 
-- :bulb: 659. Split Array into Consecutive Subsequences
+- :thinking: 659. Split Array into Consecutive Subsequences
 
 
 
-- :bulb: 936. Stamping The Sequence
+- :thinking: 936. Stamping The Sequence
 
 
 
-- :bulb: 1055. Shortest Way to Form String
+- :thinking: 1055. Shortest Way to Form String
 
 
 
-- :bulb: 135. Candy
+- :thinking: 135. Candy
 
 
 
-- :bulb: 1578. Minimum Time to Make Rope Colorful
+- :thinking: 1578. Minimum Time to Make Rope Colorful
 
 
 
-- :bulb: 406. Queue Reconstruction by Height
+- :thinking: 406. Queue Reconstruction by Height
 
 
 
-- :bulb: 1383. Maximum Performance of a Team
+- :thinking: 1383. Maximum Performance of a Team
 
 
 
-- :bulb: 871. Minimum Number of Refueling Stops
+- :thinking: 871. Minimum Number of Refueling Stops
 
 
 
-- :bulb: 665. Non-decreasing Array
+- :thinking: 665. Non-decreasing Array
 
 
 
-- :bulb: 2136. Earliest Possible Day of Full Bloom
+- :thinking: 2136. Earliest Possible Day of Full Bloom
 
 
 
-- :exploding_head: 1354. Construct Target Array With Multiple Sums
+- :dizzy_face: 1354. Construct Target Array With Multiple Sums
 
 
 
-- :exploding_head::exploding_head: 218. The Skyline Problem
+- :exploding_head: 218. The Skyline Problem
 
 
 
@@ -897,23 +901,23 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 759. Employee Free Time
+- :thinking: 759. Employee Free Time
 
 
 
-- :bulb: 57. Insert Interval
+- :thinking: 57. Insert Interval
 
 
 
-- :bulb: 732. My Calendar III
+- :thinking: 732. My Calendar III
 
 
 
-- :bulb: 630. Course Schedule III
+- :thinking: 630. Course Schedule III
 
 
 
-- :bulb: 2402. Meeting Rooms III
+- :thinking: 2402. Meeting Rooms III
 
 
 
@@ -944,34 +948,34 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 61. Rotate List
+- :thinking: 61. Rotate List
 
 
 
-- :bulb: 19. Remove Nth Node From End of List
+- :thinking: 19. Remove Nth Node From End of List
 
 
 
-- :bulb: 92. Reverse Linked List II
+- :thinking: 92. Reverse Linked List II
 
 
 
-- :bulb: 234. Palindrome Linked List
+- :thinking: 234. Palindrome Linked List
 
 
 
-- :bulb: 445. Add Two Numbers II
+- :thinking: 445. Add Two Numbers II
 
 
 
 # [Math](problem_sets/math/README.md)
 
 
-- :bulb: 462. Minimum Moves to Equal Array Elements II
+- :thinking: 462. Minimum Moves to Equal Array Elements II
 
 
 
-- :bulb: 1359. Count All Valid Pickup and Delivery Options
+- :thinking: 1359. Count All Valid Pickup and Delivery Options
 
 
 
@@ -987,7 +991,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 1610. Maximum Number of Visible Points
+- :thinking: 1610. Maximum Number of Visible Points
 
 
 
@@ -995,7 +999,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 384. Shuffle an Array
+- :thinking: 384. Shuffle an Array
 
 
 
@@ -1014,19 +1018,19 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 189. Rotate Array
+- :thinking: 189. Rotate Array
 
 
 
-- :bulb: 833. Find And Replace in String
+- :thinking: 833. Find And Replace in String
 
 
 
-- :bulb: 1209. Remove All Adjacent Duplicates in String II
+- :thinking: 1209. Remove All Adjacent Duplicates in String II
 
 
 
-- :exploding_head: 856. Score of Parentheses
+- :dizzy_face: 856. Score of Parentheses
 
 
 
@@ -1042,11 +1046,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 48. Rotate Image
+- :thinking: 48. Rotate Image
 
 
 
-- :bulb::bulb: 835. Image Overlap
+- :persevere: 835. Image Overlap
 
 
 
@@ -1054,66 +1058,66 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 458. Poor Pigs
+- :thinking: 458. Poor Pigs
 
 
 
-- :exploding_head: 932. Beautiful Array
+- :dizzy_face: 932. Beautiful Array
 
 
 
 # [Monotonic Stack/Queue](problem_sets/monotonic/README.md)
 
 
-- :bulb: 496. Next Greater Element I
+- :thinking: 496. Next Greater Element I
 
 
 
-- :bulb: 503. Next Greater Element II
+- :thinking: 503. Next Greater Element II
 
 
 
-- :bulb: 556. Next Greater Element III
+- :thinking: 556. Next Greater Element III
 
 
 
-- :bulb: 239. Sliding Window Maximum
+- :thinking: 239. Sliding Window Maximum
 
 
 
-- :bulb: 1696. Jump Game VI
+- :thinking: 1696. Jump Game VI
 
 
 
-- :bulb: 901. Online Stock Span
+- :thinking: 901. Online Stock Span
 
 
 
-- :bulb: 84. Largest Rectangle in Histogram
+- :thinking: 84. Largest Rectangle in Histogram
 
 
 
-- :bulb: 853. Car Fleet
+- :thinking: 853. Car Fleet
 
 
 
-- :bulb::bulb: 2454. Next Greater Element IV
+- :persevere: 2454. Next Greater Element IV
 
 
 
-- :bulb::bulb: 2289. Steps to Make Array Non-decreasing
+- :persevere: 2289. Steps to Make Array Non-decreasing
 
 
 
-- :bulb::bulb: 907. Sum of Subarray Minimums
+- :persevere: 907. Sum of Subarray Minimums
 
 
 
-- :exploding_head: 1776. Car Fleet II
+- :dizzy_face: 1776. Car Fleet II
 
 
 
-- :exploding_head: 1130. Minimum Cost Tree From Leaf Values
+- :dizzy_face: 1130. Minimum Cost Tree From Leaf Values
 
 
 
@@ -1128,11 +1132,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 523. Continuous Subarray Sum
+- :thinking: 523. Continuous Subarray Sum
 
 
 
-- :bulb: 1664. Ways to Make a Fair Array
+- :thinking: 1664. Ways to Make a Fair Array
 
 
 
@@ -1140,7 +1144,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 2158. Amount of New Area Painted Each Day
+- :thinking: 2158. Amount of New Area Painted Each Day
 
 
 
@@ -1158,11 +1162,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 2158. Amount of New Area Painted Each Day
+- :thinking: 2158. Amount of New Area Painted Each Day
 
 
 
-- :exploding_head: 315. Count of Smaller Numbers After Self
+- :dizzy_face: 315. Count of Smaller Numbers After Self
 
 
 
@@ -1185,54 +1189,54 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 236. Lowest Common Ancestor of a Binary Tree
+- :thinking: 236. Lowest Common Ancestor of a Binary Tree
 
 
 
-- :bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal
+- :thinking: 105. Construct Binary Tree from Preorder and Inorder Traversal
 
 
 
-- :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
+- :thinking: 889. Construct Binary Tree from Preorder and Postorder Traversal
 
 
 
-- :bulb: 230. Kth Smallest Element in a BST
+- :thinking: 230. Kth Smallest Element in a BST
 
 
 
-- :bulb: 222. Count Complete Tree Nodes
+- :thinking: 222. Count Complete Tree Nodes
 
 
 
-- :bulb: 124. Binary Tree Maximum Path Sum
+- :thinking: 124. Binary Tree Maximum Path Sum
 
 
 
-- :bulb: 394. Decode String
+- :thinking: 394. Decode String
 
 
 
-- :bulb::bulb: 897. Increasing Order Search Tree
+- :persevere: 897. Increasing Order Search Tree
 
 
 
-- :bulb::bulb: 426. Convert Binary Search Tree to Sorted Doubly Linked List
+- :persevere: 426. Convert Binary Search Tree to Sorted Doubly Linked List
 
 
 
-- :exploding_head: 114. Flatten Binary Tree to Linked List
+- :dizzy_face: 114. Flatten Binary Tree to Linked List
 
 
 
 # [Sliding window](problem_sets/sliding_window/README.md)
 
 
-- :bulb: 1423. Maximum Points You Can Obtain from Cards
+- :thinking: 1423. Maximum Points You Can Obtain from Cards
 
 
 
-- :bulb::bulb: 30. Substring with Concatenation of All Words
+- :persevere: 30. Substring with Concatenation of All Words
 
 
 
@@ -1243,7 +1247,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 1996. The Number of Weak Characters in the Game
+- :thinking: 1996. The Number of Weak Characters in the Game
 
 
 
@@ -1251,7 +1255,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 899. Orderly Queue
+- :thinking: 899. Orderly Queue
 
 
 
@@ -1259,7 +1263,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 315. Count of Smaller Numbers After Self
+- :thinking: 315. Count of Smaller Numbers After Self
 
 
 
@@ -1275,14 +1279,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 215. Kth Largest Element in an Array
+- :thinking: 215. Kth Largest Element in an Array
 
 
 
 # [Substring matching algorithm](problem_sets/substr_matching/README.md)
 
 
-- :bulb: 718. Maximum Length of Repeated Subarray
+- :thinking: 718. Maximum Length of Repeated Subarray
 
 
 
@@ -1313,7 +1317,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 94. Binary Tree Inorder Traversal with Iterative
+- :thinking: 94. Binary Tree Inorder Traversal with Iterative
 
 
 
@@ -1325,18 +1329,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 653. Two Sum IV - Input is a BST
+- :thinking: 653. Two Sum IV - Input is a BST
 
 
 
 # [Trie](problem_sets/trie/README.md)
 
 
-- :bulb: 212. Word Search II
+- :thinking: 212. Word Search II
 
 
 
-- :exploding_head: 336. Palindrome Pairs
+- :dizzy_face: 336. Palindrome Pairs
 
 
 
@@ -1347,6 +1351,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- :bulb: 947. Most Stones Removed with Same Row or Column
+- :thinking: 947. Most Stones Removed with Same Row or Column
 
 

@@ -8,7 +8,7 @@
   like the effect of "use" current item.
 ```
 
-## [:bulb: 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) [:dart:](ones_and_zeros.h)
+## [:thinking: 474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/) [:dart:](ones_and_zeros.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -33,14 +33,14 @@ The largest subset with at most 5 0's and 3 1's is {"10", "0001", "1", "0"}, so 
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_bottom_up.h)
+## [:persevere: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_bottom_up.h)
 
 - check [below for full description](#bulb-494-target-sum-dart) ... overall dfs solution is much more straightforward
 - bottom up solution is much faster and is basically a 0/1 knapsack, but need a conversion for the problem
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) [:dart:](partition_equal_subset_sum.h)
+## [:thinking: 416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) [:dart:](partition_equal_subset_sum.h)
 
 - Really nice question that can be reduced to the classic 0/1 knapsack problem!
 
@@ -61,7 +61,7 @@ Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) [:dart:](distinct_subsequences.h)
+## [:thinking: 115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) [:dart:](distinct_subsequences.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -93,7 +93,7 @@ rabbbit
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) [:dart:](maximum_profit_in_job_scheduling.h)
+## [:thinking: 1235. Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) [:dart:](maximum_profit_in_job_scheduling.h)
 
 <details><summary markdown="span">Question</summary>
 

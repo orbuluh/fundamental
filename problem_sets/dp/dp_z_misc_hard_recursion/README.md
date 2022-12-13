@@ -1,6 +1,6 @@
 # DP: Misc hard recursion
 
-## [:bulb::bulb: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [:dart:](sum_of_subarray_mininums.h)
+## [:persevere: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [:dart:](sum_of_subarray_mininums.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -30,7 +30,7 @@ Sum of all mins are 17.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) [:dart:](arithmetic_slices_ii.h)
+## [:dizzy_face: 446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) [:dart:](arithmetic_slices_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -62,7 +62,7 @@ Explanation: Any subsequence of this array is arithmetic.
 ------------------------------------------------------------------------------
 
 
-## [:exploding_head: 629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [:dart:](k_inverse_pairs_arr.h)
+## [:dizzy_face: 629. K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) [:dart:](k_inverse_pairs_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -85,7 +85,7 @@ Explanation: Any subsequence of this array is arithmetic.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 837. New 21 Game](https://leetcode.com/problems/new-21-game/) [:dart:](new_21_pts.h)
+## [:dizzy_face: 837. New 21 Game](https://leetcode.com/problems/new-21-game/) [:dart:](new_21_pts.h)
 
 - ...hmmm
 
@@ -111,7 +111,7 @@ Answers within 10^-5 of the actual answer are considered accepted.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: :exploding_head: 376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) [:dart:](wiggle_subseq.h)
+## [:exploding_head: 376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) [:dart:](wiggle_subseq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -136,7 +136,7 @@ Answers within 10^-5 of the actual answer are considered accepted.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: :exploding_head: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing_dp.h)
+## [:exploding_head: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing_dp.h)
 
 - The brute-force backtracking solution and problem statement, some initial idea
   check [backtracking section](../backtracking/README.md#💡-465-optimal-account-balancing-🎯).

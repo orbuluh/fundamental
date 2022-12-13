@@ -73,7 +73,7 @@ Output: [2,3,6,7,1,5,4]
 
 ## Composite operations on linked list
 
-## [:bulb: 61. Rotate List](https://leetcode.com/problems/rotate-list/) [:dart:](rotate_list.h)
+## [:thinking: 61. Rotate List](https://leetcode.com/problems/rotate-list/) [:dart:](rotate_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -88,7 +88,7 @@ Output: [4,5,1,2,3]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [:dart:](remove_n_th_node_from_end.h)
+## [:thinking: 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [:dart:](remove_n_th_node_from_end.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -100,7 +100,7 @@ Given the head of a linked list, remove the nth node from the end of the list an
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
+## [:thinking: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
 
 - partial reverse basically ...
 
@@ -122,7 +122,7 @@ return:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [:dart:](palindrome_linked_list.h)
+## [:thinking: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [:dart:](palindrome_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -137,7 +137,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) [:dart:](add_2_nums_ii.h)
+## [:thinking: 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) [:dart:](add_2_nums_ii.h)
 
 <details><summary markdown="span">Question</summary>
 

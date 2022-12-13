@@ -47,7 +47,7 @@ Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) [:dart:](lru_cache.h)
+## [:persevere: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) [:dart:](lru_cache.h)
 
 <details><summary markdown="span">Question</summary>
 

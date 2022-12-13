@@ -43,7 +43,7 @@ These are the only two combinations.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
+## [:thinking: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -64,7 +64,7 @@ Output: [1,5,1]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
+## [:thinking: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
 
 - might be harder to not get TLE than you originally think!
 
@@ -95,14 +95,14 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
+## [:thinking: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
 
 - Problem description, optimal solution check -> [here](../binary_search/README.md#bulbbulb-410-split-array-largest-sumhttpsleetcodecomproblemssplit-array-largest-sum-dartsplitarrlargestsumbsh)
 - Would be nice to practice backtrack on this problem...
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
+## [:thinking: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
 
 - There is a DP solution that is much difficult to think about... check ...
 
@@ -121,7 +121,7 @@ Return the minimum number of transactions required to settle the debt.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
+## [:thinking: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -188,7 +188,7 @@ Explanation: One possible way is : left -> down -> left -> down -> right -> down
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) [:dart:](robot_room_cleaner.h)
+## [:thinking: 489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) [:dart:](robot_room_cleaner.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -241,7 +241,7 @@ layout and the initial robot's position.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) [:dart:](pac_atl_water_flow.h)
+## [:thinking: 417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) [:dart:](pac_atl_water_flow.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -290,7 +290,7 @@ Note that there are other possible paths for these cells to flow to the Pacific 
 
 ------------------------------------------------------------------------------
 
-## [:bulb::bulb: 1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) [:dart:](shortest_path_with_obstacle_elimination.h)
+## [:persevere: 1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) [:dart:](shortest_path_with_obstacle_elimination.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -325,7 +325,7 @@ Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
 ```
 
 
-## [:bulb: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) [:dart:](nearest_exit_from_entrance.h)
+## [:thinking: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) [:dart:](nearest_exit_from_entrance.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -369,7 +369,7 @@ Thus, the nearest exit is [0,2], which is 1 step away.
 
 ## Backtracking the BFS path
 
-## [:bulb::bulb: 126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [:dart:](word_ladder_ii.h)
+## [:persevere: 126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) [:dart:](word_ladder_ii.h)
 
 <details><summary markdown="span">Question</summary>
 

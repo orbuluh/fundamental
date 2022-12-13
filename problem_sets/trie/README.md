@@ -1,6 +1,6 @@
 # Trie
 
-## [:bulb: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) [:dart:](word_search_ii.h)
+## [:thinking: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) [:dart:](word_search_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -23,7 +23,7 @@ Output: ["eat","oath"]
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) [:dart:](palindrome_pair.h)
+## [:dizzy_face: 336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) [:dart:](palindrome_pair.h)
 
 <details><summary markdown="span">Question</summary>
 

@@ -33,10 +33,30 @@ Explanation: There are two falling paths with a minimum sum
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
+
+- DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There is an m x n grid with a ball.
+- The ball is initially at the position [`startRow`, `startColumn`].
+- You are allowed to move the ball to one of the four adjacent cells in the grid
+  - (possibly out of the grid crossing the grid boundary).
+- You can apply at most `maxMove` moves to the ball.
+
+Given the five integers `m`, `n`, `maxMove`, `startRow`, `startColumn`
+return the number of paths to move the ball out of the grid boundary.
+
+Since the answer can be very large, return it modulo 10^9 + 7.
+```
+
+</details>
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
+## [:thinking: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
 
 - bottom up solution is much faster, but hard to wrap up my head... -> check [here](max_score_from_mul_ops_bottom_up.h)
 
@@ -70,9 +90,9 @@ The total score is 9 + 4 + 1 = 14.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_dfs.h)
+## [:thinking: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_dfs.h)
 
-- bottom up solution is much faster and is basically a 0/1 knapsack, but need a [:exploding_head: conversion of the problem... -> check here](../dp_01_knapsack/target_sum_bottom_up.h)
+- bottom up solution is much faster and is basically a 0/1 knapsack, but need a [:dizzy_face: conversion of the problem... -> check here](../dp_01_knapsack/target_sum_bottom_up.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -103,30 +123,7 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
-
-- DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-There is an m x n grid with a ball.
-- The ball is initially at the position [`startRow`, `startColumn`].
-- You are allowed to move the ball to one of the four adjacent cells in the grid
-  - (possibly out of the grid crossing the grid boundary).
-- You can apply at most `maxMove` moves to the ball.
-
-Given the five integers `m`, `n`, `maxMove`, `startRow`, `startColumn`
-return the number of paths to move the ball out of the grid boundary.
-
-Since the answer can be very large, return it modulo 10^9 + 7.
-```
-
-</details>
-
-------------------------------------------------------------------------------
-
-## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
+## [:thinking: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
 
 - The better greedy solution -> [:dart:](../greedy/min_of_refueling_stops_greedy.h)
 
@@ -166,7 +163,7 @@ then we can arrive the target 100. We made 2 stops in total.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
+## [:thinking: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -198,7 +195,7 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head::exploding_head: 1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) [:dart:](string_compression_ii.h)
+## [:exploding_head: 1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) [:dart:](string_compression_ii.h)
 
 <details><summary markdown="span">Question</summary>
 

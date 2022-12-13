@@ -24,7 +24,7 @@ Among them, (2 + 4 + 6) contains the maximum number of integers.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
+## [:thinking: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) [:dart:](split_arr_into_consecutive_seq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -48,7 +48,7 @@ Output: [10]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) [:dart:](min_number_of_fibonacci_sum_is_k.h)
+## [:thinking: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/) [:dart:](min_number_of_fibonacci_sum_is_k.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -76,7 +76,7 @@ Explanation: For k = 19 we can use 1 + 5 + 13 = 19.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) [:dart:](remove_duplicate_letters.h)
+## [:thinking: 316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) [:dart:](remove_duplicate_letters.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -96,7 +96,7 @@ Output: "acdb"
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/partition-labels/) [:dart:](partition_labels.h)
+## [:thinking: 659. Split Array into Consecutive Subsequences](https://leetcode.com/problems/partition-labels/) [:dart:](partition_labels.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -122,7 +122,7 @@ Explanation: [1, 2, 3, 4, 5], [3, 4, 5]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 936. Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) [:dart:](stamping_the_seq.h)
+## [:thinking: 936. Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/) [:dart:](stamping_the_seq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -155,7 +155,7 @@ If we cannot obtain target from s within `10 * target.length` turns, return an e
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1055. Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) [:dart:](shortest_way_to_form_string_sol1.h)
+## [:thinking: 1055. Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) [:dart:](shortest_way_to_form_string_sol1.h)
 
 - also [theoretically faster solution 2 using inverted indicies](shortest_way_to_form_string_sol2.h)
 
@@ -188,7 +188,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 135. Candy](https://leetcode.com/problems/candy/) [:dart:](candy.h)
+## [:thinking: 135. Candy](https://leetcode.com/problems/candy/) [:dart:](candy.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -206,7 +206,7 @@ You are giving candies to these children subjected to the following requirements
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) [:dart:](min_time_to_make_rope_colorful.h)
+## [:thinking: 1578. Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/) [:dart:](min_time_to_make_rope_colorful.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -236,7 +236,7 @@ Total time = 1 + 1 = 2.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
+## [:thinking: 406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height) [:dart:](queue_reconstruct_by_height.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -261,7 +261,7 @@ e.g. [4,0] -> height 4 with no one taller or equal in the front
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team) [:dart:](max_perf_of_a_team.h)
+## [:thinking: 1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team) [:dart:](max_perf_of_a_team.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -293,13 +293,13 @@ performance = (2 + 10 + 5) * min(5, 4, 7) = 68.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops_greedy.h)
+## [:thinking: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops_greedy.h)
 
 - Question statement/other solution [:point_right: here](../dp/README.md#bulb-871-minimum-number-of-refueling-stopshttpsleetcodecomproblemsminimum-number-of-refueling-stops-dartminofrefuelingstopsh)
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
+## [:thinking: 665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) [:dart:](non_decreasing_array.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -315,7 +315,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 2136. Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) [:dart:](earliest_possible_day_of_full_bloom.h)
+## [:thinking: 2136. Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) [:dart:](earliest_possible_day_of_full_bloom.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -353,7 +353,7 @@ Plant3              P P P G B
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:dart:](construct_target_array_w_multiple_sums.h)
+## [:dizzy_face: 1354. Construct Target Array With Multiple Sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) [:dart:](construct_target_array_w_multiple_sums.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -379,7 +379,7 @@ Explanation: Start with arr = [1, 1, 1]
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head::exploding_head: 218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) [:dart:](the_sky_line.h)
+## [:exploding_head: 218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) [:dart:](the_sky_line.h)
 
 <details><summary markdown="span">Question</summary>
 

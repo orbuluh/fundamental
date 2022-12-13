@@ -50,7 +50,7 @@ Explanation: We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
+## [:thinking: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
 
 - you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
 
@@ -78,7 +78,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 57. Insert Interval](https://leetcode.com/problems/insert-interval/) [:dart:](insert_interval.h)
+## [:thinking: 57. Insert Interval](https://leetcode.com/problems/insert-interval/) [:dart:](insert_interval.h)
 
 - you complicate it to be a bisect question but in reality you don't need to...
 - and BF solution is actually harder than you think if you are not doing it correctly...
@@ -111,7 +111,7 @@ Output: [[1,2],[3,10],[12,16]]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/) [:dart:](my_calendar_iii.h)
+## [:thinking: 732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/) [:dart:](my_calendar_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -141,7 +141,7 @@ Output: [[1,2],[3,10],[12,16]]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:dart:](course_schedule_iii.h)
+## [:thinking: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:dart:](course_schedule_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -163,7 +163,7 @@ took [2,3], timeUsed = 3 <= 3 is okay to take
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) [:dart:](meeting_room_iii.h)
+## [:thinking: 2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) [:dart:](meeting_room_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
