@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 201
+# Problems listed: 202
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -250,7 +250,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 7
 
-- [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 8
+- [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 9
 
 - [DP: String match](problem_sets/dp/dp_string_match/README.md): 2
 
@@ -609,6 +609,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [DP: State transition](problem_sets/dp/dp_state_transition/README.md)
+
+
+- :ok_hand: 198. House Robber
+
 
 
 - :ok_hand: 740. Delete and Earn
