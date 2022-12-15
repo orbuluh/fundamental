@@ -67,7 +67,7 @@ Explanation: One possible longest palindromic subsequence is "bb".
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_common_subseq.h)
+## [:thinking: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_increasing_subseq.h)
 
 <details><summary markdown="span">Question</summary>
 
