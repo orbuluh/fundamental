@@ -14,6 +14,32 @@ with consecutive sequences, and O(n ^ 2) if we are dealing with subsequences" - 
 
 ------------------------------------------------------------------------------
 
+## [:thinking: 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) [:dart:](longest_common_subseq.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two strings s1 and s2,
+return the length of their longest common subsequence.
+
+If there is no common subsequence, return 0.
+
+A subsequence of a string is a new string generated from the original string
+with some characters (can be none) deleted without changing the relative order
+of the remaining characters.
+
+For example, "ace" is a subsequence of "abcde".
+A common subsequence of two strings is a subsequence that is common to both strings.
+
+Input: s1 = "abcde", s2 = "ace"
+Output: 3
+Explanation: The longest common subsequence is "ace" and its length is 3.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:thinking: 647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) [:dart:](palindromic_substring.h)
 
 - check out [516. Longest Palindromic Subsequence](#bulb-516-longest-palindromic-subsequence-dart), a really nice variation upon this one.

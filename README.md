@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 202
+# Problems listed: 203
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -256,7 +256,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 3
 
-- [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 4
+- [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 5
 
 - [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md): 4
 
@@ -674,6 +674,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [DP: Subsequence](problem_sets/dp/dp_subseq/README.md)
+
+
+- :thinking: 1143. Longest Common Subsequence
+
 
 
 - :thinking: 647. Palindromic Substrings
