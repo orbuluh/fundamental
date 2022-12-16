@@ -1,5 +1,29 @@
 # Data structure design
 
+
+## [:ok_hand: 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) [:dart:](implement_queue_using_stacks.h)
+
+- The idea of only move element once between stack is brilliant! Almost brain teaser like.
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Implement a first in first out (FIFO) queue using only two stacks.
+
+The implemented queue should support all the functions of a normal queue
+(push, peek, pop, and empty).
+
+Implement the MyQueue class:
+
+- `void push(int x)` Pushes element x to the back of the queue.
+- `int pop()` Removes the element from the front of the queue and returns it.
+- `int peek()` Returns the element at the front of the queue.
+- `boolean empty()` Returns true if the queue is empty, false otherwise.
+```
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) [:dart:](insert_delete_get_random_o1.h)
 
 <details><summary markdown="span">Question</summary>

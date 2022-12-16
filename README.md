@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 203
+# Problems listed: 204
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -262,7 +262,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 6
 
-- [Data structure design](problem_sets/ds_design/README.md): 3
+- [Data structure design](problem_sets/ds_design/README.md): 4
 
 - [Graph](problem_sets/graph/README.md): 5
 
@@ -743,6 +743,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Data structure design](problem_sets/ds_design/README.md)
+
+
+- :ok_hand: 232. Implement Queue using Stacks
+
 
 
 - :ok_hand: 380. Insert Delete GetRandom O(1)
