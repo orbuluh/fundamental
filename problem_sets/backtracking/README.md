@@ -43,7 +43,7 @@ These are the only two combinations.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
+## [:bulb: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) [:dart:](next_permutation.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -64,7 +64,7 @@ Output: [1,5,1]
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
+## [:bulb: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) [:dart:](matchsticks_to_square.h)
 
 - might be harder to not get TLE than you originally think!
 
@@ -95,14 +95,14 @@ Explanation: You cannot find a way to form a square with all the matchsticks.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
+## [:bulb: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bt.h)
 
 - Problem description, optimal solution check -> [here](../binary_search/README.md#bulbbulb-410-split-array-largest-sumhttpsleetcodecomproblemssplit-array-largest-sum-dartsplitarrlargestsumbsh)
 - Would be nice to practice backtrack on this problem...
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
+## [:bulb: 465. Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing/) [:dart:](optimal_acct_balancing.h)
 
 - There is a DP solution that is much difficult to think about... check ...
 
@@ -121,7 +121,7 @@ Return the minimum number of transactions required to settle the debt.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
+## [:bulb: 1088. Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) [:dart:](confusing_number_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -188,7 +188,7 @@ Explanation: One possible way is : left -> down -> left -> down -> right -> down
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) [:dart:](robot_room_cleaner.h)
+## [:bulb: 489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) [:dart:](robot_room_cleaner.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -241,7 +241,7 @@ layout and the initial robot's position.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) [:dart:](pac_atl_water_flow.h)
+## [:bulb: 417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) [:dart:](pac_atl_water_flow.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -325,7 +325,7 @@ Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
 ```
 
 
-## [:thinking: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) [:dart:](nearest_exit_from_entrance.h)
+## [:bulb: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) [:dart:](nearest_exit_from_entrance.h)
 
 <details><summary markdown="span">Question</summary>
 

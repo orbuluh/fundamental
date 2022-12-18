@@ -69,7 +69,7 @@ Given the root of a binary tree, calculate the vertical order traversal of the b
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) [:dart:](inorder_morris.h)
+## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) [:dart:](inorder_morris.h)
 
 - check _notes on morris: [:point_right: here](../../_notes/algorithms.md#morris-traversal)
 
@@ -114,7 +114,7 @@ in-order traversal of a binary search tree (BST):
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) [:dart:](two_sum_iv_with_bst.h)
+## [:bulb: 653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) [:dart:](two_sum_iv_with_bst.h)
 
 - could have just used easier hashmap recursive way ... but just for fun and for a better memory complexity, there is a way to do this with bst iterator basically
 

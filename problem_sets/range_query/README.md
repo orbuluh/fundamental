@@ -22,7 +22,7 @@ Output: 2
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) [:dart:](continuous_subarray_sum.h)
+## [:bulb: 523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) [:dart:](continuous_subarray_sum.h)
 - Actually a twist of prefix sum ... quite clever..
 
 <details><summary markdown="span">Question</summary>
@@ -43,7 +43,7 @@ Explanation: [23, 2, 6, 4, 7] is an continuous subarray of size 5 whose elements
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1664. Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array) [:dart:](ways_to_make_fair_array.h)
+## [:bulb: 1664. Ways to Make a Fair Array](https://leetcode.com/problems/ways-to-make-a-fair-array) [:dart:](ways_to_make_fair_array.h)
 
 - @lee215's way to make it O(1) space is :exploding_head:
 
@@ -77,7 +77,7 @@ There is 1 index that you can remove to make nums fair.
 ## The jump line method
 - Suitable when the range is constrained!
 
-## [:thinking: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted.h)
+## [:bulb: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted.h)
 - the segment tree implementation check [here](segment_tree//amt_of_new_area_painted_segment_tree.h)
 
 <details><summary markdown="span">Question</summary>

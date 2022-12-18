@@ -20,7 +20,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
+## [:bulb: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -36,7 +36,7 @@ You must write an algorithm with O(log n) runtime complexity.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [:dart:](search_in_rotated_sorted_arr.h)
+## [:bulb: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [:dart:](search_in_rotated_sorted_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -55,7 +55,7 @@ return the index of target if it is in nums, or -1 if it is not in nums.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr_ii.h)
+## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -217,7 +217,7 @@ Output
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
+## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
 
 - [:notebook: addRange pic](../../srcs/715.addRange.png) [:notebook: removeRange pic](../../srcs/715.removeRange.png)
 

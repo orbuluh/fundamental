@@ -44,7 +44,7 @@ The possible combination ways are:
 ------------------------------------------------------------------------------
 
 
-## [:thinking: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
+## [:bulb: 1155. Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) [:dart:](dice_roll_wth_tgt_sum.h)
 
 - the core idea is basically the same as [518. Coin Change II](#💡-518-coin-change-ii-🎯)
 
@@ -72,7 +72,7 @@ There are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) [:dart:](coin_change_ii.h)
+## [:bulb: 518. Coin Change II](https://leetcode.com/problems/coin-change-ii/) [:dart:](coin_change_ii.h)
 
 - [322. Coin Change](coin_change.h) is basically the same problem, just asking min way to construct target.
 - the core idea is basically the same as [1155. Number of Dice Rolls With Target Sum](#👌-1155-number-of-dice-rolls-with-target-sum-🎯)
@@ -106,7 +106,7 @@ Explanation: there are four ways to make up the amount:
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 91. Decode Ways](https://leetcode.com/problems/decode-ways/) [:dart:](decode_ways.h)
+## [:bulb: 91. Decode Ways](https://leetcode.com/problems/decode-ways/) [:dart:](decode_ways.h)
 
 <details><summary markdown="span">Question</summary>
 

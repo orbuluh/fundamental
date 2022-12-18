@@ -56,7 +56,7 @@ Since the answer can be very large, return it modulo 10^9 + 7.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
+## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
 
 - bottom up solution is much faster, but hard to wrap up my head... -> check [here](max_score_from_mul_ops_bottom_up.h)
 
@@ -90,7 +90,7 @@ The total score is 9 + 4 + 1 = 14.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_dfs.h)
+## [:bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_dfs.h)
 
 - bottom up solution is much faster and is basically a 0/1 knapsack, but need a [:dizzy_face: conversion of the problem... -> check here](../dp_01_knapsack/target_sum_bottom_up.h)
 
@@ -123,7 +123,7 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
+## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
 
 - The better greedy solution -> [:dart:](../greedy/min_of_refueling_stops_greedy.h)
 
@@ -163,7 +163,7 @@ then we can arrive the target 100. We made 2 stops in total.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
+## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
 
 <details><summary markdown="span">Question</summary>
 

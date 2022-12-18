@@ -33,7 +33,7 @@ If it is impossible for all the n nodes to receive the signal, return -1.
 
 ## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
 
-## [:thinking: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](swim_in_rising_water.h)
+## [:bulb: 778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/) [:dart:](swim_in_rising_water.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -62,7 +62,7 @@ Then you can reach bottom right
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/) [:dart:](path_with_maximum_min_value_dijkstra.h)
+## [:bulb: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value/) [:dart:](path_with_maximum_min_value_dijkstra.h)
 
 - Check DFS with binary search solution [here](../../binary_search/README.md#💡💡-1102-path-with-maximum-minimum-value-🎯)
 
@@ -86,7 +86,7 @@ Explanation: The path with the maximum score is from path 5 > 4 > 5 > 6 > 6
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) [:dart:](path_with_max_probs.h)
+## [:bulb: 1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) [:dart:](path_with_max_probs.h)
 
 - solve with both Bellmon-Ford (quicker) and Dijkstra, check code.
 
@@ -117,7 +117,7 @@ the other has 0.5 * 0.5 = 0.25.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) [:dart:](path_with_minimum_effort.h)
+## [:bulb: 1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) [:dart:](path_with_minimum_effort.h)
 
 <details><summary markdown="span">Question</summary>
 

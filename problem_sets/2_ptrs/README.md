@@ -46,7 +46,7 @@ Explanation: Your reversed string should not contain leading or trailing spaces.
 ------------------------------------------------------------------------------
 
 
-## [:thinking: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) [:dart:](3sum_closest.h)
+## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) [:dart:](3sum_closest.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -66,7 +66,7 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [:dart:](container_with_most_water.h)
+## [:bulb: 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) [:dart:](container_with_most_water.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -169,7 +169,7 @@ Output:           "LL.RR.LLRRLL.."
 - TODOs: 3. Longest Substring Without Repeating Characters
 - TODOs: 30. Substring with Concatenation of All Words
 
-## [:thinking: 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) [:dart:](min_window_substr.h)
+## [:bulb: 76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) [:dart:](min_window_substr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -193,7 +193,7 @@ Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) [:dart:](longest_substr_with_at_most_2_uniq.h)
+## [:bulb: 159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) [:dart:](longest_substr_with_at_most_2_uniq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -213,7 +213,7 @@ Explanation: The substring is "aabbb" which its length is 5.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [:dart:](find_all_anagram.h)
+## [:bulb: 438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) [:dart:](find_all_anagram.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -236,7 +236,7 @@ Output: [0,1,2]
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) [:dart:](median_from_stream.h)
+## [:bulb: 1295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) [:dart:](median_from_stream.h)
 
 <details><summary markdown="span">Question</summary>
 

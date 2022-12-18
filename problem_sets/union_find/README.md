@@ -24,6 +24,6 @@ Output: false
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [:dart:](most_stones_removed_with_same_row_or_col_uf.h)
+## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [:dart:](most_stones_removed_with_same_row_or_col_uf.h)
 
 - check problem statement and dfs solution in [here](../graph/README.md#💡-947-most-stones-removed-with-same-row-or-column-🎯)

@@ -113,7 +113,7 @@ Explanation: All possible strings are:
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [:dart:](buy_sell_stock_iv.h)
+## [:bulb: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [:dart:](buy_sell_stock_iv.h)
 
 - although understand the solution, looping in k still feel unintuitive...
 
@@ -136,7 +136,7 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) [:dart:](champagne_tower.h)
+## [:bulb: 799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) [:dart:](champagne_tower.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -184,7 +184,7 @@ full, and the two outside glasses are a quarter full
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) [:dart:](min_difficulty_of_job_schedule.h)
+## [:bulb: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) [:dart:](min_difficulty_of_job_schedule.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -219,7 +219,7 @@ you cannot find a schedule for the given jobs.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [:dart:](max_number_of_pts_with_cost.h)
+## [:bulb: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [:dart:](max_number_of_pts_with_cost.h)
 
 <details><summary markdown="span">Question</summary>
 

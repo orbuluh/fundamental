@@ -1,6 +1,6 @@
 # Trie
 
-## [:thinking: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) [:dart:](word_search_ii.h)
+## [:bulb: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) [:dart:](word_search_ii.h)
 
 <details><summary markdown="span">Question</summary>
 

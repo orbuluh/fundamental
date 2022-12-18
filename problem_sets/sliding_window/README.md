@@ -2,7 +2,7 @@
 
 - highly related to [:point_right: Monotonic Queue](../monotonic/README.md)
 
-## [:thinking: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) [:dart:](max_pts_from_cards.h)
+## [:bulb: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) [:dart:](max_pts_from_cards.h)
 
 <details><summary markdown="span">Question</summary>
 

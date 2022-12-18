@@ -62,7 +62,7 @@ Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) [:dart:](rotate_array.h)
+## [:bulb: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) [:dart:](rotate_array.h)
 <details><summary markdown="span">Question</summary>
 
 - "How to rotate 1" is actually interesting than you think ... give it a try!
@@ -78,7 +78,7 @@ Output: [5,6,7,1,2,3,4]
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) [:dart:](find_and_replace_in_string.h)
+## [:bulb: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) [:dart:](find_and_replace_in_string.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -115,7 +115,7 @@ A substring is a contiguous sequence of characters in a string.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) [:dart:](remove_adj_dups_ii.h)
+## [:bulb: 1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) [:dart:](remove_adj_dups_ii.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -209,7 +209,7 @@ Given an integer, convert it to a roman numeral.
 
 ## Hard indices manipulation
 
-## [:thinking: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) [:dart:](rotate_image.h)
+## [:bulb: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) [:dart:](rotate_image.h)
 
 - TODO: dig in optimal solution [here](rotate_image_optimal.h)
 
@@ -266,7 +266,7 @@ Explanation: making a right shift then down shift of img1 - it becomes
 
 ## Brainteaser
 
-## [:thinking: 458. Poor Pigs](https://leetcode.com/problems/poor-pigs) [:dart:](pool_pigs.h)
+## [:bulb: 458. Poor Pigs](https://leetcode.com/problems/poor-pigs) [:dart:](pool_pigs.h)
 
 <details><summary markdown="span">Question</summary>
 

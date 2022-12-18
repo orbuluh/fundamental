@@ -30,7 +30,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
+## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -45,7 +45,7 @@ Merge all the linked-lists into one sorted linked-list and return it.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post.h)
+## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post.h)
 
 - for a genius recursive solution from lee215 ... check [here](../recursion/btree_from_pre_post_recursion.h)
 

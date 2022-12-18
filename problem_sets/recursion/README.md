@@ -99,7 +99,7 @@ has been removed.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [:dart:](lca_of_btree.h)
+## [:bulb: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [:dart:](lca_of_btree.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -120,7 +120,7 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) [:dart:](btree_from_pre_and_in.h)
+## [:bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) [:dart:](btree_from_pre_and_in.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -142,13 +142,13 @@ Output: [3,9,20,8,6,15,7]
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post_recursion.h)
+## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post_recursion.h)
 
 - for more intuitive (?) divide and conquer approach and problem statement, check [here](../divide_and_conquer/README.md#💡-889-construct-binary-tree-from-preorder-and-postorder-traversal-🎯)
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) [:dart:](kth_smallest_element_in_bst.h)
+## [:bulb: 230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) [:dart:](kth_smallest_element_in_bst.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -170,7 +170,7 @@ output = 1
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) [:dart:](count_complete_tree_nodes.h)
+## [:bulb: 222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/) [:dart:](count_complete_tree_nodes.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -190,7 +190,7 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) [:dart:](binary_tree_max_path_sum.h)
+## [:bulb: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) [:dart:](binary_tree_max_path_sum.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -222,7 +222,7 @@ Explanation: The optimal path is 15 -> 20 -> 7
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 394. Decode String](https://leetcode.com/problems/decode-string/) [:dart:](decode_string.h)
+## [:bulb: 394. Decode String](https://leetcode.com/problems/decode-string/) [:dart:](decode_string.h)
 
 <details><summary markdown="span">Question</summary>
 

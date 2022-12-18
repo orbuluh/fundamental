@@ -4,13 +4,13 @@
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](daily_temperatures_monostk.h)
+## [:bulb: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](daily_temperatures_monostk.h)
 
 - check problem description and better greedy solution [here](../greedy/README.md#🤔-739-daily-temperatures-🎯)
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) [:dart:](next_greater_element_i.h)
+## [:bulb: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) [:dart:](next_greater_element_i.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -41,7 +41,7 @@ Explanation: The next greater element for each value of nums1 is as follows:
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) [:dart:](next_greater_element_ii.h)
+## [:bulb: 503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) [:dart:](next_greater_element_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -65,7 +65,7 @@ The second 1's next greater number needs to search circularly, which is also 2.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) [:dart:](next_greater_element_iii.h)
+## [:bulb: 556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) [:dart:](next_greater_element_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -92,7 +92,7 @@ Output: -1
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) [:dart:](sliding_window_maximum.h)
+## [:bulb: 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) [:dart:](sliding_window_maximum.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -123,7 +123,7 @@ Window position                Max
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/) [:dart:](jump_game_vi.h)
+## [:bulb: 1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/) [:dart:](jump_game_vi.h)
 
 - a dp problem but the core is actually monotonic stack.
 - core is the same as [239. Sliding Window Maximum](#bulb-239-sliding-window-maximum-dart)
@@ -151,7 +151,7 @@ Explanation: You can choose your jumps with [1,-1,4,3] (^ above). The sum is 7.
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) [:dart:](online_stock_span.h)
+## [:bulb: 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) [:dart:](online_stock_span.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -193,7 +193,7 @@ stockSpanner.next(85);  // return 6 ... same reasoning
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [:dart:](largest_retangle_in_histogram.h)
+## [:bulb: 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [:dart:](largest_retangle_in_histogram.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -212,7 +212,7 @@ The largest rectangle is 5 * 2 = 10
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 853. Car Fleet](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet.h)
+## [:bulb: 853. Car Fleet](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet.h)
 
 <details><summary markdown="span">Question</summary>
 

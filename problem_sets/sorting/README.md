@@ -20,7 +20,7 @@ You are given a 2D array boxTypes, where
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
+## [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
 
 - [optimal sol :dart:](count_weaker_char_o_n_sol.h)
 
@@ -51,7 +51,7 @@ Explanation: [4, 3] < [10, 4]
 
 ## Bubble sort
 
-## [:thinking: 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/) [:dart:](orderly_queue.h)
+## [:bulb: 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/) [:dart:](orderly_queue.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -83,7 +83,7 @@ Output: "aaabc"
 
 ## Merge sort
 
-## [:thinking: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
+## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
 
 - check [segment tree solution here :dart:](../range_query/segment_tree/cnt_smaller_num_after_self_segmenttree.h)
 
@@ -117,7 +117,7 @@ To the right of 1 there is 0 smaller element.
 
 ## Quick select
 
-## [:thinking: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [:dart:](kth_largest_in_an_array.h)
+## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [:dart:](kth_largest_in_an_array.h)
 
 <details><summary markdown="span">Question</summary>
 

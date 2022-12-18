@@ -24,7 +24,7 @@ Given an integer array nums, handle multiple queries of the following types:
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted_segment_tree.h)
+## [:bulb: 2158. Amount of New Area Painted Each Day](https://leetcode.com/problems/amount-of-new-area-painted-each-day/) [:dart:](amt_of_new_area_painted_segment_tree.h)
 - Other solution, problem statement [here](../README.md#💡-2158-amount-of-new-area-painted-each-day-🎯)
 
 ------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Math
 
-## [:thinking: 462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](minimum_moves_to_equal_array.h)
+## [:bulb: 462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](minimum_moves_to_equal_array.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -18,7 +18,7 @@ OUTPUT = 2
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) [:dart:](count_all_valid_delivery_options.h)
+## [:bulb: 1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) [:dart:](count_all_valid_delivery_options.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -96,7 +96,7 @@ The answer is returned as an array [x, y].
 
 ------------------------------------------------------------------------------
 
-## [:thinking: 1610. Maximum Number of Visible Points](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](max_of_visible_pts.h)
+## [:bulb: 1610. Maximum Number of Visible Points](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](max_of_visible_pts.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -134,7 +134,7 @@ Output: 1
 
 ## Fisher–Yates shuffle
 
-## [:thinking: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) [:dart:](shuffle_an_array.h)
+## [:bulb: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) [:dart:](shuffle_an_array.h)
 
 <details><summary markdown="span">Question</summary>
 
