@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 204
+# Problems listed: 206
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -268,7 +268,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 5
 
-- [Greedy](problem_sets/greedy/README.md): 16
+- [Greedy](problem_sets/greedy/README.md): 17
 
 - [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 7
 
@@ -278,7 +278,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Misc: some great algo to do something](problem_sets/misc/README.md): 12
 
-- [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 13
+- [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
 - [Range Query](problem_sets/range_query/README.md): 4
 
@@ -902,6 +902,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## Jump table approach
+
+
+
+- :thinking: 739. Daily Temperatures
+
+
+
 # [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md)
 
 
@@ -1079,6 +1087,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Monotonic Stack/Queue](problem_sets/monotonic/README.md)
+
+
+- :thinking: 739. Daily Temperatures
+
 
 
 - :thinking: 496. Next Greater Element I

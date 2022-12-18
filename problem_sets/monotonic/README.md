@@ -2,6 +2,14 @@
 
 - [:notebook:](../../_notes/README.md#monotonic-queue)
 
+------------------------------------------------------------------------------
+
+## [:thinking: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](daily_temperatures_monostk.h)
+
+- check problem description and better greedy solution [here](../greedy/README.md#🤔-739-daily-temperatures-🎯)
+
+------------------------------------------------------------------------------
+
 ## [:thinking: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) [:dart:](next_greater_element_i.h)
 
 <details><summary markdown="span">Question</summary>
