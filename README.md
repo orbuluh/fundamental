@@ -234,7 +234,7 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 206
+# Problems listed: 207
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
@@ -298,7 +298,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Trie](problem_sets/trie/README.md): 2
 
-- [Union find](problem_sets/union_find/README.md): 2
+- [Union find](problem_sets/union_find/README.md): 3
 
 ---
 
@@ -1369,6 +1369,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Union find](problem_sets/union_find/README.md)
+
+
+- :ok_hand: 1971. Find if Path Exists in Graph
+
 
 
 - :ok_hand: 990. Satisfiability of Equality Equations
