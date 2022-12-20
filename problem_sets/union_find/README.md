@@ -8,6 +8,7 @@
 
 - Can also do it in a dfs way, but union find is much faster.
 - Nice basic problem to practice union find!
+- Check out [841. Keys and Rooms](../backtracking/README.md#👌-841-keys-and-rooms-🎯) -> very similar to this one but can't do union find, Why? because it's directed!
 
 <details><summary markdown="span">Question</summary>
 

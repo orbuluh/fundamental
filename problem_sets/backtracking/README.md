@@ -323,7 +323,38 @@ Such path is (0,0) -> (0,1) -> (0,2) -> (1,2) -> (2,2) -> (3,2) -> (4,2).
   priority queue, not when you pop the point out. Otherwise it's easily
   exploding the search space with repeated point.
 ```
+------------------------------------------------------------------------------
 
+## [:ok_hand: 841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms) [:dart:](keys_and_rooms.h)
+
+- check out [1971. Find if Path Exists in Grap](../union_find/README.md#👌-1971-find-if-path-exists-in-graph-🎯), similar, but can solve with union find because it's undirected graph
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There are n rooms labeled from 0 to n - 1
+- all the rooms are locked except for room 0.
+- Your goal is to visit all the rooms.
+- However, you cannot enter a locked room without having its key.
+
+When you visit a room, you may find a set of distinct keys in it.
+- Each key has a number on it, denoting which room it unlocks, and
+- you can take all of them with you to unlock the other rooms.
+
+Given an array rooms where rooms[i] is the set of keys that you can obtain if
+you visited room i, return true if you can visit all the rooms, or false otherwise.
+
+Input: rooms = [[1],[2],[3],[]]
+Output: true
+
+Input: rooms = [[1,3],[3,0,1],[2],[0]]
+Output: false
+Explanation: We can not enter room number 2 since the only key that unlocks it is in that room.
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) [:dart:](nearest_exit_from_entrance.h)
 
