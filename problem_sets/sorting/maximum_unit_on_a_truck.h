@@ -4,7 +4,7 @@
 
     // But since the question states that ...
     // 1 <= numberOfBoxesi, numberOfUnitsPerBoxi <= 1000
-    // you could actually make the solution to be O(n) with counting sort!
+    // you could actually make the solution to be O(n) with bucket sort!
 
     int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
         std::sort(boxTypes.begin(), boxTypes.end(),

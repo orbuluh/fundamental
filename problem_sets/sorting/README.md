@@ -1,23 +1,5 @@
 # Sorting
 
-## [:wink: 1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) [:dart:](maximum_unit_on_a_truck.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-You are assigned to put some amount of boxes onto one truck.
-You are given a 2D array boxTypes, where
-- boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:
-    - numberOfBoxesi is the number of boxes of type i.
-    - numberOfUnitsPerBoxi is the number of units in each box of the type i.
-- You are also given an integer truckSize,
-  which is the maximum number of boxes that can be put on the truck.
-  You can choose any boxes to put on the truck as long as the number of boxes does not exceed truckSize.
-- Return the maximum total number of units that can be put on the truck.
-```
-
-</details>
-
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
@@ -43,6 +25,28 @@ Input: properties = [[1,5],[10,4],[4,3]]
 Output: 1
 Explanation: [4, 3] < [10, 4]
 
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## Bucket sort
+
+## [:bulb: 1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) [:dart:](maximum_unit_on_a_truck.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are assigned to put some amount of boxes onto one truck.
+You are given a 2D array boxTypes, where
+- boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]:
+    - numberOfBoxesi is the number of boxes of type i.
+    - numberOfUnitsPerBoxi is the number of units in each box of the type i.
+- You are also given an integer truckSize,
+  which is the maximum number of boxes that can be put on the truck.
+  You can choose any boxes to put on the truck as long as the number of boxes does not exceed truckSize.
+- Return the maximum total number of units that can be put on the truck.
 ```
 
 </details>

@@ -12,6 +12,7 @@ template = environment.get_template("readme.jinja")
 
 context = {}
 content_dump = defaultdict(list)
+difficulty = defaultdict(int)
 folder_title = {}
 cnt_per_chapter = {}
 total_count = 0
@@ -30,6 +31,8 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
             if m:
                 title = re.search(problemTitle, line).group(1)
                 content_dump[folder] += [title]
+                difficultyEmoji = re.search("(:.*?:)\s", title).group(1)
+                difficulty[difficultyEmoji] += 1
                 count += 1
             else:
                 m = re.search("^#.*?\s(.*)", line)
@@ -86,6 +89,7 @@ for posix_file_path in Path(f"{scriptDir}/../_notes").rglob('*.md'):
 context = {
     "folder_title": folder_title,
     "content_dump": content_dump,
+    "difficulty": difficulty,
     "cnt_per_chapter": cnt_per_chapter,
     "total_count": total_count,
     "note_dump": note_dump,

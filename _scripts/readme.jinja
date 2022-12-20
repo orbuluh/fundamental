@@ -25,6 +25,13 @@ Quote from [HTDP](https://htdp.org/)
 <br/>
 
 # Problems listed: {{ total_count }}
+
+:ok_hand: x {{difficulty[':ok_hand:']}}
+:bulb: x {{difficulty[':bulb:']}}
+:persevere: x {{difficulty[':persevere:']}}
+:dizzy_face: x {{difficulty[':dizzy_face:']}}
+:exploding_head: x {{difficulty[':exploding_head:']}}
+
 {% for folder, contents in content_dump.items()|sort(attribute='0')%}
 - [{{ folder_title[folder] }}]({{ folder }}/README.md): {{ cnt_per_chapter[folder] }}
 {% endfor %}

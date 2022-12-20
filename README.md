@@ -236,6 +236,13 @@ Quote from [HTDP](https://htdp.org/)
 
 # Problems listed: 208
 
+:ok_hand: x 54
+:bulb: x 116
+:persevere: x 18
+:dizzy_face: x 15
+:exploding_head: x 5
+
+
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
 - [Backtracking](problem_sets/backtracking/README.md): 13
@@ -1271,11 +1278,15 @@ Quote from [HTDP](https://htdp.org/)
 # [Sorting](problem_sets/sorting/README.md)
 
 
-- :wink: 1710. Maximum Units on a Truck
-
-
-
 - :bulb: 1996. The Number of Weak Characters in the Game
+
+
+
+## Bucket sort
+
+
+
+- :bulb: 1710. Maximum Units on a Truck
 
 
 
