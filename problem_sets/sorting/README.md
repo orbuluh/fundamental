@@ -2,9 +2,9 @@
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) [:dart:](count_weaker_char.h)
+## [:bulb: 1996. The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) / [:man_technologist:](count_weaker_char.h)
 
-- [optimal sol :dart:](count_weaker_char_o_n_sol.h)
+- [optimal sol](count_weaker_char_o_n_sol.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -33,7 +33,7 @@ Explanation: [4, 3] < [10, 4]
 
 ## Bucket sort
 
-## [:bulb: 1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) [:dart:](maximum_unit_on_a_truck.h)
+## [:bulb: 1710. Maximum Units on a Truck](https://leetcode.com/problems/maximum-units-on-a-truck/) / [:man_technologist:](maximum_unit_on_a_truck.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -55,7 +55,7 @@ You are given a 2D array boxTypes, where
 
 ## Bubble sort
 
-## [:bulb: 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/) [:dart:](orderly_queue.h)
+## [:bulb: 899. Orderly Queue](https://leetcode.com/problems/orderly-queue/) / [:man_technologist:](orderly_queue.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -87,9 +87,9 @@ Output: "aaabc"
 
 ## Merge sort
 
-## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) [:dart:](cnt_smaller_num_after_self_mergesort.h)
+## [:bulb: 315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) / [:man_technologist:](cnt_smaller_num_after_self_mergesort.h)
 
-- check [segment tree solution here :dart:](../range_query/segment_tree/cnt_smaller_num_after_self_segmenttree.h)
+- check [segment tree solution here](../range_query/segment_tree/cnt_smaller_num_after_self_segmenttree.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -113,7 +113,7 @@ To the right of 1 there is 0 smaller element.
 
 ## Circular sort
 
-## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) [:dart:](set_mismatch_circular_sort.h)
+## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) / [:man_technologist:](set_mismatch_circular_sort.h)
 
 - Other solution, problem statement [here](../bitwise/README.md#👌-645-set-mismatch-🎯)
 
@@ -121,7 +121,7 @@ To the right of 1 there is 0 smaller element.
 
 ## Quick select
 
-## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) [:dart:](kth_largest_in_an_array.h)
+## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) / [:man_technologist:](kth_largest_in_an_array.h)
 
 <details><summary markdown="span">Question</summary>
 

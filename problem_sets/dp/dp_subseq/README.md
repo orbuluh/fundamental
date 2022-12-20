@@ -14,7 +14,7 @@ with consecutive sequences, and O(n ^ 2) if we are dealing with subsequences" - 
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) [:dart:](longest_common_subseq.h)
+## [:bulb: 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) / [:man_technologist:](longest_common_subseq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -40,7 +40,7 @@ Explanation: The longest common subsequence is "ace" and its length is 3.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) [:dart:](palindromic_substring.h)
+## [:bulb: 647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) / [:man_technologist:](palindromic_substring.h)
 
 - check out [516. Longest Palindromic Subsequence](#bulb-516-longest-palindromic-subsequence-dart), a really nice variation upon this one.
 
@@ -64,7 +64,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) [:dart:](longest_palindromic_subseq.h)
+## [:bulb: 516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) / [:man_technologist:](longest_palindromic_subseq.h)
 
 - beautiful extension from [647. Palindromic Substrings](#bulb-647-palindromic-substrings-dart)
 
@@ -93,7 +93,7 @@ Explanation: One possible longest palindromic subsequence is "bb".
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) [:dart:](longest_increasing_subseq.h)
+## [:bulb: 300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) / [:man_technologist:](longest_increasing_subseq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -113,7 +113,7 @@ Explanation: The longest increasing subsequence is [2,3,7,101], therefore the le
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) [:dart:](min_cost_tree_from_leaf_values_dp.h)
+## [:bulb: 1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) / [:man_technologist:](min_cost_tree_from_leaf_values_dp.h)
 
 - DP solution is actually almost pure brute force solution... the actual O(n) sol and problem statement is [here](../../monotonic/README.md#🤯-1130-minimum-cost-tree-from-leaf-values-🎯)
 

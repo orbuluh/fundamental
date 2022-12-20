@@ -2,7 +2,7 @@
 
 - highly related to [:point_right: Monotonic Queue](../monotonic/README.md)
 
-## [:bulb: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) [:dart:](max_pts_from_cards.h)
+## [:bulb: 1423. Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) / [:man_technologist:](max_pts_from_cards.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -31,7 +31,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) [:dart:](substr_with_concat_of_all.h)
+## [:persevere: 30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) / [:man_technologist:](substr_with_concat_of_all.h)
 
 <details><summary markdown="span">Question</summary>
 

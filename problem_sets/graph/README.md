@@ -4,7 +4,7 @@
 
 ## Bipartite
 
-## [:bulb: 785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) [:dart:](is_graph_bipartite.h)
+## [:bulb: 785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) / [:man_technologist:](is_graph_bipartite.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -36,7 +36,7 @@ A graph is **bipartite** if
 
 ## Model as graph
 
-## [:bulb: 2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) [:dart:](find_all_possible_recipes.h)
+## [:bulb: 2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) / [:man_technologist:](find_all_possible_recipes.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -72,7 +72,7 @@ We can create "sandwich" since we have the ingredient "meat" and can create the 
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 1153. String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/) [:dart:](string_to_another_string.h)
+## [:dizzy_face: 1153. String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/) / [:man_technologist:](string_to_another_string.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -101,7 +101,7 @@ gives eebee, and str1 will never equal to str2.
 
 - Can be done through [union find](../union_find/most_stones_removed_with_same_row_or_col_uf.h) as well
 
-## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [:dart:](most_stones_removed_with_same_row_or_col.h)
+## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) / [:man_technologist:](most_stones_removed_with_same_row_or_col.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -134,7 +134,7 @@ Stone [0,0] cannot be removed since it does not share a row/column with another 
 
 ## [Topological sort](../../_notes/graph.md#topological-sort)
 
-## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) [:dart:](alien_dictionary.h)
+## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) / [:man_technologist:](alien_dictionary.h)
 
 <details><summary markdown="span">Question</summary>
 

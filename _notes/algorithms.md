@@ -14,7 +14,7 @@
   - e.g. **think binary search as a binary insert problem instead**
   - WHY? Because (2) or (3) has only one answer, while (1) could have multiple.
   - And because (1) could have multiple result, the implementation is easy to get wrong!
-- So how to do it in binary insert way? - check [here :dart:](../binary_search/first_and_last_pos_of_tgt_in_arr.h)
+- So how to do it in binary insert way? - check [here](../binary_search/first_and_last_pos_of_tgt_in_arr.h)
 
 **Key 1: we want to make sure we don't go into infinite loop. How?**
 

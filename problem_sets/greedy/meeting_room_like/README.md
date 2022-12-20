@@ -1,6 +1,6 @@
 # Meeting room like questions
 
-## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) [:dart:](merge_interval.h)
+## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) / [:man_technologist:](merge_interval.h)
 
 - Also check: [715. Range Module](../../binary_search/README.md#💡-715-range-module-🎯)
 
@@ -21,7 +21,7 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) [:dart:](video_stitching.h)
+## [:ok_hand: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) / [:man_technologist:](video_stitching.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -50,9 +50,9 @@ Explanation: We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) [:dart:](employee_free_time.h)
+## [:bulb: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) / [:man_technologist:](employee_free_time.h)
 
-- you can also solve this through binary search -> checking `addRange` in [:dart:](../binary_search/range_module.h)
+- you can also solve this through binary search -> checking `addRange` in / [:man_technologist:](../binary_search/range_module.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -78,7 +78,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 57. Insert Interval](https://leetcode.com/problems/insert-interval/) [:dart:](insert_interval.h)
+## [:bulb: 57. Insert Interval](https://leetcode.com/problems/insert-interval/) / [:man_technologist:](insert_interval.h)
 
 - you complicate it to be a bisect question but in reality you don't need to...
 - and BF solution is actually harder than you think if you are not doing it correctly...
@@ -111,7 +111,7 @@ Output: [[1,2],[3,10],[12,16]]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/) [:dart:](my_calendar_iii.h)
+## [:bulb: 732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/) / [:man_technologist:](my_calendar_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -141,7 +141,7 @@ Output: [[1,2],[3,10],[12,16]]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) [:dart:](course_schedule_iii.h)
+## [:bulb: 630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) / [:man_technologist:](course_schedule_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -163,7 +163,7 @@ took [2,3], timeUsed = 3 <= 3 is okay to take
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) [:dart:](meeting_room_iii.h)
+## [:bulb: 2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) / [:man_technologist:](meeting_room_iii.h)
 
 <details><summary markdown="span">Question</summary>
 

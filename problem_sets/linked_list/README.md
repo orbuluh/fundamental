@@ -2,7 +2,7 @@
 
 ## Basic operations on linked list
 
-## [:ok_hand: 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [:dart:](reversed_linked_list.h)
+## [:ok_hand: 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) / [:man_technologist:](reversed_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -14,7 +14,7 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) [:dart:](reversed_linked_list.h)
+## [:ok_hand: 206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) / [:man_technologist:](reversed_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -26,7 +26,7 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) [:dart:](middle_of_the_linked_list.h)
+## [:ok_hand: 876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) / [:man_technologist:](middle_of_the_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -40,7 +40,7 @@ If there are two middle nodes, return the second middle node.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) [:dart:](odd_even_linked_list.h)
+## [:ok_hand: 328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) / [:man_technologist:](odd_even_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -73,7 +73,7 @@ Output: [2,3,6,7,1,5,4]
 
 ## Composite operations on linked list
 
-## [:bulb: 61. Rotate List](https://leetcode.com/problems/rotate-list/) [:dart:](rotate_list.h)
+## [:bulb: 61. Rotate List](https://leetcode.com/problems/rotate-list/) / [:man_technologist:](rotate_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -88,7 +88,7 @@ Output: [4,5,1,2,3]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) [:dart:](remove_n_th_node_from_end.h)
+## [:bulb: 19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) / [:man_technologist:](remove_n_th_node_from_end.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -100,7 +100,7 @@ Given the head of a linked list, remove the nth node from the end of the list an
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) [:dart:](reversed_linked_list_ii.h)
+## [:bulb: 92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) / [:man_technologist:](reversed_linked_list_ii.h)
 
 - partial reverse basically ...
 
@@ -122,7 +122,7 @@ return:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) [:dart:](palindrome_linked_list.h)
+## [:bulb: 234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) / [:man_technologist:](palindrome_linked_list.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -137,7 +137,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) [:dart:](add_2_nums_ii.h)
+## [:bulb: 445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) / [:man_technologist:](add_2_nums_ii.h)
 
 <details><summary markdown="span">Question</summary>
 

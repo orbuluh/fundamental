@@ -5,7 +5,7 @@
 - or problem that likely you can convert to some bottom-up ... but just hard to think of
 ```
 
-## [:ok_hand: 931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/) [:dart:](minimum_falling_path_sum.h)
+## [:ok_hand: 931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/) / [:man_technologist:](minimum_falling_path_sum.h)
 
 - as grid nature, the intuition would be dfs + memorization. But you will see it's basically bottom up at the end.
 
@@ -33,7 +33,7 @@ Explanation: There are two falling paths with a minimum sum
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) [:dart:](out_of_bound_path_sol1.h)
+## [:ok_hand: 576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) / [:man_technologist:](out_of_bound_path_sol1.h)
 
 - DF + memorization is straight forward (and faster), the food for thought is doing in the [other way](out_of_bound_path_sol2.h).
 
@@ -56,7 +56,7 @@ Since the answer can be very large, return it modulo 10^9 + 7.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) [:dart:](max_score_from_mul_ops.h)
+## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) / [:man_technologist:](max_score_from_mul_ops.h)
 
 - bottom up solution is much faster, but hard to wrap up my head... -> check [here](max_score_from_mul_ops_bottom_up.h)
 
@@ -90,7 +90,7 @@ The total score is 9 + 4 + 1 = 14.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) [:dart:](target_sum_dfs.h)
+## [:bulb: 494. Target Sum](https://leetcode.com/problems/target-sum/) / [:man_technologist:](target_sum_dfs.h)
 
 - bottom up solution is much faster and is basically a 0/1 knapsack, but need a [:dizzy_face: conversion of the problem... -> check here](../dp_01_knapsack/target_sum_bottom_up.h)
 
@@ -123,9 +123,9 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) [:dart:](min_of_refueling_stops.h)
+## [:bulb: 871. Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) / [:man_technologist:](min_of_refueling_stops.h)
 
-- The better greedy solution -> [:dart:](../greedy/min_of_refueling_stops_greedy.h)
+- The better greedy solution -> / [:man_technologist:](../greedy/min_of_refueling_stops_greedy.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -163,7 +163,7 @@ then we can arrive the target 100. We made 2 stops in total.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) [:dart:](paint_house_iii.h)
+## [:bulb: 1473. Paint House III](https://leetcode.com/problems/paint-house-iii/) / [:man_technologist:](paint_house_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -195,7 +195,7 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) [:dart:](string_compression_ii.h)
+## [:exploding_head: 1531. String Compression II](https://leetcode.com/problems/string-compression-ii/) / [:man_technologist:](string_compression_ii.h)
 
 <details><summary markdown="span">Question</summary>
 

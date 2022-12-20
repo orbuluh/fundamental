@@ -3,7 +3,7 @@
 
 ## [Two's complement](../../_notes/bitwise.md#twos-complement)
 
-## [:bulb: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) [:dart:](sum_of_2_ints.h)
+## [:bulb: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) / [:man_technologist:](sum_of_2_ints.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -14,7 +14,7 @@ Given two integers a and b, return the sum of the two integers without using the
 ------------------------------------------------------------------------------
 
 ## basic operations
-## [:ok_hand: 190. Reverse Bits](https://leetcode.com/problems/missing-number/) [:dart:](reverse_bits.h)
+## [:ok_hand: 190. Reverse Bits](https://leetcode.com/problems/missing-number/) / [:man_technologist:](reverse_bits.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -27,7 +27,7 @@ Output:    964176192 (00111001011110000010100101000000)
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 338. Counting Bits](https://leetcode.com/problems/counting-bits/) [:dart:](counting_bits.h)
+## [:ok_hand: 338. Counting Bits](https://leetcode.com/problems/counting-bits/) / [:man_technologist:](counting_bits.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -44,7 +44,7 @@ Output: [0,1,1,2,1,2]
 
 ## xor: `a^a = 0; b^0 = b; b^a^a = b`
 
-## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) [:dart:](missing_num.h)
+## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/missing-number/) / [:man_technologist:](missing_num.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -57,7 +57,7 @@ Output: 2
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) [:dart:](set_mismatch.h)
+## [:ok_hand: 645. Set Mismatch](https://leetcode.com/problems/set-mismatch/) / [:man_technologist:](set_mismatch.h)
 - similar to [268](#ok_hand-268-missing-number-dart)
 - check [circular solution here](../sorting/set_mismatch_circular_sort.h)
 - there is also mathematical solution ... ignore here...
@@ -91,7 +91,7 @@ Output: [1,2]
 
 ## Reset the last set bit: `x & (x - 1)`
 
-## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) [:dart:](number_of_setbit.h)
+## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) / [:man_technologist:](number_of_setbit.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -104,7 +104,7 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 
 ## Detect power of 2: `(x & (x - 1) == 0)`
 
-## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) [:dart:](concat_consecutive_binary_nums.h)
+## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) / [:man_technologist:](concat_consecutive_binary_nums.h)
 - [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/math.md#modular-multiplication-property)
 
 <details><summary markdown="span">Question</summary>

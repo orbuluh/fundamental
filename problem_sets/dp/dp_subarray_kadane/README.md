@@ -3,7 +3,7 @@
 > "rule of thumb" is that we should search for O(n) solution if we are dealing
 with consecutive sequences, and O(n ^ 2) if we are dealing with subsequences" - @votrubac
 
-## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) [:dart:](max_subarray.h)
+## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) / [:man_technologist:](max_subarray.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -21,7 +21,7 @@ Output: 23
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) [:dart:](max_sum_of_rectangle_le_k.h)
+## [:bulb: 363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) / [:man_technologist:](max_sum_of_rectangle_le_k.h)
 
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
 - Easier preliminary question of this one: [560. Subarray Sum Equals K](../range_query/README.md#okhand-560-subarray-sum-equals-khttpsleetcodecomproblemssubarray-sum-equals-k-dartrangesumequaltokh)
@@ -42,7 +42,7 @@ Output: 23
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) [:dart:](substring_w_largest_variance.h)
+## [:dizzy_face: 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) / [:man_technologist:](substring_w_largest_variance.h)
 
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
 

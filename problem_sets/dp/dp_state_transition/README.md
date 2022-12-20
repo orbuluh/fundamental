@@ -1,6 +1,6 @@
 # DP: State transition
 
-## [:ok_hand: 198. House Robber](https://leetcode.com/problems/house-robber) [:dart:](house_robber.h)
+## [:ok_hand: 198. House Robber](https://leetcode.com/problems/house-robber) / [:man_technologist:](house_robber.h)
 
 - The classic question for state transition like problems
 - Check out the `std::exchange` usage in code!
@@ -24,7 +24,7 @@ police.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) [:dart:](delete_and_earn.h)
+## [:ok_hand: 740. Delete and Earn](https://leetcode.com/problems/delete-and-earn/) / [:man_technologist:](delete_and_earn.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -58,7 +58,7 @@ You earn a total of 9 points.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) [:dart:](buy_sell_stock_with_cooldown.h)
+## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) / [:man_technologist:](buy_sell_stock_with_cooldown.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -84,7 +84,7 @@ Explanation: transactions = [buy, sell, cool-down, buy, sell]
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) [:dart:](count_vowels_permutation.h)
+## [:ok_hand: 1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) / [:man_technologist:](count_vowels_permutation.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -113,7 +113,7 @@ Explanation: All possible strings are:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) [:dart:](buy_sell_stock_iv.h)
+## [:bulb: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) / [:man_technologist:](buy_sell_stock_iv.h)
 
 - although understand the solution, looping in k still feel unintuitive...
 
@@ -136,7 +136,7 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) [:dart:](champagne_tower.h)
+## [:bulb: 799. Champagne Tower](https://leetcode.com/problems/champagne-tower/) / [:man_technologist:](champagne_tower.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -184,7 +184,7 @@ full, and the two outside glasses are a quarter full
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) [:dart:](min_difficulty_of_job_schedule.h)
+## [:bulb: 1335. Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) / [:man_technologist:](min_difficulty_of_job_schedule.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -219,7 +219,7 @@ you cannot find a schedule for the given jobs.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) [:dart:](max_number_of_pts_with_cost.h)
+## [:bulb: 1937. Maximum Number of Points with Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) / [:man_technologist:](max_number_of_pts_with_cost.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -253,7 +253,7 @@ Your final score is 11 - 2 = 9.
 
 ------------------------------------------------------------------------------
 
-## [:exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) [:dart:](race_car.h)
+## [:exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) / [:man_technologist:](race_car.h)
 
 <details><summary markdown="span">Question</summary>
 

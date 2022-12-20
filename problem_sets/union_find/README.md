@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) [:dart:](find_if_path_exists_in_graph.h)
+## [:ok_hand: 1971. Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) / [:man_technologist:](find_if_path_exists_in_graph.h)
 
 - Can also do it in a dfs way, but union find is much faster.
 - Nice basic problem to practice union find!
@@ -42,7 +42,7 @@ There are two paths from vertex 0 to vertex 2:
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) [:dart:](satisfiability_of_eqs.h)
+## [:ok_hand: 990. Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) / [:man_technologist:](satisfiability_of_eqs.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -62,7 +62,7 @@ Output: false
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) [:dart:](most_stones_removed_with_same_row_or_col_uf.h)
+## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) / [:man_technologist:](most_stones_removed_with_same_row_or_col_uf.h)
 
 - check problem statement and dfs solution in [here](../graph/README.md#💡-947-most-stones-removed-with-same-row-or-column-🎯)
 

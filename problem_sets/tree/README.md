@@ -6,7 +6,7 @@
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) [:dart:](lca_of_bst.h)
+## [:ok_hand: 235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) / [:man_technologist:](lca_of_bst.h)
 
 - compare to [LCA of a binary tree](#ok_hand-236-lowest-common-ancestor-of-a-binary-tree-dart)
 
@@ -21,7 +21,7 @@ find the lowest common ancestor (LCA) node of two given nodes in the BST.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) [:dart:](lca_of_bt.h)
+## [:ok_hand: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) / [:man_technologist:](lca_of_bt.h)
 
 - compare to [LCA of BST](#ok_hand-235-lowest-common-ancestor-of-a-binary-search-tree-dart)
 
@@ -36,7 +36,7 @@ find the lowest common ancestor (LCA) of two given nodes in the tree.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) [:dart:](de_serialize_binary_tree.h)
+## [:ok_hand: 297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) / [:man_technologist:](de_serialize_binary_tree.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -50,7 +50,7 @@ Serialize and deserialize a binary tree.
 
 ## Tree traversal
 
-## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) [:dart:](vertical_order_traversal.h)
+## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) / [:man_technologist:](vertical_order_traversal.h)
 
 - tips: [Tree like DS are sorted by keys!](../../_notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
 
@@ -69,7 +69,7 @@ Given the root of a binary tree, calculate the vertical order traversal of the b
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) [:dart:](inorder_morris.h)
+## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) / [:man_technologist:](inorder_morris.h)
 
 - check _notes on morris: [:point_right: here](../../_notes/algorithms.md#morris-traversal)
 
@@ -87,7 +87,7 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 
 - check [_notes :notebook:](../../_notes/data_structures.md#bst)
 
-## [:ok_hand: 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) [:dart:](bst_iterator.h)
+## [:ok_hand: 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) / [:man_technologist:](bst_iterator.h)
 
 - check [653 below](#💡-653-two-sum-iv---input-is-a-bst-🎯) as a variant of this one
 
@@ -114,7 +114,7 @@ in-order traversal of a binary search tree (BST):
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) [:dart:](two_sum_iv_with_bst.h)
+## [:bulb: 653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) / [:man_technologist:](two_sum_iv_with_bst.h)
 
 - could have just used easier hashmap recursive way ... but just for fun and for a better memory complexity, there is a way to do this with bst iterator basically
 

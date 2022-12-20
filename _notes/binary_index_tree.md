@@ -35,7 +35,7 @@
 
 **Overall structure**
 - Space Complexity: O(N) for declaring another array of size N
-- Implementation details check [this question :dart:](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
+- Implementation details check [this question](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
   - Some details about how we ignore index 0, and how to construct/update.
 ![](../srcs/binary_index_tree.png)
 
@@ -55,7 +55,7 @@ void update(int x, int valDelta) {
     }
 }
 ```
-- Implementation details check: [this question :dart:](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
+- Implementation details check: [this question](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
 
 **Query the tree**
 - Recall that BST[i] is responsible for range i and LSB(i) range below i.
@@ -77,7 +77,7 @@ int query(int x) // returns the sum of first x elements in given array a[]
   - LSB(10) = 2, so next we find LSB(10 - 2), e.g. 8
   - LSB(8) = 8, so next we find LSB(8 - 8) = 0. e.g. loop finish
 - the loop iterates at most the number of bits in x, so the query operation takes O(log2(n))
-- Implementation details check: [this question :dart:](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
+- Implementation details check: [this question](../range_query/binary_indexed_tree/range_sum_query_mutable_binary_indexed_tree.h)
 
 
 **The "binary indexed" property**

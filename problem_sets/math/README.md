@@ -1,6 +1,6 @@
 # Math
 
-## [:bulb: 462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](minimum_moves_to_equal_array.h)
+## [:bulb: 462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) / [:man_technologist:](minimum_moves_to_equal_array.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -18,7 +18,7 @@ OUTPUT = 2
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) [:dart:](count_all_valid_delivery_options.h)
+## [:bulb: 1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) / [:man_technologist:](count_all_valid_delivery_options.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -45,7 +45,7 @@ Explanation: All possible orders:
 
 ## Geometry
 
-## [:ok_hand: 593. Valid Square](https://leetcode.com/problems/valid-square/) [:dart:](valid_square.h)
+## [:ok_hand: 593. Valid Square](https://leetcode.com/problems/valid-square/) / [:man_technologist:](valid_square.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -70,7 +70,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 478. Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle) [:dart:](gen_random_pt_in_circle.h)
+## [:ok_hand: 478. Generate Random Point in a Circle](https://leetcode.com/problems/generate-random-point-in-a-circle) / [:man_technologist:](gen_random_pt_in_circle.h)
 
 - more of a if you know you know question... take a note anyway
 
@@ -96,7 +96,7 @@ The answer is returned as an array [x, y].
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1610. Maximum Number of Visible Points](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) [:dart:](max_of_visible_pts.h)
+## [:bulb: 1610. Maximum Number of Visible Points](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) / [:man_technologist:](max_of_visible_pts.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -134,7 +134,7 @@ Output: 1
 
 ## Fisher–Yates shuffle
 
-## [:bulb: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) [:dart:](shuffle_an_array.h)
+## [:bulb: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) / [:man_technologist:](shuffle_an_array.h)
 
 <details><summary markdown="span">Question</summary>
 

@@ -1,6 +1,6 @@
 # Misc: some great algo to do something
 
-## [:ok_hand: 916. Word Subsets](https://leetcode.com/problems/word-subsets/) [:dart:](word_subsets.h)
+## [:ok_hand: 916. Word Subsets](https://leetcode.com/problems/word-subsets/) / [:man_technologist:](word_subsets.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -21,7 +21,7 @@ You are given two string arrays words1 and words2.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) [:dart:](inc_triplet_subseq.h)
+## [:ok_hand: 334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) / [:man_technologist:](inc_triplet_subseq.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -38,7 +38,7 @@ If no such indices exists, return false.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) [:dart:](group_shifted_strings.h)
+## [:ok_hand: 249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/) / [:man_technologist:](group_shifted_strings.h)
 
 - asked in peer mock, how to hash the input is actually easy but you complicated it...
 
@@ -62,7 +62,7 @@ Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) [:dart:](rotate_array.h)
+## [:bulb: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) / [:man_technologist:](rotate_array.h)
 <details><summary markdown="span">Question</summary>
 
 - "How to rotate 1" is actually interesting than you think ... give it a try!
@@ -78,7 +78,7 @@ Output: [5,6,7,1,2,3,4]
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) [:dart:](find_and_replace_in_string.h)
+## [:bulb: 833. Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) / [:man_technologist:](find_and_replace_in_string.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -115,7 +115,7 @@ A substring is a contiguous sequence of characters in a string.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) [:dart:](remove_adj_dups_ii.h)
+## [:bulb: 1209. Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) / [:man_technologist:](remove_adj_dups_ii.h)
 <details><summary markdown="span">Question</summary>
 
 ```markdown
@@ -141,7 +141,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) [:dart:](score_of_parentheses.h)
+## [:dizzy_face: 856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) / [:man_technologist:](score_of_parentheses.h)
 
 - the more intuitive way to do this ... though also not as easy as you think ... [stack solution](score_of_parentheses_stack_sol.h)
 
@@ -169,7 +169,7 @@ Output: 2
 
 ## Nice implementation idea
 
-## [:ok_hand: 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) [:dart:](integer_to_roman.h)
+## [:ok_hand: 12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/) / [:man_technologist:](integer_to_roman.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -209,7 +209,7 @@ Given an integer, convert it to a roman numeral.
 
 ## Hard indices manipulation
 
-## [:bulb: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) [:dart:](rotate_image.h)
+## [:bulb: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) / [:man_technologist:](rotate_image.h)
 
 - TODO: dig in optimal solution [here](rotate_image_optimal.h)
 
@@ -232,7 +232,7 @@ Output: [[7,4,1],[8,5,2],[9,6,3]]
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 835. Image Overlap](https://leetcode.com/problems/image-overlap/) [:dart:](image_overlap.h)
+## [:persevere: 835. Image Overlap](https://leetcode.com/problems/image-overlap/) / [:man_technologist:](image_overlap.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -266,7 +266,7 @@ Explanation: making a right shift then down shift of img1 - it becomes
 
 ## Brainteaser
 
-## [:bulb: 458. Poor Pigs](https://leetcode.com/problems/poor-pigs) [:dart:](pool_pigs.h)
+## [:bulb: 458. Poor Pigs](https://leetcode.com/problems/poor-pigs) / [:man_technologist:](pool_pigs.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -300,7 +300,7 @@ Output: 2
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 932. Beautiful Array](https://leetcode.com/problems/beautiful-array/) [:dart:](beautiful_array.h)
+## [:dizzy_face: 932. Beautiful Array](https://leetcode.com/problems/beautiful-array/) / [:man_technologist:](beautiful_array.h)
 
 - or math/divide conquer? It's ridiculous to find such solution ...
 

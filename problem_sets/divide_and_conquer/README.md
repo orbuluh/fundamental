@@ -1,6 +1,6 @@
 # Divide and Conquer
 
-## [:ok_hand: 823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) [:dart:](btree_with_factors.h)
+## [:ok_hand: 823. Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors) / [:man_technologist:](btree_with_factors.h)
 
 - easier version (but same concept) with [894](#bulbbulb-894-all-possible-full-binary-trees-dart)
 
@@ -30,7 +30,7 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) [:dart:](merge_k_sorted_lists.h)
+## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) / [:man_technologist:](merge_k_sorted_lists.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -45,7 +45,7 @@ Merge all the linked-lists into one sorted linked-list and return it.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) [:dart:](btree_from_pre_post.h)
+## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) / [:man_technologist:](btree_from_pre_post.h)
 
 - for a genius recursive solution from lee215 ... check [here](../recursion/btree_from_pre_post_recursion.h)
 
@@ -72,7 +72,7 @@ Output: [1,2,3,4,5,6,7]
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) [:dart:](all_full_btree.h)
+## [:persevere: 894. All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) / [:man_technologist:](all_full_btree.h)
 
 - Check [823](#ok_hand-823-binary-trees-with-factors-dart) as well for an easier but similar question
 - Beautiful!

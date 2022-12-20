@@ -1,7 +1,7 @@
 # Data structure design
 
 
-## [:ok_hand: 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) [:dart:](implement_queue_using_stacks.h)
+## [:ok_hand: 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) / [:man_technologist:](implement_queue_using_stacks.h)
 
 - The idea of only move element once between stack is brilliant! Almost brain teaser like.
 
@@ -24,7 +24,7 @@ Implement the MyQueue class:
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) [:dart:](insert_delete_get_random_o1.h)
+## [:ok_hand: 380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) / [:man_technologist:](insert_delete_get_random_o1.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -52,7 +52,7 @@ You must implement the functions of the class such that each function works in a
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) [:dart:](top_k_freq_words.h)
+## [:ok_hand: 692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) / [:man_technologist:](top_k_freq_words.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -71,7 +71,7 @@ Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) [:dart:](lru_cache.h)
+## [:persevere: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) / [:man_technologist:](lru_cache.h)
 
 <details><summary markdown="span">Question</summary>
 

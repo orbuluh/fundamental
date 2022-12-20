@@ -2,7 +2,7 @@
 
 - [Notes :notebook:](../../_notes/algorithms.md#binary-search)
 
-## [:ok_hand: 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) [:dart:](search_in_2d_mat.h)
+## [:ok_hand: 74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) / [:man_technologist:](search_in_2d_mat.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -20,7 +20,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) [:dart:](first_and_last_pos_of_tgt_in_arr.h)
+## [:bulb: 34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) / [:man_technologist:](first_and_last_pos_of_tgt_in_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -36,7 +36,7 @@ You must write an algorithm with O(log n) runtime complexity.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) [:dart:](search_in_rotated_sorted_arr.h)
+## [:bulb: 33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) / [:man_technologist:](search_in_rotated_sorted_arr.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -55,7 +55,7 @@ return the index of target if it is in nums, or -1 if it is not in nums.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) [:dart:](search_in_rotated_sorted_arr_ii.h)
+## [:bulb: 81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) / [:man_technologist:](search_in_rotated_sorted_arr_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -75,7 +75,7 @@ Output: true
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) [:dart:](find_k_closest.h)
+## [:persevere: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) / [:man_technologist:](find_k_closest.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -104,7 +104,7 @@ Output: [10]
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) [:dart:](kth_small_ele_in_sorted_matrix.h)
+## [:persevere: 378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) / [:man_technologist:](kth_small_ele_in_sorted_matrix.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -132,7 +132,7 @@ Explanation: The elements in the matrix are [1,5,9,10,11,12,13,13,15],
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) [:dart:](median_of_2_sorted_arrays.h)
+## [:dizzy_face: 4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) / [:man_technologist:](median_of_2_sorted_arrays.h)
 
 - the twisted way to use binary search holly ...
 
@@ -160,12 +160,12 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 ## Backtracking x Binary search
 
-## [:persevere: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](path_with_maximum_min_value_dfs_bs.h)
+## [:persevere: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) / [:man_technologist:](path_with_maximum_min_value_dfs_bs.h)
 
 - check problem description and Dijkstra like solution [here](../graph/graph_sssp/README.md#💡-1102-path-with-maximum-minimum-value-🎯)
 
 
-## [:dizzy_face: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) [:dart:](split_arr_largest_sum_bs.h)
+## [:dizzy_face: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) / [:man_technologist:](split_arr_largest_sum_bs.h)
 
 - (Although much slower ...) Try doing backtrack for this one! --> [check code here](../backtracking/split_arr_largest_sum_bt.h)
 
@@ -189,7 +189,7 @@ Output: 18
 
 ## Interval related questions
 
-## [:ok_hand: 729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) [:dart:](my_calendar_i.h)
+## [:ok_hand: 729. My Calendar I](https://leetcode.com/problems/my-calendar-i/) / [:man_technologist:](my_calendar_i.h)
 
 - you can also consider to use `std::set::upper_bound` or `std::map::upper_bound` as they are ordered.
 
@@ -217,12 +217,12 @@ Output
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) [:dart:](range_module.h)
+## [:bulb: 715. Range Module](https://leetcode.com/problems/range-module/) / [:man_technologist:](range_module.h)
 
 - [:notebook: addRange pic](../../srcs/715.addRange.png) [:notebook: removeRange pic](../../srcs/715.removeRange.png)
 
 <details><summary markdown="span">Question</summary>
-- Similar question: [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/), can use the same method. But have a faster solution in [:dart:](../greedy/employee_free_time.h)
+- Similar question: [759. Employee Free Time](https://leetcode.com/problems/employee-free-time/), can use the same method. But have a faster solution in / [:man_technologist:](../greedy/employee_free_time.h)
 
 ```markdown
 A Range Module is a module that tracks ranges of numbers.

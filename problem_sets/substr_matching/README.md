@@ -3,7 +3,7 @@
 - [KMP :point_right: here](../../_notes/kmp.md)
 - [Rolling hash :point_right: here](../../_notes/rolling_hash.md)
 
-## [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) [:dart:](max_len_of_repeated_subarray.h)
+## [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) / [:man_technologist:](max_len_of_repeated_subarray.h)
 
 - dp solution with worse complexity than KMP [:point_right: here](../dp/max_len_of_repeated_subarray_dp.h)
 - rolling hash solution [:point_right: here](max_len_of_repeated_subarray_rollinghash.h)

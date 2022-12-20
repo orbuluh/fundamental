@@ -4,13 +4,13 @@
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) [:dart:](daily_temperatures_monostk.h)
+## [:bulb: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) / [:man_technologist:](daily_temperatures_monostk.h)
 
 - check problem description and better greedy solution [here](../greedy/README.md#🤔-739-daily-temperatures-🎯)
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) [:dart:](next_greater_element_i.h)
+## [:bulb: 496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) / [:man_technologist:](next_greater_element_i.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -41,7 +41,7 @@ Explanation: The next greater element for each value of nums1 is as follows:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) [:dart:](next_greater_element_ii.h)
+## [:bulb: 503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) / [:man_technologist:](next_greater_element_ii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -65,7 +65,7 @@ The second 1's next greater number needs to search circularly, which is also 2.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) [:dart:](next_greater_element_iii.h)
+## [:bulb: 556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/) / [:man_technologist:](next_greater_element_iii.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -92,7 +92,7 @@ Output: -1
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) [:dart:](sliding_window_maximum.h)
+## [:bulb: 239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum) / [:man_technologist:](sliding_window_maximum.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -123,7 +123,7 @@ Window position                Max
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/) [:dart:](jump_game_vi.h)
+## [:bulb: 1696. Jump Game VI](https://leetcode.com/problems/jump-game-vi/) / [:man_technologist:](jump_game_vi.h)
 
 - a dp problem but the core is actually monotonic stack.
 - core is the same as [239. Sliding Window Maximum](#bulb-239-sliding-window-maximum-dart)
@@ -151,7 +151,7 @@ Explanation: You can choose your jumps with [1,-1,4,3] (^ above). The sum is 7.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) [:dart:](online_stock_span.h)
+## [:bulb: 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) / [:man_technologist:](online_stock_span.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -193,7 +193,7 @@ stockSpanner.next(85);  // return 6 ... same reasoning
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) [:dart:](largest_retangle_in_histogram.h)
+## [:bulb: 84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) / [:man_technologist:](largest_retangle_in_histogram.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -212,7 +212,7 @@ The largest rectangle is 5 * 2 = 10
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 853. Car Fleet](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet.h)
+## [:bulb: 853. Car Fleet](https://leetcode.com/problems/car-fleet/) / [:man_technologist:](car_fleet.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -254,7 +254,7 @@ Note that no other cars meet these fleets before the destination, so the answer 
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 2454. Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/) [:dart:](next_greater_element_iv.h)
+## [:persevere: 2454. Next Greater Element IV](https://leetcode.com/problems/next-greater-element-iv/) / [:man_technologist:](next_greater_element_iv.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -289,7 +289,7 @@ Output: [9,6,6,-1,-1]
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) [:dart:](steps_to_make_arr_non_dec.h)
+## [:persevere: 2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/) / [:man_technologist:](steps_to_make_arr_non_dec.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -317,13 +317,13 @@ Explanation: The following are the steps performed:
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) [:dart:](sum_of_subarray_mininums.h)
+## [:persevere: 907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) / [:man_technologist:](sum_of_subarray_mininums.h)
 
 - the most difficult part is the dp recursion, so check [here](../dp/dp_z_misc_hard_recursion/README.md#💡💡-907-sum-of-subarray-minimums-🎯)
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 1776. Car Fleet II](https://leetcode.com/problems/car-fleet/) [:dart:](car_fleet2.h)
+## [:dizzy_face: 1776. Car Fleet II](https://leetcode.com/problems/car-fleet/) / [:man_technologist:](car_fleet2.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -353,7 +353,7 @@ next car. Answers within 10-5 of the actual answers are accepted.
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) [:dart:](min_cost_tree_from_leaf_values.h)
+## [:dizzy_face: 1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) / [:man_technologist:](min_cost_tree_from_leaf_values.h)
 
 - The "you thought good enough DP solution" is [here](../dp/dp_subseq/README.md#💡-1130-minimum-cost-tree-from-leaf-values-🎯)
 
