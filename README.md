@@ -234,10 +234,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 209
+# Problems listed: 210
 
-:ok_hand: x 54
-:bulb: x 117
+:ok_hand: x 53
+:bulb: x 119
 :persevere: x 18
 :dizzy_face: x 15
 :exploding_head: x 5
@@ -275,9 +275,11 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 5
 
-- [Greedy](problem_sets/greedy/README.md): 17
+- [Greedy](problem_sets/greedy/README.md): 16
 
-- [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 7
+- [Jump table/line](problem_sets/greedy/jump_table/README.md): 3
+
+- [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 6
 
 - [Linked list](problem_sets/linked_list/README.md): 9
 
@@ -925,7 +927,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-## Jump table approach
+# [Jump table/line](problem_sets/greedy/jump_table/README.md)
+
+
+- :bulb: 1024. Video Stitching
+
+
+
+- :bulb: 1326. Minimum Number of Taps to Open to Water a Garden
 
 
 
@@ -937,10 +946,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 56. Merge Intervals
-
-
-
-- :ok_hand: 1024. Video Stitching
 
 
 

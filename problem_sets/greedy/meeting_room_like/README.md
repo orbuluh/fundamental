@@ -21,35 +21,6 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) / [:man_technologist:](video_stitching.h)
-
-<details><summary markdown="span">Question</summary>
-
-```markdown
-You are given a series of video clips from a sporting event that lasted time
-seconds.
-
-These video clips can be overlapping with each other and have varying lengths.
-
-Each video clip is described by an array clips where
-- clips[i] = [starti, endi] indicates that
-  the ith clip started at starti and ended at endi.
-
-Return the minimum number of clips needed so that we can cut the clips into
-segments that cover the entire sporting event [0, time].
-
-If the task is impossible, return -1.
-
-Input: clips = [[0,2],[4,6],[8,10],[1,9],[1,5],[5,9]], time = 10
-Output: 3
-
-Explanation: We take the clips [0,2], [8,10], [1,9]; a total of 3 clips.
-```
-
-</details>
-
-------------------------------------------------------------------------------
-
 ## [:bulb: 759. Employee Free Time](https://leetcode.com/problems/employee-free-time/) / [:man_technologist:](employee_free_time.h)
 
 - you can also solve this through binary search -> checking `addRange` in / [:man_technologist:](../binary_search/range_module.h)
