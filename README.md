@@ -234,10 +234,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 208
+# Problems listed: 209
 
 :ok_hand: x 54
-:bulb: x 116
+:bulb: x 117
 :persevere: x 18
 :dizzy_face: x 15
 :exploding_head: x 5
@@ -271,7 +271,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Data structure design](problem_sets/ds_design/README.md): 4
 
-- [Graph](problem_sets/graph/README.md): 5
+- [Graph](problem_sets/graph/README.md): 6
 
 - [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 5
 
@@ -776,6 +776,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Bipartite
+
+
+
+## Solve bipartition with union-find
+
+
+
+- :bulb: 886. Possible Bipartition
+
+
+
+## Solve bipartition with dfs validation
 
 
 
@@ -1395,5 +1407,9 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 947. Most Stones Removed with Same Row or Column
+
+
+
+## [Use union-find to solve Bipartition](../graph/README.md#solve-bipartition-with-union-find)
 
 

@@ -67,3 +67,5 @@ Output: false
 - check problem statement and dfs solution in [here](../graph/README.md#💡-947-most-stones-removed-with-same-row-or-column-🎯)
 
 ------------------------------------------------------------------------------
+
+## [Use union-find to solve Bipartition](../graph/README.md#solve-bipartition-with-union-find)

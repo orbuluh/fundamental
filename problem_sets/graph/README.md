@@ -4,7 +4,35 @@
 
 ## Bipartite
 
+## Solve bipartition with union-find
+
+## [:bulb: 886. Possible Bipartition](https://leetcode.com/problems/is-graph-bipartite/) / [:man_technologist:](possible_bipartite.h)
+
+- Here we listed the union find way to solve bipartition. You can also do the DFS validation way like [below](#bulb-785-is-graph-bipartite--man_technologist)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+We want to split a group of n people (labeled from 1 to n)
+into two groups of any size.
+
+Each person may dislike some other people, and they should not go into the same group.
+
+Given the integer n and the array dislikes where dislikes[i] = [ai, bi]
+indicates that the person labeled ai does not like the person labeled bi
+
+return true if it is possible to split everyone into two groups in this way.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## Solve bipartition with dfs validation
+
 ## [:bulb: 785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) / [:man_technologist:](is_graph_bipartite.h)
+
+- Here we do the DFS validation way, you can also try union find way like [above](#bulb-886-possible-bipartition--man_technologist)
 
 <details><summary markdown="span">Question</summary>
 
