@@ -234,13 +234,13 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 210
+# Problems listed: 211
 
 :ok_hand: x 53
 :bulb: x 119
 :persevere: x 18
 :dizzy_face: x 15
-:exploding_head: x 5
+:exploding_head: x 6
 
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
@@ -267,7 +267,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md): 4
 
-- [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 6
+- [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 7
 
 - [Data structure design](problem_sets/ds_design/README.md): 4
 
@@ -752,6 +752,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :exploding_head: 465. Optimal Account Balancing
+
+
+
+## Reroot technique with DP
+
+
+
+- :exploding_head: 834. Sum of Distances in Tree
 
 
 
