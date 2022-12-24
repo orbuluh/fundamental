@@ -253,6 +253,36 @@ Your final score is 11 - 2 = 9.
 
 ------------------------------------------------------------------------------
 
+## [:dizzy_face: 790. Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) / [:man_technologist:](domino_and_tromino_tiling.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You have two types of tiles: a 2 x 1 domino shape and a tromino shape. You may rotate these shapes.
+
+Domino tile:  OO
+Tromino tile: OO
+              O
+
+Given an integer n, return the number of ways to tile an 2 x n board.
+Since the answer may be very large, return it modulo 10^9 + 7.
+
+In a tiling, every square must be covered by a tile.
+Two tilings are different if and only if there are two 4-directionally adjacent
+cells on the board such that exactly one of the tilings has both squares
+occupied by a tile.
+
+Input: n = 3
+Output: 5
+Explanation:
+O XX     O O O    XX O    TT L    T LL
+O XX     O O O    XX O    T LL    TT L
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:exploding_head: 818. Race Car](https://leetcode.com/problems/race-car/) / [:man_technologist:](race_car.h)
 
 <details><summary markdown="span">Question</summary>

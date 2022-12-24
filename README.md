@@ -234,12 +234,12 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 211
+# Problems listed: 212
 
 :ok_hand: x 53
 :bulb: x 119
 :persevere: x 18
-:dizzy_face: x 15
+:dizzy_face: x 16
 :exploding_head: x 6
 
 
@@ -257,7 +257,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 7
 
-- [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 9
+- [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 10
 
 - [DP: String match](problem_sets/dp/dp_string_match/README.md): 2
 
@@ -653,6 +653,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1937. Maximum Number of Points with Cost
+
+
+
+- :dizzy_face: 790. Domino and Tromino Tiling
 
 
 
