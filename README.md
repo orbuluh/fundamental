@@ -234,9 +234,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 212
+# Problems listed: 213
 
-:ok_hand: x 53
+:ok_hand: x 54
 :bulb: x 119
 :persevere: x 18
 :dizzy_face: x 16
@@ -247,7 +247,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Backtracking](problem_sets/backtracking/README.md): 13
 
-- [Binary search](problem_sets/binary_search/README.md): 11
+- [Binary search](problem_sets/binary_search/README.md): 12
 
 - [Bitwise](problem_sets/bitwise/README.md): 7
 
@@ -443,6 +443,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Binary search](problem_sets/binary_search/README.md)
+
+
+- :ok_hand: 2389. Longest Subsequence With Limited Sum
+
 
 
 - :ok_hand: 74. Search a 2D Matrix
