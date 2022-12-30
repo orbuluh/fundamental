@@ -234,10 +234,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 213
+# Problems listed: 214
 
 :ok_hand: x 54
-:bulb: x 119
+:bulb: x 120
 :persevere: x 18
 :dizzy_face: x 16
 :exploding_head: x 6
@@ -277,7 +277,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Greedy](problem_sets/greedy/README.md): 16
 
-- [Jump table/line](problem_sets/greedy/jump_table/README.md): 3
+- [Jump table/line](problem_sets/greedy/jump_table/README.md): 4
 
 - [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 6
 
@@ -955,6 +955,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 739. Daily Temperatures
+
+
+
+- :bulb: 1834. Single-Threaded CPU
 
 
 
