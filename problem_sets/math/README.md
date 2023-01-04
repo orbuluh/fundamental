@@ -18,6 +18,39 @@ OUTPUT = 2
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks) / [:man_technologist:](minimum_rounds_to_complete_all_tasks.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a 0-indexed integer array tasks, where tasks[i]
+represents the difficulty level of a task.
+
+In each round, you can complete either 2 or 3 tasks of the same difficulty level.
+
+Return the minimum rounds required to complete all the tasks, or -1 if it is not
+possible to complete all the tasks.
+
+Input: tasks = [2,3,3]
+Output: -1
+Explanation: There is only 1 task of difficulty level 2, but in each round, you
+can only complete either 2 or 3 tasks of the same difficulty level.
+
+
+Input: tasks = [2,2,3,3,2,4,4,4,4,4]
+Output: 4
+Explanation: To complete all the tasks, a possible plan is:
+- In the first round, you complete 3 tasks of difficulty level 2.
+- In the second round, you complete 2 tasks of difficulty level 3.
+- In the third round, you complete 3 tasks of difficulty level 4.
+- In the fourth round, you complete 2 tasks of difficulty level 4.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 1359. Count All Valid Pickup and Delivery Options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) / [:man_technologist:](count_all_valid_delivery_options.h)
 
 <details><summary markdown="span">Question</summary>

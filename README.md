@@ -234,10 +234,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 214
+# Problems listed: 215
 
 :ok_hand: x 54
-:bulb: x 120
+:bulb: x 121
 :persevere: x 18
 :dizzy_face: x 16
 :exploding_head: x 6
@@ -283,7 +283,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Linked list](problem_sets/linked_list/README.md): 9
 
-- [Math](problem_sets/math/README.md): 6
+- [Math](problem_sets/math/README.md): 7
 
 - [Misc: some great algo to do something](problem_sets/misc/README.md): 12
 
@@ -1040,6 +1040,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 462. Minimum Moves to Equal Array Elements II
+
+
+
+- :bulb: 2244. Minimum Rounds to Complete All Tasks
 
 
 
