@@ -1,5 +1,41 @@
 # Jump table/line
 
+## [:ok_hand: 452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) / [:man_technologist:](min_num_of_arrows_to_burst_balloons.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There are some spherical balloons taped onto a flat wall that represents the XY-plane.
+
+The balloons are represented as a 2D integer array points where
+
+points[i] = [xstart, xend] denotes a balloon whose horizontal diameter stretches
+between xstart and xend. You do not know the exact y-coordinates of the balloons.
+
+Arrows can be shot up directly vertically (in the positive y-direction) from
+different points along the x-axis.
+
+A balloon with xstart and xend is burst by an arrow shot at x
+- if xstart <= x <= xend.
+
+There is no limit to the number of arrows that can be shot.
+A shot arrow keeps traveling up infinitely, bursting any balloons in its path.
+
+Given the array points, return the minimum number of arrows that must be shot to
+burst all balloons.
+
+Input: points = [[10,16],[2,8],[1,6],[7,12]]
+Output: 2
+Explanation: The balloons can be burst by 2 arrows:
+- Shoot an arrow at x = 6, bursting the balloons [2,8] and [1,6].
+- Shoot an arrow at x = 11, bursting the balloons [10,16] and [7,12].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) / [:man_technologist:](video_stitching.h)
 
 <details><summary markdown="span">Question</summary>
