@@ -234,10 +234,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 217
+# Problems listed: 218
 
 :ok_hand: x 55
-:bulb: x 122
+:bulb: x 123
 :persevere: x 18
 :dizzy_face: x 16
 :exploding_head: x 6
@@ -283,7 +283,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Linked list](problem_sets/linked_list/README.md): 9
 
-- [Math](problem_sets/math/README.md): 7
+- [Math](problem_sets/math/README.md): 8
 
 - [Misc: some great algo to do something](problem_sets/misc/README.md): 12
 
@@ -1072,6 +1072,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1610. Maximum Number of Visible Points
+
+
+
+- :bulb: 149. Max Points on a Line
 
 
 

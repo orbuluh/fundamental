@@ -165,6 +165,24 @@ Output: 1
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line) / [:man_technologist:](max_pts_on_a_line.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of points where points[i] = [xi, yi]
+represents a point on the X-Y plane,
+return the maximum number of points that lie on the same straight line.
+
+Input: points = [[0,8],[1,1],[2,2],[3,3]]
+Output: 3
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## Fisher–Yates shuffle
 
 ## [:bulb: 384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/) / [:man_technologist:](shuffle_an_array.h)
