@@ -114,3 +114,24 @@ x = ((x & 0xffff0000) >> 16) | ((x & 0x0000ffff) << 16);
 - Conceptually ...
   - ABCD -> `((x & 0xaaaaaaaa) >> 1) | ((x & 0x55555555) << 1)` -> BADC
   - BADC -> `((x & 0xcccccccc) >> 2) | ((x & 0x33333333) << 2)` -> DCBA
+
+
+## Bitwise rounding to pow of 2 (useful for memory alignment): `size = (size + alignment-1) & ~(alignment-1)`
+
+- [Reference](https://stackoverflow.com/a/14561508/4924135)
+
+Round-up: `size = (size + alignment-1) & ~(alignment-1)`
+
+Round-down: `size &= ~(alignment-1)`
+
+Round up reasoning (same for round-down):
+
+Say alignment is 4, which means we want size to be multiply of 4.
+
+4 in binary is 100, any value aligned to 4-byte boundaries (i.e. a multiple of 4)
+will have the last two bits set to zero.
+
+3 in binary is 11, and ~3 is the bitwise negation of those bits.
+Performing a bitwise AND with that value will keep every bit the same, except the
+last two which will be cleared. This gives us a the next lower or equal value
+that is a multiple of 4.
