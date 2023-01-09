@@ -75,11 +75,6 @@
   - When the search space of a problem is visited by backtracking, the implicit tree gets traversed and pruned in the middle of it.
   - Yet for DFS, the tree/graph it deals with is explicitly constructed and unacceptable cases have already been thrown, i.e. pruned, away before any search is done.
 
-## Morris traversal
-
-- [implementation](../tree/inorder_morris.h)
-- ![](../srcs/morris_inorder.png)
-
 ## Substring matching
 
 - [KMP :notebook:](kmp.md)

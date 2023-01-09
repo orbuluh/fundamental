@@ -11,7 +11,7 @@ Quote from [HTDP](https://htdp.org/)
 ## [Notes for algo/DS deep-dive :book:](_notes/README.md)
 
 
-**[Algorithm notes](_notes/algorithms.md)**
+**[Algorithm notes](_notes/tree_traversal.md)**
 
 
 
@@ -31,17 +31,22 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- Morris traversal
-
-
-
-
 - Substring matching
 
 
 
 
 - Graph
+
+
+
+
+- Preorder iterative
+
+
+
+
+- Morris traversal
 
 
 **[Bitwise](_notes/bitwise.md)**
@@ -85,6 +90,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - Common mask
+
+
+
+
+- Bitwise rounding to pow of 2 (useful for memory alignment): `size = (size + alignment-1) & ~(alignment-1)`
 
 
 **[Data structures](_notes/data_structures.md)**
@@ -234,9 +244,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 218
+# Problems listed: 219
 
-:ok_hand: x 55
+:ok_hand: x 56
 :bulb: x 123
 :persevere: x 18
 :dizzy_face: x 16
@@ -303,7 +313,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Substring matching algorithm](problem_sets/substr_matching/README.md): 1
 
-- [Tree](problem_sets/tree/README.md): 7
+- [Tree](problem_sets/tree/README.md): 8
 
 - [Trie](problem_sets/trie/README.md): 2
 
@@ -1402,6 +1412,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Tree traversal
+
+
+
+- :ok_hand: 144. Binary Tree Preorder Traversal
 
 
 

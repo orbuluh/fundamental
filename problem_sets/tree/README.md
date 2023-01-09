@@ -50,6 +50,19 @@ Serialize and deserialize a binary tree.
 
 ## Tree traversal
 
+## [:ok_hand: 144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) / [:man_technologist:](preorder_iterative.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, return the preorder traversal of its nodes' values.
+(And implement with iterative way)
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) / [:man_technologist:](vertical_order_traversal.h)
 
 - tips: [Tree like DS are sorted by keys!](../../_notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
