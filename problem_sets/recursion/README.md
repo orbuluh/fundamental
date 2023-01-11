@@ -99,6 +99,49 @@ has been removed.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree) / [:man_technologist:](min_time_to_collect_all_apples_in_a_tree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an undirected tree consisting of n vertices numbered from 0 to n-1,
+which has some apples in their vertices.
+
+You spend 1 second to walk over one edge of the tree.
+
+Return the minimum time in seconds you have to spend to collect all apples in
+the tree,
+
+starting at vertex 0 and coming back to this vertex.
+
+The edges of the undirected tree are given in the array edges, where
+edges[i] = [ai, bi] means that exists an edge connecting the vertices ai and bi.
+
+Additionally, there is a boolean array hasApple,
+where hasApple[i] = true means that vertex i has an apple;
+otherwise, it does not have any apple.
+
+Input: n = 7,
+
+edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]],
+hasApple = [false,false,true,false,true,true,false]
+Output: 8
+
+              0__
+            /     \
+          1        2(a)
+        / \       / \
+    4(a)  5(a)    3  6
+
+8 seconds to traverse node with order:
+0 -> 1 -> 4 -> 1 -> 5 -> 1 -> 0 -> 2 -> 0
+   1   2    3    4    5    6    7    8
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) / [:man_technologist:](lca_of_btree.h)
 
 <details><summary markdown="span">Question</summary>

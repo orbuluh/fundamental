@@ -244,9 +244,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 219
+# Problems listed: 220
 
-:ok_hand: x 56
+:ok_hand: x 57
 :bulb: x 123
 :persevere: x 18
 :dizzy_face: x 16
@@ -305,7 +305,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](problem_sets/recursion/README.md): 14
+- [Recursion](problem_sets/recursion/README.md): 15
 
 - [Sliding window](problem_sets/sliding_window/README.md): 2
 
@@ -1284,6 +1284,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 814. Binary Tree Pruning
+
+
+
+- :ok_hand: 1443. Minimum Time to Collect All Apples in a Tree
 
 
 
