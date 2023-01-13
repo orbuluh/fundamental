@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 220
+# Problems listed: 221
 
 :ok_hand: x 57
-:bulb: x 123
+:bulb: x 124
 :persevere: x 18
 :dizzy_face: x 16
 :exploding_head: x 6
@@ -305,7 +305,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](problem_sets/recursion/README.md): 15
+- [Recursion](problem_sets/recursion/README.md): 16
 
 - [Sliding window](problem_sets/sliding_window/README.md): 2
 
@@ -1312,6 +1312,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 124. Binary Tree Maximum Path Sum
+
+
+
+- :bulb: 2246. Longest Path With Different Adjacent Characters
 
 
 
