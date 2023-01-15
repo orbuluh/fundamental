@@ -244,12 +244,12 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 221
+# Problems listed: 222
 
 :ok_hand: x 57
 :bulb: x 124
 :persevere: x 18
-:dizzy_face: x 16
+:dizzy_face: x 17
 :exploding_head: x 6
 
 
@@ -317,7 +317,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Trie](problem_sets/trie/README.md): 2
 
-- [Union find](problem_sets/union_find/README.md): 3
+- [Union find](problem_sets/union_find/README.md): 4
 
 ---
 
@@ -1470,6 +1470,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 947. Most Stones Removed with Same Row or Column
+
+
+
+- :dizzy_face: 2421. Number of Good Paths
 
 
 
