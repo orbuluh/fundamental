@@ -21,6 +21,40 @@ Output: 23
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) / [:man_technologist:](max_circle_subarray.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a circular integer array nums of length n,
+return the maximum possible sum of a non-empty subarray of nums.
+
+A circular array means the end of the array connects to the beginning of the
+array. Formally, the next element of nums[i] is nums[(i + 1) % n] and the
+previous element of nums[i] is nums[(i - 1 + n) % n].
+
+A subarray may only include each element of the fixed buffer nums at most once.
+
+Formally, for a subarray nums[i], nums[i + 1], ..., nums[j], there does not
+exist i <= k1, k2 <= j with k1 % n == k2 % n.
+
+Input: nums = [1,-2,3,-2]
+Output: 3
+Explanation: Subarray [3] has maximum sum 3.
+
+Input: nums = [5,-3,5]
+Output: 10
+Explanation: Subarray [5,5] has maximum sum 5 + 5 = 10.
+
+Input: nums = [-3,-2,-3]
+Output: -2
+Explanation: Subarray [-2] has maximum sum -2.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) / [:man_technologist:](max_sum_of_rectangle_le_k.h)
 
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
