@@ -11,17 +11,7 @@ Quote from [HTDP](https://htdp.org/)
 ## [Notes for algo/DS deep-dive :book:](_notes/README.md)
 
 
-**[Algorithm notes](_notes/algorithms.md)**
-
-
-
-
-- Preorder iterative
-
-
-
-
-- Morris traversal
+**[Algorithm notes](_notes/tree_traversal.md)**
 
 
 
@@ -47,6 +37,16 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - Graph
+
+
+
+
+- Preorder iterative
+
+
+
+
+- Morris traversal
 
 
 **[Bitwise](_notes/bitwise.md)**
@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 223
+# Problems listed: 224
 
 :ok_hand: x 57
-:bulb: x 125
+:bulb: x 126
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -271,7 +271,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: String match](problem_sets/dp/dp_string_match/README.md): 2
 
-- [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 4
+- [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 5
 
 - [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 5
 
@@ -701,6 +701,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 363. Max Sum of Rectangle No Larger Than K
+
+
+
+- :bulb: 974. Subarray Sums Divisible by K
 
 
 

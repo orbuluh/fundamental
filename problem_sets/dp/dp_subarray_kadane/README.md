@@ -76,6 +76,26 @@ Output: 23
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k) / [:man_technologist:](subarray_sum_divisible_by_k.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums and an integer k, return the number of non-empty
+subarrays that have a sum divisible by k.
+
+A subarray is a contiguous part of an array.
+
+Input: nums = [4,5,0,-2,-3,1], k = 5
+Output: 7
+Explanation: There are 7 subarrays with a sum divisible by k = 5:
+[4, 5, 0, -2, -3, 1], [5], [5, 0], [5, 0, -2, -3], [0], [0, -2, -3], [-2, -3]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:dizzy_face: 2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) / [:man_technologist:](substring_w_largest_variance.h)
 
 - if you forget Kadane's algorithm ... check [Maximum Subarray](#ok_hand-53-maximum-subarray-dart)
