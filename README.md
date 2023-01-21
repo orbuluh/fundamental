@@ -11,7 +11,17 @@ Quote from [HTDP](https://htdp.org/)
 ## [Notes for algo/DS deep-dive :book:](_notes/README.md)
 
 
-**[Algorithm notes](_notes/tree_traversal.md)**
+**[Algorithm notes](_notes/algorithms.md)**
+
+
+
+
+- Preorder iterative
+
+
+
+
+- Morris traversal
 
 
 
@@ -37,16 +47,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - Graph
-
-
-
-
-- Preorder iterative
-
-
-
-
-- Morris traversal
 
 
 **[Bitwise](_notes/bitwise.md)**
@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 224
+# Problems listed: 225
 
 :ok_hand: x 57
-:bulb: x 126
+:bulb: x 127
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -255,7 +255,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
-- [Backtracking](problem_sets/backtracking/README.md): 13
+- [Backtracking](problem_sets/backtracking/README.md): 14
 
 - [Binary search](problem_sets/binary_search/README.md): 12
 
@@ -385,6 +385,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 39. Combination Sum
+
+
+
+- :bulb: 93. Restore IP Addresses
 
 
 
