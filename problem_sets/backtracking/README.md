@@ -43,6 +43,25 @@ These are the only two combinations.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) / [:man_technologist:](palindrome_partitioning.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a string s, partition s such that every substring of the partition is a
+palindrome. Return all possible palindrome partitioning of s.
+
+Input: s = "aab"
+Output: [["a","a","b"],["aa","b"]]
+
+Input: s = "a"
+Output: [["a"]]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) / [:man_technologist:](restore_ip_addresses.h)
 
 <details><summary markdown="span">Question</summary>

@@ -244,9 +244,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 225
+# Problems listed: 226
 
-:ok_hand: x 57
+:ok_hand: x 58
 :bulb: x 127
 :persevere: x 18
 :dizzy_face: x 17
@@ -255,7 +255,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
-- [Backtracking](problem_sets/backtracking/README.md): 14
+- [Backtracking](problem_sets/backtracking/README.md): 15
 
 - [Binary search](problem_sets/binary_search/README.md): 12
 
@@ -385,6 +385,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 39. Combination Sum
+
+
+
+- :ok_hand: 131. Palindrome Partitioning
 
 
 
