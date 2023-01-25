@@ -11,17 +11,7 @@ Quote from [HTDP](https://htdp.org/)
 ## [Notes for algo/DS deep-dive :book:](_notes/README.md)
 
 
-**[Algorithm notes](_notes/algorithms.md)**
-
-
-
-
-- Preorder iterative
-
-
-
-
-- Morris traversal
+**[Algorithm notes](_notes/tree_traversal.md)**
 
 
 
@@ -47,6 +37,16 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - Graph
+
+
+
+
+- Preorder iterative
+
+
+
+
+- Morris traversal
 
 
 **[Bitwise](_notes/bitwise.md)**
@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 226
+# Problems listed: 227
 
 :ok_hand: x 58
-:bulb: x 127
+:bulb: x 128
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -255,7 +255,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 10
 
-- [Backtracking](problem_sets/backtracking/README.md): 15
+- [Backtracking](problem_sets/backtracking/README.md): 16
 
 - [Binary search](problem_sets/binary_search/README.md): 12
 
@@ -397,6 +397,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 31. Next Permutation
+
+
+
+- :bulb: 491. Non-decreasing Subsequences
 
 
 

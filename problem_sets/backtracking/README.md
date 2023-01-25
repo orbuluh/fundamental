@@ -117,6 +117,27 @@ Output: [1,5,1]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences) / [:man_technologist:](non_decreasing_subseq.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array nums, return all the different possible non-decreasing
+subsequences of the given array with at least two elements.
+
+You may return the answer in any order.
+
+Input: nums = [4,6,7,7]
+Output: [[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]
+
+Input: nums = [4,4,3,2,1]
+Output: [[4,4]]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 473. Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) / [:man_technologist:](matchsticks_to_square.h)
 
 - might be harder to not get TLE than you originally think!
