@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 227
+# Problems listed: 228
 
 :ok_hand: x 58
-:bulb: x 128
+:bulb: x 129
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -283,7 +283,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Graph](problem_sets/graph/README.md): 6
 
-- [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 5
+- [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 6
 
 - [Greedy](problem_sets/greedy/README.md): 17
 
@@ -879,6 +879,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 743. Network Delay Time
+
+
+
+- :bulb: 787. Cheapest Flights Within K Stops
 
 
 
