@@ -1,6 +1,6 @@
 # Meeting room like questions
 
-## [:ok_hand: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) / [:man_technologist:](merge_interval.h)
+## [:bulb: 56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) / [:man_technologist:](merge_interval.h)
 
 - Also check: [715. Range Module](../../binary_search/README.md#💡-715-range-module-🎯)
 
@@ -15,6 +15,46 @@ Given an array of intervals where intervals[i] = [starti, endi]
 Input: intervals = [[1,3],[2,6],[8,10],[15,18]]
 Output: [[1,6],[8,10],[15,18]]
 Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 352. Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals) / [:man_technologist:](data_stream_as_disjoint_intervals.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a data stream input of non-negative integers a1, a2, ..., an,
+summarize the numbers seen so far as a list of disjoint intervals.
+
+Implement the SummaryRanges class:
+
+`SummaryRanges() `Initializes the object with an empty stream.
+`void addNum(int value)` Adds the integer value to the stream.
+`int[][] getIntervals()` Returns a summary of the integers in the stream
+  currently as a list of disjoint intervals [starti, endi].
+  The answer should be sorted by starti.
+
+Input
+["SummaryRanges", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals"]
+[[], [1], [], [3], [], [7], [], [2], [], [6], []]
+Output
+[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3], [6, 7]]]
+
+Explanation
+SummaryRanges summaryRanges = new SummaryRanges();
+summaryRanges.addNum(1);      // arr = [1]
+summaryRanges.getIntervals(); // return [[1, 1]]
+summaryRanges.addNum(3);      // arr = [1, 3]
+summaryRanges.getIntervals(); // return [[1, 1], [3, 3]]
+summaryRanges.addNum(7);      // arr = [1, 3, 7]
+summaryRanges.getIntervals(); // return [[1, 1], [3, 3], [7, 7]]
+summaryRanges.addNum(2);      // arr = [1, 2, 3, 7]
+summaryRanges.getIntervals(); // return [[1, 3], [7, 7]]
+summaryRanges.addNum(6);      // arr = [1, 2, 3, 6, 7]
+summaryRanges.getIntervals(); // return [[1, 3], [6, 7]]
 ```
 
 </details>
