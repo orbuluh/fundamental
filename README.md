@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 229
+# Problems listed: 230
 
 :ok_hand: x 57
-:bulb: x 131
+:bulb: x 132
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -279,7 +279,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 7
 
-- [Data structure design](problem_sets/ds_design/README.md): 4
+- [Data structure design](problem_sets/ds_design/README.md): 5
 
 - [Graph](problem_sets/graph/README.md): 6
 
@@ -813,6 +813,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 692. Top K Frequent Words
+
+
+
+- :bulb: 460. LFU Cache
 
 
 
