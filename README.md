@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 230
+# Problems listed: 231
 
 :ok_hand: x 57
-:bulb: x 132
+:bulb: x 133
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -273,7 +273,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 5
 
-- [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 5
+- [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 6
 
 - [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md): 4
 
@@ -740,6 +740,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 300. Longest Increasing Subsequence
+
+
+
+- :bulb: 1626. Best Team With No Conflicts
 
 
 

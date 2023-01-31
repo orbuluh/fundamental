@@ -15,18 +15,17 @@ class Solution {
 
     so same question would be:
 
-  dp_idx 0 1 2 3
-      dp 0
-loop arr   1
-      |  0
-      |      3
-      |      2
-      v        3
+     dp_idx 0 1 2 3 (length of subsequence)
+      |  dp 0
+    loop      1
+      |     0
+      |         3
+      |         2
+      v           3
 
     question - can we say dp[2] = 2 when we see 2?
     Yes, because if after 2, there is something even larger
     it's guaranteed to be okay to put it after to form a longer sequence!
-
     */
     int lengthOfLIS(vector<int>& nums) {
         std::vector<int> dp;
