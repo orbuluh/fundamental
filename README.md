@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 231
+# Problems listed: 232
 
 :ok_hand: x 57
-:bulb: x 133
+:bulb: x 134
 :persevere: x 18
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -293,7 +293,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Linked list](problem_sets/linked_list/README.md): 9
 
-- [Math](problem_sets/math/README.md): 8
+- [Math](problem_sets/math/README.md): 9
 
 - [Misc: some great algo to do something](problem_sets/misc/README.md): 12
 
@@ -1102,6 +1102,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1359. Count All Valid Pickup and Delivery Options
+
+
+
+- :bulb: 1071. Greatest Common Divisor of Strings
 
 
 
