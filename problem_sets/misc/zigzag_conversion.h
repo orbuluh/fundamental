@@ -34,7 +34,6 @@ check row 1
 
 What's the pattern for 5 and 11? It's the (start of next cycle) - rowIdx!
 
-
 So, the standard index for any row are rowIdx + cycle * cycleCnt
 and for rows in between, we also need to find the char that is rowIdx away of
 the next start of cycle
