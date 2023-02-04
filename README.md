@@ -244,16 +244,16 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 232
+# Problems listed: 234
 
 :ok_hand: x 57
-:bulb: x 134
-:persevere: x 18
+:bulb: x 135
+:persevere: x 19
 :dizzy_face: x 17
 :exploding_head: x 6
 
 
-- [2 pointers](problem_sets/2_ptrs/README.md): 10
+- [2 pointers](problem_sets/2_ptrs/README.md): 11
 
 - [Backtracking](problem_sets/backtracking/README.md): 16
 
@@ -295,7 +295,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Math](problem_sets/math/README.md): 9
 
-- [Misc: some great algo to do something](problem_sets/misc/README.md): 12
+- [Misc: some great algo to do something](problem_sets/misc/README.md): 13
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
@@ -362,6 +362,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 76. Minimum Window Substring
+
+
+
+- :bulb: 567. Permutation in String
 
 
 
@@ -1181,6 +1185,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 48. Rotate Image
+
+
+
+- :persevere: 6. Zigzag Conversion
 
 
 

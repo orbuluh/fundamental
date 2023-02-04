@@ -232,6 +232,33 @@ Output: [[7,4,1],[8,5,2],[9,6,3]]
 
 ------------------------------------------------------------------------------
 
+## [:persevere: 6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion) / [:man_technologist:](zigzag_conversion.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of
+rows like this:
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+
+And then read line by line: "PAHNAPLSIIGYIR"
+
+Input: s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
+Explanation:
+P     I    N
+A   L S  I G
+Y A   H R
+P     I
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:persevere: 835. Image Overlap](https://leetcode.com/problems/image-overlap/) / [:man_technologist:](image_overlap.h)
 
 <details><summary markdown="span">Question</summary>

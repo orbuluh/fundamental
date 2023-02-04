@@ -193,6 +193,28 @@ Explanation: The minimum window substring "BANC" includes 'A', 'B', and 'C' from
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 567. Permutation in String](https://leetcode.com/problems/permutation-in-string) / [:man_technologist:](permutation_in_string.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two strings s1 and s2,
+return true if s2 contains a permutation of s1, or false otherwise.
+
+In other words, return true if one of s1's permutations is the substring of s2.
+
+                           vv
+Input: s1 = "ab", s2 = "eidbaooo"
+Output: true
+
+Input: s1 = "ab", s2 = "eidboaoo"
+Output: false
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) / [:man_technologist:](longest_substr_with_at_most_2_uniq.h)
 
 <details><summary markdown="span">Question</summary>
