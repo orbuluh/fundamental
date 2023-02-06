@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 234
+# Problems listed: 235
 
 :ok_hand: x 57
-:bulb: x 135
+:bulb: x 136
 :persevere: x 19
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -295,7 +295,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Math](problem_sets/math/README.md): 9
 
-- [Misc: some great algo to do something](problem_sets/misc/README.md): 13
+- [Misc](problem_sets/misc/README.md): 14
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
@@ -1141,7 +1141,11 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Misc: some great algo to do something](problem_sets/misc/README.md)
+# [Misc](problem_sets/misc/README.md)
+
+
+## Great algo to do something
+
 
 
 - :ok_hand: 916. Word Subsets
@@ -1153,6 +1157,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 249. Group Shifted Strings
+
+
+
+- :bulb: 1470. Shuffle the Array
 
 
 

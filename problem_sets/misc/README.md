@@ -1,4 +1,6 @@
-# Misc: some great algo to do something
+# Misc
+
+## Great algo to do something
 
 ## [:ok_hand: 916. Word Subsets](https://leetcode.com/problems/word-subsets/) / [:man_technologist:](word_subsets.h)
 
@@ -62,6 +64,25 @@ Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) / [:man_technologist:](shuffle_array.h)
+<details><summary markdown="span">Question</summary>
+
+- Challenge: how to do it in-place without extra memory?
+
+```markdown
+Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
+
+Return the array in the form [x1,y1,x2,y2,...,xn,yn].
+
+Note: 1 <= nums[i] <= 10^3
+
+Input: nums = [2,5,1,3,4,7], n = 3
+Output: [2,3,5,4,1,7]
+```
+
+</details>
+
+------------------------------------------------------------------------------
 ## [:bulb: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) / [:man_technologist:](rotate_array.h)
 <details><summary markdown="span">Question</summary>
 
