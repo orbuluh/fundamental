@@ -244,16 +244,16 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 235
+# Problems listed: 236
 
 :ok_hand: x 57
-:bulb: x 136
+:bulb: x 137
 :persevere: x 19
 :dizzy_face: x 17
 :exploding_head: x 6
 
 
-- [2 pointers](problem_sets/2_ptrs/README.md): 11
+- [2 pointers](problem_sets/2_ptrs/README.md): 12
 
 - [Backtracking](problem_sets/backtracking/README.md): 16
 
@@ -366,6 +366,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 567. Permutation in String
+
+
+
+- :bulb: 904. Fruit Into Baskets
 
 
 
