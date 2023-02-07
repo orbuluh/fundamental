@@ -253,7 +253,7 @@ Quote from [HTDP](https://htdp.org/)
 :exploding_head: x 6
 
 
-- [2 pointers](problem_sets/2_ptrs/README.md): 12
+- [2 pointers](problem_sets/2_ptrs/README.md): 7
 
 - [Backtracking](problem_sets/backtracking/README.md): 16
 
@@ -307,7 +307,9 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Recursion](problem_sets/recursion/README.md): 16
 
-- [Sliding window](problem_sets/sliding_window/README.md): 2
+- [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 2
+
+- [Sliding window with 2 pointers](problem_sets/sliding_window/with_2_ptrs/README.md): 5
 
 - [Sorting](problem_sets/sorting/README.md): 6
 
@@ -341,6 +343,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+- :bulb: 1295. Find Median from Data Stream
+
+
+
 - :persevere: 777. Swap Adjacent in LR String
 
 
@@ -349,39 +355,15 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
+## Subarray sliding window algorithm
+
+
+
 ## Circular sort
 
 
 
 ## Quick select
-
-
-
-## Substring window algorithm
-
-
-
-- :bulb: 76. Minimum Window Substring
-
-
-
-- :bulb: 567. Permutation in String
-
-
-
-- :bulb: 904. Fruit Into Baskets
-
-
-
-- :bulb: 159. Longest Substring with At Most Two Distinct Characters
-
-
-
-- :bulb: 438. Find All Anagrams in a String
-
-
-
-- :bulb: 1295. Find Median from Data Stream
 
 
 
@@ -1395,7 +1377,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-# [Sliding window](problem_sets/sliding_window/README.md)
+# [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md)
 
 
 - :bulb: 1423. Maximum Points You Can Obtain from Cards
@@ -1403,6 +1385,29 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :persevere: 30. Substring with Concatenation of All Words
+
+
+
+# [Sliding window with 2 pointers](problem_sets/sliding_window/with_2_ptrs/README.md)
+
+
+- :bulb: 76. Minimum Window Substring
+
+
+
+- :bulb: 567. Permutation in String
+
+
+
+- :bulb: 904. Fruit Into Baskets
+
+
+
+- :bulb: 159. Longest Substring with At Most Two Distinct Characters
+
+
+
+- :bulb: 438. Find All Anagrams in a String
 
 
 

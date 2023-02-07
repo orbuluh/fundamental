@@ -46,6 +46,8 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
                     subsection = subsection.replace("binary_indexed_tree/", "binary_indexed_tree/segment_tree/")
                     subsection = subsection.replace("meeting_room_like/", "greedy/meeting_room_like/")
                     subsection = subsection.replace("graph_", "graph/graph_")
+                    subsection = subsection.replace("fixed_size", "sliding_window/fixed_size")
+                    subsection = subsection.replace("with_2_ptrs", "sliding_window/with_2_ptrs")
                     if re.search("^##", line):
                         subsection = "## " + subsection
                         content_dump[folder] += [subsection]
