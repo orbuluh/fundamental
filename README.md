@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 236
+# Problems listed: 237
 
 :ok_hand: x 57
-:bulb: x 137
+:bulb: x 138
 :persevere: x 19
 :dizzy_face: x 17
 :exploding_head: x 6
@@ -287,7 +287,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Greedy](problem_sets/greedy/README.md): 17
 
-- [Jump table/line](problem_sets/greedy/jump_table/README.md): 5
+- [Jump table/line](problem_sets/greedy/jump_table/README.md): 6
 
 - [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 7
 
@@ -983,6 +983,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 452. Minimum Number of Arrows to Burst Balloons
+
+
+
+- :bulb: 45. Jump Game II
 
 
 
