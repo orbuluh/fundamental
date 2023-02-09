@@ -244,12 +244,12 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 237
+# Problems listed: 238
 
 :ok_hand: x 57
 :bulb: x 138
 :persevere: x 19
-:dizzy_face: x 17
+:dizzy_face: x 18
 :exploding_head: x 6
 
 
@@ -295,7 +295,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Math](problem_sets/math/README.md): 9
 
-- [Misc](problem_sets/misc/README.md): 14
+- [Misc](problem_sets/misc/README.md): 15
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
@@ -1163,6 +1163,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1209. Remove All Adjacent Duplicates in String II
+
+
+
+- :dizzy_face: 2306. Naming a Company
 
 
 
