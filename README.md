@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 238
+# Problems listed: 239
 
 :ok_hand: x 57
-:bulb: x 138
+:bulb: x 139
 :persevere: x 19
 :dizzy_face: x 18
 :exploding_head: x 6
@@ -255,7 +255,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 7
 
-- [Backtracking](problem_sets/backtracking/README.md): 16
+- [Backtracking](problem_sets/backtracking/README.md): 17
 
 - [Binary search](problem_sets/binary_search/README.md): 12
 
@@ -439,6 +439,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1926. Nearest Exit from Entrance in Maze
+
+
+
+## BFS from multiple points
+
+
+
+- :bulb: 1162. As Far from Land as Possible
 
 
 
