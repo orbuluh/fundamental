@@ -244,10 +244,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 240
+# Problems listed: 241
 
 :ok_hand: x 57
-:bulb: x 140
+:bulb: x 141
 :persevere: x 19
 :dizzy_face: x 18
 :exploding_head: x 6
@@ -255,7 +255,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 7
 
-- [Backtracking](problem_sets/backtracking/README.md): 18
+- [Backtracking](problem_sets/backtracking/README.md): 19
 
 - [Binary search](problem_sets/binary_search/README.md): 12
 
@@ -403,6 +403,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 465. Optimal Account Balancing
+
+
+
+- :bulb: 2477. Minimum Fuel Cost to Report to the Capital
 
 
 
