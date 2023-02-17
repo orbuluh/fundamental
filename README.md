@@ -244,9 +244,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 241
+# Problems listed: 242
 
-:ok_hand: x 57
+:ok_hand: x 58
 :bulb: x 141
 :persevere: x 19
 :dizzy_face: x 18
@@ -305,7 +305,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](problem_sets/recursion/README.md): 16
+- [Recursion](problem_sets/recursion/README.md): 17
 
 - [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 2
 
@@ -1346,6 +1346,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 669. Trim a Binary Search Tree
+
+
+
+- :ok_hand: 783. Minimum Distance Between BST Nodes
 
 
 

@@ -79,6 +79,25 @@ trim the tree so that all its elements lies in [low, high]
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes) / [:man_technologist:](min_distance_between_bst_nodes.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a Binary Search Tree (BST), return the minimum difference
+between the values of any two different nodes in the tree.
+
+Input: root = [1,0,48,null,null,12,49]
+    1
+0       48
+      12   49
+
+Output: 1
+```
+
+</details>
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) / [:man_technologist:](bt_prunning.h)
 
 <details><summary markdown="span">Question</summary>
