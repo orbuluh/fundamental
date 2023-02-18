@@ -98,6 +98,22 @@ Output: 1
 </details>
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) / [:man_technologist:](invert_binary_tree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, invert the tree, and return its root.
+
+       4                 4
+   2      7           7      2
+ 1   3  6   9       9   6  3   1
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) / [:man_technologist:](bt_prunning.h)
 
 <details><summary markdown="span">Question</summary>
