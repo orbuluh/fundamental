@@ -63,6 +63,29 @@ Given the root of a binary tree, return the preorder traversal of its nodes' val
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) / [:man_technologist:](btree_zigzag_level_order_traversal.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, return the zigzag level order traversal of
+its nodes' values.
+- i.e., from left to right, then right to left for the next level
+- and alternate between
+
+Input: root = [3,9,20,null,null,15,7]
+
+          3
+      9     20
+          15   7
+
+Output: [[3],[20,9],[15,7]]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) / [:man_technologist:](vertical_order_traversal.h)
 
 - tips: [Tree like DS are sorted by keys!](../../_notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)

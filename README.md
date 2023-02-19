@@ -244,9 +244,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 243
+# Problems listed: 244
 
-:ok_hand: x 59
+:ok_hand: x 60
 :bulb: x 141
 :persevere: x 19
 :dizzy_face: x 18
@@ -315,7 +315,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Substring matching algorithm](problem_sets/substr_matching/README.md): 1
 
-- [Tree](problem_sets/tree/README.md): 8
+- [Tree](problem_sets/tree/README.md): 9
 
 - [Trie](problem_sets/trie/README.md): 2
 
@@ -1521,6 +1521,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 144. Binary Tree Preorder Traversal
+
+
+
+- :ok_hand: 103. Binary Tree Zigzag Level Order Traversal
 
 
 
