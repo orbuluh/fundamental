@@ -16,11 +16,6 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-- Binary search
-
-
-
-
 - Dynamic programming
 
 
@@ -47,6 +42,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - Morris traversal
+
+
+**[Binary search](_notes/binary_search.md)**
+
+
+
+
+- Keys to implement by yourself
 
 
 **[Bitwise](_notes/bitwise.md)**
@@ -144,6 +147,12 @@ Quote from [HTDP](https://htdp.org/)
 
 
 **[Data structures: Union–find data structure](_notes/union_find.md)**
+
+
+
+
+
+**[Finding last occurrence:](_notes/binary_search.md)**
 
 
 

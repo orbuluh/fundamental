@@ -1,6 +1,6 @@
 # Binary search
 
-- [Notes :notebook:](../../_notes/algorithms.md#binary-search)
+- [Notes :notebook:](../../_notes/binary_search.md)
 
 ------------------------------------------------------------------------------
 
