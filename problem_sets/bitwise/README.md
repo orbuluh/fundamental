@@ -101,6 +101,30 @@ Output: [1,2]
 
 ------------------------------------------------------------------------------
 
+## `odd ^ 1 == odd - 1`, `even ^ 1 == even + 1`
+
+## [:persevere: 540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array) / [:man_technologist:](single_element_in_a_sorted_array.h)
+
+- More a binary search problem but the bitwise trick is the enlightening one!
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a sorted array consisting of only integers where every element
+appears exactly twice, except for one element which appears exactly once.
+
+Return the single element that appears only once.
+
+Your solution must run in O(log n) time and O(1) space.
+
+Input: nums = [1,1,2,3,3,4,4,8,8]
+Output: 2
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## Reset the last set bit: `x & (x - 1)`
 
 ## [:ok_hand: 268. Missing Number](https://leetcode.com/problems/number-of-1-bits/) / [:man_technologist:](number_of_setbit.h)

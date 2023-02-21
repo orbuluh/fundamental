@@ -253,11 +253,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 244
+# Problems listed: 245
 
 :ok_hand: x 60
 :bulb: x 141
-:persevere: x 19
+:persevere: x 20
 :dizzy_face: x 18
 :exploding_head: x 6
 
@@ -268,7 +268,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Binary search](problem_sets/binary_search/README.md): 12
 
-- [Bitwise](problem_sets/bitwise/README.md): 7
+- [Bitwise](problem_sets/bitwise/README.md): 8
 
 - [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 4
 
@@ -570,6 +570,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 645. Set Mismatch
+
+
+
+## `odd ^ 1 == odd - 1`, `even ^ 1 == even + 1`
+
+
+
+- :persevere: 540. Single Element in a Sorted Array
 
 
 
