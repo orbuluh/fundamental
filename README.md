@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 245
+# Problems listed: 246
 
-:ok_hand: x 60
+:ok_hand: x 61
 :bulb: x 141
 :persevere: x 20
 :dizzy_face: x 18
@@ -266,7 +266,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Backtracking](problem_sets/backtracking/README.md): 19
 
-- [Binary search](problem_sets/binary_search/README.md): 12
+- [Binary search](problem_sets/binary_search/README.md): 13
 
 - [Bitwise](problem_sets/bitwise/README.md): 8
 
@@ -480,6 +480,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Binary search](problem_sets/binary_search/README.md)
+
+
+- :ok_hand: 1011. Capacity To Ship Packages Within D Days
+
 
 
 - :ok_hand: 2389. Longest Subsequence With Limited Sum
