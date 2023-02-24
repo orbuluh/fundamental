@@ -253,11 +253,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 247
+# Problems listed: 248
 
 :ok_hand: x 61
 :bulb: x 142
-:persevere: x 20
+:persevere: x 21
 :dizzy_face: x 18
 :exploding_head: x 6
 
@@ -294,7 +294,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 6
 
-- [Greedy](problem_sets/greedy/README.md): 18
+- [Greedy](problem_sets/greedy/README.md): 19
 
 - [Jump table/line](problem_sets/greedy/jump_table/README.md): 6
 
@@ -1009,6 +1009,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 2136. Earliest Possible Day of Full Bloom
+
+
+
+- :persevere: 1675. Minimize Deviation in Array
 
 
 
