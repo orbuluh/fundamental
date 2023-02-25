@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 248
+# Problems listed: 249
 
-:ok_hand: x 61
+:ok_hand: x 62
 :bulb: x 142
 :persevere: x 21
 :dizzy_face: x 18
@@ -294,7 +294,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 6
 
-- [Greedy](problem_sets/greedy/README.md): 19
+- [Greedy](problem_sets/greedy/README.md): 20
 
 - [Jump table/line](problem_sets/greedy/jump_table/README.md): 6
 
@@ -946,6 +946,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Greedy](problem_sets/greedy/README.md)
+
+
+- :ok_hand: 121. Best Time to Buy and Sell Stock
+
 
 
 - :ok_hand: 2178. Maximum Split of Positive Even Integers

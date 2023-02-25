@@ -1,5 +1,29 @@
 # Greedy
 
+## [:ok_hand: 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) / [:man_technologist:](best_time_to_buy_and_sell_stock.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array prices as price of a given stock on the ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and
+choosing a different day in the future to sell that stock.
+
+Return the maximum profit you can achieve from this transaction.
+If you cannot achieve any profit, return 0.
+
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit =
+6-1 = 5. Note that buying on day 2 and selling on day 1 is not allowed because
+you must buy before you sell.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 2178. Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) / [:man_technologist:](max_split_of_positive_even_ints.h)
 
 <details><summary markdown="span">Question</summary>
