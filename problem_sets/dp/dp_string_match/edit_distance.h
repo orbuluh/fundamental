@@ -1,80 +1,79 @@
 
 /*
-assuming dp[i][j] is the minimum operations to make s1[i:] match s2[j:]
-base case:
-    if s1[i:] and s2[j:] are both empty, operation is 0
-    if only s1[i:] is empty
-        -> minimum step is basically all insert to s1 to match s2
-        -> dp[i][j] = s2.size() - j
-    if only s2[j:] is empty
-        -> minimum step is basically all remove from s1 to match s2
-        -> dp[i][j] = s2.size() - j
-recursion:
-    if s1[i] == s2[j], it's a match, no operation needed
-        - e.g. s1 = ab, s2 = ad -> editDistance(ab, ad) == editDistance(b, d)
-        - e.g. dp[i][j] = dp[i-1][j-1]
 
-    otherwise construct depends on the operations ...
-    Question, how operation would do given it creates a optimal solution
-    for the subproblems?
+Say f(s1, s2) being the min operations to make s1 and s2 the same.
 
-    [INSERT]
-    say we use insert, we must insert s2[j] into s1[i]
-    (insert other stuff would not have made this optimal solution.)
-    say i is 0, j is 0 below, s1[i] == b, s2[j] == d
-    s1: b   -->  db
-    s2: db       db
-    e.g. thorough insert, we've matched s2[j], but as we insert,
-         s1[i] isn't really processed yet, so it's like
-         editDistance(b, db) == editDistance(d, '') + 1
-    e.g. dp[i][j] = dp[i][j+1] + 1
+Say s1 = aX where a is single char and X is the remainder of s1
+    s2 = bY where b is single char and Y is the remainder of s2
 
-    [DELETE]
-    say we use delete, we must delete s1[i] while no change in s2
-    s1: bd   -->   d
-    s2: d    -->   d
-    e.g. editDistance(bd, d) == editDistance(d, d) + 1
-    e.g. dp[i][j] = dp[i+1][j] + 1
+To calculate f(aX, bY):
 
-    [Replace]
-    say we use replace, we must have replaced s1[i] to be equal to s2[j]
-    s1: bd   -->   ad
-    s2: ad   -->   ad
-    e.g. editDistance(bd, ad) == editDistance(d, d) + 1
-    dp[i][j] = dp[i+1][j+1] + 1
+if a == b:
+  - f(aX, aY) = f(X, Y)
+if a != b:
+  through insertion:
+  - insert b in s1: f(aX, bY) = 1 + f(abX, bY) = 1 + f(aX, Y)
+  - insert a in s2: f(aX, bY) = 1 + f(aX, abY) = 1 + f(X, bY)
 
+  through deletion:
+  - delete a in s1: f(aX, bY) = 1 + f(X, bY)
+  - delete b in s2: f(aX, bY) = 1 + f(aX, Y)
 
-    [The recursion]
-    As we want to find the minimal operation, we are looking the best
-    operation:
-    dp[i][j] = min(dp[i+1][j], dp[j+1][i], dp[i+1, j+1]) + 1
+  through replacement:
+  - f(aX, bY) = 1 + f(aX, aY) = 1 + f(bX, bY) = 1 + f(X, Y)
 
+=> overall, effect of insert in s1/s2 == delete in s2/s1
+   so we can conclude ... for "min" operations, it should equal to
+   the result of either the 3 operations:
+   - 1 + f(aX, Y),
+   - 1 + f(X, bY),
+   - 1 + f(X, Y)
+
+=> what's the bottom case in this recursion?
+
+- f("", "") = 0
+- f(X, "") = len(X)
+- f("", Y) = len(Y)
+
+How to model f(s1, s2)?
+
+say dp[i][j] is min operations to match s1[i:] and s2[j:]
+then f(s1, s2) = dp[0][0], and we build the dp from the bottom case:
+
+The bottom case is: dp[s1sz:][:] => case of f("", Y)
+                    dp[:][s2Sz:] => case of f(X, "")
+
+then, dp[s1sz:][j] = s2sz - j (e.g. Y is substr(s2[j:], with len s2Sz - j)
+same, dp[i][s2sz:] = s1sz - i (e.g. X is substr(s1[i:], with len s1Sz - i)
+
+then dp[i][j] can be built from the bottom case with:
+
+dp[i][j] = if s1[i] = s2[j]: dp[i+1][j+1]  //e.g. f(X, Y)
+           else: 1 + min(
+             dp[i][j+1],                   //e.g. f(aX, Y)
+             dp[i+1][j],                   //e.g. f(X, bY)
+             dp[i+1][j+1]                  //e.g. f(X, Y)
+           )
 */
 class Solution {
  public:
-  int minDistance(string word1, string word2) {
-    const int s1Sz = word1.size();
-    const int s2Sz = word2.size();
-    std::vector<std::vector<int>> dp(s1Sz + 1, std::vector<int>(s2Sz + 1, 0));
-
-    // matching empty w1 with w2 should basically take the number of insertion
-    for (int j = s2Sz - 1; j >= 0; --j) {
-      dp[s1Sz][j] = s2Sz - j;
-    }
-    // matching w1 with empty w2 should basically take the number of deletion
-    for (int i = s1Sz - 1; i >= 0; --i) {
+  int minDistance(string s1, string s2) {
+    const int s1Sz = s1.size();
+    const int s2Sz = s2.size();
+    std::vector<std::vector<int>> dp =
+        std::vector<std::vector<int>>(s1Sz + 1, std::vector<int>(s2Sz + 1, 0));
+    for (int i = 0; i < s1Sz; ++i) {
       dp[i][s2Sz] = s1Sz - i;
     }
-    // build up the recurrence
+    for (int j = 0; j < s2Sz; ++j) {
+      dp[s1Sz][j] = s2Sz - j;
+    }
     for (int i = s1Sz - 1; i >= 0; --i) {
       for (int j = s2Sz - 1; j >= 0; --j) {
-        if (word1[i] == word2[j]) {
-          dp[i][j] = dp[i + 1][j + 1];
-        } else {
-          int insertOps = dp[i][j + 1];
-          int deleteOps = dp[i + 1][j];
-          int replaceOps = dp[i + 1][j + 1];
-          dp[i][j] = 1 + std::min(insertOps, std::min(deleteOps, replaceOps));
+        dp[i][j] = dp[i + 1][j + 1];
+        if (s1[i] != s2[j]) {
+          dp[i][j] =
+              1 + std::min(dp[i][j], std::min(dp[i][j + 1], dp[i + 1][j]));
         }
       }
     }
