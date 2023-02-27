@@ -96,6 +96,7 @@ Output: 1
 ```
 
 </details>
+
 ------------------------------------------------------------------------------
 
 ## [:ok_hand: 226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree) / [:man_technologist:](invert_binary_tree.h)
@@ -359,6 +360,32 @@ The test cases are generated so that the length of the output will never exceed 
 
 Input: s = "3[a2[c]]"
 Output: "accaccacc"
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:bulb: 427. Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree) / [:man_technologist:](construct_quad_tree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a n * n matrix grid of 0's and 1's only.
+We want to represent the grid with a Quad-Tree.
+
+A Quad-Tree is a tree data structure in which each internal node has exactly
+four children. Besides, each node has two attributes:
+
+- val: True if the node represents a grid of 1's or
+       False if the node represents a grid of 0's.
+- isLeaf: True if the node is leaf node on the tree or
+          False if the node has the four children.
+- Notice that you can assign the value of a node to True or False when isLeaf
+is False, and both are accepted in the answer.
+
+Return the root of the Quad-Tree representing the grid.
+- check Leetcode for pictures of example
 ```
 
 </details>

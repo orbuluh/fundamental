@@ -253,10 +253,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 249
+# Problems listed: 250
 
 :ok_hand: x 62
-:bulb: x 142
+:bulb: x 143
 :persevere: x 21
 :dizzy_face: x 18
 :exploding_head: x 6
@@ -314,7 +314,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](problem_sets/recursion/README.md): 18
+- [Recursion](problem_sets/recursion/README.md): 19
 
 - [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 2
 
@@ -1427,6 +1427,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 394. Decode String
+
+
+
+- :bulb: 427. Construct Quad Tree
 
 
 
