@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 250
+# Problems listed: 251
 
-:ok_hand: x 62
+:ok_hand: x 63
 :bulb: x 143
 :persevere: x 21
 :dizzy_face: x 18
@@ -324,7 +324,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Substring matching algorithm](problem_sets/substr_matching/README.md): 1
 
-- [Tree](problem_sets/tree/README.md): 9
+- [Tree](problem_sets/tree/README.md): 10
 
 - [Trie](problem_sets/trie/README.md): 2
 
@@ -1550,6 +1550,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 297. Serialize and Deserialize Binary Tree
+
+
+
+- :ok_hand: 652. Find Duplicate Subtrees
 
 
 

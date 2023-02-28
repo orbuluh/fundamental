@@ -48,6 +48,32 @@ Serialize and deserialize a binary tree.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees) / [:man_technologist:](find_duplicate_subtrees.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+
+Given the root of a binary tree, return all duplicate subtrees.
+For each kind of duplicate subtrees, you only need to return the root node of
+any one of them.
+
+Two trees are duplicate if they have the same structure with the same node values.
+
+
+Input: root = [1,2,3,4,null,2,4,null,null,4]
+
+            1
+        2       3
+      4       2   4
+            4
+Output: [[2,4],[4]]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## Tree traversal
 
 ## [:ok_hand: 144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal) / [:man_technologist:](preorder_iterative.h)
