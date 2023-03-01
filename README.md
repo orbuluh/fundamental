@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 251
+# Problems listed: 252
 
-:ok_hand: x 63
+:ok_hand: x 64
 :bulb: x 143
 :persevere: x 21
 :dizzy_face: x 18
@@ -320,7 +320,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Sliding window with 2 pointers](problem_sets/sliding_window/with_2_ptrs/README.md): 5
 
-- [Sorting](problem_sets/sorting/README.md): 6
+- [Sorting](problem_sets/sorting/README.md): 7
 
 - [Substring matching algorithm](problem_sets/substr_matching/README.md): 1
 
@@ -1516,6 +1516,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 645. Set Mismatch
+
+
+
+## Counting sort
+
+
+
+- :ok_hand: 912. Sort an Array
 
 
 

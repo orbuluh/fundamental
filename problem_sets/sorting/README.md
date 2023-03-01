@@ -119,6 +119,28 @@ To the right of 1 there is 0 smaller element.
 
 ------------------------------------------------------------------------------
 
+## Counting sort
+
+## [:ok_hand: 912. Sort an Array](https://leetcode.com/problems/sort-an-array) / [:man_technologist:](sort_an_array_countingsort.h)
+
+- Also quick sort implementation -> [:man_technologist:](sort_an_array_quicksort.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of integers nums, sort the array in ascending order and return it.
+
+You must solve the problem without using any built-in functions in O(nlog(n))
+time complexity and with the smallest space complexity possible.
+
+1 <= nums.length <= 5 * 10^4
+-5 * 10^4 <= nums[i] <= 5 * 10^4
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## Quick select
 
 ## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) / [:man_technologist:](kth_largest_in_an_array.h)
@@ -137,3 +159,5 @@ Output: 5
 ```
 
 </details>
+
+------------------------------------------------------------------------------
