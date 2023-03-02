@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 252
+# Problems listed: 253
 
-:ok_hand: x 64
+:ok_hand: x 65
 :bulb: x 143
 :persevere: x 21
 :dizzy_face: x 18
@@ -304,7 +304,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Math](problem_sets/math/README.md): 9
 
-- [Misc](problem_sets/misc/README.md): 15
+- [Misc](problem_sets/misc/README.md): 16
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
@@ -1228,6 +1228,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 12. Integer to Roman
+
+
+
+- :ok_hand: 443. String Compression
 
 
 
