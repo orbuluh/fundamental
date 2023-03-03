@@ -253,10 +253,10 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 253
+# Problems listed: 254
 
 :ok_hand: x 65
-:bulb: x 143
+:bulb: x 144
 :persevere: x 21
 :dizzy_face: x 18
 :exploding_head: x 6
@@ -322,7 +322,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Sorting](problem_sets/sorting/README.md): 7
 
-- [Substring matching algorithm](problem_sets/substr_matching/README.md): 1
+- [Substring matching algorithm](problem_sets/substr_matching/README.md): 2
 
 - [Tree](problem_sets/tree/README.md): 10
 
@@ -1540,6 +1540,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 # [Substring matching algorithm](problem_sets/substr_matching/README.md)
+
+
+- :bulb: 28. Find the Index of the First Occurrence in a String
+
 
 
 - :bulb: 718. Maximum Length of Repeated Subarray

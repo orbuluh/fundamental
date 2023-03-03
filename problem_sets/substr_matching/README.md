@@ -1,7 +1,25 @@
 # Substring matching algorithm
 
-- [KMP :point_right: here](../../_notes/kmp.md)
-- [Rolling hash :point_right: here](../../_notes/rolling_hash.md)
+- LMP notes [:point_right: here](../../_notes/kmp.md)
+- Rolling hash notes [:point_right: here](../../_notes/rolling_hash.md)
+
+## [:bulb: 28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) / [:man_technologist:](find_first_occurrence_in_string.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two strings needle and haystack, return the index of the first occurrence
+of needle in haystack, or -1 if needle is not part of haystack.
+
+Input: haystack = "sadbutsad", needle = "sad"
+Output: 0
+Explanation: "sad" occurs at index 0 and 6.
+The first occurrence is at index 0, so we return 0.
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) / [:man_technologist:](max_len_of_repeated_subarray.h)
 
