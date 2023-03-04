@@ -65,6 +65,7 @@ Output: [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
 ------------------------------------------------------------------------------
 
 ## [:bulb: 1470. Shuffle the Array](https://leetcode.com/problems/shuffle-the-array) / [:man_technologist:](shuffle_array.h)
+
 <details><summary markdown="span">Question</summary>
 
 - Challenge: how to do it in-place without extra memory?
@@ -83,7 +84,9 @@ Output: [2,3,5,4,1,7]
 </details>
 
 ------------------------------------------------------------------------------
+
 ## [:bulb: 189. Rotate Array](https://leetcode.com/problems/rotate-array/) / [:man_technologist:](rotate_array.h)
+
 <details><summary markdown="span">Question</summary>
 
 - "How to rotate 1" is actually interesting than you think ... give it a try!
@@ -162,8 +165,35 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
-## [:dizzy_face: 2306. Naming a Company](https://leetcode.com/problems/naming-a-company) / [:man_technologist:](naming_a_company.h)
+## [:persevere: 2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds) / [:man_technologist:](count_subarrays_with_fixed_bounds.h)
 
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an integer array nums and two integers minK and maxK.
+
+A fixed-bound subarray of nums is a subarray that satisfies the following conditions:
+
+The minimum value in the subarray is equal to minK.
+The maximum value in the subarray is equal to maxK.
+Return the number of fixed-bound subarrays.
+
+A subarray is a contiguous part of an array.
+
+Input: nums = [1,3,5,2,7,5], minK = 1, maxK = 5
+Output: 2
+Explanation: The fixed-bound subarrays are [1,3,5] and [1,3,5,2].
+
+Input: nums = [1,1,1,1], minK = 1, maxK = 1
+Output: 10
+Explanation: Every subarray of nums is a fixed-bound subarray. There are 10 possible subarrays.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:dizzy_face: 2306. Naming a Company](https://leetcode.com/problems/naming-a-company) / [:man_technologist:](naming_a_company.h)
 
 <details><summary markdown="span">Question</summary>
 
@@ -201,7 +231,6 @@ The following are some examples of invalid selections:
 </details>
 
 ------------------------------------------------------------------------------
-
 
 ## [:dizzy_face: 856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/) / [:man_technologist:](score_of_parentheses.h)
 

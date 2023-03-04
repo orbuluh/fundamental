@@ -253,11 +253,11 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 254
+# Problems listed: 255
 
 :ok_hand: x 65
 :bulb: x 144
-:persevere: x 21
+:persevere: x 22
 :dizzy_face: x 18
 :exploding_head: x 6
 
@@ -304,7 +304,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Math](problem_sets/math/README.md): 9
 
-- [Misc](problem_sets/misc/README.md): 16
+- [Misc](problem_sets/misc/README.md): 17
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
@@ -1212,6 +1212,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :bulb: 1209. Remove All Adjacent Duplicates in String II
+
+
+
+- :persevere: 2444. Count Subarrays With Fixed Bounds
 
 
 
