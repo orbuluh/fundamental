@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 255
+# Problems listed: 257
 
-:ok_hand: x 65
+:ok_hand: x 67
 :bulb: x 144
 :persevere: x 22
 :dizzy_face: x 18
@@ -264,7 +264,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [2 pointers](problem_sets/2_ptrs/README.md): 7
 
-- [Backtracking](problem_sets/backtracking/README.md): 19
+- [Backtracking](problem_sets/backtracking/README.md): 20
 
 - [Binary search](problem_sets/binary_search/README.md): 13
 
@@ -304,7 +304,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Math](problem_sets/math/README.md): 9
 
-- [Misc](problem_sets/misc/README.md): 17
+- [Misc](problem_sets/misc/README.md): 18
 
 - [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
@@ -448,6 +448,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 841. Keys and Rooms
+
+
+
+- :ok_hand: 1345. Jump Game IV
 
 
 
@@ -1228,6 +1232,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 ## Nice implementation idea
+
+
+
+- :ok_hand: 1539. Kth Missing Positive Number
 
 
 
