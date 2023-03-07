@@ -27,12 +27,14 @@ Generally for binary search, you know that
 - What's the key of finding "the first occurrence"? If `nums[mid] == target`, you want to make `mid` a right boundary of the answer. (Answer cannot be on mid's right hand side, but answer could be on its left hand side, as there could be multiple value equal to target, and you are trying to find "the first")
 - And because `mid` is now the right bound, you know that you want to make `r = mid`. So overall you want to do: `r = mid` when `value >= target` (adding `>` in condition because **[Rule.Gen.2]**)
 - And because **[Rule.Gen.1]**, you know that you must make `l = mid + 1` when `value < target`, otherwise you are getting infinite loop. Exam further, it makes sense as whenever `nums[mid] < target`, `mid` just can't be the first occurrence of `target`
+- Or you can think this in another way - we are finding first occurrence, so whenever `value < target`, `mid` can't be an answer and it's too small, so we can safely move left bound using `l = mid + 1`.
 
 :two: When the goal is finding **"the last"** occurrence of `target`
 
 - What's the difference of finding "the last" occurrence? If `nums[mid] == target`, you want to make `mid` a left boundary of the answer instead, as you want to find the last. So this is a condition when you set up `l`
 - So again, because **[Rule.Gen.2]**, you want to do `l = mid` when `value <= target`
 - Also again, because **[Rule.Gen.1]**, you know that you should do `r = mid - 1` when `value > target`. Check further, if `nums[mid] > target`, it just can never be the last occurrence of the `target`, so we are good here.
+- Same, you can think this in another way - we are finding last occurrence, so whenever `value > target`, `mid` can't be an answer and it's too big, so we can safely move right bound using `r = mid - 1`.
 
 ### Key 2: Keep the invariance `l != r` inside the iteration
 

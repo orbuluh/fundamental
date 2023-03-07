@@ -253,9 +253,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-# Problems listed: 257
+# Problems listed: 258
 
-:ok_hand: x 67
+:ok_hand: x 68
 :bulb: x 144
 :persevere: x 22
 :dizzy_face: x 18
@@ -266,7 +266,7 @@ Quote from [HTDP](https://htdp.org/)
 
 - [Backtracking](problem_sets/backtracking/README.md): 20
 
-- [Binary search](problem_sets/binary_search/README.md): 13
+- [Binary search](problem_sets/binary_search/README.md): 14
 
 - [Bitwise](problem_sets/bitwise/README.md): 8
 
@@ -495,6 +495,10 @@ Quote from [HTDP](https://htdp.org/)
 
 
 - :ok_hand: 74. Search a 2D Matrix
+
+
+
+- :ok_hand: 2187. Minimum Time to Complete Trips
 
 
 
