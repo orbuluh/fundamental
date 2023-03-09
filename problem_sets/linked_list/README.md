@@ -2,12 +2,26 @@
 
 ## Basic operations on linked list
 
-## [:ok_hand: 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) / [:man_technologist:](reversed_linked_list.h)
+## [:ok_hand: 141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) / [:man_technologist:](linked_list_cycle.h)
 
 <details><summary markdown="span">Question</summary>
 
 ```markdown
-Given the head of a singly linked list, reverse the list, and return the reversed list.
+Given head, the head of a linked list, determine if the linked list has a cycle.
+Return true if there is a cycle in the linked list. Otherwise, return false.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:ok_hand: 142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) / [:man_technologist:](linked_list_cycle_ii.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a linked list, return the node where the cycle begins.
+If there is no cycle, return null.
 ```
 
 </details>

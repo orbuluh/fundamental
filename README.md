@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 258 ... :ok_hand: x 68 :bulb: x 144 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 259 ... :ok_hand: x 69 :bulb: x 144 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -908,7 +908,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Linked list](problem_sets/linked_list/README.md): 9
+### [Linked list](problem_sets/linked_list/README.md): 10
 
 <details><summary>Questions</summary>
 
@@ -919,6 +919,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 141. Linked List Cycle
+  
+
+  
+  - :ok_hand: 142. Linked List Cycle II
   
 
   

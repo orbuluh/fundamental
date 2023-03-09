@@ -69,7 +69,7 @@
   - Bitwise rounding to pow of 2 (useful for memory alignment): `size = (size + alignment-1) & ~(alignment-1)`
   
 
-**[Cycle detection](cycle_detection.md)**
+**[Cycle detection (Floyd's tortoise and hare with 2 pointers)](cycle_detection.md)**
   
 
   
