@@ -46,11 +46,11 @@ Generally for binary search, you know that
 Summary of key 1:
 
 ```txt
-# Finding first occurrence:
+Finding first occurrence:
     if nums[mid] >= target: r = mid
     else: l = mid + 1
 
-# Finding last occurrence:
+Finding last occurrence:
     if nums[mid] <= target: l = mid
     else: r = mid + 1
 ```

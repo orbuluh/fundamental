@@ -8,9 +8,14 @@ import os
 scriptDir = os.path.dirname(os.path.realpath(__file__))
 environment = Environment(loader=FileSystemLoader(scriptDir),
                           extensions=['jinja2.ext.loopcontrols'])
-template = environment.get_template("readme.jinja")
 
-context = {}
+def finalizeFile(template_file_name, output_file_name, context):
+    template = environment.get_template(template_file_name)
+    with open(output_file_name, mode="w", encoding="utf-8") as fo:
+        fo.write(template.render(context))
+
+##----------------------------------------------------------------------------
+
 content_dump = defaultdict(list)
 difficulty = defaultdict(int)
 folder_title = {}
@@ -59,6 +64,17 @@ for posix_file_path in Path(f"{scriptDir}/..").rglob('README.md'):
         cnt_per_chapter[folder] = count
         total_count += count
 
+
+finalizeFile("readme.jinja", f"{scriptDir}/../README.md", {
+    "folder_title": folder_title,
+    "content_dump": content_dump,
+    "difficulty": difficulty,
+    "cnt_per_chapter": cnt_per_chapter,
+    "total_count": total_count,
+})
+
+##----------------------------------------------------------------------------
+
 note_dump = defaultdict(list)
 note_file_map = dict()
 
@@ -75,7 +91,7 @@ for posix_file_path in Path(f"{scriptDir}/../_notes").rglob('*.md'):
                     title = m2.group(1)
                 else:
                     title = m.group(1)
-                note_file_map[title] = filepath[filepath.find("_notes/"):]
+                note_file_map[title] = filepath.split("_notes/")[1]
                 continue
             m = re.search("^## (.*)", line)
             if m:
@@ -88,15 +104,7 @@ for posix_file_path in Path(f"{scriptDir}/../_notes").rglob('*.md'):
         if title not in note_dump:
             note_dump[title] += ["NoSubsection"]
 
-context = {
-    "folder_title": folder_title,
-    "content_dump": content_dump,
-    "difficulty": difficulty,
-    "cnt_per_chapter": cnt_per_chapter,
-    "total_count": total_count,
+finalizeFile("readme_notes.jinja", f"{scriptDir}/../_notes/README.md", {
     "note_dump": note_dump,
     "note_file_map": note_file_map
-}
-filename = f"{scriptDir}/../README.md"
-with open(filename, mode="w", encoding="utf-8") as fo:
-    fo.write(template.render(context))
+})

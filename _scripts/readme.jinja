@@ -8,42 +8,25 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-## [Notes for algo/DS deep-dive :book:](_notes/README.md)
+## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-{% for title, subtitles in note_dump.items()|sort(attribute='0')%}
-**[{{ title }}]({{ note_file_map[title] }})**
-{% for sub in subtitles %}
-
-{% if 'NoSubsection' in sub %}
-{% continue %}
-{% endif %}
-
-- {{ sub }}
-{% endfor %}
-{% endfor %}
-
-<br/>
-
-# Problems listed: {{ total_count }}
-
-:ok_hand: x {{difficulty[':ok_hand:']}}
-:bulb: x {{difficulty[':bulb:']}}
-:persevere: x {{difficulty[':persevere:']}}
-:dizzy_face: x {{difficulty[':dizzy_face:']}}
-:exploding_head: x {{difficulty[':exploding_head:']}}
+## :thinking: Problems listed: {{ total_count }} ... :ok_hand: x {{difficulty[':ok_hand:']}} :bulb: x {{difficulty[':bulb:']}} :persevere: x {{difficulty[':persevere:']}} :dizzy_face: x {{difficulty[':dizzy_face:']}} :exploding_head: x {{difficulty[':exploding_head:']}}
 
 {% for folder, contents in content_dump.items()|sort(attribute='0')%}
-- [{{ folder_title[folder] }}]({{ folder }}/README.md): {{ cnt_per_chapter[folder] }}
-{% endfor %}
----
 
-{% for folder, contents in content_dump.items()|sort(attribute='0')%}
-# [{{ folder_title[folder] }}]({{ folder }}/README.md)
+### [{{ folder_title[folder] }}]({{ folder }}/README.md): {{ cnt_per_chapter[folder] }}
+
+<details><summary>Questions</summary>
+
 {% for content in contents %}
-{% if '##' in content %}
-{{ content }}
-{% else %}
-- {{ content }}
-{% endif %}
+  {% if '##' in content %}
+  {{ content }}
+  {% else %}
+  - {{ content }}
+  {% endif %}
 {% endfor %}
+
+</details>
+
 {% endfor %}
+

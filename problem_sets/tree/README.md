@@ -133,7 +133,7 @@ Given the root of a binary tree, calculate the vertical order traversal of the b
 
 ## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) / [:man_technologist:](inorder_morris.h)
 
-- check _notes on morris: [:point_right: here](../../_notes/algorithms.md#morris-traversal)
+- check _notes on morris: [:point_right: here](../../_notes/tree_traversal.md#morris-traversal)
 
 <details><summary markdown="span">Question</summary>
 

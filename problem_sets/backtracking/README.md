@@ -1,6 +1,6 @@
 # Backtracking
 
-- [:notebook:](../../_notes/algorithms.md#backtracking)
+- [:notebook:](../../_notes/backtracking.md)
 
 ```markdown
 - One important thing while dfs backtracking is that how to NOT go to the same state.

@@ -1,6 +1,6 @@
-# Algorithm notes
+# Tree traversal
 
-## Preorder iterative
+## Pre-order iterative
 
 - [implementation](../tree/preorder_iterative.h)
 

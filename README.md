@@ -8,1649 +8,1568 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-## [Notes for algo/DS deep-dive :book:](_notes/README.md)
+## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
+## :thinking: Problems listed: 258 ... :ok_hand: x 68 :bulb: x 144 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
-**[Algorithm notes](_notes/tree_traversal.md)**
 
 
+### [2 pointers](problem_sets/2_ptrs/README.md): 7
 
+<details><summary>Questions</summary>
 
-- Dynamic programming
 
+  
+  - :ok_hand: 1047. Remove All Adjacent Duplicates In String
+  
 
+  
+  - :ok_hand: 151. Reverse Words in a String
+  
 
+  
+  - :bulb: 16. 3Sum Closest
+  
 
-- Backtracking
+  
+  - :bulb: 11. Container With Most Water
+  
 
+  
+  - :bulb: 1295. Find Median from Data Stream
+  
 
+  
+  - :persevere: 777. Swap Adjacent in LR String
+  
 
+  
+  - :persevere: 838. Push Dominoes
+  
 
-- Substring matching
+  
+  ## Subarray sliding window algorithm
+  
 
+  
+  ## Circular sort
+  
 
+  
+  ## Quick select
+  
 
 
-- Graph
+</details>
 
 
 
+### [Backtracking](problem_sets/backtracking/README.md): 20
 
-- Preorder iterative
+<details><summary>Questions</summary>
 
 
+  
+  ## State walking
+  
 
+  
+  - :ok_hand: 39. Combination Sum
+  
 
-- Morris traversal
+  
+  - :ok_hand: 131. Palindrome Partitioning
+  
 
+  
+  - :bulb: 93. Restore IP Addresses
+  
 
-**[Binary search](_notes/binary_search.md)**
+  
+  - :bulb: 31. Next Permutation
+  
 
+  
+  - :bulb: 491. Non-decreasing Subsequences
+  
 
+  
+  - :bulb: 473. Matchsticks to Square
+  
 
+  
+  - :bulb: 410. Split Array Largest Sum
+  
 
-- Keys to implement by yourself
+  
+  - :bulb: 465. Optimal Account Balancing
+  
 
+  
+  - :bulb: 2477. Minimum Fuel Cost to Report to the Capital
+  
 
-**[Bitwise](_notes/bitwise.md)**
+  
+  - :bulb: 1088. Confusing Number II
+  
 
+  
+  ## Grid walking
+  
 
+  
+  - :ok_hand: 490. The Maze
+  
 
+  
+  - :bulb: 489. Robot Room Cleaner
+  
 
-- Size of integers in C++
+  
+  - :bulb: 417. Pacific Atlantic Water Flow
+  
 
+  
+  - :persevere: 1293. Shortest Path in a Grid with Obstacles Elimination
+  
 
+  
+  ## BFS
+  
 
+  
+  - :ok_hand: 841. Keys and Rooms
+  
 
-- Two's complement
+  
+  - :ok_hand: 1345. Jump Game IV
+  
 
+  
+  - :bulb: 1926. Nearest Exit from Entrance in Maze
+  
 
+  
+  - :bulb: 1129. Shortest Path with Alternating Colors
+  
 
+  
+  ## BFS from multiple points
+  
 
-- Reset the last/rightmost set bit: `x & (x - 1)`
+  
+  - :bulb: 1162. As Far from Land as Possible
+  
 
+  
+  ## Backtracking the BFS path
+  
 
+  
+  - :persevere: 126. Word Ladder II
+  
 
+  
+  ## [Backtracking with binary search](../binary_search/README.md#backtracking-x-binary-search)
+  
 
-- Detect is power of 2: `(x & (x - 1)) == 0`
 
+</details>
 
 
 
-- Get the last/rightmost set bit: `x - (x & (x - 1))`
+### [Binary search](problem_sets/binary_search/README.md): 14
 
+<details><summary>Questions</summary>
 
 
+  
+  - :ok_hand: 1011. Capacity To Ship Packages Within D Days
+  
 
-- Isolate the least significant bit: `x & (-x)`
+  
+  - :ok_hand: 2389. Longest Subsequence With Limited Sum
+  
 
+  
+  - :ok_hand: 74. Search a 2D Matrix
+  
 
+  
+  - :ok_hand: 2187. Minimum Time to Complete Trips
+  
 
+  
+  - :bulb: 34. Find First and Last Position of Element in Sorted Array
+  
 
-- Detect if two integers have opposite signs: `f = (X ^ Y) < 0`
+  
+  - :bulb: 33. Search in Rotated Sorted Array
+  
 
+  
+  - :bulb: 81. Search in Rotated Sorted Array II
+  
 
+  
+  - :persevere: 658. Find K Closest Elements
+  
 
+  
+  - :persevere: 378. Kth Smallest Element in a Sorted Matrix
+  
 
-- Common mask
+  
+  - :dizzy_face: 4. Median of Two Sorted Arrays
+  
 
+  
+  ## Backtracking x Binary search
+  
 
+  
+  - :persevere: 1102. Path With Maximum Minimum Value
+  
 
+  
+  - :dizzy_face: 410. Split Array Largest Sum
+  
 
-- Bitwise rounding to pow of 2 (useful for memory alignment): `size = (size + alignment-1) & ~(alignment-1)`
+  
+  ## Interval related questions
+  
 
+  
+  - :ok_hand: 729. My Calendar I
+  
 
-**[Data structures](_notes/data_structures.md)**
+  
+  - :bulb: 715. Range Module
+  
 
 
+</details>
 
 
-- (Tree) map are sorted by keys `map`, `set`, `multimap`, `multiset`
 
+### [Bitwise](problem_sets/bitwise/README.md): 8
 
+<details><summary>Questions</summary>
 
 
-- BST
+  
+  ## [Two's complement](../../_notes/bitwise.md#twos-complement)
+  
 
+  
+  - :bulb: 371. Sum of Two Integers
+  
 
+  
+  ## basic operations
+  
 
+  
+  - :ok_hand: 190. Reverse Bits
+  
 
-- Binary index tree (BIT)
+  
+  - :ok_hand: 338. Counting Bits
+  
 
+  
+  ## xor: `a^a = 0; b^0 = b; b^a^a = b`
+  
 
+  
+  - :ok_hand: 268. Missing Number
+  
 
+  
+  - :ok_hand: 645. Set Mismatch
+  
 
-- Segment tree
+  
+  ## `odd ^ 1 == odd - 1`, `even ^ 1 == even + 1`
+  
 
+  
+  - :persevere: 540. Single Element in a Sorted Array
+  
 
+  
+  ## Reset the last set bit: `x & (x - 1)`
+  
 
+  
+  - :ok_hand: 268. Missing Number
+  
 
-- Monotonic Queue/Stack
+  
+  ## Detect power of 2: `(x & (x - 1) == 0)`
+  
 
+  
+  - :ok_hand: 1680. Concatenation of Consecutive Binary Numbers
+  
 
-**[Data structures: All kinds of Heap](_notes/ds_all_kinds_of_heap.md)**
 
+</details>
 
 
 
-- (Binary) heap
+### [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 4
 
+<details><summary>Questions</summary>
 
 
+  
+  - :ok_hand: 823. Binary Trees With Factors
+  
 
-- Binomial heap
+  
+  - :bulb: 23. Merge k Sorted Lists
+  
 
+  
+  - :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
+  
 
+  
+  - :persevere: 894. All Possible Full Binary Trees
+  
 
 
-- Fibonacci heap
+</details>
 
 
-**[Data structures: Union–find data structure](_notes/union_find.md)**
 
+### [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 5
 
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 474. Ones and Zeroes
+  
 
-**[Finding last occurrence:](_notes/binary_search.md)**
+  
+  - :bulb: 416. Partition Equal Subset Sum
+  
 
+  
+  - :bulb: 115. Distinct Subsequences
+  
 
+  
+  - :bulb: 1235. Maximum Profit in Job Scheduling
+  
 
+  
+  - :persevere: 494. Target Sum
+  
 
 
-**[Graph: 1. Topological sort](_notes/graph_topological_sort.md)**
+</details>
 
 
 
+### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 7
 
+<details><summary>Questions</summary>
 
-**[Graph: 2. Single source shortest path / SSSP](_notes/graph_sssp.md)**
 
+  
+  - :ok_hand: 931. Minimum Falling Path Sum
+  
 
+  
+  - :ok_hand: 576. Out of Boundary Paths
+  
 
+  
+  - :bulb: 1770. Maximum Score from Performing Multiplication Operations
+  
 
-- Generic structure of shortest path (SP)
+  
+  - :bulb: 494. Target Sum
+  
 
+  
+  - :bulb: 871. Minimum Number of Refueling Stops
+  
 
+  
+  - :bulb: 1473. Paint House III
+  
 
+  
+  - :exploding_head: 1531. String Compression II
+  
 
-- Shortest path in DAGs
 
+</details>
 
 
 
-- Dijkstra Algorithm
+### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 10
 
+<details><summary>Questions</summary>
 
 
+  
+  - :ok_hand: 198. House Robber
+  
 
-- Bellman Ford Algorithm
+  
+  - :ok_hand: 740. Delete and Earn
+  
 
+  
+  - :ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown
+  
 
-**[Graph: 3. All pairs shortest path / APSP](_notes/graph_apsp.md)**
+  
+  - :ok_hand: 1220. Count Vowels Permutation
+  
 
+  
+  - :bulb: 188. Best Time to Buy and Sell Stock IV
+  
 
+  
+  - :bulb: 799. Champagne Tower
+  
 
+  
+  - :bulb: 1335. Minimum Difficulty of a Job Schedule
+  
 
-- Floyd Warshall Algorithm
+  
+  - :bulb: 1937. Maximum Number of Points with Cost
+  
 
+  
+  - :dizzy_face: 790. Domino and Tromino Tiling
+  
 
-**[Graph: 4. Bipartite](_notes/graph_bipartite.md)**
+  
+  - :exploding_head: 818. Race Car
+  
 
 
+</details>
 
 
 
-**[Graph: 5. Max flow / min cut / Ford-Fulker method](_notes/graph_max_flow.md)**
+### [DP: String match](problem_sets/dp/dp_string_match/README.md): 2
 
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 718. Maximum Length of Repeated Subarray
+  
 
+  
+  - :bulb: 72. Edit Distance
+  
 
-**[Math](_notes/math.md)**
 
+</details>
 
 
 
-- Modular multiplication property
+### [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 5
 
+<details><summary>Questions</summary>
 
 
+  
+  - :ok_hand: 53. Maximum Subarray
+  
 
-- Sampling algorithms
+  
+  - :bulb: 918. Maximum Sum Circular Subarray
+  
 
+  
+  - :bulb: 363. Max Sum of Rectangle No Larger Than K
+  
 
-**[Math: Reservoir sampling](_notes/reservoir_sampling.md)**
+  
+  - :bulb: 974. Subarray Sums Divisible by K
+  
 
+  
+  - :dizzy_face: 2272. Substring With Largest Variance
+  
 
 
+</details>
 
 
-**[Range query: Binary indexed tree](_notes/binary_index_tree.md)**
 
+### [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 6
 
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 1143. Longest Common Subsequence
+  
 
-**[Range query: Segment tree](_notes/segment_tree.md)**
+  
+  - :bulb: 647. Palindromic Substrings
+  
 
+  
+  - :bulb: 516. Longest Palindromic Subsequence
+  
 
+  
+  - :bulb: 300. Longest Increasing Subsequence
+  
 
+  
+  - :bulb: 1626. Best Team With No Conflicts
+  
 
+  
+  - :bulb: 1130. Minimum Cost Tree From Leaf Values
+  
 
-**[Substring matching: KMP (Knuth–Morris–Pratt) algorithm for pattern matching](_notes/kmp.md)**
 
+</details>
 
 
 
+### [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md): 4
 
-**[Substring matching: Rolling hash](_notes/rolling_hash.md)**
+<details><summary>Questions</summary>
 
 
+  
+  - :ok_hand: 377. Combination Sum IV
+  
 
+  
+  - :bulb: 1155. Number of Dice Rolls With Target Sum
+  
 
+  
+  - :bulb: 518. Coin Change II
+  
 
+  
+  - :bulb: 91. Decode Ways
+  
 
-<br/>
 
-# Problems listed: 258
+</details>
 
-:ok_hand: x 68
-:bulb: x 144
-:persevere: x 22
-:dizzy_face: x 18
-:exploding_head: x 6
 
 
-- [2 pointers](problem_sets/2_ptrs/README.md): 7
+### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 7
 
-- [Backtracking](problem_sets/backtracking/README.md): 20
+<details><summary>Questions</summary>
 
-- [Binary search](problem_sets/binary_search/README.md): 14
 
-- [Bitwise](problem_sets/bitwise/README.md): 8
+  
+  - :persevere: 907. Sum of Subarray Minimums
+  
 
-- [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 4
+  
+  - :dizzy_face: 446. Arithmetic Slices II - Subsequence
+  
 
-- [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 5
+  
+  - :dizzy_face: 629. K Inverse Pairs Array
+  
 
-- [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 7
+  
+  - :dizzy_face: 837. New 21 Game
+  
 
-- [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 10
+  
+  - :exploding_head: 376. Wiggle Subsequence
+  
 
-- [DP: String match](problem_sets/dp/dp_string_match/README.md): 2
+  
+  - :exploding_head: 465. Optimal Account Balancing
+  
 
-- [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md): 5
+  
+  ## Reroot technique with DP
+  
 
-- [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 6
+  
+  - :exploding_head: 834. Sum of Distances in Tree
+  
 
-- [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md): 4
 
-- [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 7
+</details>
 
-- [Data structure design](problem_sets/ds_design/README.md): 5
 
-- [Graph](problem_sets/graph/README.md): 6
 
-- [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 6
+### [Data structure design](problem_sets/ds_design/README.md): 5
 
-- [Greedy](problem_sets/greedy/README.md): 20
+<details><summary>Questions</summary>
 
-- [Jump table/line](problem_sets/greedy/jump_table/README.md): 6
 
-- [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 7
+  
+  - :ok_hand: 232. Implement Queue using Stacks
+  
 
-- [Linked list](problem_sets/linked_list/README.md): 9
+  
+  - :ok_hand: 380. Insert Delete GetRandom O(1)
+  
 
-- [Math](problem_sets/math/README.md): 9
+  
+  - :ok_hand: 692. Top K Frequent Words
+  
 
-- [Misc](problem_sets/misc/README.md): 18
+  
+  - :bulb: 460. LFU Cache
+  
 
-- [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
+  
+  - :persevere: 146. LRU Cache
+  
 
-- [Range Query](problem_sets/range_query/README.md): 4
 
-- [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/README.md): 1
+</details>
 
-- [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-- [Recursion](problem_sets/recursion/README.md): 19
 
-- [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 2
+### [Graph](problem_sets/graph/README.md): 6
 
-- [Sliding window with 2 pointers](problem_sets/sliding_window/with_2_ptrs/README.md): 5
+<details><summary>Questions</summary>
 
-- [Sorting](problem_sets/sorting/README.md): 7
 
-- [Substring matching algorithm](problem_sets/substr_matching/README.md): 2
+  
+  ## Bipartite
+  
 
-- [Tree](problem_sets/tree/README.md): 10
+  
+  ## Solve bipartition with union-find
+  
 
-- [Trie](problem_sets/trie/README.md): 2
+  
+  - :bulb: 886. Possible Bipartition
+  
 
-- [Union find](problem_sets/union_find/README.md): 4
+  
+  ## Solve bipartition with dfs validation
+  
 
----
+  
+  - :bulb: 785. Is Graph Bipartite
+  
 
+  
+  ## Model as graph
+  
 
-# [2 pointers](problem_sets/2_ptrs/README.md)
+  
+  - :bulb: 2115. Find All Possible Recipes from Given Supplies
+  
 
+  
+  - :dizzy_face: 1153. String Transforms Into Another String
+  
 
-- :ok_hand: 1047. Remove All Adjacent Duplicates In String
+  
+  ## Connected component
+  
 
+  
+  - :bulb: 947. Most Stones Removed with Same Row or Column
+  
 
+  
+  ## [Topological sort](../../_notes/graph.md#topological-sort)
+  
 
-- :ok_hand: 151. Reverse Words in a String
+  
+  - :bulb: 269. Alien Dictionary
+  
 
 
+</details>
 
-- :bulb: 16. 3Sum Closest
 
 
+### [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md): 6
 
-- :bulb: 11. Container With Most Water
+<details><summary>Questions</summary>
 
 
+  
+  ## Dijkstra
+  
 
-- :bulb: 1295. Find Median from Data Stream
+  
+  - :ok_hand: 743. Network Delay Time
+  
 
+  
+  - :bulb: 787. Cheapest Flights Within K Stops
+  
 
+  
+  ## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
+  
 
-- :persevere: 777. Swap Adjacent in LR String
+  
+  - :bulb: 778. Swim in Rising Water
+  
 
+  
+  - :bulb: 1102. Path With Maximum Minimum Value
+  
 
+  
+  - :bulb: 1514. Path with Maximum Probability
+  
 
-- :persevere: 838. Push Dominoes
+  
+  - :bulb: 1631. Path With Minimum Effort
+  
 
+  
+  ## Bellmon-Ford Specific (e.g. contains negative cycle)
+  
 
 
-## Subarray sliding window algorithm
+</details>
 
 
 
-## Circular sort
+### [Greedy](problem_sets/greedy/README.md): 20
 
+<details><summary>Questions</summary>
 
 
-## Quick select
+  
+  - :ok_hand: 121. Best Time to Buy and Sell Stock
+  
 
+  
+  - :ok_hand: 2178. Maximum Split of Positive Even Integers
+  
 
+  
+  - :bulb: 134. Gas Station
+  
 
-# [Backtracking](problem_sets/backtracking/README.md)
+  
+  - :bulb: 763. Partition Labels
+  
 
+  
+  - :bulb: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+  
 
-## State walking
+  
+  - :bulb: 316. Remove Duplicate Letters
+  
 
+  
+  - :bulb: 659. Split Array into Consecutive Subsequences
+  
 
+  
+  - :bulb: 936. Stamping The Sequence
+  
 
-- :ok_hand: 39. Combination Sum
+  
+  - :bulb: 1055. Shortest Way to Form String
+  
 
+  
+  - :bulb: 135. Candy
+  
 
+  
+  - :bulb: 1578. Minimum Time to Make Rope Colorful
+  
 
-- :ok_hand: 131. Palindrome Partitioning
+  
+  - :bulb: 406. Queue Reconstruction by Height
+  
 
+  
+  - :bulb: 1383. Maximum Performance of a Team
+  
 
+  
+  - :bulb: 871. Minimum Number of Refueling Stops
+  
 
-- :bulb: 93. Restore IP Addresses
+  
+  - :bulb: 665. Non-decreasing Array
+  
 
+  
+  - :bulb: 502. IPO
+  
 
+  
+  - :bulb: 2136. Earliest Possible Day of Full Bloom
+  
 
-- :bulb: 31. Next Permutation
+  
+  - :persevere: 1675. Minimize Deviation in Array
+  
 
+  
+  - :dizzy_face: 1354. Construct Target Array With Multiple Sums
+  
 
+  
+  - :exploding_head: 218. The Skyline Problem
+  
 
-- :bulb: 491. Non-decreasing Subsequences
 
+</details>
 
 
-- :bulb: 473. Matchsticks to Square
 
+### [Jump table/line](problem_sets/greedy/jump_table/README.md): 6
 
+<details><summary>Questions</summary>
 
-- :bulb: 410. Split Array Largest Sum
 
+  
+  - :ok_hand: 452. Minimum Number of Arrows to Burst Balloons
+  
 
+  
+  - :bulb: 45. Jump Game II
+  
 
-- :bulb: 465. Optimal Account Balancing
+  
+  - :bulb: 1024. Video Stitching
+  
 
+  
+  - :bulb: 1326. Minimum Number of Taps to Open to Water a Garden
+  
 
+  
+  - :bulb: 739. Daily Temperatures
+  
 
-- :bulb: 2477. Minimum Fuel Cost to Report to the Capital
+  
+  - :bulb: 1834. Single-Threaded CPU
+  
 
 
+</details>
 
-- :bulb: 1088. Confusing Number II
 
 
+### [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md): 7
 
-## Grid walking
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 56. Merge Intervals
+  
 
-- :ok_hand: 490. The Maze
+  
+  - :bulb: 352. Data Stream as Disjoint Intervals
+  
 
+  
+  - :bulb: 759. Employee Free Time
+  
 
+  
+  - :bulb: 57. Insert Interval
+  
 
-- :bulb: 489. Robot Room Cleaner
+  
+  - :bulb: 732. My Calendar III
+  
 
+  
+  - :bulb: 630. Course Schedule III
+  
 
+  
+  - :bulb: 2402. Meeting Rooms III
+  
 
-- :bulb: 417. Pacific Atlantic Water Flow
 
+</details>
 
 
-- :persevere: 1293. Shortest Path in a Grid with Obstacles Elimination
 
+### [Linked list](problem_sets/linked_list/README.md): 9
 
+<details><summary>Questions</summary>
 
-## BFS
 
+  
+  ## Basic operations on linked list
+  
 
+  
+  - :ok_hand: 141. Linked List Cycle
+  
 
-- :ok_hand: 841. Keys and Rooms
+  
+  - :ok_hand: 206. Reverse Linked List
+  
 
+  
+  - :ok_hand: 876. Middle of the Linked List
+  
 
+  
+  - :ok_hand: 328. Odd Even Linked List
+  
 
-- :ok_hand: 1345. Jump Game IV
+  
+  ## Composite operations on linked list
+  
 
+  
+  - :bulb: 61. Rotate List
+  
 
+  
+  - :bulb: 19. Remove Nth Node From End of List
+  
 
-- :bulb: 1926. Nearest Exit from Entrance in Maze
+  
+  - :bulb: 92. Reverse Linked List II
+  
 
+  
+  - :bulb: 234. Palindrome Linked List
+  
 
+  
+  - :bulb: 445. Add Two Numbers II
+  
 
-- :bulb: 1129. Shortest Path with Alternating Colors
 
+</details>
 
 
-## BFS from multiple points
 
+### [Math](problem_sets/math/README.md): 9
 
+<details><summary>Questions</summary>
 
-- :bulb: 1162. As Far from Land as Possible
 
+  
+  - :bulb: 462. Minimum Moves to Equal Array Elements II
+  
 
+  
+  - :bulb: 2244. Minimum Rounds to Complete All Tasks
+  
 
-## Backtracking the BFS path
+  
+  - :bulb: 1359. Count All Valid Pickup and Delivery Options
+  
 
+  
+  - :bulb: 1071. Greatest Common Divisor of Strings
+  
 
+  
+  ## Geometry
+  
 
-- :persevere: 126. Word Ladder II
+  
+  - :ok_hand: 593. Valid Square
+  
 
+  
+  - :ok_hand: 478. Generate Random Point in a Circle
+  
 
+  
+  - :bulb: 1610. Maximum Number of Visible Points
+  
 
-## [Backtracking with binary search](../binary_search/README.md#backtracking-x-binary-search)
+  
+  - :bulb: 149. Max Points on a Line
+  
 
+  
+  ## Fisher–Yates shuffle
+  
 
+  
+  - :bulb: 384. Shuffle an Array
+  
 
-# [Binary search](problem_sets/binary_search/README.md)
 
+</details>
 
-- :ok_hand: 1011. Capacity To Ship Packages Within D Days
 
 
+### [Misc](problem_sets/misc/README.md): 18
 
-- :ok_hand: 2389. Longest Subsequence With Limited Sum
+<details><summary>Questions</summary>
 
 
+  
+  ## Great algo to do something
+  
 
-- :ok_hand: 74. Search a 2D Matrix
+  
+  - :ok_hand: 916. Word Subsets
+  
 
+  
+  - :ok_hand: 334. Increasing Triplet Subsequence
+  
 
+  
+  - :ok_hand: 249. Group Shifted Strings
+  
 
-- :ok_hand: 2187. Minimum Time to Complete Trips
+  
+  - :bulb: 1470. Shuffle the Array
+  
 
+  
+  - :bulb: 189. Rotate Array
+  
 
+  
+  - :bulb: 833. Find And Replace in String
+  
 
-- :bulb: 34. Find First and Last Position of Element in Sorted Array
+  
+  - :bulb: 1209. Remove All Adjacent Duplicates in String II
+  
 
+  
+  - :persevere: 2444. Count Subarrays With Fixed Bounds
+  
 
+  
+  - :dizzy_face: 2306. Naming a Company
+  
 
-- :bulb: 33. Search in Rotated Sorted Array
+  
+  - :dizzy_face: 856. Score of Parentheses
+  
 
+  
+  ## Nice implementation idea
+  
 
+  
+  - :ok_hand: 1539. Kth Missing Positive Number
+  
 
-- :bulb: 81. Search in Rotated Sorted Array II
+  
+  - :ok_hand: 12. Integer to Roman
+  
 
+  
+  - :ok_hand: 443. String Compression
+  
 
+  
+  ## Hard indices manipulation
+  
 
-- :persevere: 658. Find K Closest Elements
+  
+  - :bulb: 48. Rotate Image
+  
 
+  
+  - :persevere: 6. Zigzag Conversion
+  
 
+  
+  - :persevere: 835. Image Overlap
+  
 
-- :persevere: 378. Kth Smallest Element in a Sorted Matrix
+  
+  ## Brainteaser
+  
 
+  
+  - :bulb: 458. Poor Pigs
+  
 
+  
+  - :dizzy_face: 932. Beautiful Array
+  
 
-- :dizzy_face: 4. Median of Two Sorted Arrays
 
+</details>
 
 
-## Backtracking x Binary search
 
+### [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
 
+<details><summary>Questions</summary>
 
-- :persevere: 1102. Path With Maximum Minimum Value
 
+  
+  - :bulb: 739. Daily Temperatures
+  
 
+  
+  - :bulb: 496. Next Greater Element I
+  
 
-- :dizzy_face: 410. Split Array Largest Sum
+  
+  - :bulb: 503. Next Greater Element II
+  
 
+  
+  - :bulb: 556. Next Greater Element III
+  
 
+  
+  - :bulb: 239. Sliding Window Maximum
+  
 
-## Interval related questions
+  
+  - :bulb: 1696. Jump Game VI
+  
 
+  
+  - :bulb: 901. Online Stock Span
+  
 
+  
+  - :bulb: 84. Largest Rectangle in Histogram
+  
 
-- :ok_hand: 729. My Calendar I
+  
+  - :bulb: 853. Car Fleet
+  
 
+  
+  - :persevere: 2454. Next Greater Element IV
+  
 
+  
+  - :persevere: 2289. Steps to Make Array Non-decreasing
+  
 
-- :bulb: 715. Range Module
+  
+  - :persevere: 907. Sum of Subarray Minimums
+  
 
+  
+  - :dizzy_face: 1776. Car Fleet II
+  
 
+  
+  - :dizzy_face: 1130. Minimum Cost Tree From Leaf Values
+  
 
-# [Bitwise](problem_sets/bitwise/README.md)
 
+</details>
 
-## [Two's complement](../../_notes/bitwise.md#twos-complement)
 
 
+### [Range Query](problem_sets/range_query/README.md): 4
 
-- :bulb: 371. Sum of Two Integers
+<details><summary>Questions</summary>
 
 
+  
+  ## Prefix sum
+  
 
-## basic operations
+  
+  - :ok_hand: 560. Subarray Sum Equals K
+  
 
+  
+  - :bulb: 523. Continuous Subarray Sum
+  
 
+  
+  - :bulb: 1664. Ways to Make a Fair Array
+  
 
-- :ok_hand: 190. Reverse Bits
+  
+  ## The jump line method
+  
 
+  
+  - :bulb: 2158. Amount of New Area Painted Each Day
+  
 
 
-- :ok_hand: 338. Counting Bits
+</details>
 
 
 
-## xor: `a^a = 0; b^0 = b; b^a^a = b`
+### [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/README.md): 1
 
+<details><summary>Questions</summary>
 
 
-- :ok_hand: 268. Missing Number
+  
+  - :ok_hand: 307. Range Sum Query - Mutable
+  
 
 
+</details>
 
-- :ok_hand: 645. Set Mismatch
 
 
+### [Segment tree](problem_sets/range_query/segment_tree/README.md): 3
 
-## `odd ^ 1 == odd - 1`, `even ^ 1 == even + 1`
+<details><summary>Questions</summary>
 
 
+  
+  - :ok_hand: 307. Range Sum Query - Mutable
+  
 
-- :persevere: 540. Single Element in a Sorted Array
+  
+  - :bulb: 2158. Amount of New Area Painted Each Day
+  
 
+  
+  - :dizzy_face: 315. Count of Smaller Numbers After Self
+  
 
 
-## Reset the last set bit: `x & (x - 1)`
+</details>
 
 
 
-- :ok_hand: 268. Missing Number
+### [Recursion](problem_sets/recursion/README.md): 19
 
+<details><summary>Questions</summary>
 
 
-## Detect power of 2: `(x & (x - 1) == 0)`
+  
+  - :ok_hand: 38. Count and Say
+  
 
+  
+  - :ok_hand: 1026. Maximum Difference Between Node and Ancestor
+  
 
+  
+  - :ok_hand: 669. Trim a Binary Search Tree
+  
 
-- :ok_hand: 1680. Concatenation of Consecutive Binary Numbers
+  
+  - :ok_hand: 783. Minimum Distance Between BST Nodes
+  
 
+  
+  - :ok_hand: 226. Invert Binary Tree
+  
 
+  
+  - :ok_hand: 814. Binary Tree Pruning
+  
 
-# [Divide and Conquer](problem_sets/divide_and_conquer/README.md)
+  
+  - :ok_hand: 1443. Minimum Time to Collect All Apples in a Tree
+  
 
+  
+  - :bulb: 236. Lowest Common Ancestor of a Binary Tree
+  
 
-- :ok_hand: 823. Binary Trees With Factors
+  
+  - :bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal
+  
 
+  
+  - :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
+  
 
+  
+  - :bulb: 230. Kth Smallest Element in a BST
+  
 
-- :bulb: 23. Merge k Sorted Lists
+  
+  - :bulb: 222. Count Complete Tree Nodes
+  
 
+  
+  - :bulb: 124. Binary Tree Maximum Path Sum
+  
 
+  
+  - :bulb: 2246. Longest Path With Different Adjacent Characters
+  
 
-- :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
+  
+  - :bulb: 394. Decode String
+  
 
+  
+  - :bulb: 427. Construct Quad Tree
+  
 
+  
+  - :persevere: 897. Increasing Order Search Tree
+  
 
-- :persevere: 894. All Possible Full Binary Trees
+  
+  - :persevere: 426. Convert Binary Search Tree to Sorted Doubly Linked List
+  
 
+  
+  - :dizzy_face: 114. Flatten Binary Tree to Linked List
+  
 
 
-# [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md)
+</details>
 
 
-- :bulb: 474. Ones and Zeroes
 
+### [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 2
 
+<details><summary>Questions</summary>
 
-- :bulb: 416. Partition Equal Subset Sum
 
+  
+  - :bulb: 1423. Maximum Points You Can Obtain from Cards
+  
 
+  
+  - :persevere: 30. Substring with Concatenation of All Words
+  
 
-- :bulb: 115. Distinct Subsequences
 
+</details>
 
 
-- :bulb: 1235. Maximum Profit in Job Scheduling
 
+### [Sliding window with 2 pointers](problem_sets/sliding_window/with_2_ptrs/README.md): 5
 
+<details><summary>Questions</summary>
 
-- :persevere: 494. Target Sum
 
+  
+  - :bulb: 76. Minimum Window Substring
+  
 
+  
+  - :bulb: 567. Permutation in String
+  
 
-# [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md)
+  
+  - :bulb: 904. Fruit Into Baskets
+  
 
+  
+  - :bulb: 159. Longest Substring with At Most Two Distinct Characters
+  
 
-- :ok_hand: 931. Minimum Falling Path Sum
+  
+  - :bulb: 438. Find All Anagrams in a String
+  
 
 
+</details>
 
-- :ok_hand: 576. Out of Boundary Paths
 
 
+### [Sorting](problem_sets/sorting/README.md): 7
 
-- :bulb: 1770. Maximum Score from Performing Multiplication Operations
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 1996. The Number of Weak Characters in the Game
+  
 
-- :bulb: 494. Target Sum
+  
+  ## Bucket sort
+  
 
+  
+  - :bulb: 1710. Maximum Units on a Truck
+  
 
+  
+  ## Bubble sort
+  
 
-- :bulb: 871. Minimum Number of Refueling Stops
+  
+  - :bulb: 899. Orderly Queue
+  
 
+  
+  ## Merge sort
+  
 
+  
+  - :bulb: 315. Count of Smaller Numbers After Self
+  
 
-- :bulb: 1473. Paint House III
+  
+  ## Circular sort
+  
 
+  
+  - :ok_hand: 645. Set Mismatch
+  
 
+  
+  ## Counting sort
+  
 
-- :exploding_head: 1531. String Compression II
+  
+  - :ok_hand: 912. Sort an Array
+  
 
+  
+  ## Quick select
+  
 
+  
+  - :bulb: 215. Kth Largest Element in an Array
+  
 
-# [DP: State transition](problem_sets/dp/dp_state_transition/README.md)
 
+</details>
 
-- :ok_hand: 198. House Robber
 
 
+### [Substring matching algorithm](problem_sets/substr_matching/README.md): 2
 
-- :ok_hand: 740. Delete and Earn
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 28. Find the Index of the First Occurrence in a String
+  
 
-- :ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown
+  
+  - :bulb: 718. Maximum Length of Repeated Subarray
+  
 
+  
+  ## Sliding window of Substring
+  
 
 
-- :ok_hand: 1220. Count Vowels Permutation
+</details>
 
 
 
-- :bulb: 188. Best Time to Buy and Sell Stock IV
+### [Tree](problem_sets/tree/README.md): 10
 
+<details><summary>Questions</summary>
 
 
-- :bulb: 799. Champagne Tower
+  
+  - :ok_hand: 235. Lowest Common Ancestor of a Binary Search Tree
+  
 
+  
+  - :ok_hand: 236. Lowest Common Ancestor of a Binary Tree
+  
 
+  
+  - :ok_hand: 297. Serialize and Deserialize Binary Tree
+  
 
-- :bulb: 1335. Minimum Difficulty of a Job Schedule
+  
+  - :ok_hand: 652. Find Duplicate Subtrees
+  
 
+  
+  ## Tree traversal
+  
 
+  
+  - :ok_hand: 144. Binary Tree Preorder Traversal
+  
 
-- :bulb: 1937. Maximum Number of Points with Cost
+  
+  - :ok_hand: 103. Binary Tree Zigzag Level Order Traversal
+  
 
+  
+  - :ok_hand: 987. Vertical Order Traversal of a Binary Tree
+  
 
+  
+  - :bulb: 94. Binary Tree Inorder Traversal with Iterative
+  
 
-- :dizzy_face: 790. Domino and Tromino Tiling
+  
+  ## BST
+  
 
+  
+  - :ok_hand: 173. Binary Search Tree Iterator
+  
 
+  
+  - :bulb: 653. Two Sum IV - Input is a BST
+  
 
-- :exploding_head: 818. Race Car
 
+</details>
 
 
-# [DP: String match](problem_sets/dp/dp_string_match/README.md)
 
+### [Trie](problem_sets/trie/README.md): 2
 
-- :bulb: 718. Maximum Length of Repeated Subarray
+<details><summary>Questions</summary>
 
 
+  
+  - :bulb: 212. Word Search II
+  
 
-- :bulb: 72. Edit Distance
+  
+  - :dizzy_face: 336. Palindrome Pairs
+  
 
 
+</details>
 
-# [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp_subarray_kadane/README.md)
 
 
-- :ok_hand: 53. Maximum Subarray
+### [Union find](problem_sets/union_find/README.md): 4
 
+<details><summary>Questions</summary>
 
 
-- :bulb: 918. Maximum Sum Circular Subarray
+  
+  - :ok_hand: 1971. Find if Path Exists in Graph
+  
 
+  
+  - :ok_hand: 990. Satisfiability of Equality Equations
+  
 
+  
+  - :bulb: 947. Most Stones Removed with Same Row or Column
+  
 
-- :bulb: 363. Max Sum of Rectangle No Larger Than K
+  
+  - :dizzy_face: 2421. Number of Good Paths
+  
 
+  
+  ## [Use union-find to solve Bipartition](../graph/README.md#solve-bipartition-with-union-find)
+  
 
 
-- :bulb: 974. Subarray Sums Divisible by K
-
-
-
-- :dizzy_face: 2272. Substring With Largest Variance
-
-
-
-# [DP: Subsequence](problem_sets/dp/dp_subseq/README.md)
-
-
-- :bulb: 1143. Longest Common Subsequence
-
-
-
-- :bulb: 647. Palindromic Substrings
-
-
-
-- :bulb: 516. Longest Palindromic Subsequence
-
-
-
-- :bulb: 300. Longest Increasing Subsequence
-
-
-
-- :bulb: 1626. Best Team With No Conflicts
-
-
-
-- :bulb: 1130. Minimum Cost Tree From Leaf Values
-
-
-
-# [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp_unbounded_knapsack/README.md)
-
-
-- :ok_hand: 377. Combination Sum IV
-
-
-
-- :bulb: 1155. Number of Dice Rolls With Target Sum
-
-
-
-- :bulb: 518. Coin Change II
-
-
-
-- :bulb: 91. Decode Ways
-
-
-
-# [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md)
-
-
-- :persevere: 907. Sum of Subarray Minimums
-
-
-
-- :dizzy_face: 446. Arithmetic Slices II - Subsequence
-
-
-
-- :dizzy_face: 629. K Inverse Pairs Array
-
-
-
-- :dizzy_face: 837. New 21 Game
-
-
-
-- :exploding_head: 376. Wiggle Subsequence
-
-
-
-- :exploding_head: 465. Optimal Account Balancing
-
-
-
-## Reroot technique with DP
-
-
-
-- :exploding_head: 834. Sum of Distances in Tree
-
-
-
-# [Data structure design](problem_sets/ds_design/README.md)
-
-
-- :ok_hand: 232. Implement Queue using Stacks
-
-
-
-- :ok_hand: 380. Insert Delete GetRandom O(1)
-
-
-
-- :ok_hand: 692. Top K Frequent Words
-
-
-
-- :bulb: 460. LFU Cache
-
-
-
-- :persevere: 146. LRU Cache
-
-
-
-# [Graph](problem_sets/graph/README.md)
-
-
-## Bipartite
-
-
-
-## Solve bipartition with union-find
-
-
-
-- :bulb: 886. Possible Bipartition
-
-
-
-## Solve bipartition with dfs validation
-
-
-
-- :bulb: 785. Is Graph Bipartite
-
-
-
-## Model as graph
-
-
-
-- :bulb: 2115. Find All Possible Recipes from Given Supplies
-
-
-
-- :dizzy_face: 1153. String Transforms Into Another String
-
-
-
-## Connected component
-
-
-
-- :bulb: 947. Most Stones Removed with Same Row or Column
-
-
-
-## [Topological sort](../../_notes/graph.md#topological-sort)
-
-
-
-- :bulb: 269. Alien Dictionary
-
-
-
-# [Graph: Single source shortest path](problem_sets/graph/graph_sssp/README.md)
-
-
-## Dijkstra
-
-
-
-- :ok_hand: 743. Network Delay Time
-
-
-
-- :bulb: 787. Cheapest Flights Within K Stops
-
-
-
-## Grid walking using Dijkstra, "Dijkstra's algorithm is BFS with a priority queue"
-
-
-
-- :bulb: 778. Swim in Rising Water
-
-
-
-- :bulb: 1102. Path With Maximum Minimum Value
-
-
-
-- :bulb: 1514. Path with Maximum Probability
-
-
-
-- :bulb: 1631. Path With Minimum Effort
-
-
-
-## Bellmon-Ford Specific (e.g. contains negative cycle)
-
-
-
-# [Greedy](problem_sets/greedy/README.md)
-
-
-- :ok_hand: 121. Best Time to Buy and Sell Stock
-
-
-
-- :ok_hand: 2178. Maximum Split of Positive Even Integers
-
-
-
-- :bulb: 134. Gas Station
-
-
-
-- :bulb: 763. Partition Labels
-
-
-
-- :bulb: 1414. Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
-
-
-
-- :bulb: 316. Remove Duplicate Letters
-
-
-
-- :bulb: 659. Split Array into Consecutive Subsequences
-
-
-
-- :bulb: 936. Stamping The Sequence
-
-
-
-- :bulb: 1055. Shortest Way to Form String
-
-
-
-- :bulb: 135. Candy
-
-
-
-- :bulb: 1578. Minimum Time to Make Rope Colorful
-
-
-
-- :bulb: 406. Queue Reconstruction by Height
-
-
-
-- :bulb: 1383. Maximum Performance of a Team
-
-
-
-- :bulb: 871. Minimum Number of Refueling Stops
-
-
-
-- :bulb: 665. Non-decreasing Array
-
-
-
-- :bulb: 502. IPO
-
-
-
-- :bulb: 2136. Earliest Possible Day of Full Bloom
-
-
-
-- :persevere: 1675. Minimize Deviation in Array
-
-
-
-- :dizzy_face: 1354. Construct Target Array With Multiple Sums
-
-
-
-- :exploding_head: 218. The Skyline Problem
-
-
-
-# [Jump table/line](problem_sets/greedy/jump_table/README.md)
-
-
-- :ok_hand: 452. Minimum Number of Arrows to Burst Balloons
-
-
-
-- :bulb: 45. Jump Game II
-
-
-
-- :bulb: 1024. Video Stitching
-
-
-
-- :bulb: 1326. Minimum Number of Taps to Open to Water a Garden
-
-
-
-- :bulb: 739. Daily Temperatures
-
-
-
-- :bulb: 1834. Single-Threaded CPU
-
-
-
-# [Meeting room like questions](problem_sets/greedy/meeting_room_like/README.md)
-
-
-- :bulb: 56. Merge Intervals
-
-
-
-- :bulb: 352. Data Stream as Disjoint Intervals
-
-
-
-- :bulb: 759. Employee Free Time
-
-
-
-- :bulb: 57. Insert Interval
-
-
-
-- :bulb: 732. My Calendar III
-
-
-
-- :bulb: 630. Course Schedule III
-
-
-
-- :bulb: 2402. Meeting Rooms III
-
-
-
-# [Linked list](problem_sets/linked_list/README.md)
-
-
-## Basic operations on linked list
-
-
-
-- :ok_hand: 141. Linked List Cycle
-
-
-
-- :ok_hand: 206. Reverse Linked List
-
-
-
-- :ok_hand: 876. Middle of the Linked List
-
-
-
-- :ok_hand: 328. Odd Even Linked List
-
-
-
-## Composite operations on linked list
-
-
-
-- :bulb: 61. Rotate List
-
-
-
-- :bulb: 19. Remove Nth Node From End of List
-
-
-
-- :bulb: 92. Reverse Linked List II
-
-
-
-- :bulb: 234. Palindrome Linked List
-
-
-
-- :bulb: 445. Add Two Numbers II
-
-
-
-# [Math](problem_sets/math/README.md)
-
-
-- :bulb: 462. Minimum Moves to Equal Array Elements II
-
-
-
-- :bulb: 2244. Minimum Rounds to Complete All Tasks
-
-
-
-- :bulb: 1359. Count All Valid Pickup and Delivery Options
-
-
-
-- :bulb: 1071. Greatest Common Divisor of Strings
-
-
-
-## Geometry
-
-
-
-- :ok_hand: 593. Valid Square
-
-
-
-- :ok_hand: 478. Generate Random Point in a Circle
-
-
-
-- :bulb: 1610. Maximum Number of Visible Points
-
-
-
-- :bulb: 149. Max Points on a Line
-
-
-
-## Fisher–Yates shuffle
-
-
-
-- :bulb: 384. Shuffle an Array
-
-
-
-# [Misc](problem_sets/misc/README.md)
-
-
-## Great algo to do something
-
-
-
-- :ok_hand: 916. Word Subsets
-
-
-
-- :ok_hand: 334. Increasing Triplet Subsequence
-
-
-
-- :ok_hand: 249. Group Shifted Strings
-
-
-
-- :bulb: 1470. Shuffle the Array
-
-
-
-- :bulb: 189. Rotate Array
-
-
-
-- :bulb: 833. Find And Replace in String
-
-
-
-- :bulb: 1209. Remove All Adjacent Duplicates in String II
-
-
-
-- :persevere: 2444. Count Subarrays With Fixed Bounds
-
-
-
-- :dizzy_face: 2306. Naming a Company
-
-
-
-- :dizzy_face: 856. Score of Parentheses
-
-
-
-## Nice implementation idea
-
-
-
-- :ok_hand: 1539. Kth Missing Positive Number
-
-
-
-- :ok_hand: 12. Integer to Roman
-
-
-
-- :ok_hand: 443. String Compression
-
-
-
-## Hard indices manipulation
-
-
-
-- :bulb: 48. Rotate Image
-
-
-
-- :persevere: 6. Zigzag Conversion
-
-
-
-- :persevere: 835. Image Overlap
-
-
-
-## Brainteaser
-
-
-
-- :bulb: 458. Poor Pigs
-
-
-
-- :dizzy_face: 932. Beautiful Array
-
-
-
-# [Monotonic Stack/Queue](problem_sets/monotonic/README.md)
-
-
-- :bulb: 739. Daily Temperatures
-
-
-
-- :bulb: 496. Next Greater Element I
-
-
-
-- :bulb: 503. Next Greater Element II
-
-
-
-- :bulb: 556. Next Greater Element III
-
-
-
-- :bulb: 239. Sliding Window Maximum
-
-
-
-- :bulb: 1696. Jump Game VI
-
-
-
-- :bulb: 901. Online Stock Span
-
-
-
-- :bulb: 84. Largest Rectangle in Histogram
-
-
-
-- :bulb: 853. Car Fleet
-
-
-
-- :persevere: 2454. Next Greater Element IV
-
-
-
-- :persevere: 2289. Steps to Make Array Non-decreasing
-
-
-
-- :persevere: 907. Sum of Subarray Minimums
-
-
-
-- :dizzy_face: 1776. Car Fleet II
-
-
-
-- :dizzy_face: 1130. Minimum Cost Tree From Leaf Values
-
-
-
-# [Range Query](problem_sets/range_query/README.md)
-
-
-## Prefix sum
-
-
-
-- :ok_hand: 560. Subarray Sum Equals K
-
-
-
-- :bulb: 523. Continuous Subarray Sum
-
-
-
-- :bulb: 1664. Ways to Make a Fair Array
-
-
-
-## The jump line method
-
-
-
-- :bulb: 2158. Amount of New Area Painted Each Day
-
-
-
-# [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/README.md)
-
-
-- :ok_hand: 307. Range Sum Query - Mutable
-
-
-
-# [Segment tree](problem_sets/range_query/segment_tree/README.md)
-
-
-- :ok_hand: 307. Range Sum Query - Mutable
-
-
-
-- :bulb: 2158. Amount of New Area Painted Each Day
-
-
-
-- :dizzy_face: 315. Count of Smaller Numbers After Self
-
-
-
-# [Recursion](problem_sets/recursion/README.md)
-
-
-- :ok_hand: 38. Count and Say
-
-
-
-- :ok_hand: 1026. Maximum Difference Between Node and Ancestor
-
-
-
-- :ok_hand: 669. Trim a Binary Search Tree
-
-
-
-- :ok_hand: 783. Minimum Distance Between BST Nodes
-
-
-
-- :ok_hand: 226. Invert Binary Tree
-
-
-
-- :ok_hand: 814. Binary Tree Pruning
-
-
-
-- :ok_hand: 1443. Minimum Time to Collect All Apples in a Tree
-
-
-
-- :bulb: 236. Lowest Common Ancestor of a Binary Tree
-
-
-
-- :bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal
-
-
-
-- :bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal
-
-
-
-- :bulb: 230. Kth Smallest Element in a BST
-
-
-
-- :bulb: 222. Count Complete Tree Nodes
-
-
-
-- :bulb: 124. Binary Tree Maximum Path Sum
-
-
-
-- :bulb: 2246. Longest Path With Different Adjacent Characters
-
-
-
-- :bulb: 394. Decode String
-
-
-
-- :bulb: 427. Construct Quad Tree
-
-
-
-- :persevere: 897. Increasing Order Search Tree
-
-
-
-- :persevere: 426. Convert Binary Search Tree to Sorted Doubly Linked List
-
-
-
-- :dizzy_face: 114. Flatten Binary Tree to Linked List
-
-
-
-# [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md)
-
-
-- :bulb: 1423. Maximum Points You Can Obtain from Cards
-
-
-
-- :persevere: 30. Substring with Concatenation of All Words
-
-
-
-# [Sliding window with 2 pointers](problem_sets/sliding_window/with_2_ptrs/README.md)
-
-
-- :bulb: 76. Minimum Window Substring
-
-
-
-- :bulb: 567. Permutation in String
-
-
-
-- :bulb: 904. Fruit Into Baskets
-
-
-
-- :bulb: 159. Longest Substring with At Most Two Distinct Characters
-
-
-
-- :bulb: 438. Find All Anagrams in a String
-
-
-
-# [Sorting](problem_sets/sorting/README.md)
-
-
-- :bulb: 1996. The Number of Weak Characters in the Game
-
-
-
-## Bucket sort
-
-
-
-- :bulb: 1710. Maximum Units on a Truck
-
-
-
-## Bubble sort
-
-
-
-- :bulb: 899. Orderly Queue
-
-
-
-## Merge sort
-
-
-
-- :bulb: 315. Count of Smaller Numbers After Self
-
-
-
-## Circular sort
-
-
-
-- :ok_hand: 645. Set Mismatch
-
-
-
-## Counting sort
-
-
-
-- :ok_hand: 912. Sort an Array
-
-
-
-## Quick select
-
-
-
-- :bulb: 215. Kth Largest Element in an Array
-
-
-
-# [Substring matching algorithm](problem_sets/substr_matching/README.md)
-
-
-- :bulb: 28. Find the Index of the First Occurrence in a String
-
-
-
-- :bulb: 718. Maximum Length of Repeated Subarray
-
-
-
-## Sliding window of Substring
-
-
-
-# [Tree](problem_sets/tree/README.md)
-
-
-- :ok_hand: 235. Lowest Common Ancestor of a Binary Search Tree
-
-
-
-- :ok_hand: 236. Lowest Common Ancestor of a Binary Tree
-
-
-
-- :ok_hand: 297. Serialize and Deserialize Binary Tree
-
-
-
-- :ok_hand: 652. Find Duplicate Subtrees
-
-
-
-## Tree traversal
-
-
-
-- :ok_hand: 144. Binary Tree Preorder Traversal
-
-
-
-- :ok_hand: 103. Binary Tree Zigzag Level Order Traversal
-
-
-
-- :ok_hand: 987. Vertical Order Traversal of a Binary Tree
-
-
-
-- :bulb: 94. Binary Tree Inorder Traversal with Iterative
-
-
-
-## BST
-
-
-
-- :ok_hand: 173. Binary Search Tree Iterator
-
-
-
-- :bulb: 653. Two Sum IV - Input is a BST
-
-
-
-# [Trie](problem_sets/trie/README.md)
-
-
-- :bulb: 212. Word Search II
-
-
-
-- :dizzy_face: 336. Palindrome Pairs
-
-
-
-# [Union find](problem_sets/union_find/README.md)
-
-
-- :ok_hand: 1971. Find if Path Exists in Graph
-
-
-
-- :ok_hand: 990. Satisfiability of Equality Equations
-
-
-
-- :bulb: 947. Most Stones Removed with Same Row or Column
-
-
-
-- :dizzy_face: 2421. Number of Good Paths
-
-
-
-## [Use union-find to solve Bipartition](../graph/README.md#solve-bipartition-with-union-find)
+</details>
 
 
