@@ -217,3 +217,25 @@ Given an integer array nums, design an algorithm to randomly shuffle the array.
 </details>
 
 ------------------------------------------------------------------------------
+
+## Reservoir sampling
+
+## [:bulb: 382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node) / [:man_technologist:](linked_list_random_node.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a singly linked list, return a random node's value from the linked list.
+
+- Each node must have the same probability of being chosen.
+
+Implement the `Solution` class:
+
+`Solution(ListNode head)`:
+- Initializes the object with the head of the singly-linked list head.
+`int getRandom()`:
+- Chooses a node randomly from the list and returns its value.
+- All the nodes of the list should be equally likely to be chosen.
+```
+
+</details>

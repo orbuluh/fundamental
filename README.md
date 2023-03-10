@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 259 ... :ok_hand: x 69 :bulb: x 144 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 260 ... :ok_hand: x 69 :bulb: x 145 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -938,6 +938,10 @@ Quote from [HTDP](https://htdp.org/)
   
 
   
+  ## [:bulb: 382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)
+  
+
+  
   ## Composite operations on linked list
   
 
@@ -966,7 +970,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Math](problem_sets/math/README.md): 9
+### [Math](problem_sets/math/README.md): 10
 
 <details><summary>Questions</summary>
 
@@ -1013,6 +1017,14 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 384. Shuffle an Array
+  
+
+  
+  ## Reservoir sampling
+  
+
+  
+  - :bulb: 382. Linked List Random Node
   
 
 

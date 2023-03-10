@@ -85,6 +85,11 @@ Output: [2,3,6,7,1,5,4]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)
+
+- Need to use reservoir sampling ... check [here](../math/README.md#💡-382-linked-list-random-node--👨‍💻)
+
+
 ## Composite operations on linked list
 
 ## [:bulb: 61. Rotate List](https://leetcode.com/problems/rotate-list/) / [:man_technologist:](rotate_list.h)
