@@ -144,7 +144,7 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 
 ## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) / [:man_technologist:](concat_consecutive_binary_nums.h)
 
-- [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/math.md#modular-multiplication-property)
+- [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/modular.md)
 
 <details><summary markdown="span">Question</summary>
 ```markdown

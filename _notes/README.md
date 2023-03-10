@@ -182,17 +182,10 @@
   
   
 
-**[Math](math.md)**
+**[Math: Modular multiplication property](modular.md)**
   
 
   
-
-  - Modular multiplication property
-  
-
-  
-
-  - Sampling algorithms
   
 
 **[Math: Reservoir sampling](reservoir_sampling.md)**

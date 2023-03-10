@@ -1,6 +1,4 @@
-# Math
-
-## Modular multiplication property
+# Math: Modular multiplication property
 
 - `(A * B) % C = ((A % C) * (B % C)) % C`
 
@@ -20,7 +18,3 @@ RHS = ((A % C) * (B % C))% C
 
 Hence LHS == RHS
 ```
-
-## Sampling algorithms
-
-- [Reservoir sampling](reservoir_sampling.md)
