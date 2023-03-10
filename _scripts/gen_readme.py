@@ -101,7 +101,7 @@ for posix_file_path in Path(f"{scriptDir}/../_notes").rglob('*.md'):
                     note_dump[title] += [m2.group(1)]
                 else:
                     note_dump[title] += [m.group(1)]
-        if title not in note_dump:
+        if title and title not in note_dump:
             note_dump[title] += ["NoSubsection"]
 
 finalizeFile("readme_notes.jinja", f"{scriptDir}/../_notes/README.md", {

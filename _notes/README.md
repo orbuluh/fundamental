@@ -1,12 +1,6 @@
 # :book: Notes for algo/DS deep-dive
 
 
-**[]()**
-  
-
-  
-  
-
 **[Backtracking](backtracking.md)**
   
 
