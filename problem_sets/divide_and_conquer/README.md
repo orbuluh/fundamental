@@ -30,6 +30,28 @@ Explanation:
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree) / [:man_technologist:](convert_sorted_list_to_bst.h)
+
+- Check the implementation as there was a quicker/interesting solution
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the head of a singly linked list where elements are sorted in ascending
+order, convert it to a height-balanced binary search tree.
+
+Input: head = [-10,-3,0,5,9]
+Output: [0,-3,9,-10,null,5]
+
+            0
+         -3   9
+      -10    5
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) / [:man_technologist:](merge_k_sorted_lists.h)
 
 <details><summary markdown="span">Question</summary>

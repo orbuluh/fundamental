@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 260 ... :ok_hand: x 69 :bulb: x 145 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 261 ... :ok_hand: x 69 :bulb: x 146 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -318,13 +318,17 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 4
+### [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 5
 
 <details><summary>Questions</summary>
 
 
   
   - :ok_hand: 823. Binary Trees With Factors
+  
+
+  
+  - :bulb: 109. Convert Sorted List to Binary Search Tree
   
 
   
