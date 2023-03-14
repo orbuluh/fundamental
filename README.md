@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 261 ... :ok_hand: x 69 :bulb: x 146 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 263 ... :ok_hand: x 71 :bulb: x 146 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -1270,7 +1270,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Recursion](problem_sets/recursion/README.md): 19
+### [Recursion](problem_sets/recursion/README.md): 21
 
 <details><summary>Questions</summary>
 
@@ -1296,7 +1296,15 @@ Quote from [HTDP](https://htdp.org/)
   
 
   
+  - :ok_hand: 101. Symmetric Tree
+  
+
+  
   - :ok_hand: 814. Binary Tree Pruning
+  
+
+  
+  - :ok_hand: 129. Sum Root to Leaf Numbers
   
 
   
