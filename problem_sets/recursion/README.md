@@ -115,6 +115,31 @@ Given the root of a binary tree, invert the tree, and return its root.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree) / [:man_technologist:](symmetric_tree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, check whether it is a mirror of itself
+(i.e., symmetric around its center).
+
+Input: root = [1,2,2,3,4,4,3]
+Output: true
+      1
+   2      2
+ 3   4  4   3
+
+Input: root = [1,2,2,null,3,null,3]
+Output: false
+      1
+   2      2
+     3      3
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 814. Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) / [:man_technologist:](bt_prunning.h)
 
 <details><summary markdown="span">Question</summary>
