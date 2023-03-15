@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 263 ... :ok_hand: x 71 :bulb: x 146 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 264 ... :ok_hand: x 71 :bulb: x 147 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -1270,7 +1270,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Recursion](problem_sets/recursion/README.md): 21
+### [Recursion](problem_sets/recursion/README.md): 22
 
 <details><summary>Questions</summary>
 
@@ -1329,6 +1329,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 222. Count Complete Tree Nodes
+  
+
+  
+  - :bulb: 958. Check Completeness of a Binary Tree
   
 
   

@@ -317,6 +317,35 @@ Design an algorithm that runs in less than O(n) time complexity.
 
 </details>
 
+
+------------------------------------------------------------------------------
+
+## [:bulb: 958. Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree) / [:man_technologist:](check_complete_tree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, determine if it is a complete binary tree.
+
+In a complete binary tree, every level, except possibly the last, is completely
+filled, and all nodes in the last level are as far left as possible.
+
+It can have between 1 and 2^h nodes inclusive at the last level h.
+
+return true for:
+     3
+  9      20
+8  6    15
+
+
+return false for:
+     3
+  9      20
+8      15
+```
+
+</details>
+
 ------------------------------------------------------------------------------
 
 ## [:bulb: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) / [:man_technologist:](binary_tree_max_path_sum.h)
