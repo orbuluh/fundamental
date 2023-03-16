@@ -271,6 +271,26 @@ Output: [3,9,20,8,6,15,7]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) / [:man_technologist:](btree_from_in_and_post.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two integer arrays inorder and postorder where inorder is the inorder
+traversal of a binary tree and postorder is the postorder traversal of the same
+tree, construct and return the binary tree.
+
+Input: inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
+Output: [3,9,20,null,null,15,7]
+     3
+  9      20
+       15  7
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) / [:man_technologist:](btree_from_pre_post_recursion.h)
 
 - for more intuitive (?) divide and conquer approach and problem statement, check [here](../divide_and_conquer/README.md#💡-889-construct-binary-tree-from-preorder-and-postorder-traversal-🎯)

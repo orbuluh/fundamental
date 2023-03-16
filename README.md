@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 264 ... :ok_hand: x 71 :bulb: x 147 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 265 ... :ok_hand: x 71 :bulb: x 148 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -1270,7 +1270,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Recursion](problem_sets/recursion/README.md): 22
+### [Recursion](problem_sets/recursion/README.md): 23
 
 <details><summary>Questions</summary>
 
@@ -1317,6 +1317,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 105. Construct Binary Tree from Preorder and Inorder Traversal
+  
+
+  
+  - :bulb: 106. Construct Binary Tree from Inorder and Postorder Traversal
   
 
   
