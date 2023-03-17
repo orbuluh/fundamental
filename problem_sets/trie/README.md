@@ -1,5 +1,31 @@
 # Trie
 
+## [:ok_hand: 208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree) / [:man_technologist:](implement_trie.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A trie (pronounced as "try") or prefix tree is a tree data structure used to
+efficiently store and retrieve keys in a dataset of strings.
+
+Implement the Trie class:
+
+`Trie()`
+       - Initializes the trie object.
+`void insert(String word)`:
+       - Inserts the string word into the trie.
+`boolean search(String word)`:
+       - Returns true if the string word is in the trie (i.e., was inserted
+         before), and false otherwise.
+`boolean startsWith(String prefix)`
+       - Returns true if there is a previously inserted string word that has the
+       prefix prefix, and false otherwise.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) / [:man_technologist:](word_search_ii.h)
 
 <details><summary markdown="span">Question</summary>

@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 265 ... :ok_hand: x 71 :bulb: x 148 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 266 ... :ok_hand: x 72 :bulb: x 148 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -1562,10 +1562,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Trie](problem_sets/trie/README.md): 2
+### [Trie](problem_sets/trie/README.md): 3
 
 <details><summary>Questions</summary>
 
+
+  
+  - :ok_hand: 208. Implement Trie (Prefix Tree)
+  
 
   
   - :bulb: 212. Word Search II
