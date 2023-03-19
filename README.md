@@ -1572,6 +1572,10 @@ Quote from [HTDP](https://htdp.org/)
   
 
   
+  ## [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure) / [:man_technologist:](design_add_and_search_ds.h)
+  
+
+  
   - :bulb: 212. Word Search II
   
 
