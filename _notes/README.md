@@ -127,6 +127,12 @@
   
   
 
+**[Graph.6 Tarjan's Strongly Connected Component](graph_tarjan_scc.md)**
+  
+
+  
+  
+
 **[Graph: 1. Topological sort](graph_topological_sort.md)**
   
 

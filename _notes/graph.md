@@ -17,9 +17,11 @@
 
 ## [All Pairs Shortest Path](graph_apsp.md)
 
-## [Topological sort](graph_topological_sort.md)
+## [Topological Sort](graph_topological_sort.md)
 
-## [Max flow / Ford-Fulker method](graph_max_flow.md)
+## [Tarjan's Strongly Connected Component](graph_tarjan_scc.md)
+
+## [Max flow / Ford-Fulker Method](graph_max_flow.md)
 
 ## [Bipartite](graph_bipartite.md)
 
