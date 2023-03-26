@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 266 ... :ok_hand: x 72 :bulb: x 148 :persevere: x 22 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 267 ... :ok_hand: x 72 :bulb: x 148 :persevere: x 23 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -646,7 +646,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Graph](problem_sets/graph/README.md): 6
+### [Graph](problem_sets/graph/README.md): 7
 
 <details><summary>Questions</summary>
 
@@ -689,6 +689,14 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 947. Most Stones Removed with Same Row or Column
+  
+
+  
+  - :persevere: 2360. Longest Cycle in a Graph
+  
+
+  
+  ## Use concept in Tarjan's SCC
   
 
   

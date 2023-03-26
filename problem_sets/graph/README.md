@@ -160,6 +160,36 @@ Stone [0,0] cannot be removed since it does not share a row/column with another 
 
 ------------------------------------------------------------------------------
 
+## [:persevere: 2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph) / [:man_technologist:](longest_cycle_in_a_graph.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a directed graph of n nodes numbered from 0 to n - 1, where each
+node has at most one outgoing edge.
+
+The graph is represented with a given 0-indexed array edges of size n,
+indicating that there is a directed edge from node i to node edges[i].
+
+If there is no outgoing edge from node i, then edges[i] == -1.
+
+Return the length of the longest cycle in the graph. If no cycle exists, return -1.
+
+A cycle is a path that starts and ends at the same node.
+
+
+Input: edges = [3,3,4,2,3]
+Output: 3
+Explanation: The longest cycle in the graph is the cycle: 2 -> 4 -> 3 -> 2.
+The length of this cycle is 3, so 3 is returned.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## Use concept in Tarjan's SCC
+
 ## [Topological sort](../../_notes/graph.md#topological-sort)
 
 ## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) / [:man_technologist:](alien_dictionary.h)
