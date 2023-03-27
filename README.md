@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 267 ... :ok_hand: x 72 :bulb: x 148 :persevere: x 23 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 268 ... :ok_hand: x 72 :bulb: x 149 :persevere: x 23 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -982,7 +982,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Math](problem_sets/math/README.md): 10
+### [Math](problem_sets/math/README.md): 11
 
 <details><summary>Questions</summary>
 
@@ -997,6 +997,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 1359. Count All Valid Pickup and Delivery Options
+  
+
+  
+  - :bulb: 2348. Number of Zero-Filled Subarrays
   
 
   
