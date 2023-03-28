@@ -1,4 +1,4 @@
-# Graph.6 Tarjan's Strongly Connected Component
+# Graph: 6. Tarjan's Strongly Connected Component
 
 **Resources**
 Taking notes from

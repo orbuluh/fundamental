@@ -127,12 +127,6 @@
   
   
 
-**[Graph.6 Tarjan's Strongly Connected Component](graph_tarjan_scc.md)**
-  
-
-  
-  
-
 **[Graph: 1. Topological sort](graph_topological_sort.md)**
   
 
@@ -177,6 +171,12 @@
   
 
 **[Graph: 5. Max flow / min cut / Ford-Fulker method](graph_max_flow.md)**
+  
+
+  
+  
+
+**[Graph: 6. Tarjan's Strongly Connected Component](graph_tarjan_scc.md)**
   
 
   
