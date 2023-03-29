@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 269 ... :ok_hand: x 72 :bulb: x 150 :persevere: x 23 :dizzy_face: x 18 :exploding_head: x 6
+## :thinking: Problems listed: 270 ... :ok_hand: x 73 :bulb: x 150 :persevere: x 23 :dizzy_face: x 18 :exploding_head: x 6
 
 
 
@@ -416,7 +416,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 11
+### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 12
 
 <details><summary>Questions</summary>
 
@@ -435,6 +435,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 1220. Count Vowels Permutation
+  
+
+  
+  - :ok_hand: 1402. Reducing Dishes
   
 
   
