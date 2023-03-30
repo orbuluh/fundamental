@@ -18,3 +18,20 @@
 4. Generalize the relationships
 5. Implementing by solving subproblems in order.
 ```
+
+TODO: [Check the nice collections from discussion thread](https://leetcode.com/discuss/general-discussion/665604/Important-and-Useful-links-from-all-over-the-LeetCode)
+
+- DP for Beginners [Problems | Patterns | Sample Solutions] by @wh0ami
+- DP Patterns by @aatalyk
+- Knapsack problems by @old_monk
+- How to solve DP - String? Template and 4 Steps to be followed by @igooglethings
+- Dynamic Programming Questions thread by @karansingh1559
+- DP Classification helpful notes by @adityakrverma
+- How to approach DP problems by @heroes3001
+- Iterative DP for subset sum problems by @yuxiangmusic
+- DP problems summary (problem categorization) by @richenyunqi
+- Categorization of Leetcode DP problems by @chuka231
+- Must do Dynamic Programming Category wise by @mahesh_nagarwal
+- Dynamic programming is simple by @omgitspavel
+- Dynamic Programming on subsets with examples by @DBabichev
+- DP is easy (Thinking process) by @teampark
