@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 271 ... :ok_hand: x 73 :bulb: x 150 :persevere: x 23 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 272 ... :ok_hand: x 73 :bulb: x 150 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -378,7 +378,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 7
+### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 8
 
 <details><summary>Questions</summary>
 
@@ -405,6 +405,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 1473. Paint House III
+  
+
+  
+  - :persevere: 1444. Number of Ways of Cutting a Pizza
   
 
   
