@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 272 ... :ok_hand: x 73 :bulb: x 150 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 273 ... :ok_hand: x 74 :bulb: x 150 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -662,7 +662,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Graph](problem_sets/graph/README.md): 7
+### [Graph](problem_sets/graph/README.md): 8
 
 <details><summary>Questions</summary>
 
@@ -701,6 +701,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   ## Connected component
+  
+
+  
+  - :ok_hand: 2492. Minimum Score of a Path Between Two Cities
   
 
   

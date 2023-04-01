@@ -127,9 +127,38 @@ gives eebee, and str1 will never equal to str2.
 
 ## Connected component
 
-- Can be done through [union find](../union_find/most_stones_removed_with_same_row_or_col_uf.h) as well
+
+## [:ok_hand: 2492. Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) / [:man_technologist:](min_score_of_a_path_between_2_cities.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a positive integer n representing n cities numbered from 1 to n.
+You are also given a 2D array roads where roads[i] = [ai, bi, distancei]
+- indicates that there is a bidirectional road between cities ai and bi with a
+  distance equal to distance_i.
+
+- The cities graph is not necessarily connected.
+- The score of a path between two cities is defined as the minimum distance of a
+  road in this path.
+- Return the minimum possible score of a path between cities 1 and n.
+
+Note:
+
+- A path is a sequence of roads between two cities.
+- It is allowed for a path to contain the same road multiple times, and you can
+  visit cities 1 and n multiple times along the path.
+- The test cases are generated such that there is at least one path between 1
+  and n.
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) / [:man_technologist:](most_stones_removed_with_same_row_or_col.h)
+
+- Can be done through [union find](../union_find/most_stones_removed_with_same_row_or_col_uf.h) as well
 
 <details><summary markdown="span">Question</summary>
 
