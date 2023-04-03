@@ -24,6 +24,29 @@ you must buy before you sell.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people) / [:man_technologist:](boats_to_save_people.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array people where people[i] is the weight of the ith person,
+and an infinite number of boats where each boat can carry a maximum weight of
+limit.
+
+Each boat carries at most two people at the same time, provided the sum of the
+weight of those people is at most limit.
+
+Return the minimum number of boats to carry every given person.
+
+Input: people = [3,2,2,1], limit = 3
+Output: 3
+Explanation: 3 boats (1, 2), (2) and (3)
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 2178. Maximum Split of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) / [:man_technologist:](max_split_of_positive_even_ints.h)
 
 <details><summary markdown="span">Question</summary>

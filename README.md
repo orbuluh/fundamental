@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 273 ... :ok_hand: x 74 :bulb: x 150 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 274 ... :ok_hand: x 75 :bulb: x 150 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -778,13 +778,17 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Greedy](problem_sets/greedy/README.md): 20
+### [Greedy](problem_sets/greedy/README.md): 21
 
 <details><summary>Questions</summary>
 
 
   
   - :ok_hand: 121. Best Time to Buy and Sell Stock
+  
+
+  
+  - :ok_hand: 881. Boats to Save People
   
 
   
