@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 274 ... :ok_hand: x 75 :bulb: x 150 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 275 ... :ok_hand: x 75 :bulb: x 151 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -178,7 +178,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Binary search](problem_sets/binary_search/README.md): 14
+### [Binary search](problem_sets/binary_search/README.md): 15
 
 <details><summary>Questions</summary>
 
@@ -209,6 +209,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 81. Search in Rotated Sorted Array II
+  
+
+  
+  - :bulb: 2439. Minimize Maximum of Array
   
 
   
