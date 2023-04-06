@@ -329,6 +329,40 @@ Explanation: One possible way is : left -> down -> left -> down -> right -> down
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands) / [:man_technologist:](number_of_closed_island.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a 2D grid consists of 0s (land) and 1s (water).
+
+An island is a maximal 4-directionally connected group of 0s and a closed island
+is an island totally (all left, top, right, bottom) surrounded by 1s.
+
+Return the number of closed islands.
+
+
+Input: grid = [
+       [1,1,1,1,1,1,1,0],
+       [1,0,0,0,0,1,1,0],
+       [1,0,1,0,1,1,1,0],
+       [1,0,0,0,0,1,0,1],
+       [1,1,1,1,1,1,1,0]]
+Output: 2
+Explanation: the ^ are closed island as defined
+
+       [1,1,1,1,1,1,1,0],
+       [1,^,^,^,^,1,1,0],
+       [1,^,1,^,1,1,1,0],
+       [1,^,^,^,^,1,^,1],
+       [1,1,1,1,1,1,1,0]
+
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 489. Robot Room Cleaner](https://leetcode.com/problems/robot-room-cleaner) / [:man_technologist:](robot_room_cleaner.h)
 
 <details><summary markdown="span">Question</summary>
