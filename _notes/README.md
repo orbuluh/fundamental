@@ -131,6 +131,13 @@
   
 
   
+
+  - Topological sort with DFS
+  
+
+  
+
+  - Iterative topological sort / Khan's algorithm
   
 
 **[Graph: 2. Single source shortest path / SSSP](graph_sssp.md)**

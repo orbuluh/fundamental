@@ -189,6 +189,8 @@ Stone [0,0] cannot be removed since it does not share a row/column with another 
 
 ------------------------------------------------------------------------------
 
+## Use concept in Tarjan's SCC
+
 ## [:persevere: 2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph) / [:man_technologist:](longest_cycle_in_a_graph.h)
 
 <details><summary markdown="span">Question</summary>
@@ -217,9 +219,7 @@ The length of this cycle is 3, so 3 is returned.
 
 ------------------------------------------------------------------------------
 
-## Use concept in Tarjan's SCC
-
-## [Topological sort](../../_notes/graph.md#topological-sort)
+## [Topological sort](../../_notes/graph_topological_sort.md)
 
 ## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) / [:man_technologist:](alien_dictionary.h)
 
@@ -250,5 +250,34 @@ Output: ""
 </details>
 
 ------------------------------------------------------------------------------
+
+## [:bulb: 1857. Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph) / [:man_technologist:](largest_color_val_in_directed_graph.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There is a directed graph of n colored nodes and m edges. The nodes are numbered
+from 0 to n - 1.
+
+You are given a string colors where colors[i] is a lowercase English letter
+representing the color of the ith node in this graph (0-indexed).
+
+You are also given a 2D array edges where edges[j] = [aj, bj] indicates that
+there is a directed edge from node aj to node bj.
+
+A valid path in the graph is a sequence of nodes x1 -> x2 -> x3 -> ... -> xk
+such that there is a directed edge from xi to xi+1 for every 1 <= i < k.
+
+The color value of the path is the number of nodes that are colored the most
+frequently occurring color along that path.
+
+Return the largest color value of any valid path in the given graph, or -1 if
+the graph contains a cycle.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 
 - [Single source shortest path](graph_sssp/README.md)

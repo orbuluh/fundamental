@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 276 ... :ok_hand: x 75 :bulb: x 152 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 277 ... :ok_hand: x 75 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -670,7 +670,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Graph](problem_sets/graph/README.md): 8
+### [Graph](problem_sets/graph/README.md): 9
 
 <details><summary>Questions</summary>
 
@@ -720,19 +720,23 @@ Quote from [HTDP](https://htdp.org/)
   
 
   
-  - :persevere: 2360. Longest Cycle in a Graph
-  
-
-  
   ## Use concept in Tarjan's SCC
   
 
   
-  ## [Topological sort](../../_notes/graph.md#topological-sort)
+  - :persevere: 2360. Longest Cycle in a Graph
+  
+
+  
+  ## [Topological sort](../../_notes/graph/graph_topological_sort.md)
   
 
   
   - :bulb: 269. Alien Dictionary
+  
+
+  
+  - :bulb: 1857. Largest Color Value in a Directed Graph
   
 
 
