@@ -10,14 +10,18 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 277 ... :ok_hand: x 75 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 278 ... :ok_hand: x 76 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
-### [2 pointers](problem_sets/2_ptrs/README.md): 7
+### [2 pointers](problem_sets/2_ptrs/README.md): 8
 
 <details><summary>Questions</summary>
 
+
+  
+  - :ok_hand: 2390. Removing Stars From a String
+  
 
   
   - :ok_hand: 1047. Remove All Adjacent Duplicates In String
