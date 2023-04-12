@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 278 ... :ok_hand: x 76 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 279 ... :ok_hand: x 77 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1088,10 +1088,18 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Misc](problem_sets/misc/README.md): 18
+### [Misc](problem_sets/misc/README.md): 19
 
 <details><summary>Questions</summary>
 
+
+  
+  ## Good for practice
+  
+
+  
+  - :ok_hand: 71. Simplify Path
+  
 
   
   ## Great algo to do something
