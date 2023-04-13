@@ -10,14 +10,18 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 279 ... :ok_hand: x 77 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 280 ... :ok_hand: x 78 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
-### [2 pointers](problem_sets/2_ptrs/README.md): 8
+### [2 pointers](problem_sets/2_ptrs/README.md): 9
 
 <details><summary>Questions</summary>
 
+
+  
+  - :ok_hand: 946. Validate Stack Sequences
+  
 
   
   - :ok_hand: 2390. Removing Stars From a String

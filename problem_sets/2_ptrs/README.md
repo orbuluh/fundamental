@@ -1,5 +1,27 @@
 # 2 pointers
 
+## [:ok_hand: 946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) / [:man_technologist:](validate_stk_seq.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two integer arrays pushed and popped each with distinct values, return
+true if this could have been the result of a sequence of push and pop operations
+on an initially empty stack, or false otherwise.
+
+Input: pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
+Output: true
+
+Input: pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
+Output: false
+Explanation: 1 cannot be popped before 2.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:ok_hand: 2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) / [:man_technologist:](remvoe_star_from_strings.h)
 
 <details><summary markdown="span">Question</summary>
