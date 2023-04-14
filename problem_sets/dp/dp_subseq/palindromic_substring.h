@@ -16,7 +16,7 @@ shorter length. You can basically traverse using the length of substring, doing
 so will make sure you are building subproblem before larger problem!
 
 Note: DP is not really faster than the brute force, and even have worse space
-complexity though, check commented solution below for a more direct way. Still
+complexity though, check Solution_BF below for a more direct way. Still
 doing a DP here as it's a good base for other problem!
 */
 class Solution {
@@ -41,11 +41,9 @@ class Solution {
   }
 };
 
-/*
-// Note: DP is not really faster than the brute force, and even have worse space
-// complexity though:
-
-class Solution {
+class Solution_BF {
+  // Note: DP is not really faster than the brute force, and even have worse space
+  // complexity though:
 public:
     int countSubstrings(string s) {
         const auto sz = s.size();
@@ -64,4 +62,4 @@ public:
         return res;
     }
 };
-*/
+

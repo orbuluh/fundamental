@@ -1,5 +1,5 @@
 /*
-Say dp[i][j] store the max len of palindromic subsequence in s[i:j] (inclusive)
+Say dp[i][j] store the max len of palindromic subsequence in s[i...j] (inclusive)
 
 dp[i][i] = 1
 dp[i][i+1] = 2 ... if s[i] == s[i + 1]
@@ -13,12 +13,16 @@ dp[i][j] =
 
 The "otherwise" logic is the critical part to figure out...
 
-as even though s[i] != s[j],
+as even though s[i] != s[j], this is a "subsequence being palindrome" problem.
+
+So if s[i] and s[j] isn't contributing to a longer subsequence, we need to
+make dp[i][j] being the same value of either of dp[i+1][j] or dp[i][j-1], why?
+
 - maybe s[i] forms a longer palindrome with s[i + 1] or
 - maybe s[j] forms a longer palindrome with s[j - 1]
 
 Consider the example:
-
+    v
 0 1 2 3 4
 b b b a b
 
@@ -31,6 +35,8 @@ dp[2][2] = 1 How about dp[1][3]?
 - So you can imagine: dp[1][3] = std::max(dp[1][2], dp[2][3]) = 2
 
 Then dp[0][4] = dp[1][3] + 2 = 4!
+(and here, if your dp[1][3] is mistakenly to be 1 as when you compute dp[1][3],
+ you didn't consider std::max(dp[1][2], dp[2][3]), your result will be wrong!)
 
 Overall you cans see that you will be building a 2D dp. But how to travel to
 ensure it's bottom up and creating the solution for subproblem before building a
@@ -70,10 +76,7 @@ class Solution {
   }
 };
 
-/*
-// DFS top down ... Actually quicker in OJ!!!
-
-class Solution {
+class Solution_TopDownDFAS {
  public:
   std::vector<std::vector<int>> dp;
   int longestPalindromeSubseq(const string& s) {
@@ -97,4 +100,3 @@ class Solution {
     return dp[i][j] = max(dfs(s, i + 1, j), dfs(s, i, j - 1));
   }
 };
-*/
