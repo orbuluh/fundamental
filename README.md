@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 280 ... :ok_hand: x 78 :bulb: x 153 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 281 ... :ok_hand: x 78 :bulb: x 154 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -364,7 +364,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 5
+### [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 6
 
 <details><summary>Questions</summary>
 
@@ -383,6 +383,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 1235. Maximum Profit in Job Scheduling
+  
+
+  
+  - :bulb: 2218. Maximum Value of K Coins From Piles
   
 
   

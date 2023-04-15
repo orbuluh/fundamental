@@ -111,6 +111,34 @@ Time range [1-3]+[3-6] , we get profit of 120 = 50 + 70.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 2218. Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles) / [:man_technologist:](max_val_of_k_coins_from_piles.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There are n piles of coins on a table.
+
+Each pile consists of a positive number of coins of assorted denominations.
+
+In one move, you can choose any coin on top of any pile, remove it, and add it
+to your wallet.
+
+Given a list piles, where piles[i] is a list of integers denoting the
+composition of the ith pile from top to bottom, and a positive integer k, return
+the maximum total value of coins you can have in your wallet if you choose
+exactly k coins optimally.
+
+Input: piles = [[1,100,3],[7,8,9]], k = 2
+Output: 101
+
+Input: piles = [[100],[100],[100],[100],[100],[100],[1,1,1,1,1,1,700]], k = 7
+Output: 706
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:persevere: 494. Target Sum](https://leetcode.com/problems/target-sum/) / [:man_technologist:](target_sum_bottom_up.h)
 
 - check [below for full description](#bulb-494-target-sum-dart) ... overall dfs solution is much more straightforward
