@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 281 ... :ok_hand: x 78 :bulb: x 154 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 282 ... :ok_hand: x 78 :bulb: x 155 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -364,7 +364,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 6
+### [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp_01_knapsack/README.md): 7
 
 <details><summary>Questions</summary>
 
@@ -387,6 +387,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 2218. Maximum Value of K Coins From Piles
+  
+
+  
+  - :bulb: 1639. Number of Ways to Form a Target String Given a Dictionary
   
 
   
