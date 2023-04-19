@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 282 ... :ok_hand: x 78 :bulb: x 155 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 283 ... :ok_hand: x 78 :bulb: x 156 :persevere: x 24 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1342,7 +1342,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Recursion](problem_sets/recursion/README.md): 23
+### [Recursion](problem_sets/recursion/README.md): 24
 
 <details><summary>Questions</summary>
 
@@ -1417,6 +1417,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 2246. Longest Path With Different Adjacent Characters
+  
+
+  
+  - :bulb: 1372. Longest ZigZag Path in a Binary Tree
   
 
   
