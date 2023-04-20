@@ -558,6 +558,34 @@ Note that index 9 is the last index of the array.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 662. Maximum Width of Binary Tree](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) / [:man_technologist:](max_width_of_btree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, return the maximum width of the given tree.
+
+The maximum width of a tree is the maximum width among all levels.
+
+The width of one level is defined as the length between the end-nodes (the
+leftmost and rightmost non-null nodes), where the null nodes between the
+end-nodes that would be present in a complete binary tree extending down to that
+level are also counted into the length calculation.
+
+It is guaranteed that the answer will in the range of a 32-bit signed integer.
+
+Input: root = [1,3,2,5,3,null,9,null,7,null,5]
+Output: 3
+                     1
+                    3  2
+                   5 3   9
+                    7 5
+Explanation: The maximum width exists in the third level with length 4 (5,3,null,9).
+```
+
+</details>
+
+------------------------------------------------------------------------------
 
 ## [:bulb: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) / [:man_technologist:](nearest_exit_from_entrance.h)
 
