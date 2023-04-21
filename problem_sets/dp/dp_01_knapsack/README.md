@@ -182,6 +182,37 @@ Explanation: There are 6 ways to form target.
 
 ------------------------------------------------------------------------------
 
+## [:persevere: 879. Profitable Schemes](https://leetcode.com/problems/profitable-schemes) / [:man_technologist:](profitable_schemes.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There is a group of n members, and a list of various crimes they could commit.
+
+- The ith crime generates a profit[i] and
+- requires group[i] members to participate in it.
+
+- If a member participates in one crime, that member can't participate in another crime.
+
+- Let's call a profitable scheme any subset of these crimes that generates
+  at least minProfit profit, and the total number of members participating in
+  that subset of crimes is at most n.
+
+Return the number of schemes that can be chosen.
+Since the answer may be very large, return it modulo 10^9 + 7.
+
+Input: n = 10, minProfit = 5, group = [2,3,5], profit = [6,7,8]
+Output: 7
+Explanation: To make a profit of at least 5 with total member <= 10,
+There are 7 possible schemes: (0), (1), (2), (0,1), (0,2), (1,2), and (0,1,2).
+(basically all combination is fine)
+
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:persevere: 494. Target Sum](https://leetcode.com/problems/target-sum/) / [:man_technologist:](target_sum_bottom_up.h)
 
 - check [below for full description](#bulb-494-target-sum-dart) ... overall dfs solution is much more straightforward
