@@ -179,6 +179,36 @@ In total, you spent $11 and covered all the days of your travel.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1416. Restore The Array](https://leetcode.com/problems/restore-the-array/) / [:man_technologist:](restore_the_array.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+A program was supposed to print an array of integers.
+
+The program forgot to print white spaces and the array is printed as a string of
+digits s and all we know is that all integers in the array were in the range
+[1, k] and there are no leading zeros in the array.
+
+Given the string s and the integer k, return the number of the possible arrays
+that can be printed as s using the mentioned program.
+
+Since the answer may be very large, return it modulo 10^9 + 7.
+
+Input: s = "1317", k = 2000
+Output: 8
+Explanation: Possible arrays are [1317],[131,7],[13,17],[1,317],[13,1,7],
+                                 [1,31,7],[1,3,17],[1,3,1,7]
+Input: s = "1000", k = 10
+Output: 0
+Explanation: There cannot be an array that was printed this way and has all
+             integer >= 1 and <= 10.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) / [:man_technologist:](buy_sell_stock_iv.h)
 
 - although understand the solution, looping in k still feel unintuitive...

@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 285 ... :ok_hand: x 78 :bulb: x 157 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 286 ... :ok_hand: x 78 :bulb: x 158 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -452,7 +452,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 12
+### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 13
 
 <details><summary>Questions</summary>
 
@@ -479,6 +479,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 983. Minimum Cost For Tickets
+  
+
+  
+  - :bulb: 1416. Restore The Array
   
 
   
