@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 286 ... :ok_hand: x 78 :bulb: x 158 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 287 ... :ok_hand: x 79 :bulb: x 158 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -668,7 +668,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Data structure design](problem_sets/ds_design/README.md): 5
+### [Data structure design](problem_sets/ds_design/README.md): 6
 
 <details><summary>Questions</summary>
 
@@ -683,6 +683,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 692. Top K Frequent Words
+  
+
+  
+  - :ok_hand: 2336. Smallest Number in Infinite Set
   
 
   

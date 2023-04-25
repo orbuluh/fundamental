@@ -71,6 +71,47 @@ Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set) / [:man_technologist:](smallest_number_in_inf_set.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You have a set which contains all positive integers [1, 2, 3, 4, 5, ...].
+
+Implement the SmallestInfiniteSet class:
+
+`SmallestInfiniteSet()`
+
+- Initializes the SmallestInfiniteSet object to contain all positive integers.
+
+`int popSmallest()`
+
+- Removes and returns the smallest integer contained in the infinite set.
+
+`void addBack(int num)`
+
+- Adds a positive integer num back into the infinite set, if it is not already
+  in the infinite set.
+
+Input
+["SmallestInfiniteSet",
+ "addBack",       // 2 is already in the set, so no change is made
+ "popSmallest",   // 1 is the smallest number, 2 to inf remain
+ "popSmallest",   // 2 is the smallest number, 3 to inf remain
+ "popSmallest",   // 3 is the smallest number, 4 to inf remain
+ "addBack",       // 1, 4 to inf remain
+ "popSmallest",   // 1 is the smallest number, 4 to inf remain
+ "popSmallest",   // 4 is the smallest number, 5 to inf remain
+ "popSmallest"]   // 5 is the smallest number, 6 to inf remain
+[[],    [2], [], [], [], [1], [], [], []]
+Output
+[null, null, 1,   2, 3, null, 1,   4, 5]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 460. LFU Cache](https://leetcode.com/problems/lfu-cache/) / [:man_technologist:](lfu_cache.h)
 
 <details><summary markdown="span">Question</summary>
