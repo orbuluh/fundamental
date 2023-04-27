@@ -1,5 +1,33 @@
 # Math
 
+## [:bulb: 319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher) / [:man_technologist:](bulb_switcher.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+There are n bulbs that are initially off. You first turn on all the bulbs, then
+you turn off every second bulb.
+
+On the third round, you toggle every third bulb (turning on if it's off or
+turning off if it's on). For the ith round, you toggle every i bulb. For the nth
+round, you only toggle the last bulb.
+
+Return the number of bulbs that are on after n rounds.
+
+Input: n = 5
+Output: 2
+round 0: 0 0 0 0 0
+round 1: 1 1 1 1 1
+round 2: 1 0 1 0 1
+round 3: 1 0 0 0 1
+round 4: 1 0 0 1 1
+round 5: 1 0 0 1 0
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 462. Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) / [:man_technologist:](minimum_moves_to_equal_array.h)
 
 <details><summary markdown="span">Question</summary>
