@@ -14,7 +14,7 @@
 
 ![](../srcs/find_of_union_find.png)
 
-**Path compression**
+**Optimization: Path compression**
 
 - Performing a Find operation presents an important opportunity for improving the forest.
 - The time in a Find operation is spent chasing parent pointers, so a flatter tree leads to faster Find operations.
@@ -88,4 +88,34 @@ void unionJoin(int nodeX, int nodeY) {
   // or
   // if (xRoot != yRoot) parent_[xRoot] = yRoot;
 }
+```
+
+**Merge smaller to larger to achieve better amortized time complexity.**
+
+- To ensure good performance of union/find, we want to keep the depth of the union-find tree small.
+- When we join two sets, we need to decide which set should be merged into the other. If we merge a smaller set into a larger set, the depth of the resulting tree will (likely) be smaller, as smaller set is likely to have lower depth and vise versa. This reduces the time complexity of the find operation.
+- Therefore, it is recommended to merge the smaller set into the larger set.
+- To achieve a good amortized time complexity, we can use the weighted union heuristic, which involves keeping track of the size of each set and always merging the smaller set into the larger set. This can help ensure that the depth of the tree is kept small, leading to a better overall performance.
+
+```cpp
+struct DisjoinSet {
+DisjoinSet(int n) : sz(n) {
+  groupsSz = std::vector<int>(n, 1);
+  // other initialization
+}
+
+void join(int a, int b) {
+  int x = findParent(a);
+  int y = findParent(b);
+  if (x != y) {
+    // always merge smaller group to larger one so that the depth of merged
+    // groups is likely to be smaller
+    if (groupsSz[x] > groupsSz[y]) {
+      std::swap(x, y);
+    }
+    parents[x] = y; // smaller group x's parent assign to larger group
+    groupsSz[y] += groupsSz[x]; // larger group y's size updated
+  }
+}
+};
 ```

@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 288 ... :ok_hand: x 79 :bulb: x 159 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 289 ... :ok_hand: x 80 :bulb: x 159 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1684,7 +1684,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Union find](problem_sets/union_find/README.md): 4
+### [Union find](problem_sets/union_find/README.md): 5
 
 <details><summary>Questions</summary>
 
@@ -1695,6 +1695,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 990. Satisfiability of Equality Equations
+  
+
+  
+  - :ok_hand: 839. Similar String Groups
   
 
   

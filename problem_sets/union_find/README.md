@@ -62,6 +62,42 @@ Output: false
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 839. Similar String Groups](https://leetcode.com/problems/similar-string-groups) / [:man_technologist:](similar_string_groups.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Two strings X and Y are similar if we can swap two letters (in different
+positions) of X, so that it equals Y. Also two strings X and Y are similar if
+they are equal. For example,
+- "tars" and "rats" are similar (swapping at positions 0 and 2), and
+- "rats" and "arts" are similar,
+- but "star" is not similar to "tars", "rats", or "arts".
+
+Each group is such that a word is in the group if and only if it is similar to
+at least one other word in the group.
+
+
+These form two connected groups by similarity:
+- {"tars", "rats", "arts"} and {"star"}.
+
+- Notice that "tars" and "arts" are in the same group even though they are not
+  similar.
+
+We are given a list strs of strings where every string in strs is an anagram of
+every other string in strs. How many groups are there?
+
+Input: strs = ["tars","rats","arts","star"]
+Output: 2
+
+Input: strs = ["omv","ovm"]
+Output: 1
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) / [:man_technologist:](most_stones_removed_with_same_row_or_col_uf.h)
 
 - check problem statement and dfs solution in [here](../graph/README.md#💡-947-most-stones-removed-with-same-row-or-column-🎯)
