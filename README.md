@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 289 ... :ok_hand: x 80 :bulb: x 159 :persevere: x 25 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 290 ... :ok_hand: x 80 :bulb: x 159 :persevere: x 26 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1684,7 +1684,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Union find](problem_sets/union_find/README.md): 5
+### [Union find](problem_sets/union_find/README.md): 6
 
 <details><summary>Questions</summary>
 
@@ -1703,6 +1703,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 947. Most Stones Removed with Same Row or Column
+  
+
+  
+  - :persevere: 1697. Checking Existence of Edge Length Limited Paths
   
 
   
