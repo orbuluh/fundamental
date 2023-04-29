@@ -19,7 +19,7 @@ a ---------->b
 
 - Say we are finding shortest path among a -> b. Suppose there is a third node, c, such that `w(a, c) + w(c, b) < w(a, b)`, then we should route through intermediate c instead of go straight a -> b
 - The goal is to eventually consider going through all possible intermediate nodes on paths of different length. So for all pairs O(V^2), we check the possibility of putting an intermediate node, so the overall complexity is O(V^3)
-- This can basically be done with DP, where `DP[k][i][j]` stores the result of trying intermediate node from node 0 to node k as the intermediate node of i -> j
+- This can basically be done with DP, where `DP[k][i][j]` stores the result of trying intermediate node from node i to node k as the intermediate node of i -> j
 - In the outmost loop, it's on the k dimension, which means you are trying a new intermediate node. So it's guaranteed that it's not an overlapped subproblem.
 
 **The DP recurrence**
@@ -27,7 +27,7 @@ a ---------->b
 
 ```cpp
 Assume m[i][j] is the adjacent matrix of the graph
-d[k][i][j] = m[i][k] iff k == 0
+dp[k][i][j] = m[i][k] iff k == 0
 
 Otherwise
 
