@@ -98,6 +98,33 @@ Output: 1
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable) / [:man_technologist:](remove_max_edges_to_keep_fully_traversable.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Alice and Bob have an undirected graph of n nodes and three types of edges:
+
+- Type 1: Can be traversed by Alice only.
+- Type 2: Can be traversed by Bob only.
+- Type 3: Can be traversed by both Alice and Bob.
+
+Given an array edges where edges[i] = [typei, ui, vi] represents a bidirectional
+edge of type typei between nodes ui and vi, find the maximum number of edges you
+can remove so that after removing the edges, the graph can still be fully
+traversed by both Alice and Bob.
+
+The graph is fully traversed by Alice and Bob if starting from any node, they
+can reach all other nodes.
+
+Return the maximum number of edges you can remove, or return -1 if Alice and Bob
+cannot fully traverse the graph.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 947. Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) / [:man_technologist:](most_stones_removed_with_same_row_or_col_uf.h)
 
 - check problem statement and dfs solution in [here](../graph/README.md#💡-947-most-stones-removed-with-same-row-or-column-🎯)

@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 290 ... :ok_hand: x 80 :bulb: x 159 :persevere: x 26 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 291 ... :ok_hand: x 80 :bulb: x 160 :persevere: x 26 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1684,7 +1684,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Union find](problem_sets/union_find/README.md): 6
+### [Union find](problem_sets/union_find/README.md): 7
 
 <details><summary>Questions</summary>
 
@@ -1699,6 +1699,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 839. Similar String Groups
+  
+
+  
+  - :bulb: 1579. Remove Max Number of Edges to Keep Graph Fully Traversable
   
 
   
