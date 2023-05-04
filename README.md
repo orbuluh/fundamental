@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 291 ... :ok_hand: x 80 :bulb: x 160 :persevere: x 26 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 292 ... :ok_hand: x 80 :bulb: x 160 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -822,7 +822,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Greedy](problem_sets/greedy/README.md): 21
+### [Greedy](problem_sets/greedy/README.md): 22
 
 <details><summary>Questions</summary>
 
@@ -901,6 +901,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :persevere: 1675. Minimize Deviation in Array
+  
+
+  
+  - :persevere: 649. Dota2 Senate
   
 
   
