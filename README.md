@@ -10,11 +10,11 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 292 ... :ok_hand: x 80 :bulb: x 160 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 293 ... :ok_hand: x 80 :bulb: x 161 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
-### [2 pointers](problem_sets/2_ptrs/README.md): 9
+### [2 pointers](problem_sets/2_ptrs/README.md): 10
 
 <details><summary>Questions</summary>
 
@@ -37,6 +37,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 16. 3Sum Closest
+  
+
+  
+  - :bulb: 1498. Number of Subsequences That Satisfy the Given Sum Condition
   
 
   

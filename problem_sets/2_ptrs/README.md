@@ -115,6 +115,31 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) / [:man_technologist:](num_of_subseq_satisfy_sum_condition.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of integers nums and an integer target.
+
+Return the number of non-empty subsequences of nums such that the sum of the
+minimum and maximum element on it is less or equal to target.
+
+Since the answer may be too large, return it modulo 1e9 + 7
+
+Input: nums = [3,5,6,7], target = 9
+Output: 4
+Explanation: There are 4 subsequences that satisfy the condition.
+[3] -> Min value + max value <= target (3 + 3 <= 9)
+[3,5] -> (3 + 5 <= 9)
+[3,5,6] -> (3 + 6 <= 9)
+[3,6] -> (3 + 6 <= 9)
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) / [:man_technologist:](container_with_most_water.h)
 
 <details><summary markdown="span">Question</summary>
