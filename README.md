@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 293 ... :ok_hand: x 80 :bulb: x 161 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 294 ... :ok_hand: x 80 :bulb: x 162 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -570,13 +570,17 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 6
+### [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 7
 
 <details><summary>Questions</summary>
 
 
   
   - :bulb: 1143. Longest Common Subsequence
+  
+
+  
+  - :bulb: 1964. Find the Longest Valid Obstacle Course at Each Position
   
 
   
