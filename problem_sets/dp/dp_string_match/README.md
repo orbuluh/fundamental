@@ -40,6 +40,36 @@ rose -> ros (remove 'e')
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1035. Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines) / [:man_technologist:](uncrossed_lines.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given two integer arrays nums1 and nums2.
+
+We write the integers of nums1 and nums2 (in the order they are given) on two
+separate horizontal lines.
+
+We may draw connecting lines:
+
+- a straight line connecting two numbers nums1[i] and nums2[j] such that:
+
+- nums1[i] == nums2[j], and
+- the line we draw does not intersect any other connecting (non-horizontal) line.
+
+Note that a connecting line cannot intersect even at the endpoints
+(i.e., each number can only belong to one connecting line).
+
+Return the maximum number of connecting lines we can draw in this way.
+
+Input: nums1 = [1,4,2], nums2 = [1,2,4]
+Output: 2
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:dizzy_face: 87. Scramble String](https://leetcode.com/problems/scramble-string) / [:man_technologist:](scramble_string.h)
 
 <details><summary markdown="span">Question</summary>

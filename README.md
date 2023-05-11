@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 294 ... :ok_hand: x 80 :bulb: x 162 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 295 ... :ok_hand: x 80 :bulb: x 163 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -518,7 +518,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: String match](problem_sets/dp/dp_string_match/README.md): 3
+### [DP: String match](problem_sets/dp/dp_string_match/README.md): 4
 
 <details><summary>Questions</summary>
 
@@ -529,6 +529,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 72. Edit Distance
+  
+
+  
+  - :bulb: 1035. Uncrossed Lines
   
 
   
