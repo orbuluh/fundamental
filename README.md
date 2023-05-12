@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 295 ... :ok_hand: x 80 :bulb: x 163 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 296 ... :ok_hand: x 80 :bulb: x 164 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -456,7 +456,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 13
+### [DP: State transition](problem_sets/dp/dp_state_transition/README.md): 14
 
 <details><summary>Questions</summary>
 
@@ -483,6 +483,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 983. Minimum Cost For Tickets
+  
+
+  
+  - :bulb: 2140. Solving Questions With Brainpower
   
 
   
