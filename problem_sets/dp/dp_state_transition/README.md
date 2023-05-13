@@ -113,6 +113,37 @@ Explanation: All possible strings are:
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings) / [:man_technologist:](count_ways_to_build_good_str.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the integers zero, one, low, and high, we can construct a string by
+- starting with an empty string, and then
+- at each step perform either of the following:
+
+- Append the character '0' zero times.
+- Append the character '1' one times.
+
+This can be performed any number of times.
+
+A good string is a string constructed by the above process having a length
+between low and high (inclusive).
+
+Return the number of different good strings that can be constructed satisfying
+these properties.
+
+Since the answer can be large, return it modulo 1e9 + 7.
+
+Input: low = 2, high = 3, zero = 1, one = 2
+Output: 5
+Explanation: The good strings are "00", "11", "000", "110", and "011".
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 1402. Reducing Dishes](https://leetcode.com/problems/reducing-dishes) / [:man_technologist:](reducing_dishes.h)
 
 <details><summary markdown="span">Question</summary>
