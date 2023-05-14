@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 297 ... :ok_hand: x 81 :bulb: x 164 :persevere: x 27 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 298 ... :ok_hand: x 81 :bulb: x 164 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -646,10 +646,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 7
+### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 8
 
 <details><summary>Questions</summary>
 
+
+  
+  - :persevere: 1799. Maximize Score After N Operations
+  
 
   
   - :persevere: 907. Sum of Subarray Minimums
