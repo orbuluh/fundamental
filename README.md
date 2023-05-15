@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 298 ... :ok_hand: x 81 :bulb: x 164 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 299 ... :ok_hand: x 82 :bulb: x 164 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1016,7 +1016,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Linked list](problem_sets/linked_list/README.md): 10
+### [Linked list](problem_sets/linked_list/README.md): 11
 
 <details><summary>Questions</summary>
 
@@ -1043,6 +1043,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 328. Odd Even Linked List
+  
+
+  
+  - :ok_hand: 1721. Swapping Nodes in a Linked List
   
 
   
