@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 299 ... :ok_hand: x 82 :bulb: x 164 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 300 ... :ok_hand: x 83 :bulb: x 164 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -726,10 +726,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Graph](problem_sets/graph/README.md): 9
+### [Graph](problem_sets/graph/README.md): 10
 
 <details><summary>Questions</summary>
 
+
+  
+  - :ok_hand: 1557. Minimum Number of Vertices to Reach All Nodes
+  
 
   
   ## Bipartite
