@@ -660,6 +660,33 @@ Output: [0,1,-1]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge) / [:man_technologist:](shortest_bridge.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an n x n binary matrix grid where 1 represents land and 0
+represents water.
+
+An island is a 4-directionally connected group of 1's not connected to any other
+1's. There are exactly two islands in grid.
+
+You may change 0's to 1's to connect the two islands to form one island.
+
+Return the smallest number of 0's you must flip to connect the two islands.
+
+Input: grid = [[0,1,0],
+               [0,0,0],
+               [0,0,1]]
+Output: 2
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
+
 ## BFS from multiple points
 
 ## [:bulb: 1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible) / [:man_technologist:](as_far_from_land_as_possible.h)

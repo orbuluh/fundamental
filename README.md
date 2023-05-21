@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 300 ... :ok_hand: x 83 :bulb: x 164 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 301 ... :ok_hand: x 83 :bulb: x 165 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -76,7 +76,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Backtracking](problem_sets/backtracking/README.md): 22
+### [Backtracking](problem_sets/backtracking/README.md): 23
 
 <details><summary>Questions</summary>
 
@@ -171,6 +171,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 1129. Shortest Path with Alternating Colors
+  
+
+  
+  - :bulb: 934. Shortest Bridge
   
 
   
