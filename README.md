@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 301 ... :ok_hand: x 83 :bulb: x 165 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 302 ... :ok_hand: x 84 :bulb: x 165 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -854,10 +854,14 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Greedy](problem_sets/greedy/README.md): 22
+### [Greedy](problem_sets/greedy/README.md): 23
 
 <details><summary>Questions</summary>
 
+
+  
+  - :ok_hand: 703. Kth Largest Element in a Stream
+  
 
   
   - :ok_hand: 121. Best Time to Buy and Sell Stock

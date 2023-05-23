@@ -1,5 +1,31 @@
 # Greedy
 
+## [:ok_hand: 703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream) / [:man_technologist:](kth_largest_in_a_stream.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Design a class to find the kth largest element in a stream.
+
+Note that it is the kth largest element in the sorted order, not the kth
+distinct element.
+
+Implement `KthLargest` class:
+
+`KthLargest(int k, int[] nums)`
+
+- Initializes the object with the integer k and the stream of integers nums.
+
+`int add(int val)`
+
+- Appends the integer val to the stream and returns the element representing
+  the kth largest element in the stream.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) / [:man_technologist:](best_time_to_buy_and_sell_stock.h)
 
 <details><summary markdown="span">Question</summary>
