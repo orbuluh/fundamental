@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 302 ... :ok_hand: x 84 :bulb: x 165 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 303 ... :ok_hand: x 84 :bulb: x 166 :persevere: x 28 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -854,7 +854,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Greedy](problem_sets/greedy/README.md): 23
+### [Greedy](problem_sets/greedy/README.md): 24
 
 <details><summary>Questions</summary>
 
@@ -933,6 +933,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :bulb: 2136. Earliest Possible Day of Full Bloom
+  
+
+  
+  - :bulb: 2542. Maximum Subsequence Score
   
 
   
