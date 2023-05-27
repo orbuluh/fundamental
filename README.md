@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 304 ... :ok_hand: x 84 :bulb: x 166 :persevere: x 29 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 305 ... :ok_hand: x 84 :bulb: x 166 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -418,7 +418,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 9
+### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 10
 
 <details><summary>Questions</summary>
 
@@ -449,6 +449,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :persevere: 1140. Stone Game II
+  
+
+  
+  - :persevere: 1406. Stone Game III
   
 
   
