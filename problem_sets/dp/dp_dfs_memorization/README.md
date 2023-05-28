@@ -195,6 +195,55 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 
 ------------------------------------------------------------------------------
 
+## [:persevere: 1547. Minimum Cost to Cut a Stick
+](https://leetcode.com/problems/minimum-cost-to-cut-a-stick) / [:man_technologist:](min_cost_to_cut_a_stick.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a wooden stick of length n units.
+
+The stick is labelled from 0 to n.
+
+Given an integer array cuts where cuts[i] denotes a position you should perform
+a cut at.
+
+You should perform the cuts in order, you can change the order of the cuts as
+you wish.
+
+The cost of one cut is the length of the stick to be cut, the total cost is the
+sum of costs of all cuts.
+
+When you cut a stick, it will be split into two smaller sticks (i.e. the sum of
+their lengths is the length of the stick before the cut).
+
+
+Return the minimum total cost of the cuts.
+
+
+Input: n = 7, cuts = [1,3,4,5]
+Output: 16
+
+say (x, y) is stick's starting and endpoint
+
+(0, 7) -> cut 3 (cost 7 - 0 = 7) => (0, 3) (3, 7)
+       -> cut 5 (cost 7 - 3 = 4) => (0, 3) (3, 5) (5, 7)
+       -> cut 1 (cost 3 - 0 = 3) => (0, 1) (1, 3) (3, 5) (5, 7)
+       -> cut 4 (cost 5 - 3 = 2) => (0, 1) (1, 3) (3, 4) (4, 5) (5, 7)
+       -> total: 7 + 4 + 3 + 2 = 16
+
+(0, 7) -> cut 1 (cost 7 - 0 = 7) => (0, 1) (1, 7)
+       -> cut 3 (cost 7 - 1 = 6) => (0, 1) (1, 3) (3, 7)
+       -> cut 4 (cost 5 - 3 = 2) => (0, 1) (1, 3) (3, 4) (4, 7)
+       -> cut 5 (cost 7 - 4 = 3) => (0, 1) (1, 3) (3, 4) (4, 5) (5, 7)
+       -> total: 7 + 6 + 2 + 3 = 18
+
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:persevere: 1140. Stone Game II](https://leetcode.com/problems/stone-game-ii) / [:man_technologist:](stone_game_ii.h)
 
 <details><summary markdown="span">Question</summary>

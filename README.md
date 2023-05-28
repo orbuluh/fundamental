@@ -448,6 +448,10 @@ Quote from [HTDP](https://htdp.org/)
   
 
   
+  ## [:persevere: 1547. Minimum Cost to Cut a Stick
+  
+
+  
   - :persevere: 1140. Stone Game II
   
 
