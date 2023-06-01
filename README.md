@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 305 ... :ok_hand: x 84 :bulb: x 166 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 306 ... :ok_hand: x 85 :bulb: x 166 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -76,7 +76,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Backtracking](problem_sets/backtracking/README.md): 23
+### [Backtracking](problem_sets/backtracking/README.md): 24
 
 <details><summary>Questions</summary>
 
@@ -159,6 +159,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   - :ok_hand: 1345. Jump Game IV
+  
+
+  
+  - :ok_hand: 1091. Shortest Path in Binary Matrix
   
 
   

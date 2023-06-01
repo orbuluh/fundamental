@@ -558,6 +558,51 @@ Note that index 9 is the last index of the array.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix) / [:man_technologist:](shortest_path_in_binary_matrix.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an n x n binary matrix grid, return the length of the shortest clear path
+in the matrix. If there is no clear path, return -1.
+
+A clear path in a binary matrix is a path
+- from the top-left cell (i.e., (0, 0))
+- to the bottom-right cell (i.e., (n - 1, n - 1)) such that:
+
+- All the visited cells of the path are 0.
+- All the adjacent cells of the path are 8-directionally connected
+  (i.e. 4 adjacent + 4 diagonal).
+- The length of a clear path is the number of visited cells of this path.
+
+Input: grid = [[0,1],
+               [1,0]]
+Output: 2
+
+Input: grid = [
+ [0,1,1,0,0,0],
+ [0,1,0,1,1,0],
+ [0,1,1,0,1,0],
+ [0,0,0,1,1,0],
+ [1,1,1,1,1,0],
+ [1,1,1,1,1,0]]
+
+Output: 14
+
+As the path with * below:
+
+[[*,1,1,*,*,0],
+ [*,1,*,1,1,*],
+ [*,1,1,*,1,*],
+ [0,*,*,1,1,*],
+ [1,1,1,1,1,*],
+ [1,1,1,1,1,*]]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 662. Maximum Width of Binary Tree](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) / [:man_technologist:](max_width_of_btree.h)
 
 <details><summary markdown="span">Question</summary>
