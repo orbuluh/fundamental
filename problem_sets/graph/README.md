@@ -99,6 +99,37 @@ A graph is **bipartite** if
 
 ## Model as graph
 
+## [:bulb: 2101. Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs) / [:man_technologist:](detonate_the_max_bombs.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given a list of bombs. The range of a bomb is defined as the area where
+its effect can be felt.
+
+This area is in the shape of a circle with the center as the location of the bomb.
+
+The bombs are represented by a 0-indexed 2D integer array bombs where
+
+- bombs[i] = [xi, yi, ri].
+- xi and yi denote the X-coordinate and Y-coordinate of the location of the ith
+  bomb, whereas ri denotes the radius of its range.
+
+You may choose to detonate a single bomb. When a bomb is detonated, it will
+detonate all bombs that lie in its range. These bombs will further detonate the
+bombs that (its center)　lie in their ranges.
+
+Given the list of bombs, return the maximum number of bombs that can be
+detonated if you are allowed to detonate only one bomb.
+
+Check example on leetcode for clarity
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 2115. Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/) / [:man_technologist:](find_all_possible_recipes.h)
 
 <details><summary markdown="span">Question</summary>

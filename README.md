@@ -10,7 +10,7 @@ Quote from [HTDP](https://htdp.org/)
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 306 ... :ok_hand: x 85 :bulb: x 166 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 307 ... :ok_hand: x 85 :bulb: x 167 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -746,7 +746,7 @@ Quote from [HTDP](https://htdp.org/)
 
 
 
-### [Graph](problem_sets/graph/README.md): 10
+### [Graph](problem_sets/graph/README.md): 11
 
 <details><summary>Questions</summary>
 
@@ -777,6 +777,10 @@ Quote from [HTDP](https://htdp.org/)
 
   
   ## Model as graph
+  
+
+  
+  - :bulb: 2101. Detonate the Maximum Bombs
   
 
   
