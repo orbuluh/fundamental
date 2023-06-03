@@ -8,6 +8,40 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
+## Cpp perfomance trick
+
+- Use when the perfomance distribution is skewed by the trick...
+
+```cpp
+static const int io_trick = []() {
+  std::ios::sync_with_stdio(false);
+  std::cin.tie(nullptr);
+  std::cout.tie(nullptr);
+  return 0;
+}();
+```
+
+<details><summary markdown="span">Explain</summary>
+
+- The `std::cin.tie(nullptr)` and `std::cout.tie(nullptr)` calls are used to untie the `cin` and `cout` streams, respectively, from the `cout` stream.
+- By default, the `std::cin` stream is tied to the `std::cout` stream, meaning that when you perform an input operation, the output stream is flushed.
+- This can cause a performance overhead, especially in situations where you have a mix of input and output operations.
+- By untying the streams, you avoid the unnecessary flushing and improve the overall performance.
+- Declaring the `io_trick` variable as `static` in this context serves two purposes:
+  - Initialization Guarantee:
+    - By declaring the variable as `static`, it ensures that the initialization of the variable will happen only once during the program's lifetime.
+    - The lambda function will be invoked and executed during this initialization.
+    - This guarantees that the I/O trick is applied early on in the program before any input/output operations occur.
+  - Scope Limitation:
+    - By making the `io_trick` variable `static`, its scope is limited to the current translation unit (source file).
+    - It prevents the variable from being accessible or visible to other translation units.
+    - This can be desirable in situations where you want to ensure that the I/O trick is applied only in a specific file or module and does not affect the behavior of other parts of the program.
+
+
+</summary></details>
+
+
+
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
 ## :thinking: Problems listed: 307 ... :ok_hand: x 85 :bulb: x 167 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
