@@ -214,6 +214,37 @@ be less than 5. Therefore, we return 5.
 
 ------------------------------------------------------------------------------
 
+## [:persevere: 1802. Maximum Value at a Given Index in a Bounded Array](m-value-at-a-given-index-in-a-bounded-array) / [:man_technologist:](m_value_at_a_given_index_in_a_bound_arr.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given three positive integers: n, index, and maxSum.
+
+You want to construct an array `nums` (0-indexed) that satisfies the following
+conditions:
+
+- nums.length == n
+- nums[i] is a positive integer where 0 <= i < n.
+- abs(nums[i] - nums[i+1]) <= 1 where 0 <= i < n-1.
+- The sum of all the elements of nums does not exceed maxSum.
+- nums[index] is maximized.
+
+- Return nums[index] of the constructed array.
+
+Input: n = 4, index = 2,  maxSum = 6
+Output: 2
+Explanation: nums = [1,2,2,1] is one array that satisfies all the conditions.
+
+Input: n = 6, index = 1,  maxSum = 10
+Output: 3
+nums = [2, 3, 2, 1, 1, 1]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 
 ## [:persevere: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) / [:man_technologist:](find_k_closest.h)
 
