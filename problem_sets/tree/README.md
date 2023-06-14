@@ -131,6 +131,20 @@ Given the root of a binary tree, calculate the vertical order traversal of the b
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 530. Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) / [:man_technologist:](min_absolute_diff_in_bst.h)
+
+- or you can use morris below
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) / [:man_technologist:](inorder_morris.h)
 
 - check _notes on morris: [:point_right: here](../../_notes/tree_traversal.md#morris-traversal)

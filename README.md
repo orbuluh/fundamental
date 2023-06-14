@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 308 ... :ok_hand: x 86 :bulb: x 167 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 309 ... :ok_hand: x 87 :bulb: x 167 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1708,7 +1708,7 @@ static const int io_trick = []() {
 
 
 
-### [Tree](problem_sets/tree/README.md): 10
+### [Tree](problem_sets/tree/README.md): 11
 
 <details><summary>Questions</summary>
 
@@ -1743,6 +1743,10 @@ static const int io_trick = []() {
 
   
   - :ok_hand: 987. Vertical Order Traversal of a Binary Tree
+  
+
+  
+  - :ok_hand: 530. Minimum Absolute Difference in BST
   
 
   
