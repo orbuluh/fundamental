@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 309 ... :ok_hand: x 87 :bulb: x 167 :persevere: x 30 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 310 ... :ok_hand: x 87 :bulb: x 167 :persevere: x 31 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -702,10 +702,14 @@ static const int io_trick = []() {
 
 
 
-### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 8
+### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 9
 
 <details><summary>Questions</summary>
 
+
+  
+  - :persevere: 1569. Number of Ways to Reorder Array to Get Same BST
+  
 
   
   - :persevere: 1799. Maximize Score After N Operations
