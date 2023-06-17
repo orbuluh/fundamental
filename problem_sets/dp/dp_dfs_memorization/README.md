@@ -195,6 +195,33 @@ Explanation: Paint houses of this way [1,2,2,1,1]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1187. Make Array Strictly Increasing](https://leetcode.com/problems/make-array-strictly-increasing) / [:man_technologist:](make_arr_strictly_increasing.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given two integer arrays arr1 and arr2, return the minimum number of operations
+(possibly zero) needed to make arr1 strictly increasing.
+
+In one operation, you can choose two indices 0 <= i < arr1.length and
+0 <= j < arr2.length and do the assignment arr1[i] = arr2[j].
+
+If there is no way to make arr1 strictly increasing, return -1.
+
+Input: arr1 = [1,5,3,6,7], arr2 = [4,3,1]
+Output: 2
+Explanation: Replace 5 with 3 and then replace 3 with 4. arr1 = [1, 3, 4, 6, 7].
+
+Input: arr1 = [1,5,3,6,7], arr2 = [1,6,3,3]
+Output: -1
+Explanation: You can't make arr1 strictly increasing.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:persevere: 1547. Minimum Cost to Cut a Stick
 ](https://leetcode.com/problems/minimum-cost-to-cut-a-stick) / [:man_technologist:](min_cost_to_cut_a_stick.h)
 
