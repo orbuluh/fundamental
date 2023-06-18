@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 311 ... :ok_hand: x 87 :bulb: x 168 :persevere: x 31 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 312 ... :ok_hand: x 88 :bulb: x 168 :persevere: x 31 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -458,7 +458,7 @@ static const int io_trick = []() {
 
 
 
-### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 11
+### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 12
 
 <details><summary>Questions</summary>
 
@@ -469,6 +469,10 @@ static const int io_trick = []() {
 
   
   - :ok_hand: 576. Out of Boundary Paths
+  
+
+  
+  - :ok_hand: 2328. Number of Increasing Paths in a Grid
   
 
   

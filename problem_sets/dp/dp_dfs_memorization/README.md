@@ -56,6 +56,32 @@ Since the answer can be very large, return it modulo 10^9 + 7.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 2328. Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid) / [:man_technologist:](number_of_increasing_paths_in_a_grid.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an m x n integer matrix grid, where you can move from a cell to
+any adjacent cell in all 4 directions.
+
+Return the number of strictly increasing paths in the grid such that you can
+start from any cell and end at any cell.
+
+Since the answer can be very large, return it modulo 10^9 + 7.
+
+Input: grid = [[1,1],[3,4]]
+Output: 8
+Explanation: The strictly increasing paths are:
+- Paths with length 1: [1], [1], [3], [4].
+- Paths with length 2: [1 -> 3], [1 -> 4], [3 -> 4].
+- Paths with length 3: [1 -> 3 -> 4].
+The total number of paths is 4 + 3 + 1 = 8.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 1770. Maximum Score from Performing Multiplication Operations](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) / [:man_technologist:](max_score_from_mul_ops.h)
 
 - bottom up solution is much faster, but hard to wrap up my head... -> check [here](max_score_from_mul_ops_bottom_up.h)
