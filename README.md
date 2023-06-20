@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 312 ... :ok_hand: x 88 :bulb: x 168 :persevere: x 31 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 313 ... :ok_hand: x 89 :bulb: x 168 :persevere: x 31 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -1588,10 +1588,14 @@ static const int io_trick = []() {
 
 
 
-### [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 2
+### [Fixed size sliding window](problem_sets/sliding_window/fixed_size/README.md): 3
 
 <details><summary>Questions</summary>
 
+
+  
+  - :ok_hand: 2090. K Radius Subarray Averages
+  
 
   
   - :bulb: 1423. Maximum Points You Can Obtain from Cards
