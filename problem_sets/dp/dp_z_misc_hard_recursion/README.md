@@ -1,5 +1,34 @@
 # DP: Misc hard recursion
 
+## [:persevere: 2448. Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal) / [:man_technologist:](min_cost_to_make_arr_equal.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given two 0-indexed arrays nums and cost consisting each of n positive integers.
+
+You can do the following operation any number of times:
+
+Increase or decrease any element of the array nums by 1.
+The cost of doing one operation on the ith element is cost[i].
+
+Return the minimum total cost such that all the elements of the array nums become equal.
+
+Input: nums = [1,3,5,2], cost = [2,3,1,14]
+Output: 8
+Explanation: We can make all the elements equal to 2 in the following way:
+- Increase the 0th element one time. The cost is 2.
+- Decrease the 1st element one time. The cost is 3.
+- Decrease the 2nd element three times. The cost is 1 + 1 + 1 = 3.
+The total cost is 2 + 3 + 3 = 8.
+It can be shown that we cannot make the array equal with a smaller cost.
+Example 2:
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:persevere: 1569. Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problemsnumber-of-ways-to-reorder-array-to-get-same-bst) / [:man_technologist:](number_of_ways_to_reorder_array_to_get_same_bst.h)
 
 <details><summary markdown="span">Question</summary>
