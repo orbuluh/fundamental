@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 314 ... :ok_hand: x 89 :bulb: x 168 :persevere: x 32 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 315 ... :ok_hand: x 89 :bulb: x 169 :persevere: x 32 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -646,10 +646,14 @@ static const int io_trick = []() {
 
 
 
-### [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 7
+### [DP: Subsequence](problem_sets/dp/dp_subseq/README.md): 8
 
 <details><summary>Questions</summary>
 
+
+  
+  - :bulb: 1027. Longest Arithmetic Subsequence
+  
 
   
   - :bulb: 1143. Longest Common Subsequence
