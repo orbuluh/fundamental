@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 315 ... :ok_hand: x 89 :bulb: x 169 :persevere: x 32 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 316 ... :ok_hand: x 89 :bulb: x 169 :persevere: x 33 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -714,7 +714,7 @@ static const int io_trick = []() {
 
 
 
-### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 10
+### [DP: Misc hard recursion](problem_sets/dp/dp_z_misc_hard_recursion/README.md): 11
 
 <details><summary>Questions</summary>
 
@@ -733,6 +733,10 @@ static const int io_trick = []() {
 
   
   - :persevere: 907. Sum of Subarray Minimums
+  
+
+  
+  - :persevere: 956. Tallest Billboard
   
 
   
