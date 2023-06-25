@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 316 ... :ok_hand: x 89 :bulb: x 169 :persevere: x 33 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 317 ... :ok_hand: x 89 :bulb: x 170 :persevere: x 33 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -458,7 +458,7 @@ static const int io_trick = []() {
 
 
 
-### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 12
+### [DP: DFS + memorization](problem_sets/dp/dp_dfs_memorization/README.md): 13
 
 <details><summary>Questions</summary>
 
@@ -493,6 +493,10 @@ static const int io_trick = []() {
 
   
   - :bulb: 1187. Make Array Strictly Increasing
+  
+
+  
+  - :bulb: 1575. Count All Possible Routes
   
 
   
