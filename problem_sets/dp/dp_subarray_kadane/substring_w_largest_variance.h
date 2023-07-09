@@ -10,31 +10,30 @@ class Solution {
   should only be valid if current seen high frequency char is larger than the
   low frequency one.
 
-  Then you basically convert this subproblem to the Kadanes!
-
-  imagine it's a substring of high-freq-char = +1, low-freq-char = -1
-  and finding variance is basically like finding maximum subarray sum!
+  Then you basically convert this subproblem to the Kadane maxsum question!
   */
  public:
-  std::unordered_map<char, int> lastPos;
+  std::vector<int> lastPos;
   int largestVariance(string s) {
+    lastPos = std::vector<int> (26, -1);
     for (int i = 0; i < s.size(); ++i) {
-      lastPos[s[i]] = i;
+      // so we know where is the last position of a char, check function later.
+      lastPos[s[i] - 'a'] = i;
     }
-    int result = 0;
-    for (int charA = 0; charA < 26; ++charA) {
-      for (int charB = 0; charB < 26; ++charB) {
-        if (charA == charB) continue;
-        char hfChar = charA + 'a';  // hf == high frequency
-        char lfChar = charB + 'a';  // lf == low frequency
-        if (!lastPos.count(hfChar) || !lastPos.count(lfChar)) continue;
-        result = std::max(result, getMaxVar(s, hfChar, lfChar));
+    int maxVar = 0;
+    for (char hfChar = 'a'; hfChar <= 'z'; ++hfChar) { // hf == high frequency
+      for (char lfChar = 'a'; lfChar <= 'z'; ++lfChar) { // lf == low frequency
+        if (hfChar == lfChar) continue;
+        if (lastPos[hfChar - 'a'] == -1 || lastPos[lfChar - 'a'] == -1) {
+          continue;
+        }
+        maxVar = std::max(maxVar, getMaxVarWithKadane(s, hfChar, lfChar));
       }
     }
-    return result;
+    return maxVar;
   }
 
-  int getMaxVar(std::string_view s, char hfChar, char lfChar) {
+  int getMaxVarWithKadane(std::string_view s, char hfChar, char lfChar) {
     int highFreq = 0;
     int lowFreq = 0;
     int var = 0;
@@ -45,15 +44,15 @@ class Solution {
       if (highFreq > 0 && lowFreq > 0 && highFreq > lowFreq) {
         var = std::max(var, highFreq - lowFreq);
       }
-      if (lowFreq > highFreq && i < lastPos[c]) {
-        // abaabbb, say hfChar = b, lfChar = a,
-        // max var will be the abbb, but how to see this
-        // So when we do first 'a' and realize
-        // there is still 'a' afterwards, we are good to just
-        // "reset the Kadanes sum". As we can still form a valid
-        // result later, and current string just won't make a better
-        // result. This is the same for the second 'a', we just reset.
-        // But for the third 'a', we must include it, otherwise the
+      if (lowFreq > highFreq && i < lastPos[c - 'a']) {
+        // abaabbb, say hfChar = b, lfChar = a, max var will be the abbb,
+        // but how to see this?
+        // When we do first 'a' and realize there is still 'a' afterwards, we
+        // are good to just reset. (Basically like we see the sum becomes
+        // negative in Kadances, so it can't be a better choice with what
+        // currently choose.)
+        // This is the same for the second 'a', we just reset when we see the
+        // third 'a'. But for the third 'a', we must include it, otherwise the
         // remaining bbb just won't be a candidate to calculate variance
         lowFreq = 0;
         highFreq = 0;
