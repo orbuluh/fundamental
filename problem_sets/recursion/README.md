@@ -185,6 +185,25 @@ Therefore, sum = 12 + 13 = 25.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) / [:man_technologist:](min_depth_of_btree.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Note: A leaf is a node with no children.
+
+Input: root = [3,9,20,null,null,15,7]
+Output: 2
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree) / [:man_technologist:](min_time_to_collect_all_apples_in_a_tree.h)
 
 <details><summary markdown="span">Question</summary>
