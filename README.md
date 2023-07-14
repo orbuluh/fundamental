@@ -42,7 +42,7 @@ static const int io_trick = []() {
 
 ## [:book: Notes for algo/DS deep-dive](_notes/README.md)
 
-## :thinking: Problems listed: 319 ... :ok_hand: x 90 :bulb: x 171 :persevere: x 33 :dizzy_face: x 19 :exploding_head: x 6
+## :thinking: Problems listed: 320 ... :ok_hand: x 90 :bulb: x 172 :persevere: x 33 :dizzy_face: x 19 :exploding_head: x 6
 
 
 
@@ -946,7 +946,7 @@ static const int io_trick = []() {
 
 
 
-### [Greedy](problem_sets/greedy/README.md): 24
+### [Greedy](problem_sets/greedy/README.md): 25
 
 <details><summary>Questions</summary>
 
@@ -969,6 +969,10 @@ static const int io_trick = []() {
 
   
   - :bulb: 134. Gas Station
+  
+
+  
+  - :bulb: 1218. Longest Arithmetic Subsequence of Given Difference
   
 
   

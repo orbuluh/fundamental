@@ -129,6 +129,31 @@ Therefore, return 3 as the starting index.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1218. Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) / [:man_technologist:](longest_arithmetic_subseq_of_given_diff.h)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer array arr and an integer difference, return the length of the
+longest subsequence in arr which is an arithmetic sequence such that the
+difference between adjacent elements in the subsequence equals difference.
+
+A subsequence is a sequence that can be derived from arr by deleting some or no
+elements without changing the order of the remaining elements.
+
+Input: arr = [1,5,7,8,5,3,4,2,1], difference = -2
+Output: 4
+Explanation: The longest arithmetic subsequence is [7,5,3,1].
+
+Input: arr = [1,2,3,4], difference = 1
+Output: 4
+Explanation: The longest arithmetic subsequence is [1,2,3,4].
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 763. Partition Labels](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) / [:man_technologist:](split_arr_into_consecutive_seq.h)
 
 <details><summary markdown="span">Question</summary>
