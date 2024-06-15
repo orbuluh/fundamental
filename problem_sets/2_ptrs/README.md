@@ -48,7 +48,7 @@ Explanation: The entire string is removed, so we return an empty string.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) / [:man_technologist:](remove_all_adjacent_duplicates.h)
+## [:ok_hand: 1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) / [:man_technologist:](remove_all_adjacent_duplicates.h) [:snake:](remove_all_adjacent_duplicates.py)
 
 <details><summary markdown="span">Question</summary>
 
