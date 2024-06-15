@@ -21,7 +21,7 @@ Explanation: 1 cannot be popped before 2.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) / [:man_technologist:](remvoe_star_from_strings.h)
+## [:ok_hand: 2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) / [:man_technologist:](remvoe_star_from_strings.h) [:snake:](remvoe_star_from_strings.py)
 
 <details><summary markdown="span">Question</summary>
 
