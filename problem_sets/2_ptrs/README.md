@@ -72,7 +72,7 @@ Output: "azxzy"
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) / [:man_technologist:](reverse_words_in_a_string.h)
+## [:ok_hand: 151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) / [:man_technologist:](reverse_words_in_a_string.h) [:snake:](reverse_words_in_a_string.py)
 
 <details><summary markdown="span">Question</summary>
 
