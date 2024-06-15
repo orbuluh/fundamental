@@ -1,6 +1,6 @@
 # 2 pointers
 
-## [:ok_hand: 946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) / [:man_technologist:](validate_stk_seq.h)
+## [:ok_hand: 946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences) / [:man_technologist:](validate_stk_seq.h) [:snake:](validate_stk_seq.py)
 
 <details><summary markdown="span">Question</summary>
 
@@ -20,7 +20,6 @@ Explanation: 1 cannot be popped before 2.
 </details>
 
 ------------------------------------------------------------------------------
-
 
 ## [:ok_hand: 2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string) / [:man_technologist:](remvoe_star_from_strings.h)
 
