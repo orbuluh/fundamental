@@ -113,7 +113,7 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) / [:man_technologist:](num_of_subseq_satisfy_sum_condition.h)
+## [:bulb: 1498. Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) / [:man_technologist:](num_of_subseq_satisfy_sum_condition.h) [:snake:](num_of_subseq_satisfy_sum_condition.py)
 
 <details><summary markdown="span">Question</summary>
 
