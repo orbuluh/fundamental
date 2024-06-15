@@ -93,7 +93,7 @@ Explanation: Your reversed string should not contain leading or trailing spaces.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) / [:man_technologist:](3sum_closest.h)
+## [:bulb: 16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) / [:man_technologist:](3sum_closest.h) [:snake:](3sum_closest.py)
 
 <details><summary markdown="span">Question</summary>
 
