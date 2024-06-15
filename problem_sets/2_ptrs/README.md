@@ -161,7 +161,7 @@ Output: 49
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) / [:man_technologist:](median_from_stream.h)
+## [:bulb: 1295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) / [:man_technologist:](median_from_stream.h) [:snake:](median_from_stream.py)
 
 <details><summary markdown="span">Question</summary>
 
