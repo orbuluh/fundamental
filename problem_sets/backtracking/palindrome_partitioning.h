@@ -2,7 +2,7 @@
 Your original idea is that for each index, you decide to whether append it to
 the back of the string, or make it a new element. And if you want to make it a
 new element, the previous back of the string must be a palindrome. This way
-actually create much more temporary string along the way.
+actually creates much more temporary string along the way.
 
 Below is from others, the thinking is more like from each index, you exhaust the
 way to find a palindrome! This way you can use index on s to check the candidate

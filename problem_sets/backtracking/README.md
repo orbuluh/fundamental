@@ -43,7 +43,7 @@ These are the only two combinations.
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) / [:man_technologist:](palindrome_partitioning.h)
+## [:ok_hand: 131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) / [:man_technologist:](palindrome_partitioning.h) [:snake:](palindrome_partitioning.py)
 
 <details><summary markdown="span">Question</summary>
 
