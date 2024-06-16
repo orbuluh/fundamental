@@ -145,6 +145,24 @@ Given the root of a Binary Search Tree (BST), return the minimum absolute differ
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) / [:snack:](max_prod_of_splitted_binary_tree.py)
+
+- or you can use morris below
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree, split the binary tree into two subtrees by removing one edge such that the product of the sums of the subtrees is maximized.
+
+Return the maximum product of the sums of the two subtrees. Since the answer may be too large, return it modulo 109 + 7.
+
+Note that you need to maximize the answer before taking the mod and not after taking it.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) / [:man_technologist:](inorder_morris.h)
 
 - check _notes on morris: [:point_right: here](../../_notes/tree_traversal.md#morris-traversal)
