@@ -1040,6 +1040,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:bulb: 2571. Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/) / [:snake:](min_ops_to_zero.py)
+  
+
+  
   - :persevere: 1675. Minimize Deviation in Array
   
 
@@ -1275,6 +1279,10 @@ static const int io_trick = []() {
 
   
   ## Good for practice
+  
+
+  
+  ## [:ok_hand: 43. Multiply Strings](https://leetcode.com/problems/multiply-strings) / [:man_technologist:](multiply_strings.py)
   
 
   
