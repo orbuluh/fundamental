@@ -52,7 +52,7 @@ Implement the WordDictionary class:
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) / [:man_technologist:](word_search_ii.h)
+## [:bulb: 212. Word Search II](https://leetcode.com/problems/word-search-ii/) / [:man_technologist:](word_search_ii.h) [:snake:](word_search_ii.py)
 
 <details><summary markdown="span">Question</summary>
 
