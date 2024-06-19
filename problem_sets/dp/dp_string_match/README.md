@@ -14,6 +14,12 @@
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching) / [:snake:](wild_card_matching_dp.py)
+
+- problem statement, a greedy sol check [here](../../greedy/README.md#-44-wildcard-matching--)
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 72. Edit Distance](https://leetcode.com/problems/edit-distance/) / [:man_technologist:](edit_distance.h)
 
 <details><summary markdown="span">Question</summary>
