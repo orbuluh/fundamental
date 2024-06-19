@@ -214,6 +214,36 @@ be less than 5. Therefore, we return 5.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) / [:snake:](search_suggestions_system.py)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+You are given an array of strings products and a string searchWord.
+
+Design a system that suggests at most three product names from products after each character of searchWord is typed. Suggested products should have common prefix with searchWord. If there are more than three products with a common prefix return the three lexicographically minimums products.
+
+Return a list of lists of the suggested products after each character of searchWord is typed.
+
+
+Example 1:
+
+Input: products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"
+Output: [["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]]
+Explanation: products sorted lexicographically = ["mobile","moneypot","monitor","mouse","mousepad"].
+After typing m and mo all products match and we show user ["mobile","moneypot","monitor"].
+After typing mou, mous and mouse the system suggests ["mouse","mousepad"].
+Example 2:
+
+Input: products = ["havana"], searchWord = "havana"
+Output: [["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]]
+Explanation: The only word "havana" will be always suggested while typing the search word.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:persevere: 1802. Maximum Value at a Given Index in a Bounded Array](m-value-at-a-given-index-in-a-bounded-array) / [:man_technologist:](m_value_at_a_given_index_in_a_bound_arr.h)
 
 <details><summary markdown="span">Question</summary>
@@ -244,7 +274,6 @@ nums = [2, 3, 2, 1, 1, 1]
 </details>
 
 ------------------------------------------------------------------------------
-
 
 ## [:persevere: 658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) / [:man_technologist:](find_k_closest.h)
 
@@ -334,7 +363,6 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ## [:persevere: 1102. Path With Maximum Minimum Value](https://leetcode.com/problems/path-with-maximum-minimum-value) / [:man_technologist:](path_with_maximum_min_value_dfs_bs.h)
 
 - check problem description and Dijkstra like solution [here](../graph/graph_sssp/README.md#💡-1102-path-with-maximum-minimum-value-🎯)
-
 
 ## [:dizzy_face: 410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) / [:man_technologist:](split_arr_largest_sum_bs.h)
 
