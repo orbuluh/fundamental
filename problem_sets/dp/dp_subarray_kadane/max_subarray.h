@@ -4,7 +4,7 @@ class Solution {
   Basically a DP to find the max subarray sum including i
   when adding nums[i], and if the sum becomes negative, because subarray is
   contiguous, number before and including i just can't be part of the max
-  subarry so we can basically the sum seen so far and see if can find a bigger
+  subarray so we can basically the sum seen so far and see if can find a bigger
   sum later
   */
 

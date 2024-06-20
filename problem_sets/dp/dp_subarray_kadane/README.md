@@ -3,7 +3,7 @@
 > "rule of thumb" is that we should search for O(n) solution if we are dealing
 with consecutive sequences, and O(n ^ 2) if we are dealing with subsequences" - @votrubac
 
-## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) / [:man_technologist:](max_subarray.h)
+## [:ok_hand: 53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) / [:man_technologist:](max_subarray.h) [:snake:](max_subarray.py)
 
 <details><summary markdown="span">Question</summary>
 
