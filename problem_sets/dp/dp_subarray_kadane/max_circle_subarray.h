@@ -31,12 +31,12 @@ class Solution {
     int totalMinSum = minSum;
     for (int i = 1; i < n; ++i) {
       totalSum += nums[i];
-      maxSum = std::max(nums[i], maxSum + nums[i]); // Kadane
+      maxSum = std::max(nums[i], maxSum + nums[i]);  // Kadane
       totalMaxSum = std::max(totalMaxSum, maxSum);
-      minSum = std::min(nums[i], minSum + nums[i]); // Kadane
+      minSum = std::min(nums[i], minSum + nums[i]);  // Kadane
       totalMinSum = std::min(totalMinSum, minSum);
     }
-    // edge case: full array are negative, then totalSu totalMinSum
+    // edge case: full array are negative, then totalSum == totalMinSum
     return totalSum == totalMinSum
                ? totalMaxSum
                : std::max(totalMaxSum, totalSum - totalMinSum);

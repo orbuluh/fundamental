@@ -21,7 +21,7 @@ Output: 23
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) / [:man_technologist:](max_circle_subarray.h)
+## [:bulb: 918. Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray) / [:man_technologist:](max_circle_subarray.h) [:snake:](max_circle_subarray.py)
 
 <details><summary markdown="span">Question</summary>
 
