@@ -264,6 +264,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) / [:snake:](random_pick_with_weight.py)
+  
+
+  
   - :bulb: 34. Find First and Last Position of Element in Sorted Array
   
 
