@@ -280,6 +280,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:bulb: 1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/) / [:snake:](search_suggestions_system.py)
+  
+
+  
   ## [:persevere: 1802. Maximum Value at a Given Index in a Bounded Array](m-value-at-a-given-index-in-a-bounded-array) / [:man_technologist:](m_value_at_a_given_index_in_a_bound_arr.h)
   
 
@@ -383,6 +387,10 @@ static const int io_trick = []() {
 
   
   - :ok_hand: 1680. Concatenation of Consecutive Binary Numbers
+  
+
+  
+  ## [:ok_hand: 342. Power of Four](https://leetcode.com/problems/power-of-four) / [:snake:](power_of_four.py)
   
 
 
@@ -609,6 +617,10 @@ static const int io_trick = []() {
 
   
   - :bulb: 718. Maximum Length of Repeated Subarray
+  
+
+  
+  ## [:bulb: 44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching) / [:snake:](wild_card_matching_dp.py)
   
 
   
@@ -1044,6 +1056,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:bulb: 44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching) / [:snake:](wild_card_matching.py)
+  
+
+  
   - :persevere: 1675. Minimize Deviation in Array
   
 
@@ -1170,6 +1186,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 706. Design HashMap](https://leetcode.com/problems/design-hashmap) / [:snake:](design_hash_map.py)
+  
+
+  
   ## [:bulb: 382. Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)
   
 
@@ -1282,11 +1302,15 @@ static const int io_trick = []() {
   
 
   
-  ## [:ok_hand: 43. Multiply Strings](https://leetcode.com/problems/multiply-strings) / [:man_technologist:](multiply_strings.py)
+  ## [:ok_hand: 43. Multiply Strings](https://leetcode.com/problems/multiply-strings) / [:snake:](multiply_strings.py)
   
 
   
   - :ok_hand: 71. Simplify Path
+  
+
+  
+  ## [:ok_hand: 348. Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe) / [:snake:](tic_tac_toe.py)
   
 
   
@@ -1803,6 +1827,10 @@ static const int io_trick = []() {
 
   
   - :ok_hand: 530. Minimum Absolute Difference in BST
+  
+
+  
+  ## [:ok_hand: 1339. Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree) / [:snack:](max_prod_of_splitted_binary_tree.py)
   
 
   

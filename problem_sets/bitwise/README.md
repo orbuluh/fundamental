@@ -147,6 +147,7 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 - [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/modular.md)
 
 <details><summary markdown="span">Question</summary>
+
 ```markdown
 - Given an integer n, return the decimal value of the binary string formed by concatenating the binary representations of 1 to n in order, modulo 10^9 + 7.
 
@@ -156,6 +157,24 @@ Explanation: In binary, 1, 2, and 3 corresponds to "1", "10", and "11".
 After concatenating them, we have "11011", which corresponds to the decimal value 27.
 
 ```
+
+</details>
+
+------------------------------------------------------------------------------
+
+## [:ok_hand: 342. Power of Four](https://leetcode.com/problems/power-of-four) / [:snake:](power_of_four.py)
+
+- [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/modular.md)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an integer n, return true if it is a power of four. Otherwise, return false.
+
+An integer n is a power of four, if there exists an integer x such that n == 4^x.
+
+```
+
 </details>
 
 ------------------------------------------------------------------------------
