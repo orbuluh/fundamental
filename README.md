@@ -662,6 +662,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:bulb: 1048. Longest String Chain](https://leetcode.com/problems/longest-string-chain) / [:snake:](longest_string_chain.py)
+  
+
+  
   - :bulb: 974. Subarray Sums Divisible by K
   
 
