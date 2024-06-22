@@ -574,6 +574,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:bulb: 1186. Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) / [:snake:](max_subarray_sum_with_one_deletion_state_transition.py)
+  
+
+  
   - :bulb: 2140. Solving Questions With Brainpower
   
 
@@ -655,6 +659,10 @@ static const int io_trick = []() {
 
   
   - :bulb: 918. Maximum Sum Circular Subarray
+  
+
+  
+  ## [:bulb: 1186. Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion) / [:snake:](max_subarray_sum_with_one_deletion.py)
   
 
   

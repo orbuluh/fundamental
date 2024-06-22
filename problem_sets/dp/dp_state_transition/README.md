@@ -210,6 +210,12 @@ In total, you spent $11 and covered all the days of your travel.
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 1186. Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) / [:snake:](max_subarray_sum_with_one_deletion_state_transition.py)
+
+- problem statement, original solution is [here](../dp_subarray_kadane/max_subarray_sum_with_one_deletion.py)
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 2140. Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/) / [:man_technologist:](solving_questions_with_brainpower.h)
 
 <details><summary markdown="span">Question</summary>
