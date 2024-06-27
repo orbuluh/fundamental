@@ -1,6 +1,5 @@
 # Data structure design
 
-
 ## [:ok_hand: 232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) / [:man_technologist:](implement_queue_using_stacks.h)
 
 - The idea of only move element once between stack is brilliant! Almost brain teaser like.
@@ -20,6 +19,7 @@ Implement the MyQueue class:
 - `int peek()` Returns the element at the front of the queue.
 - `boolean empty()` Returns true if the queue is empty, false otherwise.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -48,6 +48,7 @@ Implement the RandomizedSet class:
 
 You must implement the functions of the class such that each function works in average O(1) time complexity.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -67,6 +68,7 @@ Output: ["the","is","sunny","day"]
 Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
              with the number of occurrence being 4, 3, 2 and 1 respectively.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
@@ -171,10 +173,12 @@ lfu.get(3);      // return 3
 lfu.get(4);      // return 4
                  // cache=[4,3], cnt(4)=2, cnt(3)=3
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
-## [:persevere: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) / [:man_technologist:](lru_cache.h)
+
+## [:persevere: 146. LRU Cache](https://leetcode.com/problems/lru-cache/) / [:man_technologist:](lru_cache.h) [:snake:](lru_cache.py)
 
 <details><summary markdown="span">Question</summary>
 
@@ -190,6 +194,7 @@ Implement the LRUCache class:
 - If the number of keys exceeds the capacity from this operation, evict the least recently used key.
 - The functions get and put must each run in O(1) average time complexity.
 ```
+
 </details>
 
 ------------------------------------------------------------------------------
