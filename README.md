@@ -1394,6 +1394,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 422. Valid Word Square](https://leetcode.com/problems/valid-word-square) / [:snake:](valid_word_square.py)
+  
+
+  
   - :bulb: 48. Rotate Image
   
 

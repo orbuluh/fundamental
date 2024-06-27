@@ -454,6 +454,29 @@ Output: Return 6, and the first 6 characters of the input array should be:
 
 ## Hard indices manipulation
 
+## [:ok_hand: 422. Valid Word Square](https://leetcode.com/problems/valid-word-square) / [:snake:](valid_word_square.py)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given an array of strings words, return true if it forms a valid word square.
+
+A sequence of strings forms a valid word square if the kth row and column read the same string, where 0 <= k < max(numRows, numColumns).
+
+Input: words = ["abcd","bnrt","crmy","dtye"]
+
+- Output: true
+
+
+Input: words = ["abcd","bnrt","crm","dt"]
+
+- Output: true
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 48. Rotate Image](https://leetcode.com/problems/rotate-image/) / [:man_technologist:](rotate_image.h)
 
 - TODO: dig in optimal solution [here](rotate_image_optimal.h)
