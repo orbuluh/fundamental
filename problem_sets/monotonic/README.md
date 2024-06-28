@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) / [:man_technologist:](daily_temperatures_monostk.h)
+## [:bulb: 739. Daily Temperatures](https://leetcode.com/problems/path-with-maximum-minimum-value) / [:man_technologist:](daily_temperatures_monostk.h) [:snake:](daily_temperatures_monostk.py)
 
 - check problem description and better greedy solution [here](../greedy/README.md#🤔-739-daily-temperatures-🎯)
 
