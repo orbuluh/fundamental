@@ -151,7 +151,7 @@ Explanation: You can choose your jumps with [1,-1,4,3] (^ above). The sum is 7.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) / [:man_technologist:](online_stock_span.h)
+## [:bulb: 901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) / [:man_technologist:](online_stock_span.h) [:snake:](online_stock_span.py)
 
 <details><summary markdown="span">Question</summary>
 
