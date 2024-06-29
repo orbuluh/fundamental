@@ -1,6 +1,6 @@
 # Jump table/line
 
-## [:ok_hand: 452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) / [:man_technologist:](min_num_of_arrows_to_burst_balloons.h)
+## [:ok_hand: 452. Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) / [:man_technologist:](min_num_of_arrows_to_burst_balloons.h) [:snake:](min_num_of_arrows_to_burst_balloons.py)
 
 <details><summary markdown="span">Question</summary>
 
@@ -61,7 +61,6 @@ Jump 1 step from index 0 to 1, then 3 steps to the last index.
 </details>
 
 ------------------------------------------------------------------------------
-
 
 ## [:bulb: 1024. Video Stitching](https://leetcode.com/problems/video-stitching/) / [:man_technologist:](video_stitching.h)
 
@@ -185,4 +184,3 @@ Explanation: The events go as follows:
 </details>
 
 ------------------------------------------------------------------------------
-
