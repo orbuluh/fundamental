@@ -33,7 +33,7 @@ Output:    964176192 (00111001011110000010100101000000)
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 338. Counting Bits](https://leetcode.com/problems/counting-bits/) / [:man_technologist:](counting_bits.h)
+## [:ok_hand: 338. Counting Bits](https://leetcode.com/problems/counting-bits/) / [:man_technologist:](counting_bits.h) [:snake:](counting_bits.py)
 
 <details><summary markdown="span">Question</summary>
 
