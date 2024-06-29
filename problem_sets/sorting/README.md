@@ -143,7 +143,7 @@ time complexity and with the smallest space complexity possible.
 
 ## Quick select
 
-## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) / [:man_technologist:](kth_largest_in_an_array.h)
+## [:bulb: 215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) / [:man_technologist:](kth_largest_in_an_array.h) [:snake:](kth_largest_in_an_array.py)
 
 <details><summary markdown="span">Question</summary>
 
