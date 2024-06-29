@@ -204,6 +204,28 @@ Output: 2
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) / [:snake:](binary_tree_rightside_view.py)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Example 1:
+
+Input: root = [1,2,3,null,5,null,4]
+
+- Output: [1,3,4]
+
+Example 2:
+
+Input: root = [1,null,3]
+
+- Output: [1,3]
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 1443. Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree) / [:man_technologist:](min_time_to_collect_all_apples_in_a_tree.h)
 
 <details><summary markdown="span">Question</summary>
@@ -355,7 +377,6 @@ Design an algorithm that runs in less than O(n) time complexity.
 ```
 
 </details>
-
 
 ------------------------------------------------------------------------------
 
