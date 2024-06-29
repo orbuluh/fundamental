@@ -1608,6 +1608,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) / [:snake:](binary_tree_rightside_view.py)
+  
+
+  
   - :ok_hand: 1443. Minimum Time to Collect All Apples in a Tree
   
 
@@ -1637,6 +1641,10 @@ static const int io_trick = []() {
 
   
   - :bulb: 958. Check Completeness of a Binary Tree
+  
+
+  
+  ## [:bulb: 450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) / [:python:](delete_node_in_a_bst.py)
   
 
   

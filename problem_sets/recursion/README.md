@@ -408,6 +408,23 @@ return false for:
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst) / [:python:](delete_node_in_a_bst.py)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
+
+Basically, the deletion can be divided into two stages:
+
+Search for a node to remove.
+If the node is found, delete the node.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:bulb: 124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) / [:man_technologist:](binary_tree_max_path_sum.h)
 
 <details><summary markdown="span">Question</summary>
