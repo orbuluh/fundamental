@@ -1,4 +1,6 @@
 /*
+(your new python sol seems better explain)
+
 https://leetcode.com/problems/greatest-common-divisor-of-strings/solutions/303759/my-4-lines-c-solution/?orderBy=most_votes
 
 str1       str2
@@ -39,38 +41,38 @@ class Solution {
   }
 };
 
-  /* // Brute force solution... also quick enough
+/* // Brute force solution... also quick enough
 
-    string gcdOfStrings(string str1, string str2) {
-      if (str1.size() < str2.size()) {
-          std::swap(str1, str2);
-      }
-      const int sz1 = str1.size();
-      const int sz2 = str2.size();
-
-      auto dividable = [](std::string_view s, std::string_view divisor) {
-          const int len = divisor.size();
-          if (len == 0 || s.size() % len != 0) {
-              return false;
-          }
-          bool found = true;
-          const int cnt = s.size() / divisor.size();
-          for (int i = 0; i < cnt; ++i) {
-              if (s.substr(i * divisor.size(), divisor.size()) != divisor) {
-                  return false;
-              }
-          }
-          return true;
-      };
-
-      for (int len = sz2; len > 0; len--) {
-          auto divisor = std::string_view(str2.data(), len);
-          if (!dividable(str2, divisor)
-             || !dividable(str1, divisor)) {
-              continue;
-          }
-          return std::string{divisor};
-      }
-      return "";
+  string gcdOfStrings(string str1, string str2) {
+    if (str1.size() < str2.size()) {
+        std::swap(str1, str2);
     }
-  */
+    const int sz1 = str1.size();
+    const int sz2 = str2.size();
+
+    auto dividable = [](std::string_view s, std::string_view divisor) {
+        const int len = divisor.size();
+        if (len == 0 || s.size() % len != 0) {
+            return false;
+        }
+        bool found = true;
+        const int cnt = s.size() / divisor.size();
+        for (int i = 0; i < cnt; ++i) {
+            if (s.substr(i * divisor.size(), divisor.size()) != divisor) {
+                return false;
+            }
+        }
+        return true;
+    };
+
+    for (int len = sz2; len > 0; len--) {
+        auto divisor = std::string_view(str2.data(), len);
+        if (!dividable(str2, divisor)
+           || !dividable(str1, divisor)) {
+            continue;
+        }
+        return std::string{divisor};
+    }
+    return "";
+  }
+*/

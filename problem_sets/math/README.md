@@ -124,7 +124,7 @@ There is no occurrence of a subarray with a size more than 2 filled with 0. Ther
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings) / [:man_technologist:](greatest_common_divisor_of_strings.h)
+## [:bulb: 1071. Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings) / [:man_technologist:](greatest_common_divisor_of_strings.h) [:snake:](greatest_common_divisor_of_strings.py)
 
 <details><summary markdown="span">Question</summary>
 
@@ -142,7 +142,6 @@ Output: "AB"
 </details>
 
 ------------------------------------------------------------------------------
-
 
 ## Geometry
 
@@ -249,7 +248,6 @@ Output: 3
 </details>
 
 ------------------------------------------------------------------------------
-
 
 ## Fisher–Yates shuffle
 
