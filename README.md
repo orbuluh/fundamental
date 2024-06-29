@@ -1136,6 +1136,10 @@ static const int io_trick = []() {
 
 
   
+  ## [:bulb: 435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) / [:snake:](non_overlapping_interval.py)
+  
+
+  
   - :bulb: 56. Merge Intervals
   
 
