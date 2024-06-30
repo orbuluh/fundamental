@@ -28,13 +28,16 @@ If last piece at n is U, then before the last piece, it must look like
 ...OO U
 ...O UU
 Let's just say it's T_u(n - 1) so that it ends with a U' in n-1 col
+where U' is basically the  OO  in the graph
+                           O
 
 Same, if last piece at n is D, then before the last piece, it must look like
        n
 ...O  DD
 ...OO  D
 Let's just say it's T_d(n - 1) so that it ends with a D' in n-1 col
-
+where D' is the   O  in the graph
+                  OO
 
 As tromino's shape is different, we know sequence ending with a tromino must not
 have overlap with T(*), we are good to not double counting.
@@ -57,7 +60,6 @@ or   n
 
 So    T_u(n) = T(n - 2) + T_d(n - 1)
 Same, T_d(n) = T(n - 2) + T_u(n - 1)
-Also, T(n) = T(n - 1) + T(n - 2) + T_u(n - 1) + T_d(n - 1)
 
 We got our recurrence equation. What's the base case?
 
