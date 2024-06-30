@@ -43,7 +43,7 @@ Explanation:  The longest arithmetic subsequence is [20,15,10,5].
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) / [:man_technologist:](longest_common_subseq.h)
+## [:bulb: 1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) / [:man_technologist:](longest_common_subseq.h) [:snake:](longest_common_subseq.py)
 
 <details><summary markdown="span">Question</summary>
 

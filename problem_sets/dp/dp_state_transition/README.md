@@ -58,7 +58,44 @@ You earn a total of 9 points.
 
 ------------------------------------------------------------------------------
 
+## [:ok_hand: 714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) / [:snake:](buy_sell_stock_with_fee.py)
+
+- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+
+You are given an array prices where prices[i] is the price of a given stock on the ith day, and an integer fee representing a transaction fee.
+
+Find the maximum profit you can achieve. You may complete as many transactions as you like, but you need to pay the transaction fee for each transaction.
+
+Note:
+
+- You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).
+- The transaction fee is only charged once for each stock purchase and sale.
+
+
+Example 1:
+
+Input: prices = [1,3,2,8,4,9], fee = 2
+
+- Output: 8
+- Explanation: The maximum profit can be achieved by:
+  - Buying at prices[0] = 1
+  - Selling at prices[3] = 8
+  - Buying at prices[4] = 4
+  - Selling at prices[5] = 9
+- The total profit is ((8 - 1) - 2) + ((9 - 4) - 2) = 8.
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
 ## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) / [:man_technologist:](buy_sell_stock_with_cooldown.h)
+
+- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 
@@ -292,7 +329,7 @@ Explanation: There cannot be an array that was printed this way and has all
 
 ## [:bulb: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) / [:man_technologist:](buy_sell_stock_iv.h)
 
-- although understand the solution, looping in k still feel unintuitive...
+- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 
@@ -431,6 +468,8 @@ Your final score is 11 - 2 = 9.
 ------------------------------------------------------------------------------
 
 ## [:dizzy_face: 123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) / [:snake:](best_time_to_buy_and_sell_stock_iii.h)
+
+- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 

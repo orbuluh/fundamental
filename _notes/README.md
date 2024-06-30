@@ -125,6 +125,8 @@
   
 
   
+
+  - The stock buy/sell questions
   
 
 **[Graph: 1. Topological sort](graph_topological_sort.md)**

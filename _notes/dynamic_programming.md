@@ -19,6 +19,142 @@
 5. Implementing by solving subproblems in order.
 ```
 
+## The stock buy/sell questions
+
+Modified from [fun4LeetCode's post](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/solutions/108870/most-consistent-ways-of-dealing-with-the-series-of-stock-problems)
+
+- 121. Best Time to Buy and Sell Stock
+- 122. Best Time to Buy and Sell Stock II
+- 123. Best Time to Buy and Sell Stock III
+- 188. Best Time to Buy and Sell Stock IV
+- 309. Best Time to Buy and Sell Stock with Cooldown
+- 714. Best Time to Buy and Sell Stock with Transaction Fee
+- ...
+
+The general stock problem can be characterized by three factors:
+
+- the day (`i`),
+- the maximum number of transactions (`k`), and
+- the number of stocks held at the end of the day.
+
+The problem is solved using dynamic programming, with the following recurrence relations for maximum profits:
+
+- `Sell[i][k]`: Maximum profit on the `i-th` day with at most `k` transactions and 0 stocks in hand.
+- `Buy[i][k]`: Maximum profit on the `i-th` day with at most `k` transactions and 1 stock in hand.
+
+### Recurrence Relations
+
+- `Sell[i][k] = max(Sell[i-1][k], Buy[i-1][k] + prices[i])`: Either rest or sell on the `i-th` day.
+- `Buy[i][k] = max(Buy[i-1][k], Sell[i-1][k-1] - prices[i])`: Either rest or buy on the `i-th` day.
+
+The base cases are:
+
+- `Sell[-1][k] = 0`, `Buy[-1][k] = -Infinity`: No stock or no transaction yields no profit.
+- `Sell[i][0] = 0`, `Buy[i][0] = -Infinity`: No transactions allowed yields no profit.
+
+### Applications to Specific Cases
+
+#### Case I: k = 1
+
+```python
+def maxProfit(prices):
+    Sell_0, Buy_1 = 0, float('-inf')
+    for price in prices:
+        Sell_0 = max(Sell_0, Buy_1 + price)
+        Buy_1 = max(Buy_1, -price)
+    return Sell_0
+```
+
+#### Case II: k = +Infinity
+
+```python
+def maxProfit(prices):
+    Sell, Buy = 0, float('-inf')
+    for price in prices:
+        Sell_old = Sell
+        Sell = max(Sell, Buy + price)
+        Buy = max(Buy, Sell_old - price)
+    return Sell
+```
+
+#### Case III: k = 2
+
+```python
+def maxProfit(prices):
+    Sell_10, Buy_11 = 0, float('-inf')
+    Sell_20, Buy_21 = 0, float('-inf')
+    for price in prices:
+        Sell_20 = max(Sell_20, Buy_21 + price)
+        Buy_21 = max(Buy_21, Sell_10 - price)
+        Sell_10 = max(Sell_10, Buy_11 + price)
+        Buy_11 = max(Buy_11, -price)
+    return Sell_20
+```
+
+#### Case IV: k is arbitrary
+
+```python
+def maxProfit(k, prices):
+    if k >= len(prices) // 2:
+        Sell, Buy = 0, float('-inf')
+        for price in prices:
+            Sell_old = Sell
+            Sell = max(Sell, Buy + price)
+            Buy = max(Buy, Sell_old - price)
+        return Sell
+
+    Sell = [0] * (k + 1)
+    Buy = [float('-inf')] * (k + 1)
+    for price in prices:
+        for j in range(k, 0, -1):
+            Sell[j] = max(Sell[j], Buy[j] + price)
+            Buy[j] = max(Buy[j], Sell[j-1] - price)
+    return Sell[k]
+```
+
+#### Case V: k = +Infinity but with cooldown
+
+```python
+def maxProfit(prices):
+    Sell_pre, Sell, Buy = 0, 0, float('-inf')
+    for price in prices:
+        Sell_old = Sell
+        Sell = max(Sell, Buy + price)
+        Buy = max(Buy, Sell_pre - price)
+        Sell_pre = Sell_old
+    return Sell
+```
+
+#### Case VI: k = +Infinity but with transaction fee
+
+**Solution I - Pay the fee when buying the stock:**
+
+```python
+def maxProfit(prices, fee):
+    Sell, Buy = 0, float('-inf')
+    for price in prices:
+        Sell_old = Sell
+        Sell = max(Sell, Buy + price)
+        Buy = max(Buy, Sell_old - price - fee)
+    return Sell
+```
+
+**Solution II - Pay the fee when selling the stock:**
+
+```python
+def maxProfit(prices, fee):
+    Sell, Buy = 0, float('-inf')
+    for price in prices:
+        Sell_old = Sell
+        Sell = max(Sell, Buy + price - fee)
+        Buy = max(Buy, Sell_old - price)
+    return Sell
+```
+
+### Conclusion
+
+The stock problem is solved using dynamic programming with two 2D matrices, `Sell` and `Buy`, representing the maximum profit on each day with different transactions and stock conditions. Specific cases adjust the recurrence relations to account for constraints like transaction limits, cooldown periods, and transaction fees, leading to optimized solutions in `O(n)` or `O(kn)` time complexity.
+
 TODO: [Check the nice collections from discussion thread](https://leetcode.com/discuss/general-discussion/665604/Important-and-Useful-links-from-all-over-the-LeetCode)
 
 - DP for Beginners [Problems | Patterns | Sample Solutions] by @wh0ami

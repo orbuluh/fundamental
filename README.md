@@ -126,6 +126,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii) / [:snake:](combinational_sum_iii.py)
+  
+
+  
   - :ok_hand: 131. Palindrome Partitioning
   
 
@@ -551,6 +555,10 @@ static const int io_trick = []() {
 
   
   - :ok_hand: 740. Delete and Earn
+  
+
+  
+  ## [:ok_hand: 714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) / [:snake:](buy_sell_stock_with_fee.py)
   
 
   
