@@ -268,6 +268,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 162. Find Peak Element](https://leetcode.com/problems/find-peak-element) / [:snake:](find_peak_element.py)
+  
+
+  
   ## [:ok_hand: 528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) / [:snake:](random_pick_with_weight.py)
   
 
