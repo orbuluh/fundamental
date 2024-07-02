@@ -1,4 +1,8 @@
 /*
+[UPDATE] maybe check the python solution explanation ...
+below seems to be too complicated
+---------------------------------------------------------
+
 Need to understand what the question asks first ...
 
 DRRDRDRDRDDRDRDR is R, why?

@@ -673,7 +673,7 @@ the deviation will be 3 - 2 = 1.
 
 ------------------------------------------------------------------------------
 
-## [:persevere: 649. Dota2 Senate](https://leetcode.com/problems/dota2-senate) / [:man_technologist:](dota2_senate.h)
+## [:persevere: 649. Dota2 Senate](https://leetcode.com/problems/dota2-senate) / [:man_technologist:](dota2_senate.h) [:snake:](dota2_senate.py)
 
 <details><summary markdown="span">Question</summary>
 
