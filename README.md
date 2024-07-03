@@ -1210,6 +1210,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:ok_hand: 2095. Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) / [:snake:](delete_the_middle_of_the_linked_list.py)
+  
+
+  
   - :ok_hand: 328. Odd Even Linked List
   
 
