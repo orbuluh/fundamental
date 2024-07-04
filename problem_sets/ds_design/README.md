@@ -73,7 +73,7 @@ Explanation: "the", "is", "sunny" and "day" are the four most frequent words,
 
 ------------------------------------------------------------------------------
 
-## [:ok_hand: 2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set) / [:man_technologist:](smallest_number_in_inf_set.h)
+## [:ok_hand: 2336. Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set) / [:man_technologist:](smallest_number_in_inf_set.h) [:snake:](smallest_number_in_inf_set.py)
 
 <details><summary markdown="span">Question</summary>
 
