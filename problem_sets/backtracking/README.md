@@ -658,7 +658,7 @@ Explanation: The maximum width exists in the third level with length 4 (5,3,null
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) / [:man_technologist:](nearest_exit_from_entrance.h)
+## [:bulb: 1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/) / [:man_technologist:](nearest_exit_from_entrance.h) [:snake:](nearest_exit_from_entrance.py)
 
 <details><summary markdown="span">Question</summary>
 
