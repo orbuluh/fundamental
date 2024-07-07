@@ -1,6 +1,6 @@
 # Monotonic Stack/Queue
 
-- [:notebook:](../../_notes/README.md#monotonic-queue)
+- [:notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/README#monotonic-queue)
 
 ------------------------------------------------------------------------------
 

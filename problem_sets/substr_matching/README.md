@@ -1,7 +1,7 @@
 # Substring matching algorithm
 
-- LMP notes [:point_right: here](../../_notes/kmp.md)
-- Rolling hash notes [:point_right: here](../../_notes/rolling_hash.md)
+- LMP notes [:point_right: here](https://js-notes.vercel.app/software_engineering/ds_and_algos/kmp)
+- Rolling hash notes [:point_right: here](https://js-notes.vercel.app/software_engineering/ds_and_algos/rolling_hash)
 
 ## [:bulb: 28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) / [:man_technologist:](find_first_occurrence_in_string.h)
 

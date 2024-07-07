@@ -1,6 +1,6 @@
 # Graph
 
-- [:notebook:](../../_notes/graph.md)
+- [:notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/graph)
 
 
 ## [:ok_hand: 1557. Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes) / [:man_technologist:](min_num_of_vertices_to_all_nodes.h)
@@ -322,7 +322,7 @@ The length of this cycle is 3, so 3 is returned.
 
 ------------------------------------------------------------------------------
 
-## [Topological sort](../../_notes/graph_topological_sort.md)
+## [Topological sort](https://js-notes.vercel.app/software_engineering/ds_and_algos/graph_topological_sort)
 
 ## [:bulb: 269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) / [:man_technologist:](alien_dictionary.h)
 

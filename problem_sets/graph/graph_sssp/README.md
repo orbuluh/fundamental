@@ -1,6 +1,6 @@
 # Graph: Single source shortest path
 
-- _notes [here](../../../_notes/graph_sssp.md)
+- notes [here](https://js-notes.vercel.app/software_engineering/ds_and_algos/graph_sssp)
 
 ## Dijkstra
 
@@ -182,5 +182,3 @@ maximum absolute difference is 3.
 ------------------------------------------------------------------------------
 
 ## Bellmon-Ford Specific (e.g. contains negative cycle)
-
-

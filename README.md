@@ -40,7 +40,7 @@ static const int io_trick = []() {
 
 </summary></details>
 
-## [:book: Notes for algo/DS deep-dive](_notes/README.md)
+## [:book: Notes for algo/DS deep-dive](https://js-notes.vercel.app/software_engineering/ds_and_algos/README)
 
 ## :thinking: Problems listed: 321 ... :ok_hand: x 90 :bulb: x 172 :persevere: x 33 :dizzy_face: x 20 :exploding_head: x 6
 
@@ -346,7 +346,7 @@ static const int io_trick = []() {
 
 
   
-  ## [Two's complement](../../_notes/bitwise.md#twos-complement)
+  ## [Two's complement](https://js-notes.vercel.app/software_engineering/ds_and_algos/bitwise#twos-complement)
   
 
   
@@ -928,7 +928,7 @@ static const int io_trick = []() {
   
 
   
-  ## [Topological sort](../../_notes/graph/graph_topological_sort.md)
+  ## [Topological sort](https://js-notes.vercel.app/software_engineering/ds_and_algos/graph/graph_topological_sort)
   
 
   

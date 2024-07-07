@@ -1,8 +1,8 @@
 # Tree
 
 - more focus on property of tree.
-- For question that is more about beautiful recursion - check [_notes :notebook:](../recursion/README.md)
-- For segment tree - check [_notes :notebook:](../range_query/segment_tree/README.md)
+- For question that is more about beautiful recursion - check [:notebook:](../recursion/README.md)
+- For segment tree - check [:notebook:](../range_query/segment_tree/README.md)
 
 ------------------------------------------------------------------------------
 
@@ -114,7 +114,7 @@ Output: [[3],[20,9],[15,7]]
 
 ## [:ok_hand: 987. Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree//) / [:man_technologist:](vertical_order_traversal.h)
 
-- tips: [Tree like DS are sorted by keys!](../../_notes/data_structures.md#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
+- tips: [Tree like DS are sorted by keys!](https://js-notes.vercel.app/software_engineering/ds_and_algos/data_structures#tree-like-ds-are-sorted-by-keys-map-set-multimap-multiset)
 
 <details><summary markdown="span">Question</summary>
 
@@ -165,7 +165,7 @@ Note that you need to maximize the answer before taking the mod and not after ta
 
 ## [:bulb: 94. Binary Tree Inorder Traversal with Iterative](https://leetcode.com/problems/binary-tree-inorder-traversal/) / [:man_technologist:](inorder_morris.h)
 
-- check _notes on morris: [:point_right: here](../../_notes/tree_traversal.md#morris-traversal)
+- check notes on morris: [:point_right: here](https://js-notes.vercel.app/software_engineering/ds_and_algos/tree_traversal#morris-traversal)
 
 <details><summary markdown="span">Question</summary>
 
@@ -179,7 +179,7 @@ Given the root of a binary tree, return the inorder traversal of its nodes' valu
 
 ## BST
 
-- check [_notes :notebook:](../../_notes/data_structures.md#bst)
+- check [:notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/data_structures#bst)
 
 ## [:ok_hand: 173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) / [:man_technologist:](bst_iterator.h)
 

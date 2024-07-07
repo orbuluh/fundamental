@@ -1,8 +1,8 @@
 # Bitwise
 
-- [Notes :notebook:](../../_notes/bitwise.md)
+- [Notes :notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/bitwise)
 
-## [Two's complement](../../_notes/bitwise.md#twos-complement)
+## [Two's complement](https://js-notes.vercel.app/software_engineering/ds_and_algos/bitwise#twos-complement)
 
 ## [:bulb: 371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) / [:man_technologist:](sum_of_2_ints.h)
 
@@ -144,7 +144,7 @@ returns the number of '1' bits it has (also known as the Hamming weight).
 
 ## [:ok_hand: 1680. Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) / [:man_technologist:](concat_consecutive_binary_nums.h)
 
-- [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/modular.md)
+- [(https://js-notes.vercel.app/software_engineering/ds_and_algos/modular)
 
 <details><summary markdown="span">Question</summary>
 
@@ -164,7 +164,7 @@ After concatenating them, we have "11011", which corresponds to the decimal valu
 
 ## [:ok_hand: 342. Power of Four](https://leetcode.com/problems/power-of-four) / [:snake:](power_of_four.py)
 
-- [(A * B) % C = ((A % C) * (B % C)) % C](../../_notes/modular.md)
+- [(https://js-notes.vercel.app/software_engineering/ds_and_algos/modular)
 
 <details><summary markdown="span">Question</summary>
 

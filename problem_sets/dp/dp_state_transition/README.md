@@ -60,7 +60,7 @@ You earn a total of 9 points.
 
 ## [:ok_hand: 714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) / [:snake:](buy_sell_stock_with_fee.py)
 
-- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
+- Check [special notes](https://js-notes.vercel.app/software_engineering/ds_and_algos/dynamic_programming#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 
@@ -95,7 +95,7 @@ Input: prices = [1,3,2,8,4,9], fee = 2
 
 ## [:ok_hand: 309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) / [:man_technologist:](buy_sell_stock_with_cooldown.h)
 
-- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
+- Check [special notes](https://js-notes.vercel.app/software_engineering/ds_and_algos/dynamic_programming#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 
@@ -329,7 +329,7 @@ Explanation: There cannot be an array that was printed this way and has all
 
 ## [:bulb: 188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) / [:man_technologist:](buy_sell_stock_iv.h)
 
-- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
+- Check [special notes](https://js-notes.vercel.app/software_engineering/ds_and_algos/dynamic_programming#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 
@@ -469,7 +469,7 @@ Your final score is 11 - 2 = 9.
 
 ## [:dizzy_face: 123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) / [:snake:](best_time_to_buy_and_sell_stock_iii.h)
 
-- Check [special notes](../../../_notes/dynamic_programming.md#the-stock-buysell-questions)
+- Check [special notes](https://js-notes.vercel.app/software_engineering/ds_and_algos/dynamic_programming#the-stock-buysell-questions)
 
 <details><summary markdown="span">Question</summary>
 

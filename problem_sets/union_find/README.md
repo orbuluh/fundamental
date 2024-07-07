@@ -1,6 +1,6 @@
 # Union find
 
-- [:notebook:](../../_notes/union_find.md)
+- [:notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/union_find)
 
 ------------------------------------------------------------------------------
 

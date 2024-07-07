@@ -1,6 +1,6 @@
 # Binary search
 
-- [Notes :notebook:](../../_notes/binary_search.md)
+- [Notes :notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/binary_search)
 - Quick tip: always think binary search as "finding first occurrence" or "finding last occurrence". As there is only one solution to the answer when you always think in this way. And it applies to "finding occurrence" question as well.
 
 ------------------------------------------------------------------------------
