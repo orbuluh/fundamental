@@ -1,6 +1,6 @@
 # Backtracking
 
-- [:notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/backtracking)
+- [:notebook:](https://js-notes.vercel.app/software_engineering/ds_and_algos/recursion#backtracking)
 
 ```markdown
 - One important thing while dfs backtracking is that how to NOT go to the same state.
