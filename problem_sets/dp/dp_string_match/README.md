@@ -20,7 +20,7 @@
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 72. Edit Distance](https://leetcode.com/problems/edit-distance/) / [:man_technologist:](edit_distance.h)
+## [:bulb: 72. Edit Distance](https://leetcode.com/problems/edit-distance/) / [:man_technologist:](edit_distance.h) [:snake:](edit_distance.py)
 
 <details><summary markdown="span">Question</summary>
 
