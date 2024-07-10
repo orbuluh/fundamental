@@ -522,7 +522,7 @@ Plant3              P P P G B
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score) / [:man_technologist:](maximum_subsequence_score.h)
+## [:bulb: 2542. Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score) / [:man_technologist:](maximum_subsequence_score.h) [:snake:](maximum_subsequence_score.py)
 
 <details><summary markdown="span">Question</summary>
 
