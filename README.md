@@ -8,9 +8,9 @@ Quote from [HTDP](https://htdp.org/)
 
 <br/>
 
-## Cpp perfomance trick
+## Cpp performance trick
 
-- Use when the perfomance distribution is skewed by the trick...
+- Use when the performance distribution is skewed by the trick...
 
 ```cpp
 static const int io_trick = []() {
@@ -40,9 +40,171 @@ static const int io_trick = []() {
 
 </summary></details>
 
-## [:book: Notes for algo/DS deep-dive](https://js-notes.vercel.app/software_engineering/ds_and_algos/README)
+## [:book: Notes for algo/DS deep-dive](https://js-notes.vercel.app/software_engineering/ds_and_algos)
 
 ## :thinking: Problems listed: 321 ... :ok_hand: x 90 :bulb: x 172 :persevere: x 33 :dizzy_face: x 20 :exploding_head: x 6
+
+
+
+### [:shinto_shrine: Fundamentals :shinto_shrine:](/README.md): 0
+
+<details><summary>Questions</summary>
+
+
+  
+  ## Cpp performance trick
+  
+
+  
+  ## [:book: Notes for algo/DS deep-dive](https://js-notes.vercel.app/software_engineering/ds_and_algos)
+  
+
+  
+  ## :thinking: Problems listed: 321 ... :ok_hand: x 90 :bulb: x 172 :persevere: x 33 :dizzy_face: x 20 :exploding_head: x 6
+  
+
+  
+  ## [:shinto_shrine: Fundamentals :shinto_shrine:](/README.md): 0
+  
+
+  
+  ## [2 pointers](problem_sets/2_ptrs/README.md): 11
+  
+
+  
+  ## [Backtracking](problem_sets/backtracking/README.md): 24
+  
+
+  
+  ## [Binary search](problem_sets/binary_search/README.md): 15
+  
+
+  
+  ## [Bitwise](problem_sets/bitwise/README.md): 8
+  
+
+  
+  ## [Divide and Conquer](problem_sets/divide_and_conquer/README.md): 5
+  
+
+  
+  ## [DP: 0/1 knapsack like recursion structure](problem_sets/dp/dp/dp_01_knapsack/README.md): 8
+  
+
+  
+  ## [DP: DFS + memorization](problem_sets/dp/dp/dp_dfs_memorization/README.md): 13
+  
+
+  
+  ## [DP: State transition](problem_sets/dp/dp/dp_state_transition/README.md): 16
+  
+
+  
+  ## [DP: String match](problem_sets/dp/dp/dp_string_match/README.md): 4
+  
+
+  
+  ## [DP: Subarray (contiguous, Kadane's Algorithm)](problem_sets/dp/dp/dp_subarray_kadane/README.md): 5
+  
+
+  
+  ## [DP: Subsequence](problem_sets/dp/dp/dp_subseq/README.md): 8
+  
+
+  
+  ## [DP: Unbounded knapsack like recursion structure](problem_sets/dp/dp/dp_unbounded_knapsack/README.md): 4
+  
+
+  
+  ## [DP: Misc hard recursion](problem_sets/dp/dp/dp_z_misc_hard_recursion/README.md): 11
+  
+
+  
+  ## [Data structure design](problem_sets/ds_design/README.md): 6
+  
+
+  
+  ## [Graph](problem_sets/graph/README.md): 12
+  
+
+  
+  ## [Graph: Single source shortest path](problem_sets/graph/graph/graph_sssp/README.md): 6
+  
+
+  
+  ## [Greedy](problem_sets/greedy/README.md): 25
+  
+
+  
+  ## [Jump table/line](problem_sets/greedy/jump_table/README.md): 6
+  
+
+  
+  ## [Meeting room like questions](problem_sets/greedy/greedy/meeting_room_like/README.md): 7
+  
+
+  
+  ## [Linked list](problem_sets/linked_list/README.md): 11
+  
+
+  
+  ## [Math](problem_sets/math/README.md): 12
+  
+
+  
+  ## [Misc](problem_sets/misc/README.md): 19
+  
+
+  
+  ## [Monotonic Stack/Queue](problem_sets/monotonic/README.md): 14
+  
+
+  
+  ## [Range Query](problem_sets/range_query/README.md): 4
+  
+
+  
+  ## [Binary Indexed Tree](problem_sets/range_query/binary_indexed_tree/segment_tree/README.md): 1
+  
+
+  
+  ## [Segment tree](problem_sets/range_query/range_query/segment_tree/README.md): 3
+  
+
+  
+  ## [Recursion](problem_sets/recursion/README.md): 25
+  
+
+  
+  ## [Fixed size sliding window](problem_sets/sliding_window/sliding_window/fixed_size/README.md): 3
+  
+
+  
+  ## [Sliding window with 2 pointers](problem_sets/sliding_window/sliding_window/with_2_ptrs/README.md): 5
+  
+
+  
+  ## [Sorting](problem_sets/sorting/README.md): 7
+  
+
+  
+  ## [Substring matching algorithm](problem_sets/substr_matching/README.md): 2
+  
+
+  
+  ## [Tree](problem_sets/tree/README.md): 11
+  
+
+  
+  ## [Trie](problem_sets/trie/README.md): 3
+  
+
+  
+  ## [Union find](problem_sets/union_find/README.md): 7
+  
+
+
+</details>
 
 
 
@@ -1085,6 +1247,10 @@ static const int io_trick = []() {
 
   
   ## [:bulb: 44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching) / [:snake:](wild_card_matching.py)
+  
+
+  
+  ## [:bulb: 2462. Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers) / [:snake:](total_cost_to_hire_k_workers.py)
   
 
   
