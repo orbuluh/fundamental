@@ -430,11 +430,11 @@ static const int io_trick = []() {
   
 
   
-  ## [:ok_hand: 162. Find Peak Element](https://leetcode.com/problems/find-peak-element) / [:snake:](find_peak_element.py)
+  ## [:ok_hand: 528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) / [:snake:](random_pick_with_weight.py)
   
 
   
-  ## [:ok_hand: 528. Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight) / [:snake:](random_pick_with_weight.py)
+  ## [:bulb: 162. Find Peak Element](https://leetcode.com/problems/find-peak-element) / [:snake:](find_peak_element.py)
   
 
   
@@ -1795,6 +1795,10 @@ static const int io_trick = []() {
 
   
   - :ok_hand: 1443. Minimum Time to Collect All Apples in a Tree
+  
+
+  
+  ## [:ok_hand: 399. Evaluate Division](https://leetcode.com/problems/evaluate-division) / [:snake:](evaluate_division.py)
   
 
   
