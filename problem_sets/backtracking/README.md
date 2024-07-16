@@ -121,6 +121,31 @@ Output: ["1.0.10.23","1.0.102.3","10.1.0.23","10.10.2.3","101.0.2.3"]
 
 ------------------------------------------------------------------------------
 
+## [:bulb: 437. Path Sum III](https://leetcode.com/problems/path-sum-iii) / [:snake:](path_sum_iii.py)
+
+
+<details><summary markdown="span">Question</summary>
+
+```markdown
+Given the root of a binary tree and an integer targetSum
+
+return the number of paths where the sum of the values along the path equals targetSum.
+
+The path does not need to start or end at the root or a leaf,
+
+but it must go downwards (i.e., traveling only from parent nodes to child nodes).
+
+Input: root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8
+
+Output: 3
+
+```
+
+</details>
+
+------------------------------------------------------------------------------
+
+
 ## [:bulb: 31. Next Permutation](https://leetcode.com/problems/next-permutation/) / [:man_technologist:](next_permutation.h)
 
 <details><summary markdown="span">Question</summary>

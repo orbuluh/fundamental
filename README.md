@@ -300,6 +300,10 @@ static const int io_trick = []() {
   
 
   
+  ## [:bulb: 437. Path Sum III](https://leetcode.com/problems/path-sum-iii) / [:snake:](path_sum_iii.py)
+  
+
+  
   - :bulb: 31. Next Permutation
   
 
