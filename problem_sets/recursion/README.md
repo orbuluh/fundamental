@@ -525,7 +525,7 @@ Explanation: The longest path 0 -> 1 -> 3.
 
 ------------------------------------------------------------------------------
 
-## [:bulb: 1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree) / [:man_technologist:](longest_zigzag_path_in_a_btree.h)
+## [:bulb: 1372. Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree) / [:man_technologist:](longest_zigzag_path_in_a_btree.h) [:snake:](longest_zigzag_path_in_a_btree.py)
 
 <details><summary markdown="span">Question</summary>
 
